@@ -47,8 +47,8 @@ def count_frequencies(data: List[Dict[str, Any]]) -> Dict[str, Counter]:
         'hashtagName': hashtagName_counter
     }
 
-# Function to write the results to separate files
-def write_frequencies_to_files(frequencies: Dict[str, Counter], output_dir: str) -> None:
+# Function to write the results to separate text files
+def write_frequencies_to_text_files(frequencies: Dict[str, Counter], output_dir: str) -> None:
     # Ensure the output directory exists
     os.makedirs(output_dir, exist_ok=True)
 
@@ -59,14 +59,30 @@ def write_frequencies_to_files(frequencies: Dict[str, Counter], output_dir: str)
             for item, count in sorted_counter:
                 file.write(f"{item}: {count}\n")
 
-# Main function to load data, count frequencies and write them to files
-def main(json_file_path: str, output_dir: str) -> None:
+# Function to write the results to separate JSON files
+def write_frequencies_to_json_files(frequencies: Dict[str, Counter], json_output_dir: str) -> None:
+    # Ensure the JSON output directory exists
+    os.makedirs(json_output_dir, exist_ok=True)
+
+    for key, counter in frequencies.items():
+        sorted_counter = dict(counter.most_common())  # Convert to dictionary and sort by frequency
+        file_path = os.path.join(json_output_dir, f"{key}.json")
+        with open(file_path, 'w', encoding='utf-8') as file:
+            json.dump(sorted_counter, file, ensure_ascii=False, indent=4)
+
+# Main function to load data, count frequencies, and write them to files
+def main(json_file_path: str) -> None:
+    # Define the parent directory
+    parent_dir = 'scraper_data'
+    text_output_dir = os.path.join(parent_dir, 'output_directory')
+    json_output_dir = os.path.join(parent_dir, 'json_output_directory')
+    
+    # Load data, count frequencies, and write them to text and JSON files
     data = load_json(json_file_path)
     frequencies = count_frequencies(data)
-    write_frequencies_to_files(frequencies, output_dir)
+    write_frequencies_to_text_files(frequencies, text_output_dir)
+    write_frequencies_to_json_files(frequencies, json_output_dir)
 
 # Replace 'your_file_path.json' with the path to your JSON file
-# Replace 'output_directory' with the path to the directory where you want to save the files
 json_file_path = 'post_data.json'
-output_dir = 'output_directory'
-main(json_file_path, output_dir)
+main(json_file_path)

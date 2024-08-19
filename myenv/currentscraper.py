@@ -3,7 +3,7 @@ import asyncio
 import json
 import gzip
 import zlib
-from typing import List, Dict
+from typing import List, Dict, Optional
 from httpx import AsyncClient, Response, ReadTimeout
 from parsel import Selector
 from loguru import logger as log
@@ -26,7 +26,7 @@ client = AsyncClient(
     },
 )
 
-def parse_post(response: Response, favorite_video_ids: List[str]) -> Dict:
+def parse_post(response: Response, favorite_video_ids: Optional[List[str]]) -> Dict:
     global failed_post
 
     response_text = response.text
@@ -62,7 +62,7 @@ def parse_post(response: Response, favorite_video_ids: List[str]) -> Dict:
         post_data
     )
     
-    if parsed_post_data:
+    if parsed_post_data and favorite_video_ids is not None:
         parsed_post_data['isFavorite'] = binary_search(favorite_video_ids, parsed_post_data['id'])
     
     return parsed_post_data
@@ -73,29 +73,34 @@ def binary_search(sorted_list: List[str], item: str) -> bool:
         return True
     return False
 
-def load_urls_and_favorites_from_json(file_path: str, limit: int) -> (List[str], List[str]): # type: ignore
+def load_urls_and_favorites_from_json(file_path: str, limit: int) -> (List[str], Optional[List[str]]): # type: ignore
     with open(file_path, 'r', encoding='utf-8') as file:
         data = json.load(file)
 
     # Extract liked posts up to the specified limit
-    liked_posts = data['Activity']['Like List']['ItemFavoriteList'][:limit]
+    liked_posts = data.get('Activity', {}).get('Like List', {}).get('ItemFavoriteList', [])[:limit]
     
     # Get the date of the most recent liked post (assuming it's already sorted)
-    last_liked_date = datetime.datetime.strptime(liked_posts[0]['Date'], "%Y-%m-%d %H:%M:%S")
+    last_liked_date = datetime.datetime.strptime(liked_posts[0]['Date'], "%Y-%m-%d %H:%M:%S") if liked_posts else None
 
     # Extract URLs from liked posts
     urls = [item['Link'] for item in liked_posts]
     urls = [re.sub(r'v(?!i)', '', url).replace('share', '@') for url in urls]
     
     # Extract and filter favorite video IDs by date
-    favorite_video_ids = [
-        re.sub(r'\D', '', item['Link'])
-        for item in data['Activity']['Favorite Videos']['FavoriteVideoList']
-        if datetime.datetime.strptime(item['Date'], "%Y-%m-%d %H:%M:%S") <= last_liked_date
-    ]
+    favorite_video_data = data.get('Activity', {}).get('Favorite Videos', {}).get('FavoriteVideoList', None)
+    if favorite_video_data is None:
+        favorite_video_ids = None
+    else:
+        favorite_video_ids = [
+            re.sub(r'\D', '', item['Link'])
+            for item in favorite_video_data
+            if last_liked_date and datetime.datetime.strptime(item['Date'], "%Y-%m-%d %H:%M:%S") <= last_liked_date
+        ]
+        favorite_video_ids.sort()
     
-    favorite_video_ids.sort()
     return urls, favorite_video_ids
+
 
 async def fetch_and_parse(url: str, favorite_video_ids: List[str]) -> Dict:
     retries = 0
