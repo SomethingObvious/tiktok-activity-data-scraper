@@ -1,0 +1,3381 @@
+[
+    {
+        "name": "guitar",
+        "value": 385,
+        "percentage": 3.714781937475878,
+        "synsets": [
+            "guitar.n.01"
+        ]
+    },
+    {
+        "name": "metal",
+        "value": 325,
+        "percentage": 3.1358548822848316,
+        "synsets": [
+            "alloy.n.01",
+            "metal.v.01",
+            "metallic_element.n.01",
+            "metallic.a.01"
+        ]
+    },
+    {
+        "name": "starwars",
+        "value": 301,
+        "percentage": 2.904284060208414,
+        "synsets": [
+            "star_topology.n.01",
+            "star.v.02",
+            "star.n.01",
+            "ace.n.03",
+            "star.v.03",
+            "star.n.03",
+            "leading.s.01",
+            "star.v.01",
+            "star.n.04",
+            "headliner.n.01",
+            "star.n.05",
+            "asterisk.n.01"
+        ]
+    },
+    {
+        "name": "gaming",
+        "value": 239,
+        "percentage": 2.3060594365109996,
+        "synsets": [
+            "bet_on.v.01",
+            "gambling.n.01"
+        ]
+    },
+    {
+        "name": "f1",
+        "value": 237,
+        "percentage": 2.2867618680046315,
+        "synsets": []
+    },
+    {
+        "name": "music",
+        "value": 235,
+        "percentage": 2.267464299498263,
+        "synsets": [
+            "music.n.02",
+            "music.n.03",
+            "music.n.05",
+            "music.n.01",
+            "music.n.04"
+        ]
+    },
+    {
+        "name": "formula1",
+        "value": 209,
+        "percentage": 2.016595908915477,
+        "synsets": [
+            "formula.n.01",
+            "rule.n.11",
+            "formula.n.06",
+            "convention.n.02",
+            "formula.n.03",
+            "formula.n.04",
+            "recipe.n.01"
+        ]
+    },
+    {
+        "name": "movie",
+        "value": 144,
+        "percentage": 1.3894249324585102,
+        "synsets": [
+            "movie.n.01"
+        ]
+    },
+    {
+        "name": "3dprinting",
+        "value": 140,
+        "percentage": 1.3508297954457738,
+        "synsets": [
+            "print.v.03",
+            "print.v.04",
+            "print.v.02",
+            "print.v.01"
+        ]
+    },
+    {
+        "name": "engineering",
+        "value": 132,
+        "percentage": 1.2736395214203013,
+        "synsets": [
+            "engineering.n.02",
+            "engineer.v.01",
+            "engineering.n.03",
+            "mastermind.v.01",
+            "technology.n.01"
+        ]
+    },
+    {
+        "name": "anime",
+        "value": 125,
+        "percentage": 1.2060980316480123,
+        "synsets": [
+            "zanzibar_copal.n.01",
+            "anime.n.02"
+        ]
+    },
+    {
+        "name": "tiktok",
+        "value": 113,
+        "percentage": 1.0903126206098033,
+        "synsets": []
+    },
+    {
+        "name": "art",
+        "value": 102,
+        "percentage": 0.9841759938247782,
+        "synsets": []
+    },
+    {
+        "name": "catsoftiktok",
+        "value": 97,
+        "percentage": 0.9359320725588577,
+        "synsets": [
+            "cat.n.01",
+            "cat-o'-nine-tails.n.01",
+            "kat.n.01",
+            "cat.v.01",
+            "vomit.v.01",
+            "cat.n.03",
+            "caterpillar.n.02",
+            "big_cat.n.01",
+            "guy.n.01",
+            "computerized_tomography.n.01"
+        ]
+    },
+    {
+        "name": "cosplay",
+        "value": 91,
+        "percentage": 0.878039367039753,
+        "synsets": [
+            "splay.s.01"
+        ]
+    },
+    {
+        "name": "satisfying",
+        "value": 87,
+        "percentage": 0.8394442300270166,
+        "synsets": [
+            "comforting.s.01",
+            "meet.v.04",
+            "satisfy.v.02",
+            "hearty.s.02",
+            "satisfy.v.01"
+        ]
+    },
+    {
+        "name": "cat",
+        "value": 85,
+        "percentage": 0.8201466615206485,
+        "synsets": []
+    },
+    {
+        "name": "minecraft",
+        "value": 80,
+        "percentage": 0.771902740254728,
+        "synsets": [
+            "minecraft.s.1"
+        ]
+    },
+    {
+        "name": "math",
+        "value": 77,
+        "percentage": 0.7429563874951757,
+        "synsets": [
+            "mathematics.n.01"
+        ]
+    },
+    {
+        "name": "racing",
+        "value": 74,
+        "percentage": 0.7140100347356233,
+        "synsets": [
+            "rush.v.01",
+            "race.v.02",
+            "race.v.03",
+            "race.v.04",
+            "racing.n.01"
+        ]
+    },
+    {
+        "name": "ai",
+        "value": 73,
+        "percentage": 0.7043612504824391,
+        "synsets": []
+    },
+    {
+        "name": "capcut",
+        "value": 72,
+        "percentage": 0.6947124662292551,
+        "synsets": []
+    },
+    {
+        "name": "guitarist",
+        "value": 70,
+        "percentage": 0.675414897722887,
+        "synsets": [
+            "guitarist.n.01"
+        ]
+    },
+    {
+        "name": "animation",
+        "value": 68,
+        "percentage": 0.6561173292165187,
+        "synsets": [
+            "animation.n.03",
+            "vivification.n.02",
+            "liveliness.n.01",
+            "animation.n.02",
+            "animation.n.05",
+            "animation.n.01"
+        ]
+    },
+    {
+        "name": "food",
+        "value": 68,
+        "percentage": 0.6561173292165187,
+        "synsets": [
+            "food.n.01",
+            "food.n.03",
+            "food.n.02"
+        ]
+    },
+    {
+        "name": "makeulaugh",
+        "value": 66,
+        "percentage": 0.6368197607101505,
+        "synsets": [
+            "laugh.v.01",
+            "laugh.n.01",
+            "joke.n.01",
+            "laugh.n.02"
+        ]
+    },
+    {
+        "name": "maxverstappen",
+        "value": 65,
+        "percentage": 0.6271709764569665,
+        "synsets": [
+            "verst.n.01"
+        ]
+    },
+    {
+        "name": "metalhead",
+        "value": 63,
+        "percentage": 0.6078734079505983,
+        "synsets": [
+            "metalhead.n.01"
+        ]
+    },
+    {
+        "name": "history",
+        "value": 63,
+        "percentage": 0.6078734079505983,
+        "synsets": [
+            "history.n.02"
+        ]
+    },
+    {
+        "name": "queensuniversity",
+        "value": 63,
+        "percentage": 0.6078734079505983,
+        "synsets": [
+            "university.n.01",
+            "university.n.03",
+            "university.n.02"
+        ]
+    },
+    {
+        "name": "rock",
+        "value": 61,
+        "percentage": 0.5885758394442301,
+        "synsets": [
+            "rock.n.03",
+            "rock.v.02",
+            "rock.n.04",
+            "rock_'n'_roll.n.01",
+            "rock.n.01",
+            "rock.n.02",
+            "rock.n.07",
+            "rock.v.01",
+            "rock_candy.n.01"
+        ]
+    },
+    {
+        "name": "anakinskywalker",
+        "value": 61,
+        "percentage": 0.5885758394442301,
+        "synsets": [
+            "skywalk.n.01"
+        ]
+    },
+    {
+        "name": "f1tiktok",
+        "value": 59,
+        "percentage": 0.5692782709378618,
+        "synsets": []
+    },
+    {
+        "name": "doctorwho",
+        "value": 58,
+        "percentage": 0.5596294866846778,
+        "synsets": [
+            "doctor.n.03",
+            "sophisticate.v.03",
+            "repair.v.01",
+            "doctor_of_the_church.n.01",
+            "doctor.v.02",
+            "doctor.n.01",
+            "doctor.n.04"
+        ]
+    },
+    {
+        "name": "mlp",
+        "value": 57,
+        "percentage": 0.5499807024314937,
+        "synsets": []
+    },
+    {
+        "name": "powermetal",
+        "value": 56,
+        "percentage": 0.5403319181783095,
+        "synsets": [
+            "power.v.01",
+            "baron.n.03",
+            "might.n.01",
+            "power.n.05",
+            "power.n.01",
+            "ability.n.02",
+            "world_power.n.01",
+            "power.n.02",
+            "exponent.n.03",
+            "office.n.04"
+        ]
+    },
+    {
+        "name": "asmr",
+        "value": 55,
+        "percentage": 0.5306831339251254,
+        "synsets": []
+    },
+    {
+        "name": "musician",
+        "value": 55,
+        "percentage": 0.5306831339251254,
+        "synsets": [
+            "musician.n.02",
+            "musician.n.01"
+        ]
+    },
+    {
+        "name": "scottpilgrim",
+        "value": 54,
+        "percentage": 0.5210343496719414,
+        "synsets": [
+            "pilgrim.n.01",
+            "pilgrim.n.03",
+            "pilgrim.n.02"
+        ]
+    },
+    {
+        "name": "lordoftherings",
+        "value": 53,
+        "percentage": 0.5113855654187573,
+        "synsets": [
+            "ring.v.06",
+            "ring.n.08",
+            "band.n.12"
+        ]
+    },
+    {
+        "name": "drums",
+        "value": 53,
+        "percentage": 0.5113855654187573,
+        "synsets": [
+            "cram.v.03",
+            "drum.v.01",
+            "drum.v.02"
+        ]
+    },
+    {
+        "name": "mylittlepony",
+        "value": 52,
+        "percentage": 0.5017367811655732,
+        "synsets": [
+            "small.a.01",
+            "little.s.03",
+            "little.r.01",
+            "little.s.08",
+            "little.s.07",
+            "little.s.05",
+            "little.n.01",
+            "short.a.03",
+            "little.a.02",
+            "fiddling.s.01"
+        ]
+    },
+    {
+        "name": "college",
+        "value": 52,
+        "percentage": 0.5017367811655732,
+        "synsets": [
+            "college.n.01",
+            "college.n.03",
+            "college.n.02"
+        ]
+    },
+    {
+        "name": "redbull",
+        "value": 50,
+        "percentage": 0.48243921265920503,
+        "synsets": [
+            "bull.v.02",
+            "bull.v.01",
+            "bull.v.04",
+            "taurus.n.04",
+            "bull's_eye.n.02",
+            "talk_through_one's_hat.v.01",
+            "taurus.n.02",
+            "bull.n.04",
+            "bull.n.05",
+            "bull.n.06",
+            "bullshit.n.01",
+            "bull.n.02",
+            "bull.n.10",
+            "bull.n.11",
+            "bull.n.01"
+        ]
+    },
+    {
+        "name": "heavymetal",
+        "value": 49,
+        "percentage": 0.4727904284060209,
+        "synsets": [
+            "heavy.s.18",
+            "big.s.13",
+            "fleshy.s.01",
+            "heavy.s.19",
+            "heavy.s.12",
+            "dense.s.01",
+            "heavy.a.01",
+            "heavy.s.07",
+            "heavy.s.13",
+            "big.s.06",
+            "heavy.s.20",
+            "heavy.s.23",
+            "heavy.n.02",
+            "heavy.s.22",
+            "intemperate.s.03",
+            "clayey.s.02",
+            "grave.s.03",
+            "heavy.a.09",
+            "heavy.s.15",
+            "heavy.s.26",
+            "heavy.a.02",
+            "heavy.s.25",
+            "heavy.a.04",
+            "heavy.r.01",
+            "heavy.a.08",
+            "arduous.s.01",
+            "heavy.s.10",
+            "heavy.a.03",
+            "heavy.n.01",
+            "heavy.s.21"
+        ]
+    },
+    {
+        "name": "canada",
+        "value": 48,
+        "percentage": 0.46314164415283676,
+        "synsets": [
+            "canada.n.01"
+        ]
+    },
+    {
+        "name": "cartoon",
+        "value": 48,
+        "percentage": 0.46314164415283676,
+        "synsets": [
+            "cartoon.n.01"
+        ]
+    },
+    {
+        "name": "science",
+        "value": 47,
+        "percentage": 0.45349285989965277,
+        "synsets": [
+            "science.n.01",
+            "skill.n.02"
+        ]
+    },
+    {
+        "name": "disney",
+        "value": 46,
+        "percentage": 0.4438440756464686,
+        "synsets": [
+            "disney.n.01"
+        ]
+    },
+    {
+        "name": "twitch",
+        "value": 46,
+        "percentage": 0.44384407564646866,
+        "synsets": [
+            "twitch.n.01",
+            "twitch.v.01",
+            "jerk.v.02",
+            "twitch.v.05",
+            "flip.v.04",
+            "pinch.v.01"
+        ]
+    },
+    {
+        "name": "slideshow",
+        "value": 45,
+        "percentage": 0.43419529139328455,
+        "synsets": [
+            "slide.v.03",
+            "skid.v.04",
+            "chute.n.02",
+            "slither.v.01",
+            "slide.n.06",
+            "slide.n.04",
+            "slide.n.05",
+            "slide.n.02",
+            "slide.n.01",
+            "swoop.n.01"
+        ]
+    },
+    {
+        "name": "drawing",
+        "value": 45,
+        "percentage": 0.4341952913932845,
+        "synsets": [
+            "draw.v.04"
+        ]
+    },
+    {
+        "name": "cute",
+        "value": 44,
+        "percentage": 0.42454650714010034,
+        "synsets": [
+            "cunning.s.01",
+            "cute.s.02"
+        ]
+    },
+    {
+        "name": "nostalgia",
+        "value": 44,
+        "percentage": 0.42454650714010034,
+        "synsets": [
+            "nostalgia.n.01"
+        ]
+    },
+    {
+        "name": "artist",
+        "value": 44,
+        "percentage": 0.42454650714010034,
+        "synsets": [
+            "artist.n.01"
+        ]
+    },
+    {
+        "name": "lego",
+        "value": 44,
+        "percentage": 0.42454650714010034,
+        "synsets": [
+            "lego.n.01"
+        ]
+    },
+    {
+        "name": "streamer",
+        "value": 43,
+        "percentage": 0.4148977228869163,
+        "synsets": [
+            "pennant.n.03",
+            "banner.n.01",
+            "streamer.n.01",
+            "streamer.n.02"
+        ]
+    },
+    {
+        "name": "sports",
+        "value": 42,
+        "percentage": 0.4052489386337322,
+        "synsets": [
+            "sport.v.01",
+            "mutant.n.01",
+            "fun.n.02",
+            "sport.n.02",
+            "frolic.v.01",
+            "sport.n.01",
+            "sport.n.03",
+            "sport.n.05",
+            "sport.n.04"
+        ]
+    },
+    {
+        "name": "real",
+        "value": 42,
+        "percentage": 0.4052489386337322,
+        "synsets": [
+            "real.a.06",
+            "real.a.01",
+            "real.a.02",
+            "real.s.04",
+            "substantial.a.03",
+            "real.s.08",
+            "very.r.01",
+            "veridical.s.01",
+            "actual.s.03",
+            "real.n.03",
+            "real_number.n.01",
+            "real.n.02",
+            "real.s.03"
+        ]
+    },
+    {
+        "name": "landonorris",
+        "value": 42,
+        "percentage": 0.4052489386337322,
+        "synsets": [
+            "landon.s.1"
+        ]
+    },
+    {
+        "name": "lotr",
+        "value": 42,
+        "percentage": 0.4052489386337322,
+        "synsets": []
+    },
+    {
+        "name": "space",
+        "value": 42,
+        "percentage": 0.4052489386337322,
+        "synsets": [
+            "space.n.01"
+        ]
+    },
+    {
+        "name": "game",
+        "value": 42,
+        "percentage": 0.40524893863373224,
+        "synsets": [
+            "crippled.s.01",
+            "game.s.02"
+        ]
+    },
+    {
+        "name": "onepiece",
+        "value": 41,
+        "percentage": 0.3956001543805481,
+        "synsets": [
+            "piece.v.05",
+            "piece.n.06",
+            "objet_d'art.n.01",
+            "piece.n.09",
+            "assemble.v.01",
+            "piece.n.02",
+            "musical_composition.n.01",
+            "piece.v.03",
+            "piece.n.08",
+            "firearm.n.01",
+            "nibble.v.03",
+            "piece.n.01",
+            "part.n.03",
+            "patch.v.01",
+            "while.n.01",
+            "slice.n.01",
+            "man.n.10",
+            "piece.n.05"
+        ]
+    },
+    {
+        "name": "spongebob",
+        "value": 41,
+        "percentage": 0.3956001543805481,
+        "synsets": [
+            "quick_study.n.01",
+            "sponge.n.01",
+            "sponge.v.05",
+            "sponge.v.04",
+            "sponge.v.01",
+            "mooch.v.01",
+            "leech.n.02",
+            "sponge.v.03",
+            "sponge.n.04"
+        ]
+    },
+    {
+        "name": "motorsport",
+        "value": 41,
+        "percentage": 0.3956001543805481,
+        "synsets": [
+            "drive.v.02"
+        ]
+    },
+    {
+        "name": "helldivers2",
+        "value": 41,
+        "percentage": 0.3956001543805481,
+        "synsets": [
+            "loon.n.02",
+            "divers.s.01",
+            "diver.n.01",
+            "diver.n.02"
+        ]
+    },
+    {
+        "name": "dance",
+        "value": 40,
+        "percentage": 0.385951370127364,
+        "synsets": [
+            "dance.n.02",
+            "dance.n.04",
+            "dance.n.01",
+            "dance.v.03",
+            "dance.v.01",
+            "dance.v.02",
+            "dancing.n.01"
+        ]
+    },
+    {
+        "name": "cover",
+        "value": 40,
+        "percentage": 0.385951370127364,
+        "synsets": [
+            "cover.v.10",
+            "overlay.v.01",
+            "cover.n.07",
+            "cover.v.14",
+            "brood.v.05",
+            "cover.v.03",
+            "cover_charge.n.01",
+            "screen.n.04",
+            "cover.v.19",
+            "cover.v.12",
+            "cover.v.04",
+            "covering.n.01",
+            "cover.v.11",
+            "cover.v.02",
+            "cover.v.01",
+            "cover.n.03",
+            "top.n.09",
+            "cover.v.17",
+            "cover.v.15",
+            "cover.v.23",
+            "cover.v.16",
+            "cover.v.05",
+            "cover.v.13",
+            "embrace.v.01",
+            "cover.n.10",
+            "blanket.n.01",
+            "cover.n.09",
+            "cover.v.26",
+            "cover.v.24",
+            "shroud.v.01",
+            "report.v.05",
+            "cover.v.09",
+            "traverse.v.01",
+            "breed.v.02",
+            "binding.n.05",
+            "cover.v.18"
+        ]
+    },
+    {
+        "name": "diy",
+        "value": 39,
+        "percentage": 0.37630258587417986,
+        "synsets": []
+    },
+    {
+        "name": "news",
+        "value": 39,
+        "percentage": 0.37630258587417986,
+        "synsets": [
+            "news.n.02",
+            "newsworthiness.n.01",
+            "news_program.n.01",
+            "news.n.04",
+            "news.n.01"
+        ]
+    },
+    {
+        "name": "pov",
+        "value": 39,
+        "percentage": 0.37630258587417986,
+        "synsets": []
+    },
+    {
+        "name": "eurovision",
+        "value": 39,
+        "percentage": 0.37630258587417986,
+        "synsets": [
+            "vision.n.01",
+            "imagination.n.01",
+            "sight.n.03",
+            "vision.n.05",
+            "vision.n.03"
+        ]
+    },
+    {
+        "name": "clonewars",
+        "value": 38,
+        "percentage": 0.3666538016209958,
+        "synsets": [
+            "knockoff.n.01",
+            "clone.n.02",
+            "ringer.n.02",
+            "clone.v.01"
+        ]
+    },
+    {
+        "name": "hopecore",
+        "value": 38,
+        "percentage": 0.3666538016209958,
+        "synsets": [
+            "hope.n.02",
+            "hope.n.01",
+            "hope.v.01",
+            "hope.n.04",
+            "hope.v.02",
+            "hope.n.05",
+            "hope.n.06",
+            "promise.n.02",
+            "hope.v.03"
+        ]
+    },
+    {
+        "name": "warhammer40k",
+        "value": 38,
+        "percentage": 0.3666538016209958,
+        "synsets": [
+            "warhammer.s.1"
+        ]
+    },
+    {
+        "name": "computerscience",
+        "value": 38,
+        "percentage": 0.3666538016209958,
+        "synsets": [
+            "calculator.n.01",
+            "computer.n.01"
+        ]
+    },
+    {
+        "name": "cooking",
+        "value": 38,
+        "percentage": 0.3666538016209958,
+        "synsets": [
+            "cook.v.02"
+        ]
+    },
+    {
+        "name": "fun",
+        "value": 36,
+        "percentage": 0.34735623311462754,
+        "synsets": []
+    },
+    {
+        "name": "attackontitan",
+        "value": 36,
+        "percentage": 0.34735623311462754,
+        "synsets": [
+            "attack.v.03",
+            "attack.n.08",
+            "approach.n.01",
+            "attack.v.05",
+            "attack.n.05",
+            "attack.v.02",
+            "attack.n.07",
+            "attack.n.02",
+            "assail.v.01",
+            "attack.n.01",
+            "attack.v.01",
+            "attack.n.06",
+            "attack.v.06",
+            "fire.n.09",
+            "attack.n.09"
+        ]
+    },
+    {
+        "name": "adhd",
+        "value": 36,
+        "percentage": 0.3473562331146276,
+        "synsets": [
+            "attention_deficit_disorder.n.01"
+        ]
+    },
+    {
+        "name": "tech",
+        "value": 36,
+        "percentage": 0.3473562331146276,
+        "synsets": [
+            "technical_school.n.01"
+        ]
+    },
+    {
+        "name": "marvel",
+        "value": 35,
+        "percentage": 0.33770744886144355,
+        "synsets": [
+            "wonder.v.03",
+            "wonder.n.02",
+            "marvel.v.02"
+        ]
+    },
+    {
+        "name": "usa",
+        "value": 35,
+        "percentage": 0.33770744886144355,
+        "synsets": []
+    },
+    {
+        "name": "ahsoka",
+        "value": 35,
+        "percentage": 0.33770744886144355,
+        "synsets": []
+    },
+    {
+        "name": "learnontiktok",
+        "value": 35,
+        "percentage": 0.33770744886144355,
+        "synsets": [
+            "learn.v.01",
+            "memorize.v.01",
+            "learn.v.04",
+            "determine.v.08",
+            "teach.v.01",
+            "learn.v.02"
+        ]
+    },
+    {
+        "name": "animals",
+        "value": 34,
+        "percentage": 0.32805866460825933,
+        "synsets": [
+            "animal.n.01"
+        ]
+    },
+    {
+        "name": "lol",
+        "value": 34,
+        "percentage": 0.32805866460825933,
+        "synsets": []
+    },
+    {
+        "name": "wholesome",
+        "value": 34,
+        "percentage": 0.32805866460825933,
+        "synsets": [
+            "wholesome.s.02",
+            "wholesome.a.01"
+        ]
+    },
+    {
+        "name": "lewishamilton",
+        "value": 34,
+        "percentage": 0.32805866460825933,
+        "synsets": [
+            "hamilton.n.06",
+            "hamilton.n.03",
+            "hamilton.n.01",
+            "hamilton.n.05",
+            "hamilton.n.02",
+            "hamilton.n.04"
+        ]
+    },
+    {
+        "name": "song",
+        "value": 34,
+        "percentage": 0.32805866460825933,
+        "synsets": [
+            "song.n.01"
+        ]
+    },
+    {
+        "name": "filmmaking",
+        "value": 34,
+        "percentage": 0.3280586646082594,
+        "synsets": [
+            "hold.v.03"
+        ]
+    },
+    {
+        "name": "coding",
+        "value": 32,
+        "percentage": 0.3087610961018912,
+        "synsets": [
+            "code.v.01",
+            "cryptography.n.02",
+            "gull.v.02",
+            "tease.v.02",
+            "code.v.02"
+        ]
+    },
+    {
+        "name": "digitalart",
+        "value": 31,
+        "percentage": 0.29911231184870707,
+        "synsets": [
+            "digital.a.02",
+            "digital.a.03",
+            "digital.a.01"
+        ]
+    },
+    {
+        "name": "positivity",
+        "value": 31,
+        "percentage": 0.29911231184870707,
+        "synsets": [
+            "positivity.n.02",
+            "positivity.n.01",
+            "favorableness.n.01",
+            "positivity.n.04",
+            "incontrovertibility.n.01"
+        ]
+    },
+    {
+        "name": "stem",
+        "value": 31,
+        "percentage": 0.29911231184870707,
+        "synsets": [
+            "stem.v.04",
+            "stem.n.04",
+            "bow.n.03",
+            "stem_turn.n.01",
+            "stem.v.02",
+            "stem.v.01",
+            "root.n.03",
+            "shank.n.03",
+            "stem.v.03",
+            "stalk.n.02"
+        ]
+    },
+    {
+        "name": "jokes",
+        "value": 31,
+        "percentage": 0.29911231184870707,
+        "synsets": [
+            "antic.n.01"
+        ]
+    },
+    {
+        "name": "halloween",
+        "value": 30,
+        "percentage": 0.28946352759552296,
+        "synsets": [
+            "halloween.n.01"
+        ]
+    },
+    {
+        "name": "joke",
+        "value": 30,
+        "percentage": 0.28946352759552296,
+        "synsets": [
+            "antic.n.01"
+        ]
+    },
+    {
+        "name": "vtuber",
+        "value": 29,
+        "percentage": 0.27981474334233886,
+        "synsets": [
+            "tuber.n.01",
+            "tuber.n.02"
+        ]
+    },
+    {
+        "name": "carlossainz",
+        "value": 29,
+        "percentage": 0.27981474334233886,
+        "synsets": [
+            "sanchez.n.01"
+        ]
+    },
+    {
+        "name": "cars",
+        "value": 29,
+        "percentage": 0.27981474334233886,
+        "synsets": [
+            "cable_car.n.01",
+            "car.n.02",
+            "car.n.03",
+            "car.n.04",
+            "car.n.01"
+        ]
+    },
+    {
+        "name": "givesyouwiiings",
+        "value": 29,
+        "percentage": 0.2798147433423389,
+        "synsets": [
+            "render.v.04"
+        ]
+    },
+    {
+        "name": "humor",
+        "value": 28,
+        "percentage": 0.2701659590891548,
+        "synsets": [
+            "humor.v.01",
+            "humor.n.04",
+            "humor.n.05",
+            "wit.n.01",
+            "temper.n.02",
+            "liquid_body_substance.n.01",
+            "humor.n.02"
+        ]
+    },
+    {
+        "name": "charlesleclerc",
+        "value": 28,
+        "percentage": 0.2701659590891548,
+        "synsets": [
+            "charles.n.03",
+            "charlemagne.n.01",
+            "charles.n.06",
+            "charles.n.05",
+            "charles.n.01",
+            "charles.n.02",
+            "charles.n.07",
+            "charles.n.04",
+            "charles.n.09"
+        ]
+    },
+    {
+        "name": "arduino",
+        "value": 28,
+        "percentage": 0.2701659590891548,
+        "synsets": []
+    },
+    {
+        "name": "love",
+        "value": 27,
+        "percentage": 0.2605171748359707,
+        "synsets": [
+            "love.n.05",
+            "love.n.01",
+            "beloved.n.01",
+            "love.n.02",
+            "love.v.03",
+            "sexual_love.n.02",
+            "love.v.02",
+            "sleep_together.v.01",
+            "love.n.04",
+            "love.v.01"
+        ]
+    },
+    {
+        "name": "mclaren",
+        "value": 27,
+        "percentage": 0.2605171748359707,
+        "synsets": []
+    },
+    {
+        "name": "physics",
+        "value": 27,
+        "percentage": 0.2605171748359707,
+        "synsets": [
+            "purgative.n.01",
+            "physics.n.01",
+            "physics.n.02"
+        ]
+    },
+    {
+        "name": "dnd",
+        "value": 27,
+        "percentage": 0.2605171748359707,
+        "synsets": []
+    },
+    {
+        "name": "tutorial",
+        "value": 26,
+        "percentage": 0.2508683905827866,
+        "synsets": [
+            "tutorial.n.01",
+            "tutorial.a.01"
+        ]
+    },
+    {
+        "name": "japan",
+        "value": 26,
+        "percentage": 0.2508683905827866,
+        "synsets": [
+            "japan.n.04",
+            "japan.n.03",
+            "japan.v.01",
+            "japan.n.01",
+            "japan.n.02"
+        ]
+    },
+    {
+        "name": "comfortfood",
+        "value": 26,
+        "percentage": 0.2508683905827866,
+        "synsets": [
+            "consolation.n.02",
+            "comfort.n.02",
+            "comfort.n.05",
+            "quilt.n.01",
+            "comfort.v.02",
+            "comfort.n.01",
+            "ease.n.02",
+            "comfort.v.01",
+            "comfort.n.07"
+        ]
+    },
+    {
+        "name": "videogames",
+        "value": 26,
+        "percentage": 0.2508683905827866,
+        "synsets": [
+            "video.n.03",
+            "video.n.01",
+            "television.n.01",
+            "video_recording.n.01"
+        ]
+    },
+    {
+        "name": "aot",
+        "value": 26,
+        "percentage": 0.2508683905827866,
+        "synsets": []
+    },
+    {
+        "name": "lgbt",
+        "value": 26,
+        "percentage": 0.2508683905827866,
+        "synsets": [
+            "lgbt.s.1"
+        ]
+    },
+    {
+        "name": "midjourney",
+        "value": 26,
+        "percentage": 0.2508683905827866,
+        "synsets": [
+            "travel.v.02",
+            "travel.v.04"
+        ]
+    },
+    {
+        "name": "football",
+        "value": 25,
+        "percentage": 0.24121960632960252,
+        "synsets": [
+            "football.n.01",
+            "football.n.02"
+        ]
+    },
+    {
+        "name": "drummer",
+        "value": 25,
+        "percentage": 0.24121960632960252,
+        "synsets": [
+            "drummer.n.01"
+        ]
+    },
+    {
+        "name": "scran",
+        "value": 25,
+        "percentage": 0.24121960632960252,
+        "synsets": [
+            "cran.n.01"
+        ]
+    },
+    {
+        "name": "dragonforce",
+        "value": 25,
+        "percentage": 0.24121960632960252,
+        "synsets": [
+            "dragon.n.04",
+            "draco.n.02",
+            "dragon.n.01",
+            "dragon.n.02"
+        ]
+    },
+    {
+        "name": "christmas",
+        "value": 25,
+        "percentage": 0.24121960632960252,
+        "synsets": [
+            "christmas.n.01",
+            "christmas.n.02"
+        ]
+    },
+    {
+        "name": "pets",
+        "value": 25,
+        "percentage": 0.2412196063296025,
+        "synsets": [
+            "pet.v.01",
+            "darling.n.01",
+            "pet.n.03",
+            "positron_emission_tomography.n.01",
+            "pet.n.01",
+            "pet.v.02"
+        ]
+    },
+    {
+        "name": "xybca",
+        "value": 24,
+        "percentage": 0.23157082207641838,
+        "synsets": []
+    },
+    {
+        "name": "politics",
+        "value": 24,
+        "percentage": 0.23157082207641838,
+        "synsets": [
+            "politics.n.05",
+            "politics.n.02",
+            "politics.n.01",
+            "politics.n.04",
+            "politics.n.03"
+        ]
+    },
+    {
+        "name": "mario",
+        "value": 24,
+        "percentage": 0.23157082207641838,
+        "synsets": [
+            "mario.s.1"
+        ]
+    },
+    {
+        "name": "poker",
+        "value": 24,
+        "percentage": 0.23157082207641838,
+        "synsets": [
+            "poker.n.01",
+            "poker.n.02"
+        ]
+    },
+    {
+        "name": "youtube",
+        "value": 23,
+        "percentage": 0.2219220378232343,
+        "synsets": [
+            "tube.v.03",
+            "tube.v.04",
+            "tube.v.01",
+            "tube.n.04",
+            "tube.v.02",
+            "pipe.n.03",
+            "tube.n.02",
+            "tube.n.01",
+            "metro.n.01"
+        ]
+    },
+    {
+        "name": "toronto",
+        "value": 23,
+        "percentage": 0.2219220378232343,
+        "synsets": [
+            "toronto.n.01"
+        ]
+    },
+    {
+        "name": "manga",
+        "value": 23,
+        "percentage": 0.2219220378232343,
+        "synsets": []
+    },
+    {
+        "name": "british",
+        "value": 23,
+        "percentage": 0.22192203782323427,
+        "synsets": [
+            "british.n.01",
+            "british.a.01"
+        ]
+    },
+    {
+        "name": "clips",
+        "value": 23,
+        "percentage": 0.22192203782323427,
+        "synsets": [
+            "time.n.01",
+            "cartridge_holder.n.01",
+            "clip.v.03",
+            "clip.v.05",
+            "clip.n.05",
+            "clip.n.04",
+            "trot.v.01",
+            "snip.v.02",
+            "nip.v.03",
+            "clip.n.03",
+            "clip.n.06"
+        ]
+    },
+    {
+        "name": "mtg",
+        "value": 22,
+        "percentage": 0.21227325357005017,
+        "synsets": []
+    },
+    {
+        "name": "danielricciardo",
+        "value": 22,
+        "percentage": 0.21227325357005017,
+        "synsets": [
+            "daniel.n.03",
+            "daniel.n.01",
+            "daniel.n.02"
+        ]
+    },
+    {
+        "name": "graphicdesign",
+        "value": 22,
+        "percentage": 0.21227325357005017,
+        "synsets": [
+            "graphic.a.04",
+            "graphic.n.01",
+            "graphic.a.03",
+            "graphic.s.02",
+            "graphic.s.05",
+            "graphic.s.01"
+        ]
+    },
+    {
+        "name": "harrypotter",
+        "value": 22,
+        "percentage": 0.21227325357005017,
+        "synsets": [
+            "potter.n.01",
+            "potter.v.02",
+            "putter.v.02",
+            "putter.v.03"
+        ]
+    },
+    {
+        "name": "ferrari",
+        "value": 22,
+        "percentage": 0.21227325357005017,
+        "synsets": []
+    },
+    {
+        "name": "challenge",
+        "value": 22,
+        "percentage": 0.21227325357005017,
+        "synsets": [
+            "challenge.v.03",
+            "challenge.n.05",
+            "challenge.n.03",
+            "challenge.n.04",
+            "challenge.v.01",
+            "challenge.n.01",
+            "challenge.v.02",
+            "challenge.v.04",
+            "challenge.n.02"
+        ]
+    },
+    {
+        "name": "darthvader",
+        "value": 22,
+        "percentage": 0.21227325357005017,
+        "synsets": [
+            "dart.v.03",
+            "flit.n.01",
+            "dart.n.01",
+            "dart.v.02",
+            "flit.v.01",
+            "dart.n.02"
+        ]
+    },
+    {
+        "name": "queensu",
+        "value": 22,
+        "percentage": 0.21227325357005017,
+        "synsets": [
+            "queen.n.01",
+            "fagot.n.01",
+            "queen.n.09",
+            "queen.v.02",
+            "queen.v.01",
+            "queen.n.07",
+            "tabby.n.02",
+            "queen.n.02",
+            "queen.n.03",
+            "queens.n.01",
+            "queen.n.04",
+            "king.n.02",
+            "queen.n.08"
+        ]
+    },
+    {
+        "name": "bass",
+        "value": 21,
+        "percentage": 0.2026244693168661,
+        "synsets": [
+            "bass.n.07",
+            "bass.n.02",
+            "bass.n.03",
+            "freshwater_bass.n.01",
+            "bass.s.01",
+            "sea_bass.n.01",
+            "bass.n.06",
+            "bass.n.08",
+            "bass.n.01"
+        ]
+    },
+    {
+        "name": "slipknot",
+        "value": 21,
+        "percentage": 0.2026244693168661,
+        "synsets": [
+            "slipknot.n.01"
+        ]
+    },
+    {
+        "name": "stopmotion",
+        "value": 21,
+        "percentage": 0.2026244693168661,
+        "synsets": [
+            "movement.n.03",
+            "motion.n.05",
+            "apparent_motion.n.01",
+            "motion.n.03",
+            "motion.n.04",
+            "gesticulate.v.01",
+            "gesture.n.02",
+            "motion.n.06"
+        ]
+    },
+    {
+        "name": "olympics",
+        "value": 20,
+        "percentage": 0.192975685063682,
+        "synsets": [
+            "olympic_games.n.01"
+        ]
+    },
+    {
+        "name": "podcast",
+        "value": 20,
+        "percentage": 0.192975685063682,
+        "synsets": [
+            "podcast.v.01"
+        ]
+    },
+    {
+        "name": "parati",
+        "value": 20,
+        "percentage": 0.192975685063682,
+        "synsets": [
+            "para.n.02",
+            "parity.n.01",
+            "belem.n.01",
+            "paratrooper.n.01",
+            "para.n.04"
+        ]
+    },
+    {
+        "name": "trump",
+        "value": 20,
+        "percentage": 0.192975685063682,
+        "synsets": [
+            "trump.n.01",
+            "trump.v.03",
+            "trump.v.04",
+            "trump.v.01",
+            "outdo.v.02",
+            "cornet.n.01",
+            "trump.n.02"
+        ]
+    },
+    {
+        "name": "lightsaber",
+        "value": 20,
+        "percentage": 0.192975685063682,
+        "synsets": [
+            "unhorse.v.01",
+            "inner_light.n.01",
+            "light.n.07",
+            "light.v.01",
+            "light.n.05",
+            "alight.v.01",
+            "light_up.v.05",
+            "light.n.10",
+            "light.n.08",
+            "light.n.02",
+            "light.n.14",
+            "light.n.09",
+            "light.n.03",
+            "light.n.12",
+            "light.n.06",
+            "sparkle.n.01",
+            "lighter.n.02",
+            "luminosity.n.01",
+            "ignite.v.01",
+            "fall.v.20",
+            "light.n.01"
+        ]
+    },
+    {
+        "name": "ahsokatano",
+        "value": 20,
+        "percentage": 0.192975685063682,
+        "synsets": []
+    },
+    {
+        "name": "tattoo",
+        "value": 20,
+        "percentage": 0.192975685063682,
+        "synsets": [
+            "tattoo.n.01",
+            "tattoo.n.03",
+            "tattoo.v.01",
+            "tattoo.n.02"
+        ]
+    },
+    {
+        "name": "oppenheimer",
+        "value": 20,
+        "percentage": 0.192975685063682,
+        "synsets": [
+            "oppenheimer.n.01"
+        ]
+    },
+    {
+        "name": "magicthegathering",
+        "value": 19,
+        "percentage": 0.1833269008104979,
+        "synsets": [
+            "gather.v.04",
+            "gather.v.07",
+            "gathering.n.01",
+            "gather.v.08",
+            "gain.v.07",
+            "gather.n.02",
+            "meet.v.07",
+            "gather.v.01",
+            "gather.v.05",
+            "gather.n.01",
+            "assemble.v.03",
+            "accumulate.v.02",
+            "assembly.n.06"
+        ]
+    },
+    {
+        "name": "indieband",
+        "value": 19,
+        "percentage": 0.1833269008104979,
+        "synsets": [
+            "indie.n.01",
+            "indie.n.02",
+            "indie.s.01"
+        ]
+    },
+    {
+        "name": "concert",
+        "value": 19,
+        "percentage": 0.1833269008104979,
+        "synsets": [
+            "concert.v.01",
+            "concert.v.02",
+            "concert.n.01"
+        ]
+    },
+    {
+        "name": "barbie",
+        "value": 19,
+        "percentage": 0.1833269008104979,
+        "synsets": [
+            "shot.n.09",
+            "barb.n.02",
+            "barb.n.04",
+            "barb.v.01",
+            "barb.n.03"
+        ]
+    },
+    {
+        "name": "ironmouse",
+        "value": 19,
+        "percentage": 0.1833269008104979,
+        "synsets": [
+            "mouse.n.01",
+            "shiner.n.01",
+            "mouse.n.04",
+            "mouse.v.02",
+            "sneak.v.01",
+            "mouse.n.03"
+        ]
+    },
+    {
+        "name": "uk",
+        "value": 19,
+        "percentage": 0.1833269008104979,
+        "synsets": []
+    },
+    {
+        "name": "hatsunemiku",
+        "value": 19,
+        "percentage": 0.1833269008104979,
+        "synsets": [
+            "hat.n.02",
+            "hat.n.01",
+            "hat.v.01",
+            "hat.v.02"
+        ]
+    },
+    {
+        "name": "piano",
+        "value": 19,
+        "percentage": 0.1833269008104979,
+        "synsets": [
+            "piano.n.01",
+            "piano.a.01",
+            "piano.n.02",
+            "piano.r.01"
+        ]
+    },
+    {
+        "name": "spacepotatogang",
+        "value": 19,
+        "percentage": 0.1833269008104979,
+        "synsets": [
+            "potato.n.01",
+            "potato.n.02"
+        ]
+    },
+    {
+        "name": "mtgtiktok",
+        "value": 18,
+        "percentage": 0.17367811655731377,
+        "synsets": []
+    },
+    {
+        "name": "dog",
+        "value": 18,
+        "percentage": 0.17367811655731377,
+        "synsets": []
+    },
+    {
+        "name": "80s",
+        "value": 18,
+        "percentage": 0.17367811655731377,
+        "synsets": []
+    },
+    {
+        "name": "vr",
+        "value": 18,
+        "percentage": 0.17367811655731377,
+        "synsets": []
+    },
+    {
+        "name": "childhood",
+        "value": 18,
+        "percentage": 0.17367811655731377,
+        "synsets": [
+            "childhood.n.01",
+            "childhood.n.02"
+        ]
+    },
+    {
+        "name": "python",
+        "value": 18,
+        "percentage": 0.17367811655731377,
+        "synsets": [
+            "python.n.03",
+            "python.n.02",
+            "python.n.01"
+        ]
+    },
+    {
+        "name": "comic",
+        "value": 18,
+        "percentage": 0.17367811655731377,
+        "synsets": [
+            "comic.a.02",
+            "comedian.n.01",
+            "amusing.s.02"
+        ]
+    },
+    {
+        "name": "reaction",
+        "value": 17,
+        "percentage": 0.16402933230412967,
+        "synsets": [
+            "reaction.n.04",
+            "reaction.n.03",
+            "reaction.n.06",
+            "reaction.n.05",
+            "reaction.n.07",
+            "reaction.n.02",
+            "chemical_reaction.n.01"
+        ]
+    },
+    {
+        "name": "pizza",
+        "value": 17,
+        "percentage": 0.16402933230412967,
+        "synsets": [
+            "pizza.n.01"
+        ]
+    },
+    {
+        "name": "gym",
+        "value": 17,
+        "percentage": 0.16402933230412967,
+        "synsets": []
+    },
+    {
+        "name": "simulation",
+        "value": 17,
+        "percentage": 0.16402933230412967,
+        "synsets": [
+            "simulation.n.01",
+            "model.n.04",
+            "pretense.n.01",
+            "simulation.n.02"
+        ]
+    },
+    {
+        "name": "spiderman",
+        "value": 17,
+        "percentage": 0.16402933230412967,
+        "synsets": [
+            "spider-man.s.1"
+        ]
+    },
+    {
+        "name": "nasti2k",
+        "value": 17,
+        "percentage": 0.16402933230412967,
+        "synsets": [
+            "nast.n.01"
+        ]
+    },
+    {
+        "name": "robotics",
+        "value": 17,
+        "percentage": 0.16402933230412967,
+        "synsets": [
+            "robotics.n.01"
+        ]
+    },
+    {
+        "name": "taylorswift",
+        "value": 17,
+        "percentage": 0.16402933230412967,
+        "synsets": [
+            "taylorswift.s.1"
+        ]
+    },
+    {
+        "name": "3dprinter",
+        "value": 17,
+        "percentage": 0.16402933230412967,
+        "synsets": [
+            "printer.n.03",
+            "printer.n.02",
+            "printer.n.01"
+        ]
+    },
+    {
+        "name": "joostklein",
+        "value": 17,
+        "percentage": 0.16402933230412967,
+        "synsets": [
+            "klein.n.01",
+            "klein.n.03",
+            "klein.n.02"
+        ]
+    },
+    {
+        "name": "megadeth",
+        "value": 17,
+        "percentage": 0.16402933230412967,
+        "synsets": []
+    },
+    {
+        "name": "uni",
+        "value": 17,
+        "percentage": 0.16402933230412967,
+        "synsets": []
+    },
+    {
+        "name": "powerrangers",
+        "value": 17,
+        "percentage": 0.16402933230412967,
+        "synsets": [
+            "fire_warden.n.01",
+            "texas_ranger.n.01",
+            "commando.n.01"
+        ]
+    },
+    {
+        "name": "caseoh",
+        "value": 16,
+        "percentage": 0.1543805480509456,
+        "synsets": [
+            "case.n.05",
+            "lawsuit.n.01",
+            "case.n.09",
+            "character.n.05",
+            "event.n.02",
+            "case.n.06",
+            "casing.n.03",
+            "case.n.08",
+            "case.n.11",
+            "case.n.19",
+            "case.n.10",
+            "subject.n.06",
+            "shell.n.08",
+            "case.n.04",
+            "case.n.20",
+            "font.n.01",
+            "case.n.01",
+            "case.n.18",
+            "case.n.12",
+            "sheath.n.02",
+            "encase.v.01",
+            "case.v.01"
+        ]
+    },
+    {
+        "name": "pubity",
+        "value": 16,
+        "percentage": 0.1543805480509456,
+        "synsets": []
+    },
+    {
+        "name": "interesting",
+        "value": 16,
+        "percentage": 0.1543805480509456,
+        "synsets": [
+            "matter_to.v.01",
+            "interesting.a.01",
+            "concern.v.02",
+            "interest.v.01"
+        ]
+    },
+    {
+        "name": "fnaf",
+        "value": 16,
+        "percentage": 0.1543805480509456,
+        "synsets": []
+    },
+    {
+        "name": "filian",
+        "value": 16,
+        "percentage": 0.1543805480509456,
+        "synsets": [
+            "troy.n.02",
+            "ilium.n.02"
+        ]
+    },
+    {
+        "name": "sabaton",
+        "value": 16,
+        "percentage": 0.1543805480509456,
+        "synsets": [
+            "solleret.n.01"
+        ]
+    },
+    {
+        "name": "friends",
+        "value": 16,
+        "percentage": 0.1543805480509456,
+        "synsets": [
+            "friend.n.01",
+            "supporter.n.01",
+            "friend.n.05",
+            "ally.n.02",
+            "acquaintance.n.03"
+        ]
+    },
+    {
+        "name": "dndtiktok",
+        "value": 16,
+        "percentage": 0.1543805480509456,
+        "synsets": []
+    },
+    {
+        "name": "interview",
+        "value": 16,
+        "percentage": 0.1543805480509456,
+        "synsets": [
+            "interview.v.03",
+            "consultation.n.01",
+            "interview.v.02",
+            "interview.n.01",
+            "interview.v.01"
+        ]
+    },
+    {
+        "name": "pokemon",
+        "value": 16,
+        "percentage": 0.1543805480509456,
+        "synsets": [
+            "jab.n.01",
+            "dawdler.n.01",
+            "intrude.v.03",
+            "punch.n.01",
+            "jab.v.01",
+            "thump.v.03",
+            "poke.v.03",
+            "poke.v.05",
+            "poke.n.01",
+            "sack.n.01"
+        ]
+    },
+    {
+        "name": "aiart",
+        "value": 16,
+        "percentage": 0.1543805480509456,
+        "synsets": []
+    },
+    {
+        "name": "nintendo",
+        "value": 16,
+        "percentage": 0.1543805480509456,
+        "synsets": [
+            "mean.v.03",
+            "intend.v.02",
+            "mean.v.01",
+            "intend.v.01"
+        ]
+    },
+    {
+        "name": "robot",
+        "value": 16,
+        "percentage": 0.1543805480509456,
+        "synsets": [
+            "automaton.n.02"
+        ]
+    },
+    {
+        "name": "cheappickle",
+        "value": 16,
+        "percentage": 0.1543805480509456,
+        "synsets": [
+            "fix.n.01",
+            "pickle.v.01",
+            "pickle.n.01"
+        ]
+    },
+    {
+        "name": "happy",
+        "value": 16,
+        "percentage": 0.1543805480509456,
+        "synsets": [
+            "happy.a.01",
+            "felicitous.s.02",
+            "happy.s.04",
+            "glad.s.02"
+        ]
+    },
+    {
+        "name": "jedi",
+        "value": 16,
+        "percentage": 0.1543805480509456,
+        "synsets": []
+    },
+    {
+        "name": "europapa",
+        "value": 16,
+        "percentage": 0.1543805480509456,
+        "synsets": [
+            "europa.n.01"
+        ]
+    },
+    {
+        "name": "irish",
+        "value": 16,
+        "percentage": 0.1543805480509456,
+        "synsets": [
+            "irish.n.02",
+            "irish.a.01",
+            "irish.n.01",
+            "irish.n.03"
+        ]
+    },
+    {
+        "name": "electronics",
+        "value": 16,
+        "percentage": 0.1543805480509456,
+        "synsets": [
+            "electronics.n.01"
+        ]
+    },
+    {
+        "name": "amazing",
+        "value": 15,
+        "percentage": 0.14473176379776148,
+        "synsets": [
+            "perplex.v.01",
+            "amaze.v.01",
+            "amazing.s.01",
+            "amazing.s.02"
+        ]
+    },
+    {
+        "name": "goodkidband",
+        "value": 15,
+        "percentage": 0.14473176379776148,
+        "synsets": [
+            "good.s.21",
+            "good.s.18",
+            "good.s.07",
+            "effective.s.04",
+            "dependable.s.04",
+            "good.n.01",
+            "good.s.17",
+            "good.a.03",
+            "commodity.n.01",
+            "dear.s.02",
+            "thoroughly.r.02",
+            "good.s.20",
+            "good.s.16",
+            "good.s.19",
+            "good.n.03",
+            "beneficial.s.01",
+            "good.s.13",
+            "well.r.01",
+            "good.s.06",
+            "good.s.09",
+            "good.s.15",
+            "good.n.02",
+            "full.s.06",
+            "adept.s.01",
+            "good.a.01",
+            "estimable.s.02",
+            "good.s.12"
+        ]
+    },
+    {
+        "name": "onthisday",
+        "value": 15,
+        "percentage": 0.14473176379776148,
+        "synsets": [
+            "this.s.1"
+        ]
+    },
+    {
+        "name": "catlover",
+        "value": 15,
+        "percentage": 0.14473176379776148,
+        "synsets": [
+            "fan.n.03",
+            "lover.n.03",
+            "lover.n.01"
+        ]
+    },
+    {
+        "name": "dogsoftiktok",
+        "value": 15,
+        "percentage": 0.14473176379776148,
+        "synsets": [
+            "pawl.n.01",
+            "cad.n.01",
+            "andiron.n.01",
+            "dog.n.01",
+            "dog.n.03",
+            "chase.v.01",
+            "frump.n.01",
+            "frank.n.02"
+        ]
+    },
+    {
+        "name": "lasvegas",
+        "value": 15,
+        "percentage": 0.14473176379776148,
+        "synsets": [
+            "lasvegas.s.1"
+        ]
+    },
+    {
+        "name": "student",
+        "value": 15,
+        "percentage": 0.14473176379776148,
+        "synsets": [
+            "student.n.01",
+            "scholar.n.01"
+        ]
+    },
+    {
+        "name": "fantasy",
+        "value": 15,
+        "percentage": 0.14473176379776148,
+        "synsets": [
+            "fantasy.n.02",
+            "fantasy.v.01",
+            "fantasy.n.01",
+            "illusion.n.02"
+        ]
+    },
+    {
+        "name": "shorts",
+        "value": 15,
+        "percentage": 0.14473176379776148,
+        "synsets": [
+            "short-circuit.v.02",
+            "short_pants.n.01",
+            "drawers.n.01",
+            "short-change.v.01",
+            "short_circuit.n.01",
+            "short.n.01",
+            "shortstop.n.02"
+        ]
+    },
+    {
+        "name": "ontario",
+        "value": 15,
+        "percentage": 0.14473176379776148,
+        "synsets": [
+            "ontario.n.02",
+            "lake_ontario.n.01"
+        ]
+    },
+    {
+        "name": "fanart",
+        "value": 15,
+        "percentage": 0.14473176379776148,
+        "synsets": []
+    },
+    {
+        "name": "pc",
+        "value": 15,
+        "percentage": 0.14473176379776148,
+        "synsets": []
+    },
+    {
+        "name": "netflix",
+        "value": 15,
+        "percentage": 0.14473176379776148,
+        "synsets": []
+    },
+    {
+        "name": "3d",
+        "value": 15,
+        "percentage": 0.14473176379776148,
+        "synsets": []
+    },
+    {
+        "name": "car",
+        "value": 15,
+        "percentage": 0.14473176379776148,
+        "synsets": []
+    },
+    {
+        "name": "beamng",
+        "value": 15,
+        "percentage": 0.14473176379776148,
+        "synsets": [
+            "radio_beam.n.01",
+            "balance_beam.n.01",
+            "beam.n.03",
+            "glow.v.02",
+            "beam.n.02",
+            "beam.n.04",
+            "air.v.03",
+            "beam.v.01",
+            "beam.n.05",
+            "beam.n.06",
+            "shine.v.02",
+            "beam.v.03",
+            "glow.v.05"
+        ]
+    },
+    {
+        "name": "italian",
+        "value": 15,
+        "percentage": 0.14473176379776148,
+        "synsets": [
+            "italian.a.01",
+            "italian.n.02",
+            "italian.n.01"
+        ]
+    },
+    {
+        "name": "photography",
+        "value": 15,
+        "percentage": 0.14473176379776148,
+        "synsets": [
+            "photography.n.03",
+            "photography.n.01",
+            "photography.n.02"
+        ]
+    },
+    {
+        "name": "programming",
+        "value": 15,
+        "percentage": 0.14473176379776148,
+        "synsets": [
+            "scheduling.n.01",
+            "programming.n.02",
+            "program.v.01",
+            "program.v.02"
+        ]
+    },
+    {
+        "name": "tasty",
+        "value": 15,
+        "percentage": 0.14473176379776148,
+        "synsets": [
+            "tasty.a.01"
+        ]
+    },
+    {
+        "name": "electricguitar",
+        "value": 15,
+        "percentage": 0.14473176379776148,
+        "synsets": [
+            "electric.s.03",
+            "electric.s.02",
+            "electric.a.01",
+            "electric.n.01"
+        ]
+    },
+    {
+        "name": "emo",
+        "value": 14,
+        "percentage": 0.1350829795445774,
+        "synsets": []
+    },
+    {
+        "name": "photoshop",
+        "value": 14,
+        "percentage": 0.1350829795445774,
+        "synsets": [
+            "photograph.n.01"
+        ]
+    },
+    {
+        "name": "america",
+        "value": 14,
+        "percentage": 0.1350829795445774,
+        "synsets": [
+            "america.n.02",
+            "united_states.n.01"
+        ]
+    },
+    {
+        "name": "school",
+        "value": 14,
+        "percentage": 0.1350829795445774,
+        "synsets": [
+            "school.n.03",
+            "school.n.05",
+            "school.n.01",
+            "school.n.06",
+            "school.v.01",
+            "school.v.03",
+            "school.n.07",
+            "school.n.04",
+            "educate.v.03",
+            "school.n.02"
+        ]
+    },
+    {
+        "name": "meow",
+        "value": 14,
+        "percentage": 0.1350829795445774,
+        "synsets": [
+            "meow.v.01",
+            "meow.n.01"
+        ]
+    },
+    {
+        "name": "cdawgva",
+        "value": 14,
+        "percentage": 0.1350829795445774,
+        "synsets": []
+    },
+    {
+        "name": "behindthescenes",
+        "value": 14,
+        "percentage": 0.1350829795445774,
+        "synsets": [
+            "buttocks.n.01",
+            "behind.r.03",
+            "behind.r.02",
+            "behind.s.01",
+            "behind.r.05",
+            "behind.r.01",
+            "behind.r.04"
+        ]
+    },
+    {
+        "name": "language",
+        "value": 14,
+        "percentage": 0.1350829795445774,
+        "synsets": [
+            "linguistic_process.n.02",
+            "language.n.01",
+            "speech.n.02",
+            "lyric.n.01",
+            "terminology.n.01",
+            "language.n.05"
+        ]
+    },
+    {
+        "name": "dune",
+        "value": 14,
+        "percentage": 0.1350829795445774,
+        "synsets": [
+            "dune.n.01"
+        ]
+    },
+    {
+        "name": "avatarthelastairbender",
+        "value": 14,
+        "percentage": 0.1350829795445774,
+        "synsets": [
+            "thelast.s.1"
+        ]
+    },
+    {
+        "name": "sad",
+        "value": 13,
+        "percentage": 0.1254341952913933,
+        "synsets": []
+    },
+    {
+        "name": "pet",
+        "value": 13,
+        "percentage": 0.1254341952913933,
+        "synsets": []
+    },
+    {
+        "name": "2000s",
+        "value": 13,
+        "percentage": 0.1254341952913933,
+        "synsets": []
+    },
+    {
+        "name": "singing",
+        "value": 13,
+        "percentage": 0.1254341952913933,
+        "synsets": [
+            "sing.v.01",
+            "sing.v.03",
+            "singing.n.01",
+            "spill_the_beans.v.01",
+            "scorch.v.02",
+            "tattle.n.01",
+            "singe.v.01",
+            "sing.v.02",
+            "cantabile.s.01",
+            "whistle.v.05"
+        ]
+    },
+    {
+        "name": "foodie",
+        "value": 13,
+        "percentage": 0.1254341952913933,
+        "synsets": [
+            "epicure.n.01"
+        ]
+    },
+    {
+        "name": "mercedes",
+        "value": 13,
+        "percentage": 0.1254341952913933,
+        "synsets": [
+            "merced.s.1"
+        ]
+    },
+    {
+        "name": "rhythmgame",
+        "value": 13,
+        "percentage": 0.1254341952913933,
+        "synsets": [
+            "rhythm.n.04",
+            "cycle.n.01",
+            "rhythm_method_of_birth_control.n.01",
+            "rhythm.n.02",
+            "rhythm.n.01"
+        ]
+    },
+    {
+        "name": "f12024",
+        "value": 13,
+        "percentage": 0.1254341952913933,
+        "synsets": []
+    },
+    {
+        "name": "pop",
+        "value": 13,
+        "percentage": 0.1254341952913933,
+        "synsets": []
+    },
+    {
+        "name": "pourtoi",
+        "value": 13,
+        "percentage": 0.1254341952913933,
+        "synsets": [
+            "pour.v.06",
+            "pour.v.04",
+            "pour.v.01",
+            "decant.v.01",
+            "pour.v.02",
+            "pour.v.05"
+        ]
+    },
+    {
+        "name": "silly",
+        "value": 13,
+        "percentage": 0.1254341952913933,
+        "synsets": [
+            "airheaded.s.01",
+            "pathetic.s.03",
+            "punch-drunk.s.01",
+            "silly.n.01",
+            "cockamamie.s.01"
+        ]
+    },
+    {
+        "name": "apple",
+        "value": 13,
+        "percentage": 0.1254341952913933,
+        "synsets": [
+            "apple.n.02",
+            "apple.n.01"
+        ]
+    },
+    {
+        "name": "familyguy",
+        "value": 13,
+        "percentage": 0.1254341952913933,
+        "synsets": [
+            "family.n.01",
+            "family.n.02",
+            "family.n.04",
+            "kin.n.01",
+            "family.n.08",
+            "family.n.06",
+            "syndicate.n.01",
+            "class.n.01"
+        ]
+    },
+    {
+        "name": "fernandoalonso",
+        "value": 13,
+        "percentage": 0.1254341952913933,
+        "synsets": [
+            "alonso.n.01"
+        ]
+    },
+    {
+        "name": "sonicthehedgehog",
+        "value": 13,
+        "percentage": 0.1254341952913933,
+        "synsets": [
+            "thehedgehog.s.1"
+        ]
+    },
+    {
+        "name": "gymtok",
+        "value": 13,
+        "percentage": 0.1254341952913933,
+        "synsets": []
+    },
+    {
+        "name": "dc",
+        "value": 13,
+        "percentage": 0.1254341952913933,
+        "synsets": []
+    },
+    {
+        "name": "batman",
+        "value": 13,
+        "percentage": 0.1254341952913933,
+        "synsets": [
+            "batman.n.01"
+        ]
+    },
+    {
+        "name": "davidtennant",
+        "value": 13,
+        "percentage": 0.1254341952913933,
+        "synsets": [
+            "davidtennant.s.1"
+        ]
+    },
+    {
+        "name": "mlpfandom",
+        "value": 13,
+        "percentage": 0.1254341952913933,
+        "synsets": [
+            "fandom.n.01"
+        ]
+    },
+    {
+        "name": "mylittleponyfriendshipismagic",
+        "value": 13,
+        "percentage": 0.1254341952913933,
+        "synsets": [
+            "friendship.n.01"
+        ]
+    },
+    {
+        "name": "design",
+        "value": 13,
+        "percentage": 0.1254341952913933,
+        "synsets": [
+            "design.n.06",
+            "blueprint.n.01",
+            "purpose.n.01",
+            "design.n.02",
+            "design.v.03",
+            "invention.n.01",
+            "design.v.05",
+            "design.n.01",
+            "design.v.02",
+            "design.v.04",
+            "design.v.07",
+            "design.v.06",
+            "design.n.04",
+            "plan.v.03"
+        ]
+    },
+    {
+        "name": "baldursgate3",
+        "value": 13,
+        "percentage": 0.1254341952913933,
+        "synsets": [
+            "baldur'sgate3.s.1"
+        ]
+    },
+    {
+        "name": "cool",
+        "value": 13,
+        "percentage": 0.1254341952913933,
+        "synsets": [
+            "aplomb.n.01",
+            "cool.s.06",
+            "cool.s.02",
+            "cool.a.04",
+            "cool.s.05",
+            "cool.a.03",
+            "cool.v.03",
+            "cool.a.01",
+            "cool.v.02",
+            "cool.v.01",
+            "cool.n.01"
+        ]
+    },
+    {
+        "name": "vfx",
+        "value": 13,
+        "percentage": 0.1254341952913933,
+        "synsets": []
+    },
+    {
+        "name": "90s",
+        "value": 13,
+        "percentage": 0.1254341952913933,
+        "synsets": []
+    },
+    {
+        "name": "religion",
+        "value": 13,
+        "percentage": 0.1254341952913933,
+        "synsets": [
+            "religion.n.02",
+            "religion.n.01"
+        ]
+    },
+    {
+        "name": "creative",
+        "value": 13,
+        "percentage": 0.1254341952913933,
+        "synsets": [
+            "creative.s.02",
+            "creative.a.01"
+        ]
+    },
+    {
+        "name": "superbowl",
+        "value": 13,
+        "percentage": 0.1254341952913933,
+        "synsets": [
+            "brilliant.s.01",
+            "superb.s.02"
+        ]
+    },
+    {
+        "name": "beweirdbeyou",
+        "value": 13,
+        "percentage": 0.1254341952913933,
+        "synsets": [
+            "eldritch.s.01",
+            "wyrd.n.01",
+            "weird.s.02"
+        ]
+    },
+    {
+        "name": "fitness",
+        "value": 12,
+        "percentage": 0.11578541103820919,
+        "synsets": [
+            "seaworthiness.n.01",
+            "fitness.n.02",
+            "fitness.n.01",
+            "fitness.n.04"
+        ]
+    },
+    {
+        "name": "southpark",
+        "value": 12,
+        "percentage": 0.11578541103820919,
+        "synsets": [
+            "south.n.05",
+            "south.a.01",
+            "south.r.01",
+            "south.n.03",
+            "south.n.04",
+            "south.n.01",
+            "confederacy.n.01"
+        ]
+    },
+    {
+        "name": "poppunk",
+        "value": 12,
+        "percentage": 0.11578541103820919,
+        "synsets": [
+            "kindling.n.01",
+            "punk_rocker.n.01",
+            "punk_rock.n.01",
+            "punk.n.02",
+            "bum.s.01",
+            "hood.n.01"
+        ]
+    },
+    {
+        "name": "facts",
+        "value": 12,
+        "percentage": 0.11578541103820919,
+        "synsets": [
+            "fact.n.03",
+            "fact.n.01",
+            "fact.n.04",
+            "fact.n.02"
+        ]
+    },
+    {
+        "name": "montreal",
+        "value": 12,
+        "percentage": 0.11578541103820919,
+        "synsets": [
+            "montreal.n.01"
+        ]
+    },
+    {
+        "name": "painting",
+        "value": 12,
+        "percentage": 0.11578541103820919,
+        "synsets": [
+            "paint.v.03",
+            "paint.v.01",
+            "painting.n.02",
+            "paint.v.04",
+            "paint.v.02",
+            "painting.n.01",
+            "painting.n.04",
+            "painting.n.03"
+        ]
+    },
+    {
+        "name": "oscarpiastri",
+        "value": 12,
+        "percentage": 0.11578541103820919,
+        "synsets": [
+            "academy_award.n.01"
+        ]
+    },
+    {
+        "name": "jjk",
+        "value": 12,
+        "percentage": 0.11578541103820919,
+        "synsets": []
+    },
+    {
+        "name": "maps",
+        "value": 12,
+        "percentage": 0.11578541103820919,
+        "synsets": [
+            "map.v.06",
+            "map.v.03",
+            "map.v.02",
+            "map.v.05",
+            "function.n.01",
+            "map.n.01",
+            "map.v.04",
+            "map.v.01"
+        ]
+    },
+    {
+        "name": "tolkien",
+        "value": 12,
+        "percentage": 0.11578541103820919,
+        "synsets": [
+            "tolkien.n.01"
+        ]
+    },
+    {
+        "name": "sandwich",
+        "value": 12,
+        "percentage": 0.11578541103820919,
+        "synsets": [
+            "sandwich.v.02",
+            "sandwich.v.01",
+            "sandwich.n.01"
+        ]
+    },
+    {
+        "name": "trans",
+        "value": 12,
+        "percentage": 0.11578541103820919,
+        "synsets": [
+            "trans.s.1"
+        ]
+    },
+    {
+        "name": "asmrsounds",
+        "value": 12,
+        "percentage": 0.11578541103820919,
+        "synsets": [
+            "sound.n.08",
+            "sound.n.04",
+            "sound.n.01",
+            "audio.n.01",
+            "phone.n.02",
+            "sound.v.06",
+            "voice.v.02",
+            "sound.n.03",
+            "fathom.v.02",
+            "sound.n.02",
+            "strait.n.01",
+            "sound.v.03",
+            "sound.v.02",
+            "sound.v.01",
+            "sound.v.04"
+        ]
+    },
+    {
+        "name": "kitten",
+        "value": 12,
+        "percentage": 0.11578541103820919,
+        "synsets": [
+            "kitten.n.01",
+            "kitten.v.01"
+        ]
+    },
+    {
+        "name": "laufey",
+        "value": 12,
+        "percentage": 0.11578541103820919,
+        "synsets": []
+    },
+    {
+        "name": "thehobbit",
+        "value": 12,
+        "percentage": 0.11578541103820919,
+        "synsets": [
+            "hobbit.n.01"
+        ]
+    },
+    {
+        "name": "monacogp",
+        "value": 12,
+        "percentage": 0.11578541103820919,
+        "synsets": [
+            "monaco.n.01"
+        ]
+    },
+    {
+        "name": "vine",
+        "value": 12,
+        "percentage": 0.11578541103820919,
+        "synsets": [
+            "vine.n.01"
+        ]
+    },
+    {
+        "name": "wow",
+        "value": 12,
+        "percentage": 0.11578541103820919,
+        "synsets": []
+    },
+    {
+        "name": "rainbowdash",
+        "value": 12,
+        "percentage": 0.11578541103820919,
+        "synsets": [
+            "rainbow.n.02",
+            "rainbow.n.01"
+        ]
+    },
+    {
+        "name": "booktok",
+        "value": 12,
+        "percentage": 0.11578541103820919,
+        "synsets": [
+            "book.n.06",
+            "book.n.10",
+            "book.n.01",
+            "book.n.11",
+            "script.n.01",
+            "book.v.04",
+            "reserve.v.04",
+            "record.n.05",
+            "book.v.01",
+            "book.v.03",
+            "book.n.07",
+            "book.n.02",
+            "ledger.n.01",
+            "bible.n.01",
+            "koran.n.01"
+        ]
+    },
+    {
+        "name": "explore",
+        "value": 12,
+        "percentage": 0.11578541103820919,
+        "synsets": [
+            "explore.v.03",
+            "research.v.02",
+            "explore.v.02",
+            "explore.v.04"
+        ]
+    },
+    {
+        "name": "sonic",
+        "value": 12,
+        "percentage": 0.11578541103820919,
+        "synsets": [
+            "sonic.a.01",
+            "sonic.s.02"
+        ]
+    },
+    {
+        "name": "egirl",
+        "value": 12,
+        "percentage": 0.11578541103820919,
+        "synsets": [
+            "female_child.n.01",
+            "girl.n.01",
+            "girl.n.05",
+            "girlfriend.n.02",
+            "daughter.n.01"
+        ]
+    },
+    {
+        "name": "crazy",
+        "value": 12,
+        "percentage": 0.11578541103820919,
+        "synsets": [
+            "crazy.s.02",
+            "crazy.s.04",
+            "crazy.s.03",
+            "crazy.s.05",
+            "brainsick.s.01",
+            "crazy.n.01"
+        ]
+    },
+    {
+        "name": "war",
+        "value": 12,
+        "percentage": 0.11578541103820919,
+        "synsets": []
+    },
+    {
+        "name": "mcdonalds",
+        "value": 12,
+        "percentage": 0.11578541103820919,
+        "synsets": [
+            "dona.n.01"
+        ]
+    },
+    {
+        "name": "fashion",
+        "value": 12,
+        "percentage": 0.11578541103820919,
+        "synsets": [
+            "fashion.n.03",
+            "fashion.n.02",
+            "fashion.v.01",
+            "fashion.n.04",
+            "manner.n.01"
+        ]
+    },
+    {
+        "name": "ramonaflowers",
+        "value": 12,
+        "percentage": 0.11578541103820919,
+        "synsets": [
+            "flower.n.03",
+            "bloom.v.01",
+            "flower.n.01",
+            "flower.n.02"
+        ]
+    },
+    {
+        "name": "taskmasternz",
+        "value": 12,
+        "percentage": 0.11578541103820919,
+        "synsets": [
+            "taskmaster.n.01"
+        ]
+    },
+    {
+        "name": "england",
+        "value": 11,
+        "percentage": 0.10613662678502508,
+        "synsets": [
+            "england.n.01"
+        ]
+    },
+    {
+        "name": "epic",
+        "value": 11,
+        "percentage": 0.10613662678502508,
+        "synsets": [
+            "epic.a.02",
+            "epic.s.01",
+            "epic_poem.n.01"
+        ]
+    },
+    {
+        "name": "country",
+        "value": 11,
+        "percentage": 0.10613662678502508,
+        "synsets": [
+            "country.n.04",
+            "state.n.04",
+            "area.n.01",
+            "country.n.02",
+            "nation.n.02"
+        ]
+    },
+    {
+        "name": "corecore",
+        "value": 11,
+        "percentage": 0.10613662678502508,
+        "synsets": [
+            "congress_of_racial_equality.n.01",
+            "core.v.01",
+            "core.n.08",
+            "core.n.01",
+            "core.n.05",
+            "effect.n.04",
+            "core.n.09",
+            "core.n.02",
+            "kernel.n.03",
+            "core.n.03",
+            "core.n.10"
+        ]
+    },
+    {
+        "name": "edm",
+        "value": 11,
+        "percentage": 0.10613662678502508,
+        "synsets": []
+    },
+    {
+        "name": "sergioperez",
+        "value": 11,
+        "percentage": 0.10613662678502508,
+        "synsets": [
+            "sergio.s.1"
+        ]
+    },
+    {
+        "name": "lmao",
+        "value": 11,
+        "percentage": 0.10613662678502508,
+        "synsets": []
+    },
+    {
+        "name": "solo",
+        "value": 11,
+        "percentage": 0.10613662678502508,
+        "synsets": [
+            "solo.s.01",
+            "solo.n.01",
+            "solo.n.03",
+            "solo.n.02",
+            "solo.v.02",
+            "alone.r.02",
+            "solo.v.01"
+        ]
+    },
+    {
+        "name": "ironmaiden",
+        "value": 11,
+        "percentage": 0.10613662678502508,
+        "synsets": [
+            "maiden_over.n.01",
+            "inaugural.s.02",
+            "maid.n.02"
+        ]
+    },
+    {
+        "name": "tv",
+        "value": 11,
+        "percentage": 0.10613662678502508,
+        "synsets": []
+    },
+    {
+        "name": "riff",
+        "value": 11,
+        "percentage": 0.10613662678502508,
+        "synsets": [
+            "riff.n.01",
+            "riff.n.02",
+            "riff.v.02",
+            "flick.v.02"
+        ]
+    },
+    {
+        "name": "playstation",
+        "value": 11,
+        "percentage": 0.10613662678502508,
+        "synsets": [
+            "station.n.05",
+            "station.n.03",
+            "place.n.10",
+            "station.n.01",
+            "post.n.01",
+            "station.v.01"
+        ]
+    },
+    {
+        "name": "ireland",
+        "value": 11,
+        "percentage": 0.10613662678502508,
+        "synsets": [
+            "ireland.n.02",
+            "ireland.n.01"
+        ]
+    },
+    {
+        "name": "superman",
+        "value": 11,
+        "percentage": 0.10613662678502508,
+        "synsets": [
+            "demigod.n.01",
+            "acid.n.02"
+        ]
+    },
+    {
+        "name": "magic",
+        "value": 11,
+        "percentage": 0.10613662678502508,
+        "synsets": [
+            "magic_trick.n.01",
+            "magic.n.01",
+            "charming.s.02"
+        ]
+    },
+    {
+        "name": "eren",
+        "value": 11,
+        "percentage": 0.10613662678502508,
+        "synsets": []
+    },
+    {
+        "name": "aotseason4",
+        "value": 11,
+        "percentage": 0.10613662678502508,
+        "synsets": [
+            "season.n.01",
+            "season.v.02",
+            "season.v.01",
+            "temper.v.04",
+            "season.n.02",
+            "season.n.03"
+        ]
+    },
+    {
+        "name": "avengedsevenfold",
+        "value": 11,
+        "percentage": 0.10613662678502508,
+        "synsets": [
+            "sevenfold.r.01",
+            "septuple.s.01"
+        ]
+    },
+    {
+        "name": "mlpeg",
+        "value": 11,
+        "percentage": 0.10613662678502508,
+        "synsets": []
+    },
+    {
+        "name": "fail",
+        "value": 11,
+        "percentage": 0.10613662678502508,
+        "synsets": [
+            "fail.v.06",
+            "fail.v.04",
+            "fail.v.01",
+            "fail.v.05",
+            "fail.v.07",
+            "fail.v.09",
+            "fail.v.10",
+            "fail.v.11",
+            "fail.v.03",
+            "fail.v.02",
+            "fail.v.08"
+        ]
+    },
+    {
+        "name": "cinematography",
+        "value": 11,
+        "percentage": 0.10613662678502508,
+        "synsets": [
+            "filming.n.01"
+        ]
+    },
+    {
+        "name": "luffy",
+        "value": 11,
+        "percentage": 0.10613662678502508,
+        "synsets": [
+            "luff.v.01",
+            "luff.v.02",
+            "luff.n.01",
+            "luff.n.02"
+        ]
+    },
+    {
+        "name": "hockey",
+        "value": 11,
+        "percentage": 0.10613662678502508,
+        "synsets": [
+            "field_hockey.n.01",
+            "ice_hockey.n.01"
+        ]
+    },
+    {
+        "name": "nature",
+        "value": 11,
+        "percentage": 0.10613662678502508,
+        "synsets": [
+            "nature.n.03",
+            "nature.n.05",
+            "nature.n.04",
+            "nature.n.01",
+            "nature.n.02"
+        ]
+    },
+    {
+        "name": "fromthestart",
+        "value": 11,
+        "percentage": 0.10613662678502508,
+        "synsets": [
+            "thestar.s.1"
+        ]
+    },
+    {
+        "name": "crash",
+        "value": 11,
+        "percentage": 0.10613662678502508,
+        "synsets": [
+            "doss.v.01",
+            "crash.v.09",
+            "crash.v.04",
+            "clang.n.01",
+            "barge_in.v.01",
+            "crash.n.02",
+            "crash.n.04",
+            "crash.v.03",
+            "crash.v.06",
+            "crash.v.02",
+            "crash.v.10",
+            "crash.v.11",
+            "crash.v.12",
+            "crash.v.05",
+            "crash.n.03",
+            "crash.n.05",
+            "crash.v.07",
+            "crash.v.01"
+        ]
+    },
+    {
+        "name": "live",
+        "value": 11,
+        "percentage": 0.10613662678502508,
+        "synsets": [
+            "live.s.07",
+            "live.v.07",
+            "exist.v.02",
+            "be.v.11",
+            "alive.s.07",
+            "survive.v.01",
+            "populate.v.01",
+            "live.s.05",
+            "alive.a.01",
+            "know.v.05",
+            "hot.s.20",
+            "bouncy.s.01",
+            "live.s.04",
+            "live.v.02",
+            "live.s.08",
+            "live.s.09",
+            "live.r.01",
+            "live.a.01",
+            "live.a.02"
+        ]
+    },
+    {
+        "name": "astronomy",
+        "value": 11,
+        "percentage": 0.10613662678502508,
+        "synsets": [
+            "astronomy.n.01"
+        ]
+    },
+    {
+        "name": "linguistics",
+        "value": 11,
+        "percentage": 0.10613662678502508,
+        "synsets": [
+            "linguistics.n.02",
+            "linguistics.n.01"
+        ]
+    },
+    {
+        "name": "deathcore",
+        "value": 11,
+        "percentage": 0.10613662678502508,
+        "synsets": [
+            "death.n.05",
+            "death.n.03",
+            "death.n.01",
+            "death.n.06",
+            "death.n.04",
+            "end.n.06",
+            "death.n.08",
+            "death.n.02"
+        ]
+    },
+    {
+        "name": "haydenchristensen",
+        "value": 11,
+        "percentage": 0.10613662678502508,
+        "synsets": [
+            "haydenchristensen.s.1"
+        ]
+    },
+    {
+        "name": "foofighters",
+        "value": 11,
+        "percentage": 0.10613662678502508,
+        "synsets": [
+            "combatant.n.01",
+            "fighter.n.02",
+            "champion.n.02"
+        ]
+    }
+]

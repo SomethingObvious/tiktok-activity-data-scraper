@@ -1,0 +1,588 @@
+{
+    "starwars": [
+        "starwarsfan",
+        "starwarstiktok"
+    ],
+    "formula1": [
+        "formulaone"
+    ],
+    "guitar": [
+        "guitarhero",
+        "guitarcover",
+        "guitarsolo",
+        "guitartok",
+        "guitarra",
+        "guitarplayer"
+    ],
+    "metal": [
+        "babymetal_japan",
+        "babymetal",
+        "metaltok",
+        "metalcore",
+        "metalmusic",
+        "metallica"
+    ],
+    "music": [
+        "newmusic",
+        "livemusic",
+        "rockmusic",
+        "musica"
+    ],
+    "gaming": [
+        "gamingontiktok",
+        "game",
+        "pcgaming",
+        "games"
+    ],
+    "guitartok": [
+        "guitarhero",
+        "guitarcover",
+        "guitarplayer",
+        "guitarsolo",
+        "guitarra",
+        "guitar"
+    ],
+    "3dprinting": [
+        "3dprinted",
+        "3dprint"
+    ],
+    "engineering": [
+        "technology",
+        "engineer",
+        "mechanicalengineering"
+    ],
+    "cosplay": [
+        "cosplayer"
+    ],
+    "satisfying": [
+        "satisfyingvideo"
+    ],
+    "catsoftiktok": [
+        "cats"
+    ],
+    "guitarist": [
+        "guitaristsoftiktok"
+    ],
+    "math": [
+        "mathematics",
+        "maths"
+    ],
+    "metalhead": [
+        "metalheads"
+    ],
+    "anakinskywalker": [
+        "lukeskywalker"
+    ],
+    "movie": [
+        "movietok",
+        "filmtok",
+        "movies",
+        "barbiemovie",
+        "film"
+    ],
+    "newmusic": [
+        "music",
+        "livemusic",
+        "rockmusic",
+        "musica"
+    ],
+    "metaltok": [
+        "babymetal_japan",
+        "babymetal",
+        "metalcore",
+        "metalmusic",
+        "metal",
+        "metallica"
+    ],
+    "guitarsolo": [
+        "guitarhero",
+        "guitarcover",
+        "guitarplayer",
+        "guitartok",
+        "guitarra",
+        "guitar"
+    ],
+    "starwarsfan": [
+        "starwars",
+        "starwarstiktok"
+    ],
+    "doctorwho": [
+        "doctorwhotiktok"
+    ],
+    "metallica": [
+        "babymetal_japan",
+        "babymetal",
+        "metaltok",
+        "metalcore",
+        "metalmusic",
+        "metal"
+    ],
+    "lordoftherings": [
+        "band"
+    ],
+    "starwarstiktok": [
+        "starwars",
+        "starwarsfan"
+    ],
+    "drums": [
+        "drumming"
+    ],
+    "gamingontiktok": [
+        "game",
+        "pcgaming",
+        "games",
+        "gaming"
+    ],
+    "college": [
+        "collegelife"
+    ],
+    "powermetal": [
+        "powerwolf"
+    ],
+    "twitch": [
+        "cdawgvatwitch"
+    ],
+    "formulaone": [
+        "formula1"
+    ],
+    "3dprinted": [
+        "3dprinting",
+        "3dprint"
+    ],
+    "musician": [
+        "musiciansoftiktok"
+    ],
+    "history": [
+        "story",
+        "storytime"
+    ],
+    "artist": [
+        "artistsoftiktok"
+    ],
+    "cats": [
+        "catsoftiktok"
+    ],
+    "lego": [
+        "legostarwars"
+    ],
+    "streamer": [
+        "twitchstreamer"
+    ],
+    "queensuniversity": [
+        "university"
+    ],
+    "movies": [
+        "movietok",
+        "filmtok",
+        "barbiemovie",
+        "movie",
+        "film"
+    ],
+    "university": [
+        "queensuniversity"
+    ],
+    "spongebob": [
+        "spongebobsquarepants"
+    ],
+    "food": [
+        "foodtok",
+        "foodtiktok"
+    ],
+    "babymetal": [
+        "babymetal_japan",
+        "metaltok",
+        "metalcore",
+        "metalmusic",
+        "metal",
+        "metallica"
+    ],
+    "motorsport": [
+        "beamngdrive"
+    ],
+    "racing": [
+        "speed",
+        "redbullracing"
+    ],
+    "cover": [
+        "aicover"
+    ],
+    "game": [
+        "gamingontiktok",
+        "games",
+        "pcgaming",
+        "gaming",
+        "gamer"
+    ],
+    "redbullracing": [
+        "speed",
+        "racing"
+    ],
+    "space": [
+        "infinitecraft"
+    ],
+    "helldivers2": [
+        "helldivers"
+    ],
+    "cartoon": [
+        "sketch"
+    ],
+    "scottpilgrim": [
+        "scottpilgrimvstheworld",
+        "scottpilgrimtakesoff"
+    ],
+    "drawing": [
+        "filmmaking"
+    ],
+    "warhammer40k": [
+        "warhammer"
+    ],
+    "adhd": [
+        "adhdtiktok"
+    ],
+    "computerscience": [
+        "computer"
+    ],
+    "technology": [
+        "mechanicalengineering",
+        "engineering"
+    ],
+    "sketch": [
+        "cartoon"
+    ],
+    "metalmusic": [
+        "babymetal_japan",
+        "babymetal",
+        "metaltok",
+        "metalcore",
+        "metal",
+        "metallica"
+    ],
+    "foodtok": [
+        "foodtiktok",
+        "food"
+    ],
+    "filmtok": [
+        "movietok",
+        "movies",
+        "barbiemovie",
+        "movie",
+        "film"
+    ],
+    "musiciansoftiktok": [
+        "musician"
+    ],
+    "eurovision": [
+        "eurovision2024"
+    ],
+    "guitarcover": [
+        "guitarhero",
+        "guitarplayer",
+        "guitarsolo",
+        "guitartok",
+        "guitarra",
+        "guitar"
+    ],
+    "metalcore": [
+        "babymetal_japan",
+        "babymetal",
+        "metaltok",
+        "metalmusic",
+        "metal",
+        "metallica"
+    ],
+    "3dprint": [
+        "3dprinting",
+        "3dprinted"
+    ],
+    "powerwolf": [
+        "powermetal"
+    ],
+    "film": [
+        "movietok",
+        "filmtok",
+        "movies",
+        "barbiemovie",
+        "movie"
+    ],
+    "guitarra": [
+        "guitarhero",
+        "guitarcover",
+        "guitarplayer",
+        "guitarsolo",
+        "guitartok",
+        "guitar"
+    ],
+    "guitarplayer": [
+        "guitarhero",
+        "guitarcover",
+        "guitarsolo",
+        "guitartok",
+        "guitarra",
+        "guitar"
+    ],
+    "tech": [
+        "techtok"
+    ],
+    "cooking": [
+        "filmmaking"
+    ],
+    "speed": [
+        "redbullracing",
+        "racing"
+    ],
+    "storytime": [
+        "story",
+        "history"
+    ],
+    "filmmaking": [
+        "givesyouwiiings",
+        "cooking",
+        "drawing"
+    ],
+    "makeulaugh": [
+        "joke",
+        "jokes",
+        "trynottolaugh"
+    ],
+    "jokes": [
+        "joke",
+        "trynottolaugh",
+        "makeulaugh",
+        "prank"
+    ],
+    "satisfyingvideo": [
+        "satisfying"
+    ],
+    "pcgaming": [
+        "gamingontiktok",
+        "game",
+        "gaming",
+        "games"
+    ],
+    "eurovision2024": [
+        "eurovision"
+    ],
+    "song": [
+        "vocaloid"
+    ],
+    "foodtiktok": [
+        "foodtok",
+        "food"
+    ],
+    "vocaloid": [
+        "song"
+    ],
+    "joke": [
+        "trynottolaugh",
+        "makeulaugh",
+        "jokes",
+        "prank"
+    ],
+    "livemusic": [
+        "music",
+        "rockmusic",
+        "newmusic",
+        "musica"
+    ],
+    "scottpilgrimvstheworld": [
+        "scottpilgrim",
+        "scottpilgrimtakesoff"
+    ],
+    "techtok": [
+        "tech"
+    ],
+    "doctorwhotiktok": [
+        "doctorwho"
+    ],
+    "drumming": [
+        "drums"
+    ],
+    "cosplayer": [
+        "cosplay"
+    ],
+    "computer": [
+        "computerscience"
+    ],
+    "collegelife": [
+        "college"
+    ],
+    "guitarhero": [
+        "guitarcover",
+        "guitarplayer",
+        "guitarsolo",
+        "guitartok",
+        "guitarra",
+        "guitar"
+    ],
+    "givesyouwiiings": [
+        "aigenerated",
+        "filmmaking"
+    ],
+    "infinitecraft": [
+        "space"
+    ],
+    "metalheads": [
+        "metalhead"
+    ],
+    "movietok": [
+        "filmtok",
+        "movies",
+        "barbiemovie",
+        "movie",
+        "film"
+    ],
+    "lgbt": [
+        "lgbtq"
+    ],
+    "helldivers": [
+        "helldivers2"
+    ],
+    "midjourney": [
+        "travel"
+    ],
+    "aigenerated": [
+        "givesyouwiiings"
+    ],
+    "gamer": [
+        "game"
+    ],
+    "warhammer": [
+        "warhammer40k"
+    ],
+    "rockmusic": [
+        "music",
+        "livemusic",
+        "newmusic",
+        "musica"
+    ],
+    "band": [
+        "lordoftherings"
+    ],
+    "engineer": [
+        "mechanicalengineering",
+        "engineering"
+    ],
+    "games": [
+        "gamingontiktok",
+        "pcgaming",
+        "game",
+        "gaming"
+    ],
+    "mario": [
+        "mariokart"
+    ],
+    "prank": [
+        "joke",
+        "jokes"
+    ],
+    "pets": [
+        "muppets"
+    ],
+    "mathematics": [
+        "math",
+        "maths"
+    ],
+    "guitaristsoftiktok": [
+        "guitarist"
+    ],
+    "adhdtiktok": [
+        "adhd"
+    ],
+    "poker": [
+        "pokertok"
+    ],
+    "british": [
+        "britishfood"
+    ],
+    "babymetal_japan": [
+        "babymetal",
+        "metaltok",
+        "metalcore",
+        "metalmusic",
+        "metal",
+        "metallica"
+    ],
+    "legostarwars": [
+        "lego"
+    ],
+    "clips": [
+        "cdawgvaclips"
+    ],
+    "aicover": [
+        "cover"
+    ],
+    "trynottolaugh": [
+        "joke",
+        "makeulaugh",
+        "jokes"
+    ],
+    "lgbtq": [
+        "lgbt"
+    ],
+    "beamngdrive": [
+        "motorsport"
+    ],
+    "muppets": [
+        "pets"
+    ],
+    "lukeskywalker": [
+        "anakinskywalker"
+    ],
+    "travel": [
+        "midjourney"
+    ],
+    "mechanicalengineering": [
+        "technology",
+        "engineer",
+        "engineering"
+    ],
+    "scottpilgrimtakesoff": [
+        "scottpilgrim",
+        "scottpilgrimvstheworld"
+    ],
+    "spongebobsquarepants": [
+        "spongebob"
+    ],
+    "barbiemovie": [
+        "movietok",
+        "filmtok",
+        "movies",
+        "movie",
+        "film"
+    ],
+    "musica": [
+        "music",
+        "livemusic",
+        "newmusic",
+        "rockmusic"
+    ],
+    "britishfood": [
+        "british"
+    ],
+    "cdawgvatwitch": [
+        "twitch"
+    ],
+    "cdawgvaclips": [
+        "clips"
+    ],
+    "artistsoftiktok": [
+        "artist"
+    ],
+    "maths": [
+        "mathematics",
+        "math"
+    ],
+    "story": [
+        "history",
+        "storytime"
+    ],
+    "mariokart": [
+        "mario"
+    ],
+    "twitchstreamer": [
+        "streamer"
+    ],
+    "pokertok": [
+        "poker"
+    ]
+}
