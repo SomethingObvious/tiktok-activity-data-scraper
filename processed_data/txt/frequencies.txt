@@ -2,71 +2,71 @@ guitar.n.01: 7 Total Combined Value: 385
   Hashtags: guitar: 167, guitartok: 98, guitarsolo: 44, guitarcover: 21, guitarra: 20, guitarplayer: 20, guitarhero: 15
 metallic.a.01: 7 Total Combined Value: 325
   Hashtags: metal: 156, metaltok: 45, metallica: 41, babymetal: 30, metalmusic: 21, metalcore: 20, babymetal_japan: 12
-star.n.04: 3 Total Combined Value: 301
-  Hashtags: starwars: 219, starwarsfan: 43, starwarstiktok: 39
 star.v.01: 3 Total Combined Value: 301
+  Hashtags: starwars: 219, starwarsfan: 43, starwarstiktok: 39
+ace.n.03: 3 Total Combined Value: 301
   Hashtags: starwars: 219, starwarsfan: 43, starwarstiktok: 39
 star.n.01: 3 Total Combined Value: 301
   Hashtags: starwars: 219, starwarsfan: 43, starwarstiktok: 39
-star.n.05: 3 Total Combined Value: 301
+star.n.03: 3 Total Combined Value: 301
+  Hashtags: starwars: 219, starwarsfan: 43, starwarstiktok: 39
+star.n.04: 3 Total Combined Value: 301
+  Hashtags: starwars: 219, starwarsfan: 43, starwarstiktok: 39
+star_topology.n.01: 3 Total Combined Value: 301
+  Hashtags: starwars: 219, starwarsfan: 43, starwarstiktok: 39
+star.v.03: 3 Total Combined Value: 301
   Hashtags: starwars: 219, starwarsfan: 43, starwarstiktok: 39
 asterisk.n.01: 3 Total Combined Value: 301
+  Hashtags: starwars: 219, starwarsfan: 43, starwarstiktok: 39
+star.n.05: 3 Total Combined Value: 301
+  Hashtags: starwars: 219, starwarsfan: 43, starwarstiktok: 39
+star.v.02: 3 Total Combined Value: 301
   Hashtags: starwars: 219, starwarsfan: 43, starwarstiktok: 39
 leading.s.01: 3 Total Combined Value: 301
   Hashtags: starwars: 219, starwarsfan: 43, starwarstiktok: 39
 headliner.n.01: 3 Total Combined Value: 301
   Hashtags: starwars: 219, starwarsfan: 43, starwarstiktok: 39
-star_topology.n.01: 3 Total Combined Value: 301
-  Hashtags: starwars: 219, starwarsfan: 43, starwarstiktok: 39
-ace.n.03: 3 Total Combined Value: 301
-  Hashtags: starwars: 219, starwarsfan: 43, starwarstiktok: 39
-star.v.02: 3 Total Combined Value: 301
-  Hashtags: starwars: 219, starwarsfan: 43, starwarstiktok: 39
-star.n.03: 3 Total Combined Value: 301
-  Hashtags: starwars: 219, starwarsfan: 43, starwarstiktok: 39
-star.v.03: 3 Total Combined Value: 301
-  Hashtags: starwars: 219, starwarsfan: 43, starwarstiktok: 39
-metal.v.01: 6 Total Combined Value: 284
-  Hashtags: metal: 156, metaltok: 45, babymetal: 30, metalmusic: 21, metalcore: 20, babymetal_japan: 12
 metallic_element.n.01: 6 Total Combined Value: 284
   Hashtags: metal: 156, metaltok: 45, babymetal: 30, metalmusic: 21, metalcore: 20, babymetal_japan: 12
 alloy.n.01: 6 Total Combined Value: 284
   Hashtags: metal: 156, metaltok: 45, babymetal: 30, metalmusic: 21, metalcore: 20, babymetal_japan: 12
+metal.v.01: 6 Total Combined Value: 284
+  Hashtags: metal: 156, metaltok: 45, babymetal: 30, metalmusic: 21, metalcore: 20, babymetal_japan: 12
 bet_on.v.01: 5 Total Combined Value: 239
   Hashtags: gaming: 143, gamingontiktok: 37, game: 28, pcgaming: 18, games: 13
-music.n.01: 5 Total Combined Value: 235
-  Hashtags: music: 150, newmusic: 45, livemusic: 16, rockmusic: 13, musica: 11
-music.n.04: 5 Total Combined Value: 235
-  Hashtags: music: 150, newmusic: 45, livemusic: 16, rockmusic: 13, musica: 11
-music.n.03: 5 Total Combined Value: 235
-  Hashtags: music: 150, newmusic: 45, livemusic: 16, rockmusic: 13, musica: 11
 music.n.02: 5 Total Combined Value: 235
   Hashtags: music: 150, newmusic: 45, livemusic: 16, rockmusic: 13, musica: 11
 music.n.05: 5 Total Combined Value: 235
   Hashtags: music: 150, newmusic: 45, livemusic: 16, rockmusic: 13, musica: 11
-recipe.n.01: 2 Total Combined Value: 209
-  Hashtags: formula1: 174, formulaone: 35
-formula.n.04: 2 Total Combined Value: 209
-  Hashtags: formula1: 174, formulaone: 35
+music.n.04: 5 Total Combined Value: 235
+  Hashtags: music: 150, newmusic: 45, livemusic: 16, rockmusic: 13, musica: 11
+music.n.01: 5 Total Combined Value: 235
+  Hashtags: music: 150, newmusic: 45, livemusic: 16, rockmusic: 13, musica: 11
+music.n.03: 5 Total Combined Value: 235
+  Hashtags: music: 150, newmusic: 45, livemusic: 16, rockmusic: 13, musica: 11
 formula.n.01: 2 Total Combined Value: 209
   Hashtags: formula1: 174, formulaone: 35
-convention.n.02: 2 Total Combined Value: 209
-  Hashtags: formula1: 174, formulaone: 35
-formula.n.03: 2 Total Combined Value: 209
+formula.n.06: 2 Total Combined Value: 209
   Hashtags: formula1: 174, formulaone: 35
 rule.n.11: 2 Total Combined Value: 209
   Hashtags: formula1: 174, formulaone: 35
-formula.n.06: 2 Total Combined Value: 209
+formula.n.04: 2 Total Combined Value: 209
+  Hashtags: formula1: 174, formulaone: 35
+formula.n.03: 2 Total Combined Value: 209
+  Hashtags: formula1: 174, formulaone: 35
+convention.n.02: 2 Total Combined Value: 209
+  Hashtags: formula1: 174, formulaone: 35
+recipe.n.01: 2 Total Combined Value: 209
   Hashtags: formula1: 174, formulaone: 35
 gambling.n.01: 3 Total Combined Value: 198
   Hashtags: gaming: 143, gamingontiktok: 37, pcgaming: 18
 movie.n.01: 6 Total Combined Value: 144
   Hashtags: movie: 47, movies: 31, filmtok: 21, film: 20, movietok: 14, barbiemovie: 11
+print.v.04: 3 Total Combined Value: 140
+  Hashtags: 3dprinting: 86, 3dprinted: 34, 3dprint: 20
 print.v.01: 3 Total Combined Value: 140
   Hashtags: 3dprinting: 86, 3dprinted: 34, 3dprint: 20
 print.v.03: 3 Total Combined Value: 140
-  Hashtags: 3dprinting: 86, 3dprinted: 34, 3dprint: 20
-print.v.04: 3 Total Combined Value: 140
   Hashtags: 3dprinting: 86, 3dprinted: 34, 3dprint: 20
 print.v.02: 3 Total Combined Value: 140
   Hashtags: 3dprinting: 86, 3dprinted: 34, 3dprint: 20
@@ -84,55 +84,55 @@ engineer.v.01: 3 Total Combined Value: 110
   Hashtags: engineering: 85, engineer: 13, mechanicalengineering: 12
 engineering.n.03: 2 Total Combined Value: 97
   Hashtags: engineering: 85, mechanicalengineering: 12
-cat.n.01: 2 Total Combined Value: 97
-  Hashtags: catsoftiktok: 65, cats: 32
-computerized_tomography.n.01: 2 Total Combined Value: 97
-  Hashtags: catsoftiktok: 65, cats: 32
-caterpillar.n.02: 2 Total Combined Value: 97
-  Hashtags: catsoftiktok: 65, cats: 32
-vomit.v.01: 2 Total Combined Value: 97
-  Hashtags: catsoftiktok: 65, cats: 32
-cat.n.03: 2 Total Combined Value: 97
-  Hashtags: catsoftiktok: 65, cats: 32
-kat.n.01: 2 Total Combined Value: 97
-  Hashtags: catsoftiktok: 65, cats: 32
-guy.n.01: 2 Total Combined Value: 97
-  Hashtags: catsoftiktok: 65, cats: 32
-big_cat.n.01: 2 Total Combined Value: 97
+cat-o'-nine-tails.n.01: 2 Total Combined Value: 97
   Hashtags: catsoftiktok: 65, cats: 32
 cat.v.01: 2 Total Combined Value: 97
   Hashtags: catsoftiktok: 65, cats: 32
-cat-o'-nine-tails.n.01: 2 Total Combined Value: 97
+kat.n.01: 2 Total Combined Value: 97
+  Hashtags: catsoftiktok: 65, cats: 32
+vomit.v.01: 2 Total Combined Value: 97
+  Hashtags: catsoftiktok: 65, cats: 32
+caterpillar.n.02: 2 Total Combined Value: 97
+  Hashtags: catsoftiktok: 65, cats: 32
+cat.n.01: 2 Total Combined Value: 97
+  Hashtags: catsoftiktok: 65, cats: 32
+big_cat.n.01: 2 Total Combined Value: 97
+  Hashtags: catsoftiktok: 65, cats: 32
+guy.n.01: 2 Total Combined Value: 97
+  Hashtags: catsoftiktok: 65, cats: 32
+computerized_tomography.n.01: 2 Total Combined Value: 97
+  Hashtags: catsoftiktok: 65, cats: 32
+cat.n.03: 2 Total Combined Value: 97
   Hashtags: catsoftiktok: 65, cats: 32
 splay.s.01: 2 Total Combined Value: 91
   Hashtags: cosplay: 76, cosplayer: 15
+hearty.s.02: 2 Total Combined Value: 87
+  Hashtags: satisfying: 69, satisfyingvideo: 18
 meet.v.04: 2 Total Combined Value: 87
   Hashtags: satisfying: 69, satisfyingvideo: 18
 comforting.s.01: 2 Total Combined Value: 87
-  Hashtags: satisfying: 69, satisfyingvideo: 18
-hearty.s.02: 2 Total Combined Value: 87
   Hashtags: satisfying: 69, satisfyingvideo: 18
 satisfy.v.02: 2 Total Combined Value: 87
   Hashtags: satisfying: 69, satisfyingvideo: 18
 satisfy.v.01: 2 Total Combined Value: 87
   Hashtags: satisfying: 69, satisfyingvideo: 18
+printing.n.01: 1 Total Combined Value: 86
+  Hashtags: 3dprinting: 86
 printing.n.03: 1 Total Combined Value: 86
   Hashtags: 3dprinting: 86
 impression.n.06: 1 Total Combined Value: 86
   Hashtags: 3dprinting: 86
 printing.n.02: 1 Total Combined Value: 86
   Hashtags: 3dprinting: 86
-printing.n.01: 1 Total Combined Value: 86
-  Hashtags: 3dprinting: 86
 minecraft.s.1: 1 Total Combined Value: 80
   Hashtags: minecraft: 80
 mathematics.n.01: 3 Total Combined Value: 77
   Hashtags: math: 53, mathematics: 13, maths: 11
-turn_out.v.10: 1 Total Combined Value: 76
+splay.n.01: 1 Total Combined Value: 76
   Hashtags: cosplay: 76
 dislocate.v.01: 1 Total Combined Value: 76
   Hashtags: cosplay: 76
-splay.n.01: 1 Total Combined Value: 76
+turn_out.v.10: 1 Total Combined Value: 76
   Hashtags: cosplay: 76
 splay.v.01: 1 Total Combined Value: 76
   Hashtags: cosplay: 76
@@ -142,7 +142,7 @@ guitarist.n.01: 2 Total Combined Value: 70
   Hashtags: guitarist: 57, guitaristsoftiktok: 13
 animation.n.03: 1 Total Combined Value: 68
   Hashtags: animation: 68
-vivification.n.02: 1 Total Combined Value: 68
+animation.n.05: 1 Total Combined Value: 68
   Hashtags: animation: 68
 animation.n.01: 1 Total Combined Value: 68
   Hashtags: animation: 68
@@ -150,13 +150,13 @@ liveliness.n.01: 1 Total Combined Value: 68
   Hashtags: animation: 68
 animation.n.02: 1 Total Combined Value: 68
   Hashtags: animation: 68
-animation.n.05: 1 Total Combined Value: 68
+vivification.n.02: 1 Total Combined Value: 68
   Hashtags: animation: 68
 food.n.02: 3 Total Combined Value: 68
   Hashtags: food: 30, foodtok: 21, foodtiktok: 17
-food.n.01: 3 Total Combined Value: 68
-  Hashtags: food: 30, foodtok: 21, foodtiktok: 17
 food.n.03: 3 Total Combined Value: 68
+  Hashtags: food: 30, foodtok: 21, foodtiktok: 17
+food.n.01: 3 Total Combined Value: 68
   Hashtags: food: 30, foodtok: 21, foodtiktok: 17
 joke.n.01: 4 Total Combined Value: 66
   Hashtags: makeulaugh: 19, jokes: 18, joke: 17, trynottolaugh: 12
@@ -166,81 +166,81 @@ metalhead.n.01: 2 Total Combined Value: 63
   Hashtags: metalhead: 49, metalheads: 14
 history.n.02: 3 Total Combined Value: 63
   Hashtags: history: 33, storytime: 19, story: 11
+university.n.02: 2 Total Combined Value: 63
+  Hashtags: queensuniversity: 32, university: 31
 university.n.01: 2 Total Combined Value: 63
   Hashtags: queensuniversity: 32, university: 31
 university.n.03: 2 Total Combined Value: 63
   Hashtags: queensuniversity: 32, university: 31
-university.n.02: 2 Total Combined Value: 63
-  Hashtags: queensuniversity: 32, university: 31
+rock.v.02: 1 Total Combined Value: 61
+  Hashtags: rock: 61
 rock.n.01: 1 Total Combined Value: 61
-  Hashtags: rock: 61
-rock.v.01: 1 Total Combined Value: 61
-  Hashtags: rock: 61
-rock.n.07: 1 Total Combined Value: 61
   Hashtags: rock: 61
 rock_candy.n.01: 1 Total Combined Value: 61
   Hashtags: rock: 61
+rock.v.01: 1 Total Combined Value: 61
+  Hashtags: rock: 61
+rock_'n'_roll.n.01: 1 Total Combined Value: 61
+  Hashtags: rock: 61
 rock.n.02: 1 Total Combined Value: 61
+  Hashtags: rock: 61
+rock.n.07: 1 Total Combined Value: 61
   Hashtags: rock: 61
 rock.n.03: 1 Total Combined Value: 61
   Hashtags: rock: 61
 rock.n.04: 1 Total Combined Value: 61
   Hashtags: rock: 61
-rock.v.02: 1 Total Combined Value: 61
-  Hashtags: rock: 61
-rock_'n'_roll.n.01: 1 Total Combined Value: 61
-  Hashtags: rock: 61
 skywalk.n.01: 2 Total Combined Value: 61
   Hashtags: anakinskywalker: 49, lukeskywalker: 12
-doctor.n.04: 2 Total Combined Value: 58
-  Hashtags: doctorwho: 42, doctorwhotiktok: 16
-sophisticate.v.03: 2 Total Combined Value: 58
-  Hashtags: doctorwho: 42, doctorwhotiktok: 16
-doctor.n.03: 2 Total Combined Value: 58
+doctor_of_the_church.n.01: 2 Total Combined Value: 58
   Hashtags: doctorwho: 42, doctorwhotiktok: 16
 repair.v.01: 2 Total Combined Value: 58
   Hashtags: doctorwho: 42, doctorwhotiktok: 16
 doctor.v.02: 2 Total Combined Value: 58
   Hashtags: doctorwho: 42, doctorwhotiktok: 16
+sophisticate.v.03: 2 Total Combined Value: 58
+  Hashtags: doctorwho: 42, doctorwhotiktok: 16
 doctor.n.01: 2 Total Combined Value: 58
   Hashtags: doctorwho: 42, doctorwhotiktok: 16
-doctor_of_the_church.n.01: 2 Total Combined Value: 58
+doctor.n.04: 2 Total Combined Value: 58
   Hashtags: doctorwho: 42, doctorwhotiktok: 16
-office.n.04: 2 Total Combined Value: 56
-  Hashtags: powermetal: 36, powerwolf: 20
-power.n.02: 2 Total Combined Value: 56
-  Hashtags: powermetal: 36, powerwolf: 20
-power.n.01: 2 Total Combined Value: 56
-  Hashtags: powermetal: 36, powerwolf: 20
-power.v.01: 2 Total Combined Value: 56
-  Hashtags: powermetal: 36, powerwolf: 20
+doctor.n.03: 2 Total Combined Value: 58
+  Hashtags: doctorwho: 42, doctorwhotiktok: 16
 ability.n.02: 2 Total Combined Value: 56
   Hashtags: powermetal: 36, powerwolf: 20
 baron.n.03: 2 Total Combined Value: 56
-  Hashtags: powermetal: 36, powerwolf: 20
-might.n.01: 2 Total Combined Value: 56
   Hashtags: powermetal: 36, powerwolf: 20
 power.n.05: 2 Total Combined Value: 56
   Hashtags: powermetal: 36, powerwolf: 20
 exponent.n.03: 2 Total Combined Value: 56
   Hashtags: powermetal: 36, powerwolf: 20
+power.n.01: 2 Total Combined Value: 56
+  Hashtags: powermetal: 36, powerwolf: 20
+might.n.01: 2 Total Combined Value: 56
+  Hashtags: powermetal: 36, powerwolf: 20
+office.n.04: 2 Total Combined Value: 56
+  Hashtags: powermetal: 36, powerwolf: 20
 world_power.n.01: 2 Total Combined Value: 56
+  Hashtags: powermetal: 36, powerwolf: 20
+power.n.02: 2 Total Combined Value: 56
+  Hashtags: powermetal: 36, powerwolf: 20
+power.v.01: 2 Total Combined Value: 56
   Hashtags: powermetal: 36, powerwolf: 20
 musician.n.01: 2 Total Combined Value: 55
   Hashtags: musician: 34, musiciansoftiktok: 21
 musician.n.02: 2 Total Combined Value: 55
   Hashtags: musician: 34, musiciansoftiktok: 21
-race.v.03: 2 Total Combined Value: 55
+race.v.04: 2 Total Combined Value: 55
   Hashtags: racing: 28, redbullracing: 27
 race.v.02: 2 Total Combined Value: 55
   Hashtags: racing: 28, redbullracing: 27
-race.v.04: 2 Total Combined Value: 55
-  Hashtags: racing: 28, redbullracing: 27
 racing.n.01: 2 Total Combined Value: 55
   Hashtags: racing: 28, redbullracing: 27
-pilgrim.n.03: 3 Total Combined Value: 54
-  Hashtags: scottpilgrim: 26, scottpilgrimvstheworld: 16, scottpilgrimtakesoff: 12
+race.v.03: 2 Total Combined Value: 55
+  Hashtags: racing: 28, redbullracing: 27
 pilgrim.n.02: 3 Total Combined Value: 54
+  Hashtags: scottpilgrim: 26, scottpilgrimvstheworld: 16, scottpilgrimtakesoff: 12
+pilgrim.n.03: 3 Total Combined Value: 54
   Hashtags: scottpilgrim: 26, scottpilgrimvstheworld: 16, scottpilgrimtakesoff: 12
 pilgrim.n.01: 3 Total Combined Value: 54
   Hashtags: scottpilgrim: 26, scottpilgrimvstheworld: 16, scottpilgrimtakesoff: 12
@@ -252,125 +252,125 @@ ring.v.06: 2 Total Combined Value: 53
   Hashtags: lordoftherings: 40, band: 13
 cram.v.03: 2 Total Combined Value: 53
   Hashtags: drums: 38, drumming: 15
-drum.v.02: 2 Total Combined Value: 53
-  Hashtags: drums: 38, drumming: 15
 drum.v.01: 2 Total Combined Value: 53
   Hashtags: drums: 38, drumming: 15
-little.a.02: 1 Total Combined Value: 52
+drum.v.02: 2 Total Combined Value: 53
+  Hashtags: drums: 38, drumming: 15
+little.n.01: 1 Total Combined Value: 52
   Hashtags: mylittlepony: 52
 little.s.07: 1 Total Combined Value: 52
   Hashtags: mylittlepony: 52
+little.r.01: 1 Total Combined Value: 52
+  Hashtags: mylittlepony: 52
+little.a.02: 1 Total Combined Value: 52
+  Hashtags: mylittlepony: 52
 fiddling.s.01: 1 Total Combined Value: 52
+  Hashtags: mylittlepony: 52
+little.s.03: 1 Total Combined Value: 52
   Hashtags: mylittlepony: 52
 small.a.01: 1 Total Combined Value: 52
   Hashtags: mylittlepony: 52
 little.s.05: 1 Total Combined Value: 52
   Hashtags: mylittlepony: 52
-little.r.01: 1 Total Combined Value: 52
-  Hashtags: mylittlepony: 52
-little.n.01: 1 Total Combined Value: 52
-  Hashtags: mylittlepony: 52
-little.s.03: 1 Total Combined Value: 52
-  Hashtags: mylittlepony: 52
 short.a.03: 1 Total Combined Value: 52
   Hashtags: mylittlepony: 52
 little.s.08: 1 Total Combined Value: 52
   Hashtags: mylittlepony: 52
-college.n.01: 2 Total Combined Value: 52
-  Hashtags: college: 37, collegelife: 15
 college.n.03: 2 Total Combined Value: 52
+  Hashtags: college: 37, collegelife: 15
+college.n.01: 2 Total Combined Value: 52
   Hashtags: college: 37, collegelife: 15
 college.n.02: 2 Total Combined Value: 52
   Hashtags: college: 37, collegelife: 15
-bull's_eye.n.02: 1 Total Combined Value: 50
+bull.n.06: 1 Total Combined Value: 50
+  Hashtags: redbull: 50
+bull.v.02: 1 Total Combined Value: 50
+  Hashtags: redbull: 50
+bull.n.01: 1 Total Combined Value: 50
+  Hashtags: redbull: 50
+bull.n.05: 1 Total Combined Value: 50
   Hashtags: redbull: 50
 bull.v.01: 1 Total Combined Value: 50
+  Hashtags: redbull: 50
+bullshit.n.01: 1 Total Combined Value: 50
+  Hashtags: redbull: 50
+talk_through_one's_hat.v.01: 1 Total Combined Value: 50
+  Hashtags: redbull: 50
+bull.n.04: 1 Total Combined Value: 50
   Hashtags: redbull: 50
 taurus.n.04: 1 Total Combined Value: 50
   Hashtags: redbull: 50
 bull.v.04: 1 Total Combined Value: 50
   Hashtags: redbull: 50
-bull.n.01: 1 Total Combined Value: 50
-  Hashtags: redbull: 50
-bull.n.04: 1 Total Combined Value: 50
-  Hashtags: redbull: 50
-bull.n.11: 1 Total Combined Value: 50
-  Hashtags: redbull: 50
-bull.n.10: 1 Total Combined Value: 50
-  Hashtags: redbull: 50
-bullshit.n.01: 1 Total Combined Value: 50
-  Hashtags: redbull: 50
-bull.n.05: 1 Total Combined Value: 50
-  Hashtags: redbull: 50
-bull.n.06: 1 Total Combined Value: 50
+bull's_eye.n.02: 1 Total Combined Value: 50
   Hashtags: redbull: 50
 bull.n.02: 1 Total Combined Value: 50
   Hashtags: redbull: 50
+bull.n.10: 1 Total Combined Value: 50
+  Hashtags: redbull: 50
+bull.n.11: 1 Total Combined Value: 50
+  Hashtags: redbull: 50
 taurus.n.02: 1 Total Combined Value: 50
   Hashtags: redbull: 50
-bull.v.02: 1 Total Combined Value: 50
-  Hashtags: redbull: 50
-talk_through_one's_hat.v.01: 1 Total Combined Value: 50
-  Hashtags: redbull: 50
-heavy.s.20: 1 Total Combined Value: 49
-  Hashtags: heavymetal: 49
-heavy.s.23: 1 Total Combined Value: 49
-  Hashtags: heavymetal: 49
-fleshy.s.01: 1 Total Combined Value: 49
-  Hashtags: heavymetal: 49
-heavy.a.09: 1 Total Combined Value: 49
-  Hashtags: heavymetal: 49
-dense.s.01: 1 Total Combined Value: 49
-  Hashtags: heavymetal: 49
-big.s.06: 1 Total Combined Value: 49
-  Hashtags: heavymetal: 49
-heavy.s.26: 1 Total Combined Value: 49
-  Hashtags: heavymetal: 49
-heavy.n.01: 1 Total Combined Value: 49
+heavy.s.12: 1 Total Combined Value: 49
   Hashtags: heavymetal: 49
 arduous.s.01: 1 Total Combined Value: 49
   Hashtags: heavymetal: 49
+heavy.s.26: 1 Total Combined Value: 49
+  Hashtags: heavymetal: 49
 big.s.13: 1 Total Combined Value: 49
-  Hashtags: heavymetal: 49
-heavy.a.02: 1 Total Combined Value: 49
-  Hashtags: heavymetal: 49
-heavy.s.19: 1 Total Combined Value: 49
-  Hashtags: heavymetal: 49
-heavy.a.08: 1 Total Combined Value: 49
-  Hashtags: heavymetal: 49
-heavy.s.25: 1 Total Combined Value: 49
-  Hashtags: heavymetal: 49
-heavy.a.03: 1 Total Combined Value: 49
-  Hashtags: heavymetal: 49
-heavy.s.22: 1 Total Combined Value: 49
-  Hashtags: heavymetal: 49
-heavy.a.01: 1 Total Combined Value: 49
-  Hashtags: heavymetal: 49
-intemperate.s.03: 1 Total Combined Value: 49
-  Hashtags: heavymetal: 49
-heavy.s.10: 1 Total Combined Value: 49
   Hashtags: heavymetal: 49
 heavy.a.04: 1 Total Combined Value: 49
   Hashtags: heavymetal: 49
-heavy.r.01: 1 Total Combined Value: 49
+dense.s.01: 1 Total Combined Value: 49
   Hashtags: heavymetal: 49
-clayey.s.02: 1 Total Combined Value: 49
+intemperate.s.03: 1 Total Combined Value: 49
   Hashtags: heavymetal: 49
-heavy.s.18: 1 Total Combined Value: 49
+heavy.s.20: 1 Total Combined Value: 49
   Hashtags: heavymetal: 49
-heavy.s.15: 1 Total Combined Value: 49
+heavy.a.01: 1 Total Combined Value: 49
   Hashtags: heavymetal: 49
 heavy.s.13: 1 Total Combined Value: 49
   Hashtags: heavymetal: 49
-grave.s.03: 1 Total Combined Value: 49
-  Hashtags: heavymetal: 49
-heavy.s.07: 1 Total Combined Value: 49
-  Hashtags: heavymetal: 49
 heavy.n.02: 1 Total Combined Value: 49
+  Hashtags: heavymetal: 49
+heavy.r.01: 1 Total Combined Value: 49
+  Hashtags: heavymetal: 49
+heavy.a.08: 1 Total Combined Value: 49
+  Hashtags: heavymetal: 49
+heavy.s.23: 1 Total Combined Value: 49
+  Hashtags: heavymetal: 49
+heavy.a.09: 1 Total Combined Value: 49
+  Hashtags: heavymetal: 49
+fleshy.s.01: 1 Total Combined Value: 49
+  Hashtags: heavymetal: 49
+heavy.s.22: 1 Total Combined Value: 49
+  Hashtags: heavymetal: 49
+heavy.s.25: 1 Total Combined Value: 49
+  Hashtags: heavymetal: 49
+heavy.s.18: 1 Total Combined Value: 49
+  Hashtags: heavymetal: 49
+heavy.s.10: 1 Total Combined Value: 49
   Hashtags: heavymetal: 49
 heavy.s.21: 1 Total Combined Value: 49
   Hashtags: heavymetal: 49
-heavy.s.12: 1 Total Combined Value: 49
+heavy.s.07: 1 Total Combined Value: 49
+  Hashtags: heavymetal: 49
+heavy.a.02: 1 Total Combined Value: 49
+  Hashtags: heavymetal: 49
+heavy.n.01: 1 Total Combined Value: 49
+  Hashtags: heavymetal: 49
+heavy.a.03: 1 Total Combined Value: 49
+  Hashtags: heavymetal: 49
+grave.s.03: 1 Total Combined Value: 49
+  Hashtags: heavymetal: 49
+clayey.s.02: 1 Total Combined Value: 49
+  Hashtags: heavymetal: 49
+heavy.s.19: 1 Total Combined Value: 49
+  Hashtags: heavymetal: 49
+heavy.s.15: 1 Total Combined Value: 49
+  Hashtags: heavymetal: 49
+big.s.06: 1 Total Combined Value: 49
   Hashtags: heavymetal: 49
 canada.n.01: 1 Total Combined Value: 48
   Hashtags: canada: 48
@@ -384,37 +384,37 @@ science.n.01: 1 Total Combined Value: 47
   Hashtags: science: 47
 disney.n.01: 1 Total Combined Value: 46
   Hashtags: disney: 46
-twitch.v.05: 2 Total Combined Value: 46
-  Hashtags: twitch: 35, cdawgvatwitch: 11
-twitch.v.01: 2 Total Combined Value: 46
-  Hashtags: twitch: 35, cdawgvatwitch: 11
-flip.v.04: 2 Total Combined Value: 46
-  Hashtags: twitch: 35, cdawgvatwitch: 11
 twitch.n.01: 2 Total Combined Value: 46
   Hashtags: twitch: 35, cdawgvatwitch: 11
 jerk.v.02: 2 Total Combined Value: 46
   Hashtags: twitch: 35, cdawgvatwitch: 11
+twitch.v.01: 2 Total Combined Value: 46
+  Hashtags: twitch: 35, cdawgvatwitch: 11
 pinch.v.01: 2 Total Combined Value: 46
   Hashtags: twitch: 35, cdawgvatwitch: 11
+flip.v.04: 2 Total Combined Value: 46
+  Hashtags: twitch: 35, cdawgvatwitch: 11
+twitch.v.05: 2 Total Combined Value: 46
+  Hashtags: twitch: 35, cdawgvatwitch: 11
+slide.n.06: 1 Total Combined Value: 45
+  Hashtags: slideshow: 45
+slide.n.01: 1 Total Combined Value: 45
+  Hashtags: slideshow: 45
+slide.n.04: 1 Total Combined Value: 45
+  Hashtags: slideshow: 45
 swoop.n.01: 1 Total Combined Value: 45
   Hashtags: slideshow: 45
-slide.n.06: 1 Total Combined Value: 45
+slither.v.01: 1 Total Combined Value: 45
+  Hashtags: slideshow: 45
+slide.v.03: 1 Total Combined Value: 45
+  Hashtags: slideshow: 45
+slide.n.02: 1 Total Combined Value: 45
   Hashtags: slideshow: 45
 chute.n.02: 1 Total Combined Value: 45
   Hashtags: slideshow: 45
 slide.n.05: 1 Total Combined Value: 45
   Hashtags: slideshow: 45
 skid.v.04: 1 Total Combined Value: 45
-  Hashtags: slideshow: 45
-slide.n.01: 1 Total Combined Value: 45
-  Hashtags: slideshow: 45
-slide.n.02: 1 Total Combined Value: 45
-  Hashtags: slideshow: 45
-slither.v.01: 1 Total Combined Value: 45
-  Hashtags: slideshow: 45
-slide.n.04: 1 Total Combined Value: 45
-  Hashtags: slideshow: 45
-slide.v.03: 1 Total Combined Value: 45
   Hashtags: slideshow: 45
 draw.v.04: 2 Total Combined Value: 45
   Hashtags: drawing: 26, filmmaking: 19
@@ -432,21 +432,17 @@ streamer.n.02: 2 Total Combined Value: 43
   Hashtags: streamer: 32, twitchstreamer: 11
 streamer.n.01: 2 Total Combined Value: 43
   Hashtags: streamer: 32, twitchstreamer: 11
-banner.n.01: 2 Total Combined Value: 43
-  Hashtags: streamer: 32, twitchstreamer: 11
 pennant.n.03: 2 Total Combined Value: 43
   Hashtags: streamer: 32, twitchstreamer: 11
-fun.n.02: 1 Total Combined Value: 42
-  Hashtags: sports: 42
-sport.v.01: 1 Total Combined Value: 42
-  Hashtags: sports: 42
+banner.n.01: 2 Total Combined Value: 43
+  Hashtags: streamer: 32, twitchstreamer: 11
 mutant.n.01: 1 Total Combined Value: 42
   Hashtags: sports: 42
 sport.n.01: 1 Total Combined Value: 42
   Hashtags: sports: 42
 sport.n.05: 1 Total Combined Value: 42
   Hashtags: sports: 42
-sport.n.04: 1 Total Combined Value: 42
+sport.v.01: 1 Total Combined Value: 42
   Hashtags: sports: 42
 frolic.v.01: 1 Total Combined Value: 42
   Hashtags: sports: 42
@@ -454,31 +450,35 @@ sport.n.02: 1 Total Combined Value: 42
   Hashtags: sports: 42
 sport.n.03: 1 Total Combined Value: 42
   Hashtags: sports: 42
-real_number.n.01: 1 Total Combined Value: 42
+fun.n.02: 1 Total Combined Value: 42
+  Hashtags: sports: 42
+sport.n.04: 1 Total Combined Value: 42
+  Hashtags: sports: 42
+real.s.04: 1 Total Combined Value: 42
   Hashtags: real: 42
-real.n.02: 1 Total Combined Value: 42
-  Hashtags: real: 42
-real.s.03: 1 Total Combined Value: 42
-  Hashtags: real: 42
-actual.s.03: 1 Total Combined Value: 42
-  Hashtags: real: 42
-real.a.06: 1 Total Combined Value: 42
-  Hashtags: real: 42
-real.n.03: 1 Total Combined Value: 42
-  Hashtags: real: 42
-substantial.a.03: 1 Total Combined Value: 42
+real.a.02: 1 Total Combined Value: 42
   Hashtags: real: 42
 very.r.01: 1 Total Combined Value: 42
   Hashtags: real: 42
-real.s.08: 1 Total Combined Value: 42
-  Hashtags: real: 42
-real.s.04: 1 Total Combined Value: 42
-  Hashtags: real: 42
-veridical.s.01: 1 Total Combined Value: 42
+real.n.03: 1 Total Combined Value: 42
   Hashtags: real: 42
 real.a.01: 1 Total Combined Value: 42
   Hashtags: real: 42
-real.a.02: 1 Total Combined Value: 42
+real.s.08: 1 Total Combined Value: 42
+  Hashtags: real: 42
+actual.s.03: 1 Total Combined Value: 42
+  Hashtags: real: 42
+real.s.03: 1 Total Combined Value: 42
+  Hashtags: real: 42
+substantial.a.03: 1 Total Combined Value: 42
+  Hashtags: real: 42
+real.n.02: 1 Total Combined Value: 42
+  Hashtags: real: 42
+real_number.n.01: 1 Total Combined Value: 42
+  Hashtags: real: 42
+real.a.06: 1 Total Combined Value: 42
+  Hashtags: real: 42
+veridical.s.01: 1 Total Combined Value: 42
   Hashtags: real: 42
 landon.s.1: 1 Total Combined Value: 42
   Hashtags: landonorris: 42
@@ -488,15 +488,21 @@ game.s.02: 2 Total Combined Value: 42
   Hashtags: game: 28, gamer: 14
 space.n.01: 2 Total Combined Value: 42
   Hashtags: space: 27, infinitecraft: 15
-nibble.v.03: 1 Total Combined Value: 41
+piece.n.09: 1 Total Combined Value: 41
+  Hashtags: onepiece: 41
+musical_composition.n.01: 1 Total Combined Value: 41
   Hashtags: onepiece: 41
 piece.n.02: 1 Total Combined Value: 41
   Hashtags: onepiece: 41
 assemble.v.01: 1 Total Combined Value: 41
   Hashtags: onepiece: 41
-musical_composition.n.01: 1 Total Combined Value: 41
-  Hashtags: onepiece: 41
 part.n.03: 1 Total Combined Value: 41
+  Hashtags: onepiece: 41
+piece.n.08: 1 Total Combined Value: 41
+  Hashtags: onepiece: 41
+objet_d'art.n.01: 1 Total Combined Value: 41
+  Hashtags: onepiece: 41
+while.n.01: 1 Total Combined Value: 41
   Hashtags: onepiece: 41
 man.n.10: 1 Total Combined Value: 41
   Hashtags: onepiece: 41
@@ -504,109 +510,107 @@ slice.n.01: 1 Total Combined Value: 41
   Hashtags: onepiece: 41
 patch.v.01: 1 Total Combined Value: 41
   Hashtags: onepiece: 41
-piece.n.09: 1 Total Combined Value: 41
-  Hashtags: onepiece: 41
-piece.v.03: 1 Total Combined Value: 41
-  Hashtags: onepiece: 41
 piece.n.01: 1 Total Combined Value: 41
-  Hashtags: onepiece: 41
-piece.n.06: 1 Total Combined Value: 41
-  Hashtags: onepiece: 41
-firearm.n.01: 1 Total Combined Value: 41
-  Hashtags: onepiece: 41
-while.n.01: 1 Total Combined Value: 41
   Hashtags: onepiece: 41
 piece.v.05: 1 Total Combined Value: 41
   Hashtags: onepiece: 41
-piece.n.08: 1 Total Combined Value: 41
+piece.v.03: 1 Total Combined Value: 41
   Hashtags: onepiece: 41
 piece.n.05: 1 Total Combined Value: 41
   Hashtags: onepiece: 41
-objet_d'art.n.01: 1 Total Combined Value: 41
+firearm.n.01: 1 Total Combined Value: 41
   Hashtags: onepiece: 41
-metallic.n.01: 1 Total Combined Value: 41
-  Hashtags: metallica: 41
+nibble.v.03: 1 Total Combined Value: 41
+  Hashtags: onepiece: 41
+piece.n.06: 1 Total Combined Value: 41
+  Hashtags: onepiece: 41
 metallic.n.02: 1 Total Combined Value: 41
   Hashtags: metallica: 41
+metallic.n.01: 1 Total Combined Value: 41
+  Hashtags: metallica: 41
 sponge.n.01: 2 Total Combined Value: 41
+  Hashtags: spongebob: 30, spongebobsquarepants: 11
+sponge.v.03: 2 Total Combined Value: 41
+  Hashtags: spongebob: 30, spongebobsquarepants: 11
+sponge.v.04: 2 Total Combined Value: 41
+  Hashtags: spongebob: 30, spongebobsquarepants: 11
+quick_study.n.01: 2 Total Combined Value: 41
   Hashtags: spongebob: 30, spongebobsquarepants: 11
 mooch.v.01: 2 Total Combined Value: 41
   Hashtags: spongebob: 30, spongebobsquarepants: 11
 sponge.v.05: 2 Total Combined Value: 41
   Hashtags: spongebob: 30, spongebobsquarepants: 11
-sponge.v.04: 2 Total Combined Value: 41
-  Hashtags: spongebob: 30, spongebobsquarepants: 11
-leech.n.02: 2 Total Combined Value: 41
-  Hashtags: spongebob: 30, spongebobsquarepants: 11
-sponge.v.03: 2 Total Combined Value: 41
-  Hashtags: spongebob: 30, spongebobsquarepants: 11
-quick_study.n.01: 2 Total Combined Value: 41
-  Hashtags: spongebob: 30, spongebobsquarepants: 11
 sponge.v.01: 2 Total Combined Value: 41
   Hashtags: spongebob: 30, spongebobsquarepants: 11
 sponge.n.04: 2 Total Combined Value: 41
   Hashtags: spongebob: 30, spongebobsquarepants: 11
+leech.n.02: 2 Total Combined Value: 41
+  Hashtags: spongebob: 30, spongebobsquarepants: 11
 drive.v.02: 2 Total Combined Value: 41
   Hashtags: motorsport: 29, beamngdrive: 12
-game.n.09: 2 Total Combined Value: 41
-  Hashtags: game: 28, games: 13
-game.n.05: 2 Total Combined Value: 41
+game.n.03: 2 Total Combined Value: 41
   Hashtags: game: 28, games: 13
 game.n.11: 2 Total Combined Value: 41
   Hashtags: game: 28, games: 13
-game.n.06: 2 Total Combined Value: 41
-  Hashtags: game: 28, games: 13
-game.n.03: 2 Total Combined Value: 41
-  Hashtags: game: 28, games: 13
-game.n.04: 2 Total Combined Value: 41
-  Hashtags: game: 28, games: 13
 game.n.02: 2 Total Combined Value: 41
-  Hashtags: game: 28, games: 13
-game.n.01: 2 Total Combined Value: 41
   Hashtags: game: 28, games: 13
 game.n.10: 2 Total Combined Value: 41
   Hashtags: game: 28, games: 13
-plot.n.01: 2 Total Combined Value: 41
+game.n.01: 2 Total Combined Value: 41
+  Hashtags: game: 28, games: 13
+game.n.09: 2 Total Combined Value: 41
   Hashtags: game: 28, games: 13
 game.n.07: 2 Total Combined Value: 41
   Hashtags: game: 28, games: 13
-loon.n.02: 2 Total Combined Value: 41
+plot.n.01: 2 Total Combined Value: 41
+  Hashtags: game: 28, games: 13
+game.n.05: 2 Total Combined Value: 41
+  Hashtags: game: 28, games: 13
+game.n.06: 2 Total Combined Value: 41
+  Hashtags: game: 28, games: 13
+game.n.04: 2 Total Combined Value: 41
+  Hashtags: game: 28, games: 13
+diver.n.01: 2 Total Combined Value: 41
   Hashtags: helldivers2: 27, helldivers: 14
 diver.n.02: 2 Total Combined Value: 41
   Hashtags: helldivers2: 27, helldivers: 14
-diver.n.01: 2 Total Combined Value: 41
-  Hashtags: helldivers2: 27, helldivers: 14
 divers.s.01: 2 Total Combined Value: 41
+  Hashtags: helldivers2: 27, helldivers: 14
+loon.n.02: 2 Total Combined Value: 41
   Hashtags: helldivers2: 27, helldivers: 14
 film.n.05: 2 Total Combined Value: 41
   Hashtags: filmtok: 21, film: 20
+film.v.01: 2 Total Combined Value: 41
+  Hashtags: filmtok: 21, film: 20
 film.n.04: 2 Total Combined Value: 41
+  Hashtags: filmtok: 21, film: 20
+film.n.02: 2 Total Combined Value: 41
   Hashtags: filmtok: 21, film: 20
 film.v.02: 2 Total Combined Value: 41
   Hashtags: filmtok: 21, film: 20
 film.n.03: 2 Total Combined Value: 41
   Hashtags: filmtok: 21, film: 20
-film.v.01: 2 Total Combined Value: 41
-  Hashtags: filmtok: 21, film: 20
-film.n.02: 2 Total Combined Value: 41
-  Hashtags: filmtok: 21, film: 20
 dance.n.01: 1 Total Combined Value: 40
-  Hashtags: dance: 40
-dance.v.01: 1 Total Combined Value: 40
-  Hashtags: dance: 40
-dancing.n.01: 1 Total Combined Value: 40
   Hashtags: dance: 40
 dance.v.02: 1 Total Combined Value: 40
   Hashtags: dance: 40
 dance.v.03: 1 Total Combined Value: 40
   Hashtags: dance: 40
+dancing.n.01: 1 Total Combined Value: 40
+  Hashtags: dance: 40
 dance.n.04: 1 Total Combined Value: 40
+  Hashtags: dance: 40
+dance.v.01: 1 Total Combined Value: 40
   Hashtags: dance: 40
 dance.n.02: 1 Total Combined Value: 40
   Hashtags: dance: 40
+hoop.n.02: 1 Total Combined Value: 40
+  Hashtags: lordoftherings: 40
 call.v.03: 1 Total Combined Value: 40
   Hashtags: lordoftherings: 40
-ring.v.03: 1 Total Combined Value: 40
+ring.n.06: 1 Total Combined Value: 40
+  Hashtags: lordoftherings: 40
+ring.n.07: 1 Total Combined Value: 40
   Hashtags: lordoftherings: 40
 ring.n.02: 1 Total Combined Value: 40
   Hashtags: lordoftherings: 40
@@ -614,151 +618,147 @@ resound.v.01: 1 Total Combined Value: 40
   Hashtags: lordoftherings: 40
 closed_chain.n.01: 1 Total Combined Value: 40
   Hashtags: lordoftherings: 40
-ring.n.06: 1 Total Combined Value: 40
-  Hashtags: lordoftherings: 40
-hoop.n.02: 1 Total Combined Value: 40
+ring.v.03: 1 Total Combined Value: 40
   Hashtags: lordoftherings: 40
 ring.v.01: 1 Total Combined Value: 40
+  Hashtags: lordoftherings: 40
+gang.n.01: 1 Total Combined Value: 40
   Hashtags: lordoftherings: 40
 surround.v.01: 1 Total Combined Value: 40
   Hashtags: lordoftherings: 40
 ring.n.01: 1 Total Combined Value: 40
   Hashtags: lordoftherings: 40
-ring.n.07: 1 Total Combined Value: 40
-  Hashtags: lordoftherings: 40
-gang.n.01: 1 Total Combined Value: 40
-  Hashtags: lordoftherings: 40
 rings.n.01: 1 Total Combined Value: 40
   Hashtags: lordoftherings: 40
-traverse.v.01: 2 Total Combined Value: 40
+cover.n.09: 2 Total Combined Value: 40
   Hashtags: cover: 28, aicover: 12
-cover.n.10: 2 Total Combined Value: 40
+cover.v.16: 2 Total Combined Value: 40
   Hashtags: cover: 28, aicover: 12
-cover.v.24: 2 Total Combined Value: 40
+cover.v.12: 2 Total Combined Value: 40
+  Hashtags: cover: 28, aicover: 12
+blanket.n.01: 2 Total Combined Value: 40
+  Hashtags: cover: 28, aicover: 12
+cover.n.07: 2 Total Combined Value: 40
   Hashtags: cover: 28, aicover: 12
 report.v.05: 2 Total Combined Value: 40
   Hashtags: cover: 28, aicover: 12
-cover.v.09: 2 Total Combined Value: 40
+cover.v.19: 2 Total Combined Value: 40
   Hashtags: cover: 28, aicover: 12
-cover.v.10: 2 Total Combined Value: 40
+cover.v.02: 2 Total Combined Value: 40
   Hashtags: cover: 28, aicover: 12
-cover.v.17: 2 Total Combined Value: 40
+traverse.v.01: 2 Total Combined Value: 40
+  Hashtags: cover: 28, aicover: 12
+cover_charge.n.01: 2 Total Combined Value: 40
+  Hashtags: cover: 28, aicover: 12
+cover.v.11: 2 Total Combined Value: 40
+  Hashtags: cover: 28, aicover: 12
+cover.v.13: 2 Total Combined Value: 40
+  Hashtags: cover: 28, aicover: 12
+embrace.v.01: 2 Total Combined Value: 40
   Hashtags: cover: 28, aicover: 12
 cover.v.18: 2 Total Combined Value: 40
+  Hashtags: cover: 28, aicover: 12
+cover.v.04: 2 Total Combined Value: 40
+  Hashtags: cover: 28, aicover: 12
+covering.n.01: 2 Total Combined Value: 40
+  Hashtags: cover: 28, aicover: 12
+cover.v.24: 2 Total Combined Value: 40
+  Hashtags: cover: 28, aicover: 12
+cover.v.09: 2 Total Combined Value: 40
   Hashtags: cover: 28, aicover: 12
 cover.v.15: 2 Total Combined Value: 40
   Hashtags: cover: 28, aicover: 12
 cover.v.03: 2 Total Combined Value: 40
   Hashtags: cover: 28, aicover: 12
-cover.v.12: 2 Total Combined Value: 40
-  Hashtags: cover: 28, aicover: 12
-cover.v.19: 2 Total Combined Value: 40
-  Hashtags: cover: 28, aicover: 12
-blanket.n.01: 2 Total Combined Value: 40
-  Hashtags: cover: 28, aicover: 12
-cover.n.03: 2 Total Combined Value: 40
-  Hashtags: cover: 28, aicover: 12
 cover.v.01: 2 Total Combined Value: 40
   Hashtags: cover: 28, aicover: 12
-top.n.09: 2 Total Combined Value: 40
-  Hashtags: cover: 28, aicover: 12
-brood.v.05: 2 Total Combined Value: 40
-  Hashtags: cover: 28, aicover: 12
-cover.v.16: 2 Total Combined Value: 40
-  Hashtags: cover: 28, aicover: 12
-cover.v.26: 2 Total Combined Value: 40
-  Hashtags: cover: 28, aicover: 12
-cover.n.09: 2 Total Combined Value: 40
-  Hashtags: cover: 28, aicover: 12
-cover.v.11: 2 Total Combined Value: 40
-  Hashtags: cover: 28, aicover: 12
-cover.n.07: 2 Total Combined Value: 40
-  Hashtags: cover: 28, aicover: 12
-shroud.v.01: 2 Total Combined Value: 40
-  Hashtags: cover: 28, aicover: 12
-cover.v.05: 2 Total Combined Value: 40
-  Hashtags: cover: 28, aicover: 12
-cover_charge.n.01: 2 Total Combined Value: 40
-  Hashtags: cover: 28, aicover: 12
-binding.n.05: 2 Total Combined Value: 40
-  Hashtags: cover: 28, aicover: 12
-cover.v.13: 2 Total Combined Value: 40
-  Hashtags: cover: 28, aicover: 12
-cover.v.04: 2 Total Combined Value: 40
+cover.v.17: 2 Total Combined Value: 40
   Hashtags: cover: 28, aicover: 12
 cover.v.14: 2 Total Combined Value: 40
   Hashtags: cover: 28, aicover: 12
-embrace.v.01: 2 Total Combined Value: 40
-  Hashtags: cover: 28, aicover: 12
-overlay.v.01: 2 Total Combined Value: 40
+breed.v.02: 2 Total Combined Value: 40
   Hashtags: cover: 28, aicover: 12
 cover.v.23: 2 Total Combined Value: 40
   Hashtags: cover: 28, aicover: 12
-covering.n.01: 2 Total Combined Value: 40
+cover.v.10: 2 Total Combined Value: 40
   Hashtags: cover: 28, aicover: 12
-breed.v.02: 2 Total Combined Value: 40
+top.n.09: 2 Total Combined Value: 40
   Hashtags: cover: 28, aicover: 12
-cover.v.02: 2 Total Combined Value: 40
+binding.n.05: 2 Total Combined Value: 40
   Hashtags: cover: 28, aicover: 12
 screen.n.04: 2 Total Combined Value: 40
   Hashtags: cover: 28, aicover: 12
+cover.n.03: 2 Total Combined Value: 40
+  Hashtags: cover: 28, aicover: 12
+shroud.v.01: 2 Total Combined Value: 40
+  Hashtags: cover: 28, aicover: 12
+overlay.v.01: 2 Total Combined Value: 40
+  Hashtags: cover: 28, aicover: 12
+brood.v.05: 2 Total Combined Value: 40
+  Hashtags: cover: 28, aicover: 12
+cover.v.26: 2 Total Combined Value: 40
+  Hashtags: cover: 28, aicover: 12
+cover.n.10: 2 Total Combined Value: 40
+  Hashtags: cover: 28, aicover: 12
+cover.v.05: 2 Total Combined Value: 40
+  Hashtags: cover: 28, aicover: 12
 news_program.n.01: 1 Total Combined Value: 39
-  Hashtags: news: 39
-news.n.04: 1 Total Combined Value: 39
-  Hashtags: news: 39
-newsworthiness.n.01: 1 Total Combined Value: 39
   Hashtags: news: 39
 news.n.01: 1 Total Combined Value: 39
   Hashtags: news: 39
+newsworthiness.n.01: 1 Total Combined Value: 39
+  Hashtags: news: 39
 news.n.02: 1 Total Combined Value: 39
+  Hashtags: news: 39
+news.n.04: 1 Total Combined Value: 39
   Hashtags: news: 39
 vision.n.05: 2 Total Combined Value: 39
   Hashtags: eurovision: 21, eurovision2024: 18
-vision.n.03: 2 Total Combined Value: 39
-  Hashtags: eurovision: 21, eurovision2024: 18
 sight.n.03: 2 Total Combined Value: 39
   Hashtags: eurovision: 21, eurovision2024: 18
-imagination.n.01: 2 Total Combined Value: 39
+vision.n.03: 2 Total Combined Value: 39
   Hashtags: eurovision: 21, eurovision2024: 18
 vision.n.01: 2 Total Combined Value: 39
   Hashtags: eurovision: 21, eurovision2024: 18
+imagination.n.01: 2 Total Combined Value: 39
+  Hashtags: eurovision: 21, eurovision2024: 18
 drum.n.01: 1 Total Combined Value: 38
   Hashtags: drums: 38
-brake_drum.n.01: 1 Total Combined Value: 38
-  Hashtags: drums: 38
-drum.n.02: 1 Total Combined Value: 38
+drum.n.04: 1 Total Combined Value: 38
   Hashtags: drums: 38
 drum.n.06: 1 Total Combined Value: 38
   Hashtags: drums: 38
-drum.n.04: 1 Total Combined Value: 38
+drum.n.02: 1 Total Combined Value: 38
+  Hashtags: drums: 38
+brake_drum.n.01: 1 Total Combined Value: 38
   Hashtags: drums: 38
 barrel.n.03: 1 Total Combined Value: 38
   Hashtags: drums: 38
 clone.n.02: 1 Total Combined Value: 38
   Hashtags: clonewars: 38
-ringer.n.02: 1 Total Combined Value: 38
-  Hashtags: clonewars: 38
 clone.v.01: 1 Total Combined Value: 38
   Hashtags: clonewars: 38
 knockoff.n.01: 1 Total Combined Value: 38
   Hashtags: clonewars: 38
-promise.n.02: 1 Total Combined Value: 38
-  Hashtags: hopecore: 38
-hope.n.05: 1 Total Combined Value: 38
-  Hashtags: hopecore: 38
+ringer.n.02: 1 Total Combined Value: 38
+  Hashtags: clonewars: 38
 hope.n.02: 1 Total Combined Value: 38
-  Hashtags: hopecore: 38
-hope.n.04: 1 Total Combined Value: 38
-  Hashtags: hopecore: 38
-hope.v.02: 1 Total Combined Value: 38
-  Hashtags: hopecore: 38
-hope.v.01: 1 Total Combined Value: 38
   Hashtags: hopecore: 38
 hope.n.01: 1 Total Combined Value: 38
   Hashtags: hopecore: 38
+hope.n.06: 1 Total Combined Value: 38
+  Hashtags: hopecore: 38
+hope.n.05: 1 Total Combined Value: 38
+  Hashtags: hopecore: 38
+hope.v.01: 1 Total Combined Value: 38
+  Hashtags: hopecore: 38
+hope.v.02: 1 Total Combined Value: 38
+  Hashtags: hopecore: 38
 hope.v.03: 1 Total Combined Value: 38
   Hashtags: hopecore: 38
-hope.n.06: 1 Total Combined Value: 38
+hope.n.04: 1 Total Combined Value: 38
+  Hashtags: hopecore: 38
+promise.n.02: 1 Total Combined Value: 38
   Hashtags: hopecore: 38
 warhammer.s.1: 2 Total Combined Value: 38
   Hashtags: warhammer40k: 24, warhammer: 14
@@ -768,83 +768,83 @@ computer.n.01: 2 Total Combined Value: 38
   Hashtags: computerscience: 23, computer: 15
 cook.v.02: 2 Total Combined Value: 38
   Hashtags: cooking: 19, filmmaking: 19
-approach.n.01: 1 Total Combined Value: 36
-  Hashtags: attackontitan: 36
-attack.v.03: 1 Total Combined Value: 36
-  Hashtags: attackontitan: 36
-attack.n.08: 1 Total Combined Value: 36
-  Hashtags: attackontitan: 36
-attack.n.09: 1 Total Combined Value: 36
-  Hashtags: attackontitan: 36
-attack.v.02: 1 Total Combined Value: 36
-  Hashtags: attackontitan: 36
-fire.n.09: 1 Total Combined Value: 36
-  Hashtags: attackontitan: 36
-assail.v.01: 1 Total Combined Value: 36
-  Hashtags: attackontitan: 36
-attack.n.02: 1 Total Combined Value: 36
-  Hashtags: attackontitan: 36
-attack.n.01: 1 Total Combined Value: 36
-  Hashtags: attackontitan: 36
-attack.n.05: 1 Total Combined Value: 36
-  Hashtags: attackontitan: 36
-attack.v.01: 1 Total Combined Value: 36
-  Hashtags: attackontitan: 36
-attack.v.06: 1 Total Combined Value: 36
-  Hashtags: attackontitan: 36
-attack.n.06: 1 Total Combined Value: 36
-  Hashtags: attackontitan: 36
 attack.v.05: 1 Total Combined Value: 36
   Hashtags: attackontitan: 36
 attack.n.07: 1 Total Combined Value: 36
+  Hashtags: attackontitan: 36
+attack.n.09: 1 Total Combined Value: 36
+  Hashtags: attackontitan: 36
+attack.n.05: 1 Total Combined Value: 36
+  Hashtags: attackontitan: 36
+attack.n.02: 1 Total Combined Value: 36
+  Hashtags: attackontitan: 36
+attack.n.08: 1 Total Combined Value: 36
+  Hashtags: attackontitan: 36
+assail.v.01: 1 Total Combined Value: 36
+  Hashtags: attackontitan: 36
+attack.v.02: 1 Total Combined Value: 36
+  Hashtags: attackontitan: 36
+attack.n.01: 1 Total Combined Value: 36
+  Hashtags: attackontitan: 36
+approach.n.01: 1 Total Combined Value: 36
+  Hashtags: attackontitan: 36
+attack.n.06: 1 Total Combined Value: 36
+  Hashtags: attackontitan: 36
+attack.v.01: 1 Total Combined Value: 36
+  Hashtags: attackontitan: 36
+attack.v.03: 1 Total Combined Value: 36
+  Hashtags: attackontitan: 36
+fire.n.09: 1 Total Combined Value: 36
+  Hashtags: attackontitan: 36
+attack.v.06: 1 Total Combined Value: 36
   Hashtags: attackontitan: 36
 attention_deficit_disorder.n.01: 2 Total Combined Value: 36
   Hashtags: adhd: 23, adhdtiktok: 13
 technical_school.n.01: 2 Total Combined Value: 36
   Hashtags: tech: 20, techtok: 16
-marvel.v.02: 1 Total Combined Value: 35
+wonder.n.02: 1 Total Combined Value: 35
   Hashtags: marvel: 35
 wonder.v.03: 1 Total Combined Value: 35
   Hashtags: marvel: 35
-wonder.n.02: 1 Total Combined Value: 35
+marvel.v.02: 1 Total Combined Value: 35
   Hashtags: marvel: 35
-learn.v.01: 1 Total Combined Value: 35
-  Hashtags: learnontiktok: 35
 learn.v.02: 1 Total Combined Value: 35
-  Hashtags: learnontiktok: 35
-teach.v.01: 1 Total Combined Value: 35
   Hashtags: learnontiktok: 35
 learn.v.04: 1 Total Combined Value: 35
   Hashtags: learnontiktok: 35
-memorize.v.01: 1 Total Combined Value: 35
+learn.v.01: 1 Total Combined Value: 35
   Hashtags: learnontiktok: 35
 determine.v.08: 1 Total Combined Value: 35
   Hashtags: learnontiktok: 35
-joke.v.02: 2 Total Combined Value: 35
-  Hashtags: jokes: 18, joke: 17
+memorize.v.01: 1 Total Combined Value: 35
+  Hashtags: learnontiktok: 35
+teach.v.01: 1 Total Combined Value: 35
+  Hashtags: learnontiktok: 35
 jest.n.02: 2 Total Combined Value: 35
   Hashtags: jokes: 18, joke: 17
 joke.v.01: 2 Total Combined Value: 35
+  Hashtags: jokes: 18, joke: 17
+joke.v.02: 2 Total Combined Value: 35
   Hashtags: jokes: 18, joke: 17
 joke.n.04: 2 Total Combined Value: 35
   Hashtags: jokes: 18, joke: 17
 animal.n.01: 1 Total Combined Value: 34
   Hashtags: animals: 34
-wholesome.a.01: 1 Total Combined Value: 34
-  Hashtags: wholesome: 34
 wholesome.s.02: 1 Total Combined Value: 34
   Hashtags: wholesome: 34
+wholesome.a.01: 1 Total Combined Value: 34
+  Hashtags: wholesome: 34
 hamilton.n.03: 1 Total Combined Value: 34
-  Hashtags: lewishamilton: 34
-hamilton.n.04: 1 Total Combined Value: 34
   Hashtags: lewishamilton: 34
 hamilton.n.06: 1 Total Combined Value: 34
   Hashtags: lewishamilton: 34
 hamilton.n.01: 1 Total Combined Value: 34
   Hashtags: lewishamilton: 34
-hamilton.n.02: 1 Total Combined Value: 34
-  Hashtags: lewishamilton: 34
 hamilton.n.05: 1 Total Combined Value: 34
+  Hashtags: lewishamilton: 34
+hamilton.n.04: 1 Total Combined Value: 34
+  Hashtags: lewishamilton: 34
+hamilton.n.02: 1 Total Combined Value: 34
   Hashtags: lewishamilton: 34
 hold.v.03: 2 Total Combined Value: 34
   Hashtags: filmmaking: 19, givesyouwiiings: 15
@@ -852,75 +852,75 @@ song.n.01: 2 Total Combined Value: 34
   Hashtags: song: 17, vocaloid: 17
 history.n.01: 1 Total Combined Value: 33
   Hashtags: history: 33
-history.n.05: 1 Total Combined Value: 33
-  Hashtags: history: 33
 history.n.03: 1 Total Combined Value: 33
   Hashtags: history: 33
 history.n.04: 1 Total Combined Value: 33
   Hashtags: history: 33
+history.n.05: 1 Total Combined Value: 33
+  Hashtags: history: 33
 tease.v.02: 1 Total Combined Value: 32
-  Hashtags: coding: 32
-cryptography.n.02: 1 Total Combined Value: 32
-  Hashtags: coding: 32
-code.v.01: 1 Total Combined Value: 32
   Hashtags: coding: 32
 gull.v.02: 1 Total Combined Value: 32
   Hashtags: coding: 32
 code.v.02: 1 Total Combined Value: 32
   Hashtags: coding: 32
-digital.a.01: 1 Total Combined Value: 31
+code.v.01: 1 Total Combined Value: 32
+  Hashtags: coding: 32
+cryptography.n.02: 1 Total Combined Value: 32
+  Hashtags: coding: 32
+digital.a.03: 1 Total Combined Value: 31
   Hashtags: digitalart: 31
 digital.a.02: 1 Total Combined Value: 31
   Hashtags: digitalart: 31
-digital.a.03: 1 Total Combined Value: 31
+digital.a.01: 1 Total Combined Value: 31
   Hashtags: digitalart: 31
-positivity.n.02: 1 Total Combined Value: 31
-  Hashtags: positivity: 31
-incontrovertibility.n.01: 1 Total Combined Value: 31
-  Hashtags: positivity: 31
 favorableness.n.01: 1 Total Combined Value: 31
-  Hashtags: positivity: 31
-positivity.n.01: 1 Total Combined Value: 31
   Hashtags: positivity: 31
 positivity.n.04: 1 Total Combined Value: 31
   Hashtags: positivity: 31
+positivity.n.02: 1 Total Combined Value: 31
+  Hashtags: positivity: 31
+positivity.n.01: 1 Total Combined Value: 31
+  Hashtags: positivity: 31
+incontrovertibility.n.01: 1 Total Combined Value: 31
+  Hashtags: positivity: 31
+root.n.03: 1 Total Combined Value: 31
+  Hashtags: stem: 31
 bow.n.03: 1 Total Combined Value: 31
+  Hashtags: stem: 31
+stalk.n.02: 1 Total Combined Value: 31
+  Hashtags: stem: 31
+stem.v.04: 1 Total Combined Value: 31
+  Hashtags: stem: 31
+shank.n.03: 1 Total Combined Value: 31
+  Hashtags: stem: 31
+stem.v.03: 1 Total Combined Value: 31
+  Hashtags: stem: 31
+stem.v.01: 1 Total Combined Value: 31
   Hashtags: stem: 31
 stem.n.04: 1 Total Combined Value: 31
   Hashtags: stem: 31
 stem.v.02: 1 Total Combined Value: 31
   Hashtags: stem: 31
-stem.v.03: 1 Total Combined Value: 31
-  Hashtags: stem: 31
-stem.v.04: 1 Total Combined Value: 31
-  Hashtags: stem: 31
-stem.v.01: 1 Total Combined Value: 31
-  Hashtags: stem: 31
-stalk.n.02: 1 Total Combined Value: 31
-  Hashtags: stem: 31
-shank.n.03: 1 Total Combined Value: 31
-  Hashtags: stem: 31
-root.n.03: 1 Total Combined Value: 31
-  Hashtags: stem: 31
 stem_turn.n.01: 1 Total Combined Value: 31
   Hashtags: stem: 31
 laugh.v.01: 2 Total Combined Value: 31
   Hashtags: makeulaugh: 19, trynottolaugh: 12
-laugh.n.02: 2 Total Combined Value: 31
-  Hashtags: makeulaugh: 19, trynottolaugh: 12
 laugh.n.01: 2 Total Combined Value: 31
+  Hashtags: makeulaugh: 19, trynottolaugh: 12
+laugh.n.02: 2 Total Combined Value: 31
   Hashtags: makeulaugh: 19, trynottolaugh: 12
 halloween.n.01: 1 Total Combined Value: 30
   Hashtags: halloween: 30
-fib.n.01: 2 Total Combined Value: 30
-  Hashtags: storytime: 19, story: 11
 narrative.n.01: 2 Total Combined Value: 30
   Hashtags: storytime: 19, story: 11
 story.n.02: 2 Total Combined Value: 30
   Hashtags: storytime: 19, story: 11
-floor.n.02: 2 Total Combined Value: 30
+fib.n.01: 2 Total Combined Value: 30
   Hashtags: storytime: 19, story: 11
 report.n.03: 2 Total Combined Value: 30
+  Hashtags: storytime: 19, story: 11
+floor.n.02: 2 Total Combined Value: 30
   Hashtags: storytime: 19, story: 11
 tuber.n.01: 1 Total Combined Value: 29
   Hashtags: vtuber: 29
@@ -928,15 +928,15 @@ tuber.n.02: 1 Total Combined Value: 29
   Hashtags: vtuber: 29
 sanchez.n.01: 1 Total Combined Value: 29
   Hashtags: carlossainz: 29
-motor.n.01: 1 Total Combined Value: 29
-  Hashtags: motorsport: 29
 motor.n.02: 1 Total Combined Value: 29
   Hashtags: motorsport: 29
+motor.n.01: 1 Total Combined Value: 29
+  Hashtags: motorsport: 29
+car.n.01: 1 Total Combined Value: 29
+  Hashtags: cars: 29
 car.n.04: 1 Total Combined Value: 29
   Hashtags: cars: 29
 car.n.02: 1 Total Combined Value: 29
-  Hashtags: cars: 29
-car.n.01: 1 Total Combined Value: 29
   Hashtags: cars: 29
 cable_car.n.01: 1 Total Combined Value: 29
   Hashtags: cars: 29
@@ -944,313 +944,317 @@ car.n.03: 1 Total Combined Value: 29
   Hashtags: cars: 29
 render.v.04: 2 Total Combined Value: 29
   Hashtags: givesyouwiiings: 15, aigenerated: 14
+humor.n.04: 1 Total Combined Value: 28
+  Hashtags: humor: 28
 humor.n.05: 1 Total Combined Value: 28
-  Hashtags: humor: 28
-liquid_body_substance.n.01: 1 Total Combined Value: 28
-  Hashtags: humor: 28
-temper.n.02: 1 Total Combined Value: 28
   Hashtags: humor: 28
 wit.n.01: 1 Total Combined Value: 28
   Hashtags: humor: 28
+liquid_body_substance.n.01: 1 Total Combined Value: 28
+  Hashtags: humor: 28
 humor.v.01: 1 Total Combined Value: 28
   Hashtags: humor: 28
-humor.n.04: 1 Total Combined Value: 28
+temper.n.02: 1 Total Combined Value: 28
   Hashtags: humor: 28
 humor.n.02: 1 Total Combined Value: 28
   Hashtags: humor: 28
+charlemagne.n.01: 1 Total Combined Value: 28
+  Hashtags: charlesleclerc: 28
 charles.n.05: 1 Total Combined Value: 28
-  Hashtags: charlesleclerc: 28
-charles.n.01: 1 Total Combined Value: 28
-  Hashtags: charlesleclerc: 28
-charles.n.04: 1 Total Combined Value: 28
   Hashtags: charlesleclerc: 28
 charles.n.02: 1 Total Combined Value: 28
   Hashtags: charlesleclerc: 28
 charles.n.06: 1 Total Combined Value: 28
   Hashtags: charlesleclerc: 28
-charlemagne.n.01: 1 Total Combined Value: 28
+charles.n.07: 1 Total Combined Value: 28
+  Hashtags: charlesleclerc: 28
+charles.n.01: 1 Total Combined Value: 28
   Hashtags: charlesleclerc: 28
 charles.n.09: 1 Total Combined Value: 28
   Hashtags: charlesleclerc: 28
+charles.n.04: 1 Total Combined Value: 28
+  Hashtags: charlesleclerc: 28
 charles.n.03: 1 Total Combined Value: 28
   Hashtags: charlesleclerc: 28
-charles.n.07: 1 Total Combined Value: 28
-  Hashtags: charlesleclerc: 28
-love.v.02: 1 Total Combined Value: 27
+love.n.05: 1 Total Combined Value: 27
   Hashtags: love: 27
 love.n.02: 1 Total Combined Value: 27
   Hashtags: love: 27
-sleep_together.v.01: 1 Total Combined Value: 27
+love.v.03: 1 Total Combined Value: 27
   Hashtags: love: 27
 love.n.04: 1 Total Combined Value: 27
   Hashtags: love: 27
-love.n.01: 1 Total Combined Value: 27
+beloved.n.01: 1 Total Combined Value: 27
+  Hashtags: love: 27
+love.v.02: 1 Total Combined Value: 27
+  Hashtags: love: 27
+sleep_together.v.01: 1 Total Combined Value: 27
   Hashtags: love: 27
 love.v.01: 1 Total Combined Value: 27
   Hashtags: love: 27
-love.n.05: 1 Total Combined Value: 27
-  Hashtags: love: 27
 sexual_love.n.02: 1 Total Combined Value: 27
   Hashtags: love: 27
-beloved.n.01: 1 Total Combined Value: 27
-  Hashtags: love: 27
-love.v.03: 1 Total Combined Value: 27
+love.n.01: 1 Total Combined Value: 27
   Hashtags: love: 27
 purgative.n.01: 1 Total Combined Value: 27
   Hashtags: physics: 27
-physics.n.01: 1 Total Combined Value: 27
-  Hashtags: physics: 27
 physics.n.02: 1 Total Combined Value: 27
   Hashtags: physics: 27
-space.n.07: 1 Total Combined Value: 27
-  Hashtags: space: 27
-space.n.08: 1 Total Combined Value: 27
-  Hashtags: space: 27
-space.n.05: 1 Total Combined Value: 27
-  Hashtags: space: 27
-outer_space.n.01: 1 Total Combined Value: 27
-  Hashtags: space: 27
+physics.n.01: 1 Total Combined Value: 27
+  Hashtags: physics: 27
 distance.n.05: 1 Total Combined Value: 27
-  Hashtags: space: 27
-space.n.03: 1 Total Combined Value: 27
-  Hashtags: space: 27
-quad.n.03: 1 Total Combined Value: 27
   Hashtags: space: 27
 space.v.01: 1 Total Combined Value: 27
   Hashtags: space: 27
+outer_space.n.01: 1 Total Combined Value: 27
+  Hashtags: space: 27
+space.n.08: 1 Total Combined Value: 27
+  Hashtags: space: 27
+quad.n.03: 1 Total Combined Value: 27
+  Hashtags: space: 27
+space.n.05: 1 Total Combined Value: 27
+  Hashtags: space: 27
 space.n.02: 1 Total Combined Value: 27
   Hashtags: space: 27
-tutorial.a.01: 1 Total Combined Value: 26
-  Hashtags: tutorial: 26
+space.n.03: 1 Total Combined Value: 27
+  Hashtags: space: 27
+space.n.07: 1 Total Combined Value: 27
+  Hashtags: space: 27
 tutorial.n.01: 1 Total Combined Value: 26
   Hashtags: tutorial: 26
-cartoon.n.02: 1 Total Combined Value: 26
-  Hashtags: cartoon: 26
+tutorial.a.01: 1 Total Combined Value: 26
+  Hashtags: tutorial: 26
 cartoon.v.01: 1 Total Combined Value: 26
   Hashtags: cartoon: 26
+cartoon.n.02: 1 Total Combined Value: 26
+  Hashtags: cartoon: 26
+japan.n.04: 1 Total Combined Value: 26
+  Hashtags: japan: 26
+japan.n.02: 1 Total Combined Value: 26
+  Hashtags: japan: 26
+japan.n.01: 1 Total Combined Value: 26
+  Hashtags: japan: 26
 japan.v.01: 1 Total Combined Value: 26
   Hashtags: japan: 26
 japan.n.03: 1 Total Combined Value: 26
   Hashtags: japan: 26
-japan.n.02: 1 Total Combined Value: 26
-  Hashtags: japan: 26
-japan.n.04: 1 Total Combined Value: 26
-  Hashtags: japan: 26
-japan.n.01: 1 Total Combined Value: 26
-  Hashtags: japan: 26
-consolation.n.02: 1 Total Combined Value: 26
-  Hashtags: comfortfood: 26
-quilt.n.01: 1 Total Combined Value: 26
-  Hashtags: comfortfood: 26
-comfort.n.01: 1 Total Combined Value: 26
-  Hashtags: comfortfood: 26
-ease.n.02: 1 Total Combined Value: 26
+comfort.n.02: 1 Total Combined Value: 26
   Hashtags: comfortfood: 26
 comfort.v.01: 1 Total Combined Value: 26
   Hashtags: comfortfood: 26
-comfort.n.05: 1 Total Combined Value: 26
+consolation.n.02: 1 Total Combined Value: 26
+  Hashtags: comfortfood: 26
+ease.n.02: 1 Total Combined Value: 26
+  Hashtags: comfortfood: 26
+quilt.n.01: 1 Total Combined Value: 26
   Hashtags: comfortfood: 26
 comfort.n.07: 1 Total Combined Value: 26
   Hashtags: comfortfood: 26
-comfort.n.02: 1 Total Combined Value: 26
+comfort.n.01: 1 Total Combined Value: 26
   Hashtags: comfortfood: 26
 comfort.v.02: 1 Total Combined Value: 26
   Hashtags: comfortfood: 26
-video.n.01: 1 Total Combined Value: 26
+comfort.n.05: 1 Total Combined Value: 26
+  Hashtags: comfortfood: 26
+video.n.03: 1 Total Combined Value: 26
   Hashtags: videogames: 26
 television.n.01: 1 Total Combined Value: 26
   Hashtags: videogames: 26
 video_recording.n.01: 1 Total Combined Value: 26
   Hashtags: videogames: 26
-video.n.03: 1 Total Combined Value: 26
+video.n.01: 1 Total Combined Value: 26
   Hashtags: videogames: 26
-draw.v.16: 1 Total Combined Value: 26
-  Hashtags: drawing: 26
-draw.v.17: 1 Total Combined Value: 26
-  Hashtags: drawing: 26
-pull.v.09: 1 Total Combined Value: 26
-  Hashtags: drawing: 26
-draw.v.22: 1 Total Combined Value: 26
-  Hashtags: drawing: 26
-draw.v.06: 1 Total Combined Value: 26
-  Hashtags: drawing: 26
-drawing.n.05: 1 Total Combined Value: 26
-  Hashtags: drawing: 26
-withdraw.v.09: 1 Total Combined Value: 26
-  Hashtags: drawing: 26
-draw.v.07: 1 Total Combined Value: 26
-  Hashtags: drawing: 26
-string.v.01: 1 Total Combined Value: 26
-  Hashtags: drawing: 26
-pull_back.v.04: 1 Total Combined Value: 26
-  Hashtags: drawing: 26
-puff.v.02: 1 Total Combined Value: 26
-  Hashtags: drawing: 26
-draw.v.10: 1 Total Combined Value: 26
-  Hashtags: drawing: 26
-describe.v.01: 1 Total Combined Value: 26
+reap.v.02: 1 Total Combined Value: 26
   Hashtags: drawing: 26
 drawing.n.01: 1 Total Combined Value: 26
   Hashtags: drawing: 26
-draw.v.14: 1 Total Combined Value: 26
+attract.v.01: 1 Total Combined Value: 26
   Hashtags: drawing: 26
-draw.v.33: 1 Total Combined Value: 26
+pull.v.01: 1 Total Combined Value: 26
   Hashtags: drawing: 26
-draw.v.15: 1 Total Combined Value: 26
-  Hashtags: drawing: 26
-drawing.n.03: 1 Total Combined Value: 26
+draw.v.07: 1 Total Combined Value: 26
   Hashtags: drawing: 26
 absorb.v.04: 1 Total Combined Value: 26
   Hashtags: drawing: 26
-attract.v.01: 1 Total Combined Value: 26
+draw.v.22: 1 Total Combined Value: 26
   Hashtags: drawing: 26
-reap.v.02: 1 Total Combined Value: 26
-  Hashtags: drawing: 26
-draw.v.36: 1 Total Combined Value: 26
-  Hashtags: drawing: 26
-draw.v.32: 1 Total Combined Value: 26
-  Hashtags: drawing: 26
-draw.v.05: 1 Total Combined Value: 26
-  Hashtags: drawing: 26
-draw.v.23: 1 Total Combined Value: 26
-  Hashtags: drawing: 26
-draw.v.19: 1 Total Combined Value: 26
-  Hashtags: drawing: 26
-draw.v.20: 1 Total Combined Value: 26
-  Hashtags: drawing: 26
-draw.v.09: 1 Total Combined Value: 26
-  Hashtags: drawing: 26
-drawing.n.02: 1 Total Combined Value: 26
-  Hashtags: drawing: 26
-draw.v.35: 1 Total Combined Value: 26
-  Hashtags: drawing: 26
-tie.v.02: 1 Total Combined Value: 26
-  Hashtags: drawing: 26
-guide.v.05: 1 Total Combined Value: 26
-  Hashtags: drawing: 26
-draft.n.11: 1 Total Combined Value: 26
-  Hashtags: drawing: 26
-draw.v.21: 1 Total Combined Value: 26
-  Hashtags: drawing: 26
-draw.v.31: 1 Total Combined Value: 26
+draw.v.16: 1 Total Combined Value: 26
   Hashtags: drawing: 26
 disembowel.v.01: 1 Total Combined Value: 26
   Hashtags: drawing: 26
+draw.v.06: 1 Total Combined Value: 26
+  Hashtags: drawing: 26
+draw.v.20: 1 Total Combined Value: 26
+  Hashtags: drawing: 26
+guide.v.05: 1 Total Combined Value: 26
+  Hashtags: drawing: 26
+describe.v.01: 1 Total Combined Value: 26
+  Hashtags: drawing: 26
+drawing.n.03: 1 Total Combined Value: 26
+  Hashtags: drawing: 26
+draw.v.10: 1 Total Combined Value: 26
+  Hashtags: drawing: 26
+pull.v.09: 1 Total Combined Value: 26
+  Hashtags: drawing: 26
+withdraw.v.09: 1 Total Combined Value: 26
+  Hashtags: drawing: 26
+draw.v.17: 1 Total Combined Value: 26
+  Hashtags: drawing: 26
+draw.v.14: 1 Total Combined Value: 26
+  Hashtags: drawing: 26
+pull_back.v.04: 1 Total Combined Value: 26
+  Hashtags: drawing: 26
+draw.v.05: 1 Total Combined Value: 26
+  Hashtags: drawing: 26
+tie.v.02: 1 Total Combined Value: 26
+  Hashtags: drawing: 26
+draw.v.33: 1 Total Combined Value: 26
+  Hashtags: drawing: 26
 lottery.n.02: 1 Total Combined Value: 26
+  Hashtags: drawing: 26
+draw.v.21: 1 Total Combined Value: 26
+  Hashtags: drawing: 26
+draft.n.11: 1 Total Combined Value: 26
+  Hashtags: drawing: 26
+string.v.01: 1 Total Combined Value: 26
+  Hashtags: drawing: 26
+draw.v.35: 1 Total Combined Value: 26
+  Hashtags: drawing: 26
+draw.v.31: 1 Total Combined Value: 26
+  Hashtags: drawing: 26
+draw.v.09: 1 Total Combined Value: 26
+  Hashtags: drawing: 26
+drawing.n.05: 1 Total Combined Value: 26
+  Hashtags: drawing: 26
+draw.v.19: 1 Total Combined Value: 26
+  Hashtags: drawing: 26
+draw.v.32: 1 Total Combined Value: 26
+  Hashtags: drawing: 26
+puff.v.02: 1 Total Combined Value: 26
   Hashtags: drawing: 26
 trace.v.02: 1 Total Combined Value: 26
   Hashtags: drawing: 26
 draw.v.12: 1 Total Combined Value: 26
   Hashtags: drawing: 26
+draw.v.15: 1 Total Combined Value: 26
+  Hashtags: drawing: 26
 draw.v.18: 1 Total Combined Value: 26
   Hashtags: drawing: 26
-pull.v.01: 1 Total Combined Value: 26
+drawing.n.02: 1 Total Combined Value: 26
   Hashtags: drawing: 26
-travel.v.02: 2 Total Combined Value: 26
-  Hashtags: midjourney: 14, travel: 12
+draw.v.36: 1 Total Combined Value: 26
+  Hashtags: drawing: 26
+draw.v.23: 1 Total Combined Value: 26
+  Hashtags: drawing: 26
 travel.v.04: 2 Total Combined Value: 26
   Hashtags: midjourney: 14, travel: 12
-football.n.02: 1 Total Combined Value: 25
-  Hashtags: football: 25
+travel.v.02: 2 Total Combined Value: 26
+  Hashtags: midjourney: 14, travel: 12
 football.n.01: 1 Total Combined Value: 25
+  Hashtags: football: 25
+football.n.02: 1 Total Combined Value: 25
   Hashtags: football: 25
 drummer.n.01: 1 Total Combined Value: 25
   Hashtags: drummer: 25
 cran.n.01: 1 Total Combined Value: 25
   Hashtags: scran: 25
-dragon.n.04: 1 Total Combined Value: 25
+dragon.n.02: 1 Total Combined Value: 25
   Hashtags: dragonforce: 25
 dragon.n.01: 1 Total Combined Value: 25
   Hashtags: dragonforce: 25
-dragon.n.02: 1 Total Combined Value: 25
-  Hashtags: dragonforce: 25
 draco.n.02: 1 Total Combined Value: 25
+  Hashtags: dragonforce: 25
+dragon.n.04: 1 Total Combined Value: 25
   Hashtags: dragonforce: 25
 christmas.n.02: 1 Total Combined Value: 25
   Hashtags: christmas: 25
 christmas.n.01: 1 Total Combined Value: 25
   Hashtags: christmas: 25
-pet.v.01: 2 Total Combined Value: 25
-  Hashtags: pets: 13, muppets: 12
 darling.n.01: 2 Total Combined Value: 25
   Hashtags: pets: 13, muppets: 12
-positron_emission_tomography.n.01: 2 Total Combined Value: 25
-  Hashtags: pets: 13, muppets: 12
-pet.v.02: 2 Total Combined Value: 25
+pet.v.01: 2 Total Combined Value: 25
   Hashtags: pets: 13, muppets: 12
 pet.n.03: 2 Total Combined Value: 25
   Hashtags: pets: 13, muppets: 12
 pet.n.01: 2 Total Combined Value: 25
   Hashtags: pets: 13, muppets: 12
+positron_emission_tomography.n.01: 2 Total Combined Value: 25
+  Hashtags: pets: 13, muppets: 12
+pet.v.02: 2 Total Combined Value: 25
+  Hashtags: pets: 13, muppets: 12
+warhammer40k.s.1: 1 Total Combined Value: 24
+  Hashtags: warhammer40k: 24
 politics.n.03: 1 Total Combined Value: 24
   Hashtags: politics: 24
 politics.n.05: 1 Total Combined Value: 24
   Hashtags: politics: 24
-politics.n.02: 1 Total Combined Value: 24
-  Hashtags: politics: 24
 politics.n.04: 1 Total Combined Value: 24
+  Hashtags: politics: 24
+politics.n.02: 1 Total Combined Value: 24
   Hashtags: politics: 24
 politics.n.01: 1 Total Combined Value: 24
   Hashtags: politics: 24
-mario.s.1: 2 Total Combined Value: 24
-  Hashtags: mario: 13, mariokart: 11
-poker.n.02: 2 Total Combined Value: 24
-  Hashtags: poker: 13, pokertok: 11
 poker.n.01: 2 Total Combined Value: 24
   Hashtags: poker: 13, pokertok: 11
+poker.n.02: 2 Total Combined Value: 24
+  Hashtags: poker: 13, pokertok: 11
+tube.v.01: 1 Total Combined Value: 23
+  Hashtags: youtube: 23
+tube.v.02: 1 Total Combined Value: 23
+  Hashtags: youtube: 23
 tube.n.04: 1 Total Combined Value: 23
   Hashtags: youtube: 23
+metro.n.01: 1 Total Combined Value: 23
+  Hashtags: youtube: 23
 tube.n.02: 1 Total Combined Value: 23
+  Hashtags: youtube: 23
+pipe.n.03: 1 Total Combined Value: 23
+  Hashtags: youtube: 23
+tube.n.01: 1 Total Combined Value: 23
   Hashtags: youtube: 23
 tube.v.03: 1 Total Combined Value: 23
   Hashtags: youtube: 23
 tube.v.04: 1 Total Combined Value: 23
   Hashtags: youtube: 23
-tube.v.01: 1 Total Combined Value: 23
-  Hashtags: youtube: 23
-metro.n.01: 1 Total Combined Value: 23
-  Hashtags: youtube: 23
-tube.n.01: 1 Total Combined Value: 23
-  Hashtags: youtube: 23
-tube.v.02: 1 Total Combined Value: 23
-  Hashtags: youtube: 23
-pipe.n.03: 1 Total Combined Value: 23
-  Hashtags: youtube: 23
 toronto.n.01: 1 Total Combined Value: 23
   Hashtags: toronto: 23
-british.n.01: 2 Total Combined Value: 23
-  Hashtags: british: 12, britishfood: 11
 british.a.01: 2 Total Combined Value: 23
   Hashtags: british: 12, britishfood: 11
+british.n.01: 2 Total Combined Value: 23
+  Hashtags: british: 12, britishfood: 11
+snip.v.02: 2 Total Combined Value: 23
+  Hashtags: clips: 12, cdawgvaclips: 11
+clip.n.06: 2 Total Combined Value: 23
+  Hashtags: clips: 12, cdawgvaclips: 11
 nip.v.03: 2 Total Combined Value: 23
+  Hashtags: clips: 12, cdawgvaclips: 11
+cartridge_holder.n.01: 2 Total Combined Value: 23
   Hashtags: clips: 12, cdawgvaclips: 11
 clip.v.03: 2 Total Combined Value: 23
   Hashtags: clips: 12, cdawgvaclips: 11
-snip.v.02: 2 Total Combined Value: 23
+trot.v.01: 2 Total Combined Value: 23
   Hashtags: clips: 12, cdawgvaclips: 11
 clip.v.05: 2 Total Combined Value: 23
   Hashtags: clips: 12, cdawgvaclips: 11
 clip.n.04: 2 Total Combined Value: 23
   Hashtags: clips: 12, cdawgvaclips: 11
-cartridge_holder.n.01: 2 Total Combined Value: 23
-  Hashtags: clips: 12, cdawgvaclips: 11
-clip.n.03: 2 Total Combined Value: 23
-  Hashtags: clips: 12, cdawgvaclips: 11
 time.n.01: 2 Total Combined Value: 23
-  Hashtags: clips: 12, cdawgvaclips: 11
-clip.n.06: 2 Total Combined Value: 23
-  Hashtags: clips: 12, cdawgvaclips: 11
-trot.v.01: 2 Total Combined Value: 23
   Hashtags: clips: 12, cdawgvaclips: 11
 clip.n.05: 2 Total Combined Value: 23
   Hashtags: clips: 12, cdawgvaclips: 11
-daniel.n.01: 1 Total Combined Value: 22
-  Hashtags: danielricciardo: 22
+clip.n.03: 2 Total Combined Value: 23
+  Hashtags: clips: 12, cdawgvaclips: 11
 daniel.n.03: 1 Total Combined Value: 22
+  Hashtags: danielricciardo: 22
+daniel.n.01: 1 Total Combined Value: 22
   Hashtags: danielricciardo: 22
 daniel.n.02: 1 Total Combined Value: 22
   Hashtags: danielricciardo: 22
 graphic.a.03: 1 Total Combined Value: 22
+  Hashtags: graphicdesign: 22
+graphic.s.05: 1 Total Combined Value: 22
+  Hashtags: graphicdesign: 22
+graphic.a.04: 1 Total Combined Value: 22
   Hashtags: graphicdesign: 22
 graphic.s.02: 1 Total Combined Value: 22
   Hashtags: graphicdesign: 22
@@ -1258,119 +1262,115 @@ graphic.n.01: 1 Total Combined Value: 22
   Hashtags: graphicdesign: 22
 graphic.s.01: 1 Total Combined Value: 22
   Hashtags: graphicdesign: 22
-graphic.a.04: 1 Total Combined Value: 22
-  Hashtags: graphicdesign: 22
-graphic.s.05: 1 Total Combined Value: 22
-  Hashtags: graphicdesign: 22
-sketch.v.01: 1 Total Combined Value: 22
-  Hashtags: sketch: 22
-sketch.n.02: 1 Total Combined Value: 22
-  Hashtags: sketch: 22
 sketch.n.01: 1 Total Combined Value: 22
   Hashtags: sketch: 22
 sketch.n.03: 1 Total Combined Value: 22
+  Hashtags: sketch: 22
+sketch.v.01: 1 Total Combined Value: 22
+  Hashtags: sketch: 22
+sketch.n.02: 1 Total Combined Value: 22
   Hashtags: sketch: 22
 sketch.v.02: 1 Total Combined Value: 22
   Hashtags: sketch: 22
 putter.v.03: 1 Total Combined Value: 22
   Hashtags: harrypotter: 22
-putter.v.02: 1 Total Combined Value: 22
+potter.v.02: 1 Total Combined Value: 22
   Hashtags: harrypotter: 22
 potter.n.01: 1 Total Combined Value: 22
   Hashtags: harrypotter: 22
-potter.v.02: 1 Total Combined Value: 22
+putter.v.02: 1 Total Combined Value: 22
   Hashtags: harrypotter: 22
-challenge.n.02: 1 Total Combined Value: 22
-  Hashtags: challenge: 22
-challenge.n.05: 1 Total Combined Value: 22
-  Hashtags: challenge: 22
-challenge.v.03: 1 Total Combined Value: 22
-  Hashtags: challenge: 22
-challenge.v.04: 1 Total Combined Value: 22
-  Hashtags: challenge: 22
-challenge.n.04: 1 Total Combined Value: 22
-  Hashtags: challenge: 22
-challenge.v.02: 1 Total Combined Value: 22
-  Hashtags: challenge: 22
-challenge.n.03: 1 Total Combined Value: 22
+challenge.n.01: 1 Total Combined Value: 22
   Hashtags: challenge: 22
 challenge.v.01: 1 Total Combined Value: 22
   Hashtags: challenge: 22
-challenge.n.01: 1 Total Combined Value: 22
+challenge.v.03: 1 Total Combined Value: 22
   Hashtags: challenge: 22
-flit.n.01: 1 Total Combined Value: 22
-  Hashtags: darthvader: 22
+challenge.n.04: 1 Total Combined Value: 22
+  Hashtags: challenge: 22
+challenge.n.02: 1 Total Combined Value: 22
+  Hashtags: challenge: 22
+challenge.v.04: 1 Total Combined Value: 22
+  Hashtags: challenge: 22
+challenge.v.02: 1 Total Combined Value: 22
+  Hashtags: challenge: 22
+challenge.n.05: 1 Total Combined Value: 22
+  Hashtags: challenge: 22
+challenge.n.03: 1 Total Combined Value: 22
+  Hashtags: challenge: 22
 flit.v.01: 1 Total Combined Value: 22
   Hashtags: darthvader: 22
-dart.v.03: 1 Total Combined Value: 22
-  Hashtags: darthvader: 22
 dart.n.01: 1 Total Combined Value: 22
+  Hashtags: darthvader: 22
+dart.v.03: 1 Total Combined Value: 22
   Hashtags: darthvader: 22
 dart.v.02: 1 Total Combined Value: 22
   Hashtags: darthvader: 22
 dart.n.02: 1 Total Combined Value: 22
   Hashtags: darthvader: 22
-queen.n.02: 1 Total Combined Value: 22
+flit.n.01: 1 Total Combined Value: 22
+  Hashtags: darthvader: 22
+tabby.n.02: 1 Total Combined Value: 22
   Hashtags: queensu: 22
 queen.n.03: 1 Total Combined Value: 22
   Hashtags: queensu: 22
-queen.n.09: 1 Total Combined Value: 22
-  Hashtags: queensu: 22
-queen.n.04: 1 Total Combined Value: 22
-  Hashtags: queensu: 22
 queen.n.01: 1 Total Combined Value: 22
   Hashtags: queensu: 22
-queen.v.01: 1 Total Combined Value: 22
-  Hashtags: queensu: 22
-queen.n.08: 1 Total Combined Value: 22
+queen.n.02: 1 Total Combined Value: 22
   Hashtags: queensu: 22
 queen.v.02: 1 Total Combined Value: 22
   Hashtags: queensu: 22
-tabby.n.02: 1 Total Combined Value: 22
-  Hashtags: queensu: 22
 queen.n.07: 1 Total Combined Value: 22
-  Hashtags: queensu: 22
-fagot.n.01: 1 Total Combined Value: 22
   Hashtags: queensu: 22
 king.n.02: 1 Total Combined Value: 22
   Hashtags: queensu: 22
+queen.n.04: 1 Total Combined Value: 22
+  Hashtags: queensu: 22
+fagot.n.01: 1 Total Combined Value: 22
+  Hashtags: queensu: 22
 queens.n.01: 1 Total Combined Value: 22
+  Hashtags: queensu: 22
+queen.n.08: 1 Total Combined Value: 22
+  Hashtags: queensu: 22
+queen.v.01: 1 Total Combined Value: 22
+  Hashtags: queensu: 22
+queen.n.09: 1 Total Combined Value: 22
   Hashtags: queensu: 22
 bass.n.08: 1 Total Combined Value: 21
   Hashtags: bass: 21
-bass.n.06: 1 Total Combined Value: 21
+freshwater_bass.n.01: 1 Total Combined Value: 21
+  Hashtags: bass: 21
+sea_bass.n.01: 1 Total Combined Value: 21
+  Hashtags: bass: 21
+bass.n.07: 1 Total Combined Value: 21
+  Hashtags: bass: 21
+bass.s.01: 1 Total Combined Value: 21
   Hashtags: bass: 21
 bass.n.03: 1 Total Combined Value: 21
+  Hashtags: bass: 21
+bass.n.06: 1 Total Combined Value: 21
   Hashtags: bass: 21
 bass.n.02: 1 Total Combined Value: 21
   Hashtags: bass: 21
 bass.n.01: 1 Total Combined Value: 21
   Hashtags: bass: 21
-bass.n.07: 1 Total Combined Value: 21
-  Hashtags: bass: 21
-sea_bass.n.01: 1 Total Combined Value: 21
-  Hashtags: bass: 21
-bass.s.01: 1 Total Combined Value: 21
-  Hashtags: bass: 21
-freshwater_bass.n.01: 1 Total Combined Value: 21
-  Hashtags: bass: 21
 slipknot.n.01: 1 Total Combined Value: 21
   Hashtags: slipknot: 21
-movement.n.03: 1 Total Combined Value: 21
+motion.n.05: 1 Total Combined Value: 21
   Hashtags: stopmotion: 21
-motion.n.06: 1 Total Combined Value: 21
+gesticulate.v.01: 1 Total Combined Value: 21
   Hashtags: stopmotion: 21
 gesture.n.02: 1 Total Combined Value: 21
   Hashtags: stopmotion: 21
-motion.n.04: 1 Total Combined Value: 21
+motion.n.03: 1 Total Combined Value: 21
   Hashtags: stopmotion: 21
-motion.n.05: 1 Total Combined Value: 21
+motion.n.04: 1 Total Combined Value: 21
   Hashtags: stopmotion: 21
 apparent_motion.n.01: 1 Total Combined Value: 21
   Hashtags: stopmotion: 21
-motion.n.03: 1 Total Combined Value: 21
+motion.n.06: 1 Total Combined Value: 21
   Hashtags: stopmotion: 21
-gesticulate.v.01: 1 Total Combined Value: 21
+movement.n.03: 1 Total Combined Value: 21
   Hashtags: stopmotion: 21
 olympic_games.n.01: 1 Total Combined Value: 20
   Hashtags: olympics: 20
@@ -1378,89 +1378,89 @@ podcast.v.01: 1 Total Combined Value: 20
   Hashtags: podcast: 20
 paratrooper.n.01: 1 Total Combined Value: 20
   Hashtags: parati: 20
-para.n.02: 1 Total Combined Value: 20
-  Hashtags: parati: 20
 belem.n.01: 1 Total Combined Value: 20
   Hashtags: parati: 20
-para.n.04: 1 Total Combined Value: 20
+para.n.02: 1 Total Combined Value: 20
   Hashtags: parati: 20
 parity.n.01: 1 Total Combined Value: 20
   Hashtags: parati: 20
-print.n.02: 1 Total Combined Value: 20
-  Hashtags: 3dprint: 20
-mark.n.04: 1 Total Combined Value: 20
-  Hashtags: 3dprint: 20
+para.n.04: 1 Total Combined Value: 20
+  Hashtags: parati: 20
 print.n.01: 1 Total Combined Value: 20
-  Hashtags: 3dprint: 20
-print.n.06: 1 Total Combined Value: 20
-  Hashtags: 3dprint: 20
-photographic_print.n.01: 1 Total Combined Value: 20
-  Hashtags: 3dprint: 20
-print.n.04: 1 Total Combined Value: 20
   Hashtags: 3dprint: 20
 print.n.05: 1 Total Combined Value: 20
   Hashtags: 3dprint: 20
-trump.v.03: 1 Total Combined Value: 20
-  Hashtags: trump: 20
-trump.v.04: 1 Total Combined Value: 20
+print.n.02: 1 Total Combined Value: 20
+  Hashtags: 3dprint: 20
+print.n.06: 1 Total Combined Value: 20
+  Hashtags: 3dprint: 20
+print.n.04: 1 Total Combined Value: 20
+  Hashtags: 3dprint: 20
+mark.n.04: 1 Total Combined Value: 20
+  Hashtags: 3dprint: 20
+photographic_print.n.01: 1 Total Combined Value: 20
+  Hashtags: 3dprint: 20
+trump.n.01: 1 Total Combined Value: 20
   Hashtags: trump: 20
 trump.v.01: 1 Total Combined Value: 20
   Hashtags: trump: 20
-trump.n.01: 1 Total Combined Value: 20
+trump.v.04: 1 Total Combined Value: 20
   Hashtags: trump: 20
 trump.n.02: 1 Total Combined Value: 20
   Hashtags: trump: 20
-cornet.n.01: 1 Total Combined Value: 20
-  Hashtags: trump: 20
 outdo.v.02: 1 Total Combined Value: 20
   Hashtags: trump: 20
-inner_light.n.01: 1 Total Combined Value: 20
-  Hashtags: lightsaber: 20
-light_up.v.05: 1 Total Combined Value: 20
-  Hashtags: lightsaber: 20
-unhorse.v.01: 1 Total Combined Value: 20
-  Hashtags: lightsaber: 20
-lighter.n.02: 1 Total Combined Value: 20
+trump.v.03: 1 Total Combined Value: 20
+  Hashtags: trump: 20
+cornet.n.01: 1 Total Combined Value: 20
+  Hashtags: trump: 20
+light.n.07: 1 Total Combined Value: 20
   Hashtags: lightsaber: 20
 ignite.v.01: 1 Total Combined Value: 20
   Hashtags: lightsaber: 20
+alight.v.01: 1 Total Combined Value: 20
+  Hashtags: lightsaber: 20
 light.n.08: 1 Total Combined Value: 20
   Hashtags: lightsaber: 20
-sparkle.n.01: 1 Total Combined Value: 20
+unhorse.v.01: 1 Total Combined Value: 20
   Hashtags: lightsaber: 20
 fall.v.20: 1 Total Combined Value: 20
   Hashtags: lightsaber: 20
-alight.v.01: 1 Total Combined Value: 20
-  Hashtags: lightsaber: 20
-light.n.14: 1 Total Combined Value: 20
+light.n.10: 1 Total Combined Value: 20
   Hashtags: lightsaber: 20
 light.n.06: 1 Total Combined Value: 20
   Hashtags: lightsaber: 20
-light.v.01: 1 Total Combined Value: 20
+light.n.12: 1 Total Combined Value: 20
   Hashtags: lightsaber: 20
-light.n.03: 1 Total Combined Value: 20
-  Hashtags: lightsaber: 20
-light.n.10: 1 Total Combined Value: 20
-  Hashtags: lightsaber: 20
-light.n.07: 1 Total Combined Value: 20
-  Hashtags: lightsaber: 20
-light.n.09: 1 Total Combined Value: 20
-  Hashtags: lightsaber: 20
-light.n.05: 1 Total Combined Value: 20
-  Hashtags: lightsaber: 20
-light.n.02: 1 Total Combined Value: 20
-  Hashtags: lightsaber: 20
-light.n.01: 1 Total Combined Value: 20
+light.n.14: 1 Total Combined Value: 20
   Hashtags: lightsaber: 20
 luminosity.n.01: 1 Total Combined Value: 20
   Hashtags: lightsaber: 20
-light.n.12: 1 Total Combined Value: 20
+lighter.n.02: 1 Total Combined Value: 20
   Hashtags: lightsaber: 20
-tattoo.n.03: 1 Total Combined Value: 20
+light.n.09: 1 Total Combined Value: 20
+  Hashtags: lightsaber: 20
+sparkle.n.01: 1 Total Combined Value: 20
+  Hashtags: lightsaber: 20
+light.v.01: 1 Total Combined Value: 20
+  Hashtags: lightsaber: 20
+inner_light.n.01: 1 Total Combined Value: 20
+  Hashtags: lightsaber: 20
+light.n.02: 1 Total Combined Value: 20
+  Hashtags: lightsaber: 20
+light.n.03: 1 Total Combined Value: 20
+  Hashtags: lightsaber: 20
+light.n.01: 1 Total Combined Value: 20
+  Hashtags: lightsaber: 20
+light.n.05: 1 Total Combined Value: 20
+  Hashtags: lightsaber: 20
+light_up.v.05: 1 Total Combined Value: 20
+  Hashtags: lightsaber: 20
+tattoo.v.01: 1 Total Combined Value: 20
   Hashtags: tattoo: 20
 tattoo.n.01: 1 Total Combined Value: 20
   Hashtags: tattoo: 20
-tattoo.v.01: 1 Total Combined Value: 20
+tattoo.n.03: 1 Total Combined Value: 20
   Hashtags: tattoo: 20
 tattoo.n.02: 1 Total Combined Value: 20
   Hashtags: tattoo: 20
@@ -1468,81 +1468,85 @@ oppenheimer.n.01: 1 Total Combined Value: 20
   Hashtags: oppenheimer: 20
 gathering.n.01: 1 Total Combined Value: 19
   Hashtags: magicthegathering: 19
-meet.v.07: 1 Total Combined Value: 19
-  Hashtags: magicthegathering: 19
-gain.v.07: 1 Total Combined Value: 19
-  Hashtags: magicthegathering: 19
-gather.v.05: 1 Total Combined Value: 19
-  Hashtags: magicthegathering: 19
-accumulate.v.02: 1 Total Combined Value: 19
-  Hashtags: magicthegathering: 19
-gather.v.04: 1 Total Combined Value: 19
-  Hashtags: magicthegathering: 19
-assemble.v.03: 1 Total Combined Value: 19
-  Hashtags: magicthegathering: 19
-assembly.n.06: 1 Total Combined Value: 19
+gather.n.01: 1 Total Combined Value: 19
   Hashtags: magicthegathering: 19
 gather.v.08: 1 Total Combined Value: 19
   Hashtags: magicthegathering: 19
-gather.n.01: 1 Total Combined Value: 19
+gather.n.02: 1 Total Combined Value: 19
+  Hashtags: magicthegathering: 19
+accumulate.v.02: 1 Total Combined Value: 19
+  Hashtags: magicthegathering: 19
+assemble.v.03: 1 Total Combined Value: 19
   Hashtags: magicthegathering: 19
 gather.v.07: 1 Total Combined Value: 19
   Hashtags: magicthegathering: 19
-gather.n.02: 1 Total Combined Value: 19
+assembly.n.06: 1 Total Combined Value: 19
+  Hashtags: magicthegathering: 19
+gather.v.05: 1 Total Combined Value: 19
+  Hashtags: magicthegathering: 19
+meet.v.07: 1 Total Combined Value: 19
   Hashtags: magicthegathering: 19
 gather.v.01: 1 Total Combined Value: 19
   Hashtags: magicthegathering: 19
+gain.v.07: 1 Total Combined Value: 19
+  Hashtags: magicthegathering: 19
+gather.v.04: 1 Total Combined Value: 19
+  Hashtags: magicthegathering: 19
+indie.n.01: 1 Total Combined Value: 19
+  Hashtags: indieband: 19
 indie.s.01: 1 Total Combined Value: 19
   Hashtags: indieband: 19
 indie.n.02: 1 Total Combined Value: 19
   Hashtags: indieband: 19
-indie.n.01: 1 Total Combined Value: 19
-  Hashtags: indieband: 19
-concert.v.01: 1 Total Combined Value: 19
-  Hashtags: concert: 19
 concert.v.02: 1 Total Combined Value: 19
+  Hashtags: concert: 19
+concert.v.01: 1 Total Combined Value: 19
   Hashtags: concert: 19
 concert.n.01: 1 Total Combined Value: 19
   Hashtags: concert: 19
 cook.v.01: 1 Total Combined Value: 19
   Hashtags: cooking: 19
-cook.v.03: 1 Total Combined Value: 19
-  Hashtags: cooking: 19
 cooking.n.01: 1 Total Combined Value: 19
   Hashtags: cooking: 19
-cook.v.05: 1 Total Combined Value: 19
+cook.v.03: 1 Total Combined Value: 19
   Hashtags: cooking: 19
 fudge.v.01: 1 Total Combined Value: 19
   Hashtags: cooking: 19
-shot.n.09: 1 Total Combined Value: 19
-  Hashtags: barbie: 19
-barb.v.01: 1 Total Combined Value: 19
-  Hashtags: barbie: 19
-barb.n.02: 1 Total Combined Value: 19
+cook.v.05: 1 Total Combined Value: 19
+  Hashtags: cooking: 19
+barb.n.03: 1 Total Combined Value: 19
   Hashtags: barbie: 19
 barb.n.04: 1 Total Combined Value: 19
   Hashtags: barbie: 19
-barb.n.03: 1 Total Combined Value: 19
+shot.n.09: 1 Total Combined Value: 19
   Hashtags: barbie: 19
-shiner.n.01: 1 Total Combined Value: 19
-  Hashtags: ironmouse: 19
-mouse.n.04: 1 Total Combined Value: 19
-  Hashtags: ironmouse: 19
+barb.n.02: 1 Total Combined Value: 19
+  Hashtags: barbie: 19
+barb.v.01: 1 Total Combined Value: 19
+  Hashtags: barbie: 19
 mouse.v.02: 1 Total Combined Value: 19
-  Hashtags: ironmouse: 19
-mouse.n.01: 1 Total Combined Value: 19
   Hashtags: ironmouse: 19
 sneak.v.01: 1 Total Combined Value: 19
   Hashtags: ironmouse: 19
 mouse.n.03: 1 Total Combined Value: 19
   Hashtags: ironmouse: 19
+mouse.n.01: 1 Total Combined Value: 19
+  Hashtags: ironmouse: 19
+mouse.n.04: 1 Total Combined Value: 19
+  Hashtags: ironmouse: 19
+shiner.n.01: 1 Total Combined Value: 19
+  Hashtags: ironmouse: 19
 accelerate.v.02: 1 Total Combined Value: 19
-  Hashtags: speed: 19
-accelerate.v.01: 1 Total Combined Value: 19
   Hashtags: speed: 19
 amphetamine.n.01: 1 Total Combined Value: 19
   Hashtags: speed: 19
+speed.n.02: 1 Total Combined Value: 19
+  Hashtags: speed: 19
+speed.n.03: 1 Total Combined Value: 19
+  Hashtags: speed: 19
 focal_ratio.n.01: 1 Total Combined Value: 19
+  Hashtags: speed: 19
+accelerate.v.01: 1 Total Combined Value: 19
   Hashtags: speed: 19
 travel_rapidly.v.01: 1 Total Combined Value: 19
   Hashtags: speed: 19
@@ -1550,147 +1554,141 @@ speed.v.04: 1 Total Combined Value: 19
   Hashtags: speed: 19
 speed.n.01: 1 Total Combined Value: 19
   Hashtags: speed: 19
-speed.n.02: 1 Total Combined Value: 19
-  Hashtags: speed: 19
-speed.n.03: 1 Total Combined Value: 19
-  Hashtags: speed: 19
-hat.n.02: 1 Total Combined Value: 19
-  Hashtags: hatsunemiku: 19
-hat.v.02: 1 Total Combined Value: 19
+hat.v.01: 1 Total Combined Value: 19
   Hashtags: hatsunemiku: 19
 hat.n.01: 1 Total Combined Value: 19
   Hashtags: hatsunemiku: 19
-hat.v.01: 1 Total Combined Value: 19
+hat.v.02: 1 Total Combined Value: 19
   Hashtags: hatsunemiku: 19
-piano.a.01: 1 Total Combined Value: 19
-  Hashtags: piano: 19
+hat.n.02: 1 Total Combined Value: 19
+  Hashtags: hatsunemiku: 19
 piano.n.02: 1 Total Combined Value: 19
   Hashtags: piano: 19
-piano.n.01: 1 Total Combined Value: 19
+piano.a.01: 1 Total Combined Value: 19
   Hashtags: piano: 19
 piano.r.01: 1 Total Combined Value: 19
   Hashtags: piano: 19
-produce.v.02: 1 Total Combined Value: 19
+piano.n.01: 1 Total Combined Value: 19
+  Hashtags: piano: 19
+gain.v.08: 1 Total Combined Value: 19
+  Hashtags: filmmaking: 19
+make.v.24: 1 Total Combined Value: 19
+  Hashtags: filmmaking: 19
+make.v.15: 1 Total Combined Value: 19
+  Hashtags: filmmaking: 19
+take.v.27: 1 Total Combined Value: 19
+  Hashtags: filmmaking: 19
+induce.v.02: 1 Total Combined Value: 19
+  Hashtags: filmmaking: 19
+make.v.42: 1 Total Combined Value: 19
+  Hashtags: filmmaking: 19
+make.v.44: 1 Total Combined Value: 19
+  Hashtags: filmmaking: 19
+qualification.n.01: 1 Total Combined Value: 19
+  Hashtags: filmmaking: 19
+make.v.47: 1 Total Combined Value: 19
+  Hashtags: filmmaking: 19
+make.v.37: 1 Total Combined Value: 19
+  Hashtags: filmmaking: 19
+make.v.32: 1 Total Combined Value: 19
+  Hashtags: filmmaking: 19
+make.v.25: 1 Total Combined Value: 19
+  Hashtags: filmmaking: 19
+make.v.16: 1 Total Combined Value: 19
+  Hashtags: filmmaking: 19
+make.v.08: 1 Total Combined Value: 19
+  Hashtags: filmmaking: 19
+cause.v.01: 1 Total Combined Value: 19
   Hashtags: filmmaking: 19
 have.v.17: 1 Total Combined Value: 19
   Hashtags: filmmaking: 19
-make.v.14: 1 Total Combined Value: 19
+make.v.48: 1 Total Combined Value: 19
   Hashtags: filmmaking: 19
-make.v.36: 1 Total Combined Value: 19
+stool.v.04: 1 Total Combined Value: 19
   Hashtags: filmmaking: 19
-make.v.18: 1 Total Combined Value: 19
-  Hashtags: filmmaking: 19
-make.v.32: 1 Total Combined Value: 19
+do.v.08: 1 Total Combined Value: 19
   Hashtags: filmmaking: 19
 make.v.30: 1 Total Combined Value: 19
   Hashtags: filmmaking: 19
 devising.n.01: 1 Total Combined Value: 19
   Hashtags: filmmaking: 19
-make.v.16: 1 Total Combined Value: 19
-  Hashtags: filmmaking: 19
-make.v.45: 1 Total Combined Value: 19
-  Hashtags: filmmaking: 19
-cause.v.01: 1 Total Combined Value: 19
-  Hashtags: filmmaking: 19
-make.v.35: 1 Total Combined Value: 19
-  Hashtags: filmmaking: 19
-make.v.19: 1 Total Combined Value: 19
-  Hashtags: filmmaking: 19
-make.v.34: 1 Total Combined Value: 19
-  Hashtags: filmmaking: 19
-make.v.27: 1 Total Combined Value: 19
-  Hashtags: filmmaking: 19
-gain.v.08: 1 Total Combined Value: 19
-  Hashtags: filmmaking: 19
-make.v.42: 1 Total Combined Value: 19
-  Hashtags: filmmaking: 19
-make.v.31: 1 Total Combined Value: 19
-  Hashtags: filmmaking: 19
-make.v.47: 1 Total Combined Value: 19
-  Hashtags: filmmaking: 19
-make.v.33: 1 Total Combined Value: 19
-  Hashtags: filmmaking: 19
-lay_down.v.01: 1 Total Combined Value: 19
-  Hashtags: filmmaking: 19
-make.v.15: 1 Total Combined Value: 19
-  Hashtags: filmmaking: 19
-reach.v.01: 1 Total Combined Value: 19
-  Hashtags: filmmaking: 19
-make.v.08: 1 Total Combined Value: 19
-  Hashtags: filmmaking: 19
-make.v.24: 1 Total Combined Value: 19
+make.v.36: 1 Total Combined Value: 19
   Hashtags: filmmaking: 19
 make.v.38: 1 Total Combined Value: 19
   Hashtags: filmmaking: 19
-make.v.49: 1 Total Combined Value: 19
-  Hashtags: filmmaking: 19
-make.v.46: 1 Total Combined Value: 19
-  Hashtags: filmmaking: 19
-take.v.27: 1 Total Combined Value: 19
-  Hashtags: filmmaking: 19
-make.v.01: 1 Total Combined Value: 19
-  Hashtags: filmmaking: 19
-induce.v.02: 1 Total Combined Value: 19
-  Hashtags: filmmaking: 19
-create.v.05: 1 Total Combined Value: 19
-  Hashtags: filmmaking: 19
-do.v.08: 1 Total Combined Value: 19
-  Hashtags: filmmaking: 19
-make.v.41: 1 Total Combined Value: 19
-  Hashtags: filmmaking: 19
-make.v.43: 1 Total Combined Value: 19
-  Hashtags: filmmaking: 19
-make.v.02: 1 Total Combined Value: 19
+make.v.19: 1 Total Combined Value: 19
   Hashtags: filmmaking: 19
 reach.v.07: 1 Total Combined Value: 19
   Hashtags: filmmaking: 19
-making.n.03: 1 Total Combined Value: 19
+make.v.33: 1 Total Combined Value: 19
   Hashtags: filmmaking: 19
-make.v.48: 1 Total Combined Value: 19
+make.v.46: 1 Total Combined Value: 19
+  Hashtags: filmmaking: 19
+make.v.31: 1 Total Combined Value: 19
+  Hashtags: filmmaking: 19
+make.v.43: 1 Total Combined Value: 19
+  Hashtags: filmmaking: 19
+make.v.45: 1 Total Combined Value: 19
+  Hashtags: filmmaking: 19
+produce.v.02: 1 Total Combined Value: 19
+  Hashtags: filmmaking: 19
+make.v.34: 1 Total Combined Value: 19
+  Hashtags: filmmaking: 19
+make.v.01: 1 Total Combined Value: 19
+  Hashtags: filmmaking: 19
+construct.v.01: 1 Total Combined Value: 19
+  Hashtags: filmmaking: 19
+make.v.49: 1 Total Combined Value: 19
+  Hashtags: filmmaking: 19
+reach.v.01: 1 Total Combined Value: 19
   Hashtags: filmmaking: 19
 make.v.03: 1 Total Combined Value: 19
   Hashtags: filmmaking: 19
-qualification.n.01: 1 Total Combined Value: 19
+make.v.41: 1 Total Combined Value: 19
   Hashtags: filmmaking: 19
-seduce.v.01: 1 Total Combined Value: 19
+make.v.18: 1 Total Combined Value: 19
   Hashtags: filmmaking: 19
-name.v.03: 1 Total Combined Value: 19
+make.v.14: 1 Total Combined Value: 19
   Hashtags: filmmaking: 19
-stool.v.04: 1 Total Combined Value: 19
+create.v.05: 1 Total Combined Value: 19
   Hashtags: filmmaking: 19
 form.v.02: 1 Total Combined Value: 19
   Hashtags: filmmaking: 19
-make.v.25: 1 Total Combined Value: 19
+lay_down.v.01: 1 Total Combined Value: 19
   Hashtags: filmmaking: 19
-make.v.44: 1 Total Combined Value: 19
+make.v.27: 1 Total Combined Value: 19
   Hashtags: filmmaking: 19
-make.v.37: 1 Total Combined Value: 19
+seduce.v.01: 1 Total Combined Value: 19
   Hashtags: filmmaking: 19
-construct.v.01: 1 Total Combined Value: 19
+making.n.03: 1 Total Combined Value: 19
+  Hashtags: filmmaking: 19
+name.v.03: 1 Total Combined Value: 19
+  Hashtags: filmmaking: 19
+make.v.35: 1 Total Combined Value: 19
+  Hashtags: filmmaking: 19
+make.v.02: 1 Total Combined Value: 19
   Hashtags: filmmaking: 19
 potato.n.02: 1 Total Combined Value: 19
   Hashtags: spacepotatogang: 19
 potato.n.01: 1 Total Combined Value: 19
   Hashtags: spacepotatogang: 19
-childhood.n.01: 1 Total Combined Value: 18
-  Hashtags: childhood: 18
 childhood.n.02: 1 Total Combined Value: 18
   Hashtags: childhood: 18
-python.n.03: 1 Total Combined Value: 18
+childhood.n.01: 1 Total Combined Value: 18
+  Hashtags: childhood: 18
+python.n.02: 1 Total Combined Value: 18
   Hashtags: python: 18
 python.n.01: 1 Total Combined Value: 18
   Hashtags: python: 18
-python.n.02: 1 Total Combined Value: 18
+python.n.03: 1 Total Combined Value: 18
   Hashtags: python: 18
-comic.a.02: 1 Total Combined Value: 18
+comedian.n.01: 1 Total Combined Value: 18
   Hashtags: comic: 18
 amusing.s.02: 1 Total Combined Value: 18
   Hashtags: comic: 18
-comedian.n.01: 1 Total Combined Value: 18
+comic.a.02: 1 Total Combined Value: 18
   Hashtags: comic: 18
 song.n.02: 1 Total Combined Value: 17
-  Hashtags: song: 17
-song.n.05: 1 Total Combined Value: 17
   Hashtags: song: 17
 song.n.03: 1 Total Combined Value: 17
   Hashtags: song: 17
@@ -1698,7 +1696,15 @@ birdcall.n.01: 1 Total Combined Value: 17
   Hashtags: song: 17
 sung.n.01: 1 Total Combined Value: 17
   Hashtags: song: 17
+song.n.05: 1 Total Combined Value: 17
+  Hashtags: song: 17
+chemical_reaction.n.01: 1 Total Combined Value: 17
+  Hashtags: reaction: 17
 reaction.n.05: 1 Total Combined Value: 17
+  Hashtags: reaction: 17
+reaction.n.06: 1 Total Combined Value: 17
+  Hashtags: reaction: 17
+reaction.n.07: 1 Total Combined Value: 17
   Hashtags: reaction: 17
 reaction.n.02: 1 Total Combined Value: 17
   Hashtags: reaction: 17
@@ -1706,31 +1712,25 @@ reaction.n.04: 1 Total Combined Value: 17
   Hashtags: reaction: 17
 reaction.n.03: 1 Total Combined Value: 17
   Hashtags: reaction: 17
-reaction.n.07: 1 Total Combined Value: 17
-  Hashtags: reaction: 17
-chemical_reaction.n.01: 1 Total Combined Value: 17
-  Hashtags: reaction: 17
-reaction.n.06: 1 Total Combined Value: 17
-  Hashtags: reaction: 17
 pizza.n.01: 1 Total Combined Value: 17
   Hashtags: pizza: 17
+vocal.a.02: 1 Total Combined Value: 17
+  Hashtags: vocaloid: 17
+vocal_music.n.01: 1 Total Combined Value: 17
+  Hashtags: vocaloid: 17
 vocal.s.04: 1 Total Combined Value: 17
   Hashtags: vocaloid: 17
 outspoken.s.01: 1 Total Combined Value: 17
   Hashtags: vocaloid: 17
 vocal.a.01: 1 Total Combined Value: 17
   Hashtags: vocaloid: 17
-vocal_music.n.01: 1 Total Combined Value: 17
-  Hashtags: vocaloid: 17
-vocal.a.02: 1 Total Combined Value: 17
-  Hashtags: vocaloid: 17
-model.n.04: 1 Total Combined Value: 17
+pretense.n.01: 1 Total Combined Value: 17
   Hashtags: simulation: 17
 simulation.n.02: 1 Total Combined Value: 17
   Hashtags: simulation: 17
-pretense.n.01: 1 Total Combined Value: 17
-  Hashtags: simulation: 17
 simulation.n.01: 1 Total Combined Value: 17
+  Hashtags: simulation: 17
+model.n.04: 1 Total Combined Value: 17
   Hashtags: simulation: 17
 spider-man.s.1: 1 Total Combined Value: 17
   Hashtags: spiderman: 17
@@ -1740,75 +1740,75 @@ robotics.n.01: 1 Total Combined Value: 17
   Hashtags: robotics: 17
 taylorswift.s.1: 1 Total Combined Value: 17
   Hashtags: taylorswift: 17
+printer.n.01: 1 Total Combined Value: 17
+  Hashtags: 3dprinter: 17
 printer.n.02: 1 Total Combined Value: 17
   Hashtags: 3dprinter: 17
 printer.n.03: 1 Total Combined Value: 17
   Hashtags: 3dprinter: 17
-printer.n.01: 1 Total Combined Value: 17
-  Hashtags: 3dprinter: 17
+klein.n.02: 1 Total Combined Value: 17
+  Hashtags: joostklein: 17
 klein.n.03: 1 Total Combined Value: 17
   Hashtags: joostklein: 17
 klein.n.01: 1 Total Combined Value: 17
   Hashtags: joostklein: 17
-klein.n.02: 1 Total Combined Value: 17
-  Hashtags: joostklein: 17
-commando.n.01: 1 Total Combined Value: 17
+texas_ranger.n.01: 1 Total Combined Value: 17
   Hashtags: powerrangers: 17
 fire_warden.n.01: 1 Total Combined Value: 17
   Hashtags: powerrangers: 17
-texas_ranger.n.01: 1 Total Combined Value: 17
+commando.n.01: 1 Total Combined Value: 17
   Hashtags: powerrangers: 17
-casing.n.03: 1 Total Combined Value: 16
-  Hashtags: caseoh: 16
-encase.v.01: 1 Total Combined Value: 16
-  Hashtags: caseoh: 16
-case.n.20: 1 Total Combined Value: 16
-  Hashtags: caseoh: 16
-case.n.11: 1 Total Combined Value: 16
-  Hashtags: caseoh: 16
-case.n.06: 1 Total Combined Value: 16
-  Hashtags: caseoh: 16
-subject.n.06: 1 Total Combined Value: 16
-  Hashtags: caseoh: 16
-case.v.01: 1 Total Combined Value: 16
-  Hashtags: caseoh: 16
-case.n.19: 1 Total Combined Value: 16
-  Hashtags: caseoh: 16
-case.n.01: 1 Total Combined Value: 16
-  Hashtags: caseoh: 16
-shell.n.08: 1 Total Combined Value: 16
-  Hashtags: caseoh: 16
-case.n.04: 1 Total Combined Value: 16
-  Hashtags: caseoh: 16
-case.n.09: 1 Total Combined Value: 16
+event.n.02: 1 Total Combined Value: 16
   Hashtags: caseoh: 16
 lawsuit.n.01: 1 Total Combined Value: 16
   Hashtags: caseoh: 16
-character.n.05: 1 Total Combined Value: 16
+subject.n.06: 1 Total Combined Value: 16
   Hashtags: caseoh: 16
-event.n.02: 1 Total Combined Value: 16
+case.n.20: 1 Total Combined Value: 16
   Hashtags: caseoh: 16
-case.n.12: 1 Total Combined Value: 16
+case.n.09: 1 Total Combined Value: 16
   Hashtags: caseoh: 16
-case.n.10: 1 Total Combined Value: 16
+case.n.01: 1 Total Combined Value: 16
   Hashtags: caseoh: 16
-case.n.08: 1 Total Combined Value: 16
+encase.v.01: 1 Total Combined Value: 16
   Hashtags: caseoh: 16
-case.n.18: 1 Total Combined Value: 16
+case.n.06: 1 Total Combined Value: 16
   Hashtags: caseoh: 16
-sheath.n.02: 1 Total Combined Value: 16
+casing.n.03: 1 Total Combined Value: 16
+  Hashtags: caseoh: 16
+case.n.11: 1 Total Combined Value: 16
   Hashtags: caseoh: 16
 font.n.01: 1 Total Combined Value: 16
   Hashtags: caseoh: 16
+case.n.18: 1 Total Combined Value: 16
+  Hashtags: caseoh: 16
 case.n.05: 1 Total Combined Value: 16
   Hashtags: caseoh: 16
-interesting.a.01: 1 Total Combined Value: 16
-  Hashtags: interesting: 16
-interest.v.01: 1 Total Combined Value: 16
+character.n.05: 1 Total Combined Value: 16
+  Hashtags: caseoh: 16
+case.n.04: 1 Total Combined Value: 16
+  Hashtags: caseoh: 16
+case.n.08: 1 Total Combined Value: 16
+  Hashtags: caseoh: 16
+case.n.19: 1 Total Combined Value: 16
+  Hashtags: caseoh: 16
+case.v.01: 1 Total Combined Value: 16
+  Hashtags: caseoh: 16
+shell.n.08: 1 Total Combined Value: 16
+  Hashtags: caseoh: 16
+case.n.12: 1 Total Combined Value: 16
+  Hashtags: caseoh: 16
+sheath.n.02: 1 Total Combined Value: 16
+  Hashtags: caseoh: 16
+case.n.10: 1 Total Combined Value: 16
+  Hashtags: caseoh: 16
+concern.v.02: 1 Total Combined Value: 16
   Hashtags: interesting: 16
 matter_to.v.01: 1 Total Combined Value: 16
   Hashtags: interesting: 16
-concern.v.02: 1 Total Combined Value: 16
+interesting.a.01: 1 Total Combined Value: 16
+  Hashtags: interesting: 16
+interest.v.01: 1 Total Combined Value: 16
   Hashtags: interesting: 16
 ilium.n.02: 1 Total Combined Value: 16
   Hashtags: filian: 16
@@ -1816,75 +1816,75 @@ troy.n.02: 1 Total Combined Value: 16
   Hashtags: filian: 16
 solleret.n.01: 1 Total Combined Value: 16
   Hashtags: sabaton: 16
-supporter.n.01: 1 Total Combined Value: 16
-  Hashtags: friends: 16
 acquaintance.n.03: 1 Total Combined Value: 16
-  Hashtags: friends: 16
-ally.n.02: 1 Total Combined Value: 16
   Hashtags: friends: 16
 friend.n.01: 1 Total Combined Value: 16
   Hashtags: friends: 16
+ally.n.02: 1 Total Combined Value: 16
+  Hashtags: friends: 16
+supporter.n.01: 1 Total Combined Value: 16
+  Hashtags: friends: 16
 friend.n.05: 1 Total Combined Value: 16
   Hashtags: friends: 16
-interview.v.02: 1 Total Combined Value: 16
+interview.v.01: 1 Total Combined Value: 16
   Hashtags: interview: 16
 interview.n.01: 1 Total Combined Value: 16
   Hashtags: interview: 16
-interview.v.03: 1 Total Combined Value: 16
-  Hashtags: interview: 16
 consultation.n.01: 1 Total Combined Value: 16
   Hashtags: interview: 16
-interview.v.01: 1 Total Combined Value: 16
+interview.v.02: 1 Total Combined Value: 16
   Hashtags: interview: 16
+interview.v.03: 1 Total Combined Value: 16
+  Hashtags: interview: 16
+jab.v.01: 1 Total Combined Value: 16
+  Hashtags: pokemon: 16
+punch.n.01: 1 Total Combined Value: 16
+  Hashtags: pokemon: 16
 poke.n.01: 1 Total Combined Value: 16
   Hashtags: pokemon: 16
 intrude.v.03: 1 Total Combined Value: 16
   Hashtags: pokemon: 16
-jab.v.01: 1 Total Combined Value: 16
+thump.v.03: 1 Total Combined Value: 16
   Hashtags: pokemon: 16
 poke.v.05: 1 Total Combined Value: 16
   Hashtags: pokemon: 16
-poke.v.03: 1 Total Combined Value: 16
-  Hashtags: pokemon: 16
-thump.v.03: 1 Total Combined Value: 16
+dawdler.n.01: 1 Total Combined Value: 16
   Hashtags: pokemon: 16
 sack.n.01: 1 Total Combined Value: 16
   Hashtags: pokemon: 16
-dawdler.n.01: 1 Total Combined Value: 16
-  Hashtags: pokemon: 16
 jab.n.01: 1 Total Combined Value: 16
   Hashtags: pokemon: 16
-punch.n.01: 1 Total Combined Value: 16
+poke.v.03: 1 Total Combined Value: 16
   Hashtags: pokemon: 16
-mean.v.01: 1 Total Combined Value: 16
-  Hashtags: nintendo: 16
-intend.v.02: 1 Total Combined Value: 16
-  Hashtags: nintendo: 16
 intend.v.01: 1 Total Combined Value: 16
   Hashtags: nintendo: 16
 mean.v.03: 1 Total Combined Value: 16
   Hashtags: nintendo: 16
+intend.v.02: 1 Total Combined Value: 16
+  Hashtags: nintendo: 16
+mean.v.01: 1 Total Combined Value: 16
+  Hashtags: nintendo: 16
 automaton.n.02: 1 Total Combined Value: 16
   Hashtags: robot: 16
-pickle.n.01: 1 Total Combined Value: 16
-  Hashtags: cheappickle: 16
 pickle.v.01: 1 Total Combined Value: 16
+  Hashtags: cheappickle: 16
+pickle.n.01: 1 Total Combined Value: 16
   Hashtags: cheappickle: 16
 fix.n.01: 1 Total Combined Value: 16
   Hashtags: cheappickle: 16
-felicitous.s.02: 1 Total Combined Value: 16
+glad.s.02: 1 Total Combined Value: 16
   Hashtags: happy: 16
-happy.a.01: 1 Total Combined Value: 16
+felicitous.s.02: 1 Total Combined Value: 16
   Hashtags: happy: 16
 happy.s.04: 1 Total Combined Value: 16
   Hashtags: happy: 16
-glad.s.02: 1 Total Combined Value: 16
+happy.a.01: 1 Total Combined Value: 16
   Hashtags: happy: 16
 europa.n.01: 1 Total Combined Value: 16
   Hashtags: europapa: 16
-irish.n.01: 1 Total Combined Value: 16
-  Hashtags: irish: 16
 irish.n.03: 1 Total Combined Value: 16
+  Hashtags: irish: 16
+irish.n.01: 1 Total Combined Value: 16
   Hashtags: irish: 16
 irish.a.01: 1 Total Combined Value: 16
   Hashtags: irish: 16
@@ -1892,91 +1892,89 @@ irish.n.02: 1 Total Combined Value: 16
   Hashtags: irish: 16
 electronics.n.01: 1 Total Combined Value: 16
   Hashtags: electronics: 16
-amaze.v.01: 1 Total Combined Value: 15
-  Hashtags: amazing: 15
 amazing.s.02: 1 Total Combined Value: 15
   Hashtags: amazing: 15
 perplex.v.01: 1 Total Combined Value: 15
   Hashtags: amazing: 15
+amaze.v.01: 1 Total Combined Value: 15
+  Hashtags: amazing: 15
 amazing.s.01: 1 Total Combined Value: 15
   Hashtags: amazing: 15
-good.s.07: 1 Total Combined Value: 15
-  Hashtags: goodkidband: 15
-beneficial.s.01: 1 Total Combined Value: 15
-  Hashtags: goodkidband: 15
-good.n.01: 1 Total Combined Value: 15
-  Hashtags: goodkidband: 15
-good.s.18: 1 Total Combined Value: 15
-  Hashtags: goodkidband: 15
-good.s.15: 1 Total Combined Value: 15
-  Hashtags: goodkidband: 15
-well.r.01: 1 Total Combined Value: 15
-  Hashtags: goodkidband: 15
 good.s.19: 1 Total Combined Value: 15
   Hashtags: goodkidband: 15
 good.n.03: 1 Total Combined Value: 15
   Hashtags: goodkidband: 15
-dependable.s.04: 1 Total Combined Value: 15
-  Hashtags: goodkidband: 15
-adept.s.01: 1 Total Combined Value: 15
-  Hashtags: goodkidband: 15
-commodity.n.01: 1 Total Combined Value: 15
-  Hashtags: goodkidband: 15
-thoroughly.r.02: 1 Total Combined Value: 15
-  Hashtags: goodkidband: 15
-estimable.s.02: 1 Total Combined Value: 15
-  Hashtags: goodkidband: 15
-good.s.13: 1 Total Combined Value: 15
-  Hashtags: goodkidband: 15
-good.s.20: 1 Total Combined Value: 15
-  Hashtags: goodkidband: 15
-good.s.17: 1 Total Combined Value: 15
-  Hashtags: goodkidband: 15
-good.a.03: 1 Total Combined Value: 15
-  Hashtags: goodkidband: 15
-effective.s.04: 1 Total Combined Value: 15
-  Hashtags: goodkidband: 15
-good.a.01: 1 Total Combined Value: 15
-  Hashtags: goodkidband: 15
-dear.s.02: 1 Total Combined Value: 15
-  Hashtags: goodkidband: 15
-good.s.16: 1 Total Combined Value: 15
-  Hashtags: goodkidband: 15
-full.s.06: 1 Total Combined Value: 15
-  Hashtags: goodkidband: 15
-good.s.09: 1 Total Combined Value: 15
-  Hashtags: goodkidband: 15
 good.s.06: 1 Total Combined Value: 15
-  Hashtags: goodkidband: 15
-good.n.02: 1 Total Combined Value: 15
   Hashtags: goodkidband: 15
 good.s.12: 1 Total Combined Value: 15
   Hashtags: goodkidband: 15
 good.s.21: 1 Total Combined Value: 15
   Hashtags: goodkidband: 15
-this.s.1: 1 Total Combined Value: 15
-  Hashtags: onthisday: 15
+good.s.15: 1 Total Combined Value: 15
+  Hashtags: goodkidband: 15
+effective.s.04: 1 Total Combined Value: 15
+  Hashtags: goodkidband: 15
+good.n.01: 1 Total Combined Value: 15
+  Hashtags: goodkidband: 15
+dependable.s.04: 1 Total Combined Value: 15
+  Hashtags: goodkidband: 15
+well.r.01: 1 Total Combined Value: 15
+  Hashtags: goodkidband: 15
+good.s.18: 1 Total Combined Value: 15
+  Hashtags: goodkidband: 15
+good.a.01: 1 Total Combined Value: 15
+  Hashtags: goodkidband: 15
+good.s.13: 1 Total Combined Value: 15
+  Hashtags: goodkidband: 15
+good.n.02: 1 Total Combined Value: 15
+  Hashtags: goodkidband: 15
+good.s.20: 1 Total Combined Value: 15
+  Hashtags: goodkidband: 15
+estimable.s.02: 1 Total Combined Value: 15
+  Hashtags: goodkidband: 15
+good.s.17: 1 Total Combined Value: 15
+  Hashtags: goodkidband: 15
+good.s.07: 1 Total Combined Value: 15
+  Hashtags: goodkidband: 15
+adept.s.01: 1 Total Combined Value: 15
+  Hashtags: goodkidband: 15
+full.s.06: 1 Total Combined Value: 15
+  Hashtags: goodkidband: 15
+beneficial.s.01: 1 Total Combined Value: 15
+  Hashtags: goodkidband: 15
+good.a.03: 1 Total Combined Value: 15
+  Hashtags: goodkidband: 15
+thoroughly.r.02: 1 Total Combined Value: 15
+  Hashtags: goodkidband: 15
+good.s.16: 1 Total Combined Value: 15
+  Hashtags: goodkidband: 15
+commodity.n.01: 1 Total Combined Value: 15
+  Hashtags: goodkidband: 15
+good.s.09: 1 Total Combined Value: 15
+  Hashtags: goodkidband: 15
+dear.s.02: 1 Total Combined Value: 15
+  Hashtags: goodkidband: 15
 lover.n.01: 1 Total Combined Value: 15
   Hashtags: catlover: 15
 lover.n.03: 1 Total Combined Value: 15
   Hashtags: catlover: 15
 fan.n.03: 1 Total Combined Value: 15
   Hashtags: catlover: 15
-dog.n.03: 1 Total Combined Value: 15
-  Hashtags: dogsoftiktok: 15
-pawl.n.01: 1 Total Combined Value: 15
-  Hashtags: dogsoftiktok: 15
-cad.n.01: 1 Total Combined Value: 15
-  Hashtags: dogsoftiktok: 15
-andiron.n.01: 1 Total Combined Value: 15
-  Hashtags: dogsoftiktok: 15
-dog.n.01: 1 Total Combined Value: 15
+frank.n.02: 1 Total Combined Value: 15
   Hashtags: dogsoftiktok: 15
 chase.v.01: 1 Total Combined Value: 15
   Hashtags: dogsoftiktok: 15
-frank.n.02: 1 Total Combined Value: 15
+pawl.n.01: 1 Total Combined Value: 15
+  Hashtags: dogsoftiktok: 15
+dog.n.01: 1 Total Combined Value: 15
+  Hashtags: dogsoftiktok: 15
+cad.n.01: 1 Total Combined Value: 15
+  Hashtags: dogsoftiktok: 15
+dog.n.03: 1 Total Combined Value: 15
   Hashtags: dogsoftiktok: 15
 frump.n.01: 1 Total Combined Value: 15
+  Hashtags: dogsoftiktok: 15
+andiron.n.01: 1 Total Combined Value: 15
   Hashtags: dogsoftiktok: 15
 lasvegas.s.1: 1 Total Combined Value: 15
   Hashtags: lasvegas: 15
@@ -1988,207 +1986,207 @@ scholar.n.01: 1 Total Combined Value: 15
   Hashtags: student: 15
 illusion.n.02: 1 Total Combined Value: 15
   Hashtags: fantasy: 15
+fantasy.n.01: 1 Total Combined Value: 15
+  Hashtags: fantasy: 15
 fantasy.v.01: 1 Total Combined Value: 15
   Hashtags: fantasy: 15
 fantasy.n.02: 1 Total Combined Value: 15
   Hashtags: fantasy: 15
-fantasy.n.01: 1 Total Combined Value: 15
-  Hashtags: fantasy: 15
-short_circuit.n.01: 1 Total Combined Value: 15
-  Hashtags: shorts: 15
-shortstop.n.02: 1 Total Combined Value: 15
-  Hashtags: shorts: 15
-short-change.v.01: 1 Total Combined Value: 15
-  Hashtags: shorts: 15
-drawers.n.01: 1 Total Combined Value: 15
-  Hashtags: shorts: 15
 short_pants.n.01: 1 Total Combined Value: 15
   Hashtags: shorts: 15
 short.n.01: 1 Total Combined Value: 15
   Hashtags: shorts: 15
+drawers.n.01: 1 Total Combined Value: 15
+  Hashtags: shorts: 15
+shortstop.n.02: 1 Total Combined Value: 15
+  Hashtags: shorts: 15
+short_circuit.n.01: 1 Total Combined Value: 15
+  Hashtags: shorts: 15
 short-circuit.v.02: 1 Total Combined Value: 15
+  Hashtags: shorts: 15
+short-change.v.01: 1 Total Combined Value: 15
   Hashtags: shorts: 15
 ontario.n.02: 1 Total Combined Value: 15
   Hashtags: ontario: 15
 lake_ontario.n.01: 1 Total Combined Value: 15
   Hashtags: ontario: 15
-beam.n.02: 1 Total Combined Value: 15
+air.v.03: 1 Total Combined Value: 15
   Hashtags: beamng: 15
-beam.n.03: 1 Total Combined Value: 15
+glow.v.02: 1 Total Combined Value: 15
+  Hashtags: beamng: 15
+beam.n.06: 1 Total Combined Value: 15
+  Hashtags: beamng: 15
+beam.n.04: 1 Total Combined Value: 15
+  Hashtags: beamng: 15
+beam.v.01: 1 Total Combined Value: 15
   Hashtags: beamng: 15
 shine.v.02: 1 Total Combined Value: 15
   Hashtags: beamng: 15
-air.v.03: 1 Total Combined Value: 15
+beam.n.02: 1 Total Combined Value: 15
   Hashtags: beamng: 15
 glow.v.05: 1 Total Combined Value: 15
+  Hashtags: beamng: 15
+beam.n.03: 1 Total Combined Value: 15
   Hashtags: beamng: 15
 radio_beam.n.01: 1 Total Combined Value: 15
   Hashtags: beamng: 15
 beam.n.05: 1 Total Combined Value: 15
   Hashtags: beamng: 15
-beam.v.01: 1 Total Combined Value: 15
-  Hashtags: beamng: 15
-beam.n.06: 1 Total Combined Value: 15
-  Hashtags: beamng: 15
-glow.v.02: 1 Total Combined Value: 15
-  Hashtags: beamng: 15
-beam.n.04: 1 Total Combined Value: 15
+beam.v.03: 1 Total Combined Value: 15
   Hashtags: beamng: 15
 balance_beam.n.01: 1 Total Combined Value: 15
   Hashtags: beamng: 15
-beam.v.03: 1 Total Combined Value: 15
-  Hashtags: beamng: 15
-italian.n.01: 1 Total Combined Value: 15
-  Hashtags: italian: 15
 italian.a.01: 1 Total Combined Value: 15
+  Hashtags: italian: 15
+italian.n.01: 1 Total Combined Value: 15
   Hashtags: italian: 15
 italian.n.02: 1 Total Combined Value: 15
   Hashtags: italian: 15
-afford.v.04: 1 Total Combined Value: 15
-  Hashtags: givesyouwiiings: 15
-give.v.40: 1 Total Combined Value: 15
-  Hashtags: givesyouwiiings: 15
-give.v.34: 1 Total Combined Value: 15
-  Hashtags: givesyouwiiings: 15
-give.v.03: 1 Total Combined Value: 15
-  Hashtags: givesyouwiiings: 15
-give.v.28: 1 Total Combined Value: 15
-  Hashtags: givesyouwiiings: 15
-impart.v.01: 1 Total Combined Value: 15
-  Hashtags: givesyouwiiings: 15
-give.v.44: 1 Total Combined Value: 15
-  Hashtags: givesyouwiiings: 15
-sacrifice.v.01: 1 Total Combined Value: 15
-  Hashtags: givesyouwiiings: 15
-move_over.v.01: 1 Total Combined Value: 15
-  Hashtags: givesyouwiiings: 15
-yield.v.01: 1 Total Combined Value: 15
-  Hashtags: givesyouwiiings: 15
-give.v.04: 1 Total Combined Value: 15
-  Hashtags: givesyouwiiings: 15
-give.v.09: 1 Total Combined Value: 15
+give.v.18: 1 Total Combined Value: 15
   Hashtags: givesyouwiiings: 15
 give.v.32: 1 Total Combined Value: 15
   Hashtags: givesyouwiiings: 15
-give.v.36: 1 Total Combined Value: 15
-  Hashtags: givesyouwiiings: 15
-give.v.10: 1 Total Combined Value: 15
-  Hashtags: givesyouwiiings: 15
-collapse.v.01: 1 Total Combined Value: 15
-  Hashtags: givesyouwiiings: 15
-give.v.18: 1 Total Combined Value: 15
-  Hashtags: givesyouwiiings: 15
-give.v.27: 1 Total Combined Value: 15
-  Hashtags: givesyouwiiings: 15
-give.v.21: 1 Total Combined Value: 15
-  Hashtags: givesyouwiiings: 15
-give.v.43: 1 Total Combined Value: 15
-  Hashtags: givesyouwiiings: 15
-give.v.37: 1 Total Combined Value: 15
-  Hashtags: givesyouwiiings: 15
 give.v.35: 1 Total Combined Value: 15
   Hashtags: givesyouwiiings: 15
-give.v.05: 1 Total Combined Value: 15
+give.v.04: 1 Total Combined Value: 15
   Hashtags: givesyouwiiings: 15
-give.v.38: 1 Total Combined Value: 15
-  Hashtags: givesyouwiiings: 15
-give.v.19: 1 Total Combined Value: 15
-  Hashtags: givesyouwiiings: 15
-give.v.29: 1 Total Combined Value: 15
-  Hashtags: givesyouwiiings: 15
-give.v.20: 1 Total Combined Value: 15
-  Hashtags: givesyouwiiings: 15
-feed.v.02: 1 Total Combined Value: 15
-  Hashtags: givesyouwiiings: 15
-give.v.07: 1 Total Combined Value: 15
-  Hashtags: givesyouwiiings: 15
-give.v.15: 1 Total Combined Value: 15
-  Hashtags: givesyouwiiings: 15
-give.v.33: 1 Total Combined Value: 15
-  Hashtags: givesyouwiiings: 15
-give.v.39: 1 Total Combined Value: 15
-  Hashtags: givesyouwiiings: 15
-contribute.v.02: 1 Total Combined Value: 15
-  Hashtags: givesyouwiiings: 15
-give.v.42: 1 Total Combined Value: 15
-  Hashtags: givesyouwiiings: 15
-give.n.01: 1 Total Combined Value: 15
-  Hashtags: givesyouwiiings: 15
-give.v.14: 1 Total Combined Value: 15
-  Hashtags: givesyouwiiings: 15
-pass.v.05: 1 Total Combined Value: 15
-  Hashtags: givesyouwiiings: 15
-give.v.31: 1 Total Combined Value: 15
-  Hashtags: givesyouwiiings: 15
-give.v.41: 1 Total Combined Value: 15
-  Hashtags: givesyouwiiings: 15
-establish.v.05: 1 Total Combined Value: 15
-  Hashtags: givesyouwiiings: 15
-give.v.08: 1 Total Combined Value: 15
+give.v.21: 1 Total Combined Value: 15
   Hashtags: givesyouwiiings: 15
 give.v.01: 1 Total Combined Value: 15
   Hashtags: givesyouwiiings: 15
 grant.v.05: 1 Total Combined Value: 15
   Hashtags: givesyouwiiings: 15
-photography.n.01: 1 Total Combined Value: 15
-  Hashtags: photography: 15
+give.v.09: 1 Total Combined Value: 15
+  Hashtags: givesyouwiiings: 15
+give.v.14: 1 Total Combined Value: 15
+  Hashtags: givesyouwiiings: 15
+feed.v.02: 1 Total Combined Value: 15
+  Hashtags: givesyouwiiings: 15
+give.v.37: 1 Total Combined Value: 15
+  Hashtags: givesyouwiiings: 15
+contribute.v.02: 1 Total Combined Value: 15
+  Hashtags: givesyouwiiings: 15
+give.v.31: 1 Total Combined Value: 15
+  Hashtags: givesyouwiiings: 15
+give.v.39: 1 Total Combined Value: 15
+  Hashtags: givesyouwiiings: 15
+sacrifice.v.01: 1 Total Combined Value: 15
+  Hashtags: givesyouwiiings: 15
+impart.v.01: 1 Total Combined Value: 15
+  Hashtags: givesyouwiiings: 15
+give.v.19: 1 Total Combined Value: 15
+  Hashtags: givesyouwiiings: 15
+give.v.36: 1 Total Combined Value: 15
+  Hashtags: givesyouwiiings: 15
+give.v.03: 1 Total Combined Value: 15
+  Hashtags: givesyouwiiings: 15
+give.v.20: 1 Total Combined Value: 15
+  Hashtags: givesyouwiiings: 15
+give.v.44: 1 Total Combined Value: 15
+  Hashtags: givesyouwiiings: 15
+give.n.01: 1 Total Combined Value: 15
+  Hashtags: givesyouwiiings: 15
+give.v.29: 1 Total Combined Value: 15
+  Hashtags: givesyouwiiings: 15
+give.v.34: 1 Total Combined Value: 15
+  Hashtags: givesyouwiiings: 15
+give.v.10: 1 Total Combined Value: 15
+  Hashtags: givesyouwiiings: 15
+give.v.15: 1 Total Combined Value: 15
+  Hashtags: givesyouwiiings: 15
+give.v.05: 1 Total Combined Value: 15
+  Hashtags: givesyouwiiings: 15
+pass.v.05: 1 Total Combined Value: 15
+  Hashtags: givesyouwiiings: 15
+give.v.41: 1 Total Combined Value: 15
+  Hashtags: givesyouwiiings: 15
+move_over.v.01: 1 Total Combined Value: 15
+  Hashtags: givesyouwiiings: 15
+give.v.07: 1 Total Combined Value: 15
+  Hashtags: givesyouwiiings: 15
+give.v.38: 1 Total Combined Value: 15
+  Hashtags: givesyouwiiings: 15
+establish.v.05: 1 Total Combined Value: 15
+  Hashtags: givesyouwiiings: 15
+give.v.28: 1 Total Combined Value: 15
+  Hashtags: givesyouwiiings: 15
+collapse.v.01: 1 Total Combined Value: 15
+  Hashtags: givesyouwiiings: 15
+give.v.33: 1 Total Combined Value: 15
+  Hashtags: givesyouwiiings: 15
+yield.v.01: 1 Total Combined Value: 15
+  Hashtags: givesyouwiiings: 15
+give.v.43: 1 Total Combined Value: 15
+  Hashtags: givesyouwiiings: 15
+give.v.08: 1 Total Combined Value: 15
+  Hashtags: givesyouwiiings: 15
+give.v.42: 1 Total Combined Value: 15
+  Hashtags: givesyouwiiings: 15
+afford.v.04: 1 Total Combined Value: 15
+  Hashtags: givesyouwiiings: 15
+give.v.27: 1 Total Combined Value: 15
+  Hashtags: givesyouwiiings: 15
+give.v.40: 1 Total Combined Value: 15
+  Hashtags: givesyouwiiings: 15
 photography.n.02: 1 Total Combined Value: 15
+  Hashtags: photography: 15
+photography.n.01: 1 Total Combined Value: 15
   Hashtags: photography: 15
 photography.n.03: 1 Total Combined Value: 15
   Hashtags: photography: 15
-scheduling.n.01: 1 Total Combined Value: 15
+program.v.02: 1 Total Combined Value: 15
   Hashtags: programming: 15
 programming.n.02: 1 Total Combined Value: 15
   Hashtags: programming: 15
 program.v.01: 1 Total Combined Value: 15
   Hashtags: programming: 15
-program.v.02: 1 Total Combined Value: 15
+scheduling.n.01: 1 Total Combined Value: 15
   Hashtags: programming: 15
-infinite.a.01: 1 Total Combined Value: 15
-  Hashtags: infinitecraft: 15
 infinite.s.04: 1 Total Combined Value: 15
-  Hashtags: infinitecraft: 15
-countless.s.01: 1 Total Combined Value: 15
   Hashtags: infinitecraft: 15
 infinite.a.02: 1 Total Combined Value: 15
   Hashtags: infinitecraft: 15
+infinite.a.01: 1 Total Combined Value: 15
+  Hashtags: infinitecraft: 15
+countless.s.01: 1 Total Combined Value: 15
+  Hashtags: infinitecraft: 15
 tasty.a.01: 1 Total Combined Value: 15
   Hashtags: tasty: 15
-electric.s.03: 1 Total Combined Value: 15
+electric.n.01: 1 Total Combined Value: 15
   Hashtags: electricguitar: 15
 electric.s.02: 1 Total Combined Value: 15
   Hashtags: electricguitar: 15
 electric.a.01: 1 Total Combined Value: 15
   Hashtags: electricguitar: 15
-electric.n.01: 1 Total Combined Value: 15
+electric.s.03: 1 Total Combined Value: 15
   Hashtags: electricguitar: 15
 photograph.n.01: 1 Total Combined Value: 14
   Hashtags: photoshop: 14
-america.n.02: 1 Total Combined Value: 14
-  Hashtags: america: 14
 united_states.n.01: 1 Total Combined Value: 14
+  Hashtags: america: 14
+america.n.02: 1 Total Combined Value: 14
   Hashtags: america: 14
 lgbt.s.1: 1 Total Combined Value: 14
   Hashtags: lgbt: 14
+school.n.02: 1 Total Combined Value: 14
+  Hashtags: school: 14
 school.v.03: 1 Total Combined Value: 14
-  Hashtags: school: 14
-school.v.01: 1 Total Combined Value: 14
-  Hashtags: school: 14
-school.n.05: 1 Total Combined Value: 14
-  Hashtags: school: 14
-school.n.07: 1 Total Combined Value: 14
-  Hashtags: school: 14
-educate.v.03: 1 Total Combined Value: 14
   Hashtags: school: 14
 school.n.01: 1 Total Combined Value: 14
   Hashtags: school: 14
-school.n.04: 1 Total Combined Value: 14
+school.n.06: 1 Total Combined Value: 14
+  Hashtags: school: 14
+school.n.05: 1 Total Combined Value: 14
   Hashtags: school: 14
 school.n.03: 1 Total Combined Value: 14
   Hashtags: school: 14
-school.n.06: 1 Total Combined Value: 14
+school.v.01: 1 Total Combined Value: 14
   Hashtags: school: 14
-school.n.02: 1 Total Combined Value: 14
+educate.v.03: 1 Total Combined Value: 14
+  Hashtags: school: 14
+school.n.07: 1 Total Combined Value: 14
+  Hashtags: school: 14
+school.n.04: 1 Total Combined Value: 14
   Hashtags: school: 14
 meow.n.01: 1 Total Combined Value: 14
   Hashtags: meow: 14
@@ -2198,33 +2196,33 @@ journey.n.01: 1 Total Combined Value: 14
   Hashtags: midjourney: 14
 beget.v.01: 1 Total Combined Value: 14
   Hashtags: aigenerated: 14
-generate.v.01: 1 Total Combined Value: 14
-  Hashtags: aigenerated: 14
 generate.v.03: 1 Total Combined Value: 14
+  Hashtags: aigenerated: 14
+generate.v.01: 1 Total Combined Value: 14
   Hashtags: aigenerated: 14
 behind.r.02: 1 Total Combined Value: 14
   Hashtags: behindthescenes: 14
-behind.s.01: 1 Total Combined Value: 14
-  Hashtags: behindthescenes: 14
 behind.r.01: 1 Total Combined Value: 14
-  Hashtags: behindthescenes: 14
-buttocks.n.01: 1 Total Combined Value: 14
   Hashtags: behindthescenes: 14
 behind.r.05: 1 Total Combined Value: 14
   Hashtags: behindthescenes: 14
-behind.r.03: 1 Total Combined Value: 14
+buttocks.n.01: 1 Total Combined Value: 14
   Hashtags: behindthescenes: 14
 behind.r.04: 1 Total Combined Value: 14
   Hashtags: behindthescenes: 14
-terminology.n.01: 1 Total Combined Value: 14
-  Hashtags: language: 14
+behind.s.01: 1 Total Combined Value: 14
+  Hashtags: behindthescenes: 14
+behind.r.03: 1 Total Combined Value: 14
+  Hashtags: behindthescenes: 14
 linguistic_process.n.02: 1 Total Combined Value: 14
+  Hashtags: language: 14
+lyric.n.01: 1 Total Combined Value: 14
   Hashtags: language: 14
 speech.n.02: 1 Total Combined Value: 14
   Hashtags: language: 14
-language.n.01: 1 Total Combined Value: 14
+terminology.n.01: 1 Total Combined Value: 14
   Hashtags: language: 14
-lyric.n.01: 1 Total Combined Value: 14
+language.n.01: 1 Total Combined Value: 14
   Hashtags: language: 14
 language.n.05: 1 Total Combined Value: 14
   Hashtags: language: 14
@@ -2232,25 +2230,25 @@ dune.n.01: 1 Total Combined Value: 14
   Hashtags: dune: 14
 thelast.s.1: 1 Total Combined Value: 14
   Hashtags: avatarthelastairbender: 14
-sing.v.01: 1 Total Combined Value: 13
-  Hashtags: singing: 13
-sing.v.02: 1 Total Combined Value: 13
-  Hashtags: singing: 13
-spill_the_beans.v.01: 1 Total Combined Value: 13
-  Hashtags: singing: 13
 singe.v.01: 1 Total Combined Value: 13
   Hashtags: singing: 13
-tattle.n.01: 1 Total Combined Value: 13
+cantabile.s.01: 1 Total Combined Value: 13
   Hashtags: singing: 13
-whistle.v.05: 1 Total Combined Value: 13
-  Hashtags: singing: 13
-scorch.v.02: 1 Total Combined Value: 13
-  Hashtags: singing: 13
-sing.v.03: 1 Total Combined Value: 13
+sing.v.01: 1 Total Combined Value: 13
   Hashtags: singing: 13
 singing.n.01: 1 Total Combined Value: 13
   Hashtags: singing: 13
-cantabile.s.01: 1 Total Combined Value: 13
+whistle.v.05: 1 Total Combined Value: 13
+  Hashtags: singing: 13
+spill_the_beans.v.01: 1 Total Combined Value: 13
+  Hashtags: singing: 13
+sing.v.02: 1 Total Combined Value: 13
+  Hashtags: singing: 13
+sing.v.03: 1 Total Combined Value: 13
+  Hashtags: singing: 13
+scorch.v.02: 1 Total Combined Value: 13
+  Hashtags: singing: 13
+tattle.n.01: 1 Total Combined Value: 13
   Hashtags: singing: 13
 epicure.n.01: 1 Total Combined Value: 13
   Hashtags: foodie: 13
@@ -2262,79 +2260,79 @@ rhythm_method_of_birth_control.n.01: 1 Total Combined Value: 13
   Hashtags: rhythmgame: 13
 rhythm.n.02: 1 Total Combined Value: 13
   Hashtags: rhythmgame: 13
-rhythm.n.04: 1 Total Combined Value: 13
-  Hashtags: rhythmgame: 13
 rhythm.n.01: 1 Total Combined Value: 13
   Hashtags: rhythmgame: 13
-band.v.01: 1 Total Combined Value: 13
-  Hashtags: band: 13
-set.n.05: 1 Total Combined Value: 13
-  Hashtags: band: 13
+rhythm.n.04: 1 Total Combined Value: 13
+  Hashtags: rhythmgame: 13
 band.n.04: 1 Total Combined Value: 13
-  Hashtags: band: 13
-band.n.06: 1 Total Combined Value: 13
-  Hashtags: band: 13
-band.n.10: 1 Total Combined Value: 13
-  Hashtags: band: 13
-band.n.11: 1 Total Combined Value: 13
-  Hashtags: band: 13
-band.n.13: 1 Total Combined Value: 13
   Hashtags: band: 13
 band.n.07: 1 Total Combined Value: 13
   Hashtags: band: 13
+band.n.13: 1 Total Combined Value: 13
+  Hashtags: band: 13
+band.n.06: 1 Total Combined Value: 13
+  Hashtags: band: 13
+set.n.05: 1 Total Combined Value: 13
+  Hashtags: band: 13
+band.n.11: 1 Total Combined Value: 13
+  Hashtags: band: 13
 band.n.02: 1 Total Combined Value: 13
   Hashtags: band: 13
-dance_band.n.01: 1 Total Combined Value: 13
+band.v.01: 1 Total Combined Value: 13
   Hashtags: band: 13
 isthmus.n.02: 1 Total Combined Value: 13
   Hashtags: band: 13
+band.n.10: 1 Total Combined Value: 13
+  Hashtags: band: 13
 band.n.03: 1 Total Combined Value: 13
+  Hashtags: band: 13
+dance_band.n.01: 1 Total Combined Value: 13
   Hashtags: band: 13
 pour.v.04: 1 Total Combined Value: 13
   Hashtags: pourtoi: 13
-pour.v.01: 1 Total Combined Value: 13
-  Hashtags: pourtoi: 13
 pour.v.06: 1 Total Combined Value: 13
-  Hashtags: pourtoi: 13
-pour.v.05: 1 Total Combined Value: 13
   Hashtags: pourtoi: 13
 decant.v.01: 1 Total Combined Value: 13
   Hashtags: pourtoi: 13
+pour.v.01: 1 Total Combined Value: 13
+  Hashtags: pourtoi: 13
 pour.v.02: 1 Total Combined Value: 13
   Hashtags: pourtoi: 13
+pour.v.05: 1 Total Combined Value: 13
+  Hashtags: pourtoi: 13
+cockamamie.s.01: 1 Total Combined Value: 13
+  Hashtags: silly: 13
 airheaded.s.01: 1 Total Combined Value: 13
+  Hashtags: silly: 13
+silly.n.01: 1 Total Combined Value: 13
   Hashtags: silly: 13
 punch-drunk.s.01: 1 Total Combined Value: 13
   Hashtags: silly: 13
 pathetic.s.03: 1 Total Combined Value: 13
   Hashtags: silly: 13
-silly.n.01: 1 Total Combined Value: 13
-  Hashtags: silly: 13
-cockamamie.s.01: 1 Total Combined Value: 13
-  Hashtags: silly: 13
-apple.n.02: 1 Total Combined Value: 13
-  Hashtags: apple: 13
 apple.n.01: 1 Total Combined Value: 13
   Hashtags: apple: 13
-family.n.01: 1 Total Combined Value: 13
-  Hashtags: familyguy: 13
-family.n.04: 1 Total Combined Value: 13
+apple.n.02: 1 Total Combined Value: 13
+  Hashtags: apple: 13
+kin.n.01: 1 Total Combined Value: 13
   Hashtags: familyguy: 13
 family.n.06: 1 Total Combined Value: 13
   Hashtags: familyguy: 13
-family.n.08: 1 Total Combined Value: 13
-  Hashtags: familyguy: 13
 class.n.01: 1 Total Combined Value: 13
-  Hashtags: familyguy: 13
-family.n.02: 1 Total Combined Value: 13
   Hashtags: familyguy: 13
 syndicate.n.01: 1 Total Combined Value: 13
   Hashtags: familyguy: 13
-kin.n.01: 1 Total Combined Value: 13
+family.n.04: 1 Total Combined Value: 13
   Hashtags: familyguy: 13
-engineer.n.01: 1 Total Combined Value: 13
-  Hashtags: engineer: 13
+family.n.08: 1 Total Combined Value: 13
+  Hashtags: familyguy: 13
+family.n.01: 1 Total Combined Value: 13
+  Hashtags: familyguy: 13
+family.n.02: 1 Total Combined Value: 13
+  Hashtags: familyguy: 13
 engineer.n.02: 1 Total Combined Value: 13
+  Hashtags: engineer: 13
+engineer.n.01: 1 Total Combined Value: 13
   Hashtags: engineer: 13
 alonso.n.01: 1 Total Combined Value: 13
   Hashtags: fernandoalonso: 13
@@ -2346,73 +2344,75 @@ davidtennant.s.1: 1 Total Combined Value: 13
   Hashtags: davidtennant: 13
 fandom.n.01: 1 Total Combined Value: 13
   Hashtags: mlpfandom: 13
+mario.s.1: 1 Total Combined Value: 13
+  Hashtags: mario: 13
 friendship.n.01: 1 Total Combined Value: 13
   Hashtags: mylittleponyfriendshipismagic: 13
-prank.v.01: 1 Total Combined Value: 13
-  Hashtags: prank: 13
 buffoonery.n.01: 1 Total Combined Value: 13
   Hashtags: prank: 13
 prank.v.02: 1 Total Combined Value: 13
   Hashtags: prank: 13
-design.n.06: 1 Total Combined Value: 13
-  Hashtags: design: 13
+prank.v.01: 1 Total Combined Value: 13
+  Hashtags: prank: 13
 design.n.02: 1 Total Combined Value: 13
   Hashtags: design: 13
-blueprint.n.01: 1 Total Combined Value: 13
+design.n.06: 1 Total Combined Value: 13
   Hashtags: design: 13
-design.v.03: 1 Total Combined Value: 13
-  Hashtags: design: 13
-design.v.07: 1 Total Combined Value: 13
-  Hashtags: design: 13
-invention.n.01: 1 Total Combined Value: 13
-  Hashtags: design: 13
-design.v.05: 1 Total Combined Value: 13
+purpose.n.01: 1 Total Combined Value: 13
   Hashtags: design: 13
 design.n.01: 1 Total Combined Value: 13
   Hashtags: design: 13
+design.v.05: 1 Total Combined Value: 13
+  Hashtags: design: 13
+design.n.04: 1 Total Combined Value: 13
+  Hashtags: design: 13
+blueprint.n.01: 1 Total Combined Value: 13
+  Hashtags: design: 13
 design.v.04: 1 Total Combined Value: 13
   Hashtags: design: 13
-purpose.n.01: 1 Total Combined Value: 13
+design.v.07: 1 Total Combined Value: 13
   Hashtags: design: 13
 design.v.06: 1 Total Combined Value: 13
   Hashtags: design: 13
 plan.v.03: 1 Total Combined Value: 13
   Hashtags: design: 13
-design.n.04: 1 Total Combined Value: 13
+design.v.03: 1 Total Combined Value: 13
+  Hashtags: design: 13
+invention.n.01: 1 Total Combined Value: 13
   Hashtags: design: 13
 design.v.02: 1 Total Combined Value: 13
   Hashtags: design: 13
 baldur'sgate3.s.1: 1 Total Combined Value: 13
   Hashtags: baldursgate3: 13
-cool.s.02: 1 Total Combined Value: 13
-  Hashtags: cool: 13
-cool.a.04: 1 Total Combined Value: 13
-  Hashtags: cool: 13
-cool.a.03: 1 Total Combined Value: 13
-  Hashtags: cool: 13
-cool.s.06: 1 Total Combined Value: 13
-  Hashtags: cool: 13
-cool.v.02: 1 Total Combined Value: 13
+cool.n.01: 1 Total Combined Value: 13
   Hashtags: cool: 13
 cool.v.03: 1 Total Combined Value: 13
   Hashtags: cool: 13
-cool.a.01: 1 Total Combined Value: 13
+cool.a.04: 1 Total Combined Value: 13
+  Hashtags: cool: 13
+cool.v.02: 1 Total Combined Value: 13
   Hashtags: cool: 13
 cool.v.01: 1 Total Combined Value: 13
-  Hashtags: cool: 13
-cool.n.01: 1 Total Combined Value: 13
   Hashtags: cool: 13
 cool.s.05: 1 Total Combined Value: 13
   Hashtags: cool: 13
 aplomb.n.01: 1 Total Combined Value: 13
   Hashtags: cool: 13
+cool.a.01: 1 Total Combined Value: 13
+  Hashtags: cool: 13
+cool.a.03: 1 Total Combined Value: 13
+  Hashtags: cool: 13
+cool.s.06: 1 Total Combined Value: 13
+  Hashtags: cool: 13
+cool.s.02: 1 Total Combined Value: 13
+  Hashtags: cool: 13
 religion.n.02: 1 Total Combined Value: 13
   Hashtags: religion: 13
 religion.n.01: 1 Total Combined Value: 13
   Hashtags: religion: 13
-creative.s.02: 1 Total Combined Value: 13
-  Hashtags: creative: 13
 creative.a.01: 1 Total Combined Value: 13
+  Hashtags: creative: 13
+creative.s.02: 1 Total Combined Value: 13
   Hashtags: creative: 13
 superb.s.02: 1 Total Combined Value: 13
   Hashtags: superbowl: 13
@@ -2424,123 +2424,123 @@ eldritch.s.01: 1 Total Combined Value: 13
   Hashtags: beweirdbeyou: 13
 weird.s.02: 1 Total Combined Value: 13
   Hashtags: beweirdbeyou: 13
+fitness.n.01: 1 Total Combined Value: 12
+  Hashtags: fitness: 12
 fitness.n.04: 1 Total Combined Value: 12
   Hashtags: fitness: 12
 fitness.n.02: 1 Total Combined Value: 12
   Hashtags: fitness: 12
-fitness.n.01: 1 Total Combined Value: 12
-  Hashtags: fitness: 12
 seaworthiness.n.01: 1 Total Combined Value: 12
   Hashtags: fitness: 12
-south.r.01: 1 Total Combined Value: 12
-  Hashtags: southpark: 12
-south.n.01: 1 Total Combined Value: 12
-  Hashtags: southpark: 12
-south.n.04: 1 Total Combined Value: 12
-  Hashtags: southpark: 12
 south.n.05: 1 Total Combined Value: 12
-  Hashtags: southpark: 12
-south.a.01: 1 Total Combined Value: 12
-  Hashtags: southpark: 12
-south.n.03: 1 Total Combined Value: 12
   Hashtags: southpark: 12
 confederacy.n.01: 1 Total Combined Value: 12
   Hashtags: southpark: 12
+south.n.04: 1 Total Combined Value: 12
+  Hashtags: southpark: 12
+south.a.01: 1 Total Combined Value: 12
+  Hashtags: southpark: 12
+south.n.01: 1 Total Combined Value: 12
+  Hashtags: southpark: 12
+south.n.03: 1 Total Combined Value: 12
+  Hashtags: southpark: 12
+south.r.01: 1 Total Combined Value: 12
+  Hashtags: southpark: 12
+hood.n.01: 1 Total Combined Value: 12
+  Hashtags: poppunk: 12
+bum.s.01: 1 Total Combined Value: 12
+  Hashtags: poppunk: 12
 punk_rocker.n.01: 1 Total Combined Value: 12
+  Hashtags: poppunk: 12
+punk.n.02: 1 Total Combined Value: 12
   Hashtags: poppunk: 12
 kindling.n.01: 1 Total Combined Value: 12
   Hashtags: poppunk: 12
 punk_rock.n.01: 1 Total Combined Value: 12
   Hashtags: poppunk: 12
-hood.n.01: 1 Total Combined Value: 12
-  Hashtags: poppunk: 12
-bum.s.01: 1 Total Combined Value: 12
-  Hashtags: poppunk: 12
-punk.n.02: 1 Total Combined Value: 12
-  Hashtags: poppunk: 12
-fact.n.03: 1 Total Combined Value: 12
+fact.n.04: 1 Total Combined Value: 12
   Hashtags: facts: 12
 fact.n.02: 1 Total Combined Value: 12
   Hashtags: facts: 12
 fact.n.01: 1 Total Combined Value: 12
   Hashtags: facts: 12
-fact.n.04: 1 Total Combined Value: 12
+fact.n.03: 1 Total Combined Value: 12
   Hashtags: facts: 12
 montreal.n.01: 1 Total Combined Value: 12
   Hashtags: montreal: 12
-paint.v.01: 1 Total Combined Value: 12
+painting.n.03: 1 Total Combined Value: 12
+  Hashtags: painting: 12
+painting.n.01: 1 Total Combined Value: 12
+  Hashtags: painting: 12
+painting.n.04: 1 Total Combined Value: 12
+  Hashtags: painting: 12
+paint.v.03: 1 Total Combined Value: 12
   Hashtags: painting: 12
 paint.v.02: 1 Total Combined Value: 12
+  Hashtags: painting: 12
+paint.v.01: 1 Total Combined Value: 12
   Hashtags: painting: 12
 painting.n.02: 1 Total Combined Value: 12
   Hashtags: painting: 12
 paint.v.04: 1 Total Combined Value: 12
   Hashtags: painting: 12
-painting.n.01: 1 Total Combined Value: 12
-  Hashtags: painting: 12
-paint.v.03: 1 Total Combined Value: 12
-  Hashtags: painting: 12
-painting.n.04: 1 Total Combined Value: 12
-  Hashtags: painting: 12
-painting.n.03: 1 Total Combined Value: 12
-  Hashtags: painting: 12
 academy_award.n.01: 1 Total Combined Value: 12
   Hashtags: oscarpiastri: 12
-map.v.01: 1 Total Combined Value: 12
-  Hashtags: maps: 12
-map.v.03: 1 Total Combined Value: 12
-  Hashtags: maps: 12
-map.v.06: 1 Total Combined Value: 12
+map.v.02: 1 Total Combined Value: 12
   Hashtags: maps: 12
 map.v.04: 1 Total Combined Value: 12
   Hashtags: maps: 12
-map.v.02: 1 Total Combined Value: 12
+map.n.01: 1 Total Combined Value: 12
+  Hashtags: maps: 12
+map.v.06: 1 Total Combined Value: 12
+  Hashtags: maps: 12
+map.v.03: 1 Total Combined Value: 12
   Hashtags: maps: 12
 map.v.05: 1 Total Combined Value: 12
   Hashtags: maps: 12
-map.n.01: 1 Total Combined Value: 12
-  Hashtags: maps: 12
 function.n.01: 1 Total Combined Value: 12
+  Hashtags: maps: 12
+map.v.01: 1 Total Combined Value: 12
   Hashtags: maps: 12
 tolkien.n.01: 1 Total Combined Value: 12
   Hashtags: tolkien: 12
-sandwich.v.01: 1 Total Combined Value: 12
-  Hashtags: sandwich: 12
 sandwich.n.01: 1 Total Combined Value: 12
   Hashtags: sandwich: 12
 sandwich.v.02: 1 Total Combined Value: 12
   Hashtags: sandwich: 12
+sandwich.v.01: 1 Total Combined Value: 12
+  Hashtags: sandwich: 12
 trans.s.1: 1 Total Combined Value: 12
   Hashtags: trans: 12
+fathom.v.02: 1 Total Combined Value: 12
+  Hashtags: asmrsounds: 12
+sound.v.02: 1 Total Combined Value: 12
+  Hashtags: asmrsounds: 12
+audio.n.01: 1 Total Combined Value: 12
+  Hashtags: asmrsounds: 12
+voice.v.02: 1 Total Combined Value: 12
+  Hashtags: asmrsounds: 12
+strait.n.01: 1 Total Combined Value: 12
+  Hashtags: asmrsounds: 12
+sound.n.02: 1 Total Combined Value: 12
+  Hashtags: asmrsounds: 12
+phone.n.02: 1 Total Combined Value: 12
+  Hashtags: asmrsounds: 12
 sound.v.01: 1 Total Combined Value: 12
+  Hashtags: asmrsounds: 12
+sound.n.04: 1 Total Combined Value: 12
+  Hashtags: asmrsounds: 12
+sound.v.03: 1 Total Combined Value: 12
+  Hashtags: asmrsounds: 12
+sound.v.04: 1 Total Combined Value: 12
+  Hashtags: asmrsounds: 12
+sound.n.01: 1 Total Combined Value: 12
+  Hashtags: asmrsounds: 12
+sound.n.03: 1 Total Combined Value: 12
   Hashtags: asmrsounds: 12
 sound.n.08: 1 Total Combined Value: 12
   Hashtags: asmrsounds: 12
 sound.v.06: 1 Total Combined Value: 12
-  Hashtags: asmrsounds: 12
-fathom.v.02: 1 Total Combined Value: 12
-  Hashtags: asmrsounds: 12
-strait.n.01: 1 Total Combined Value: 12
-  Hashtags: asmrsounds: 12
-audio.n.01: 1 Total Combined Value: 12
-  Hashtags: asmrsounds: 12
-phone.n.02: 1 Total Combined Value: 12
-  Hashtags: asmrsounds: 12
-sound.v.03: 1 Total Combined Value: 12
-  Hashtags: asmrsounds: 12
-voice.v.02: 1 Total Combined Value: 12
-  Hashtags: asmrsounds: 12
-sound.n.03: 1 Total Combined Value: 12
-  Hashtags: asmrsounds: 12
-sound.v.04: 1 Total Combined Value: 12
-  Hashtags: asmrsounds: 12
-sound.n.04: 1 Total Combined Value: 12
-  Hashtags: asmrsounds: 12
-sound.v.02: 1 Total Combined Value: 12
-  Hashtags: asmrsounds: 12
-sound.n.02: 1 Total Combined Value: 12
-  Hashtags: asmrsounds: 12
-sound.n.01: 1 Total Combined Value: 12
   Hashtags: asmrsounds: 12
 kitten.n.01: 1 Total Combined Value: 12
   Hashtags: kitten: 12
@@ -2554,45 +2554,15 @@ lgbtq.s.1: 1 Total Combined Value: 12
   Hashtags: lgbtq: 12
 vine.n.01: 1 Total Combined Value: 12
   Hashtags: vine: 12
-drive.n.12: 1 Total Combined Value: 12
-  Hashtags: beamngdrive: 12
-drive.n.07: 1 Total Combined Value: 12
-  Hashtags: beamngdrive: 12
-force.v.06: 1 Total Combined Value: 12
-  Hashtags: beamngdrive: 12
-drive.v.08: 1 Total Combined Value: 12
-  Hashtags: beamngdrive: 12
-drive.v.13: 1 Total Combined Value: 12
-  Hashtags: beamngdrive: 12
-drive.n.06: 1 Total Combined Value: 12
+drive.n.01: 1 Total Combined Value: 12
   Hashtags: beamngdrive: 12
 drive.v.20: 1 Total Combined Value: 12
   Hashtags: beamngdrive: 12
-drive.v.05: 1 Total Combined Value: 12
-  Hashtags: beamngdrive: 12
-drive.n.10: 1 Total Combined Value: 12
-  Hashtags: beamngdrive: 12
-tug.v.02: 1 Total Combined Value: 12
+drive.v.21: 1 Total Combined Value: 12
   Hashtags: beamngdrive: 12
 drive.n.09: 1 Total Combined Value: 12
   Hashtags: beamngdrive: 12
-drive.v.22: 1 Total Combined Value: 12
-  Hashtags: beamngdrive: 12
-drive.n.02: 1 Total Combined Value: 12
-  Hashtags: beamngdrive: 12
-drive.v.16: 1 Total Combined Value: 12
-  Hashtags: beamngdrive: 12
-drive.v.21: 1 Total Combined Value: 12
-  Hashtags: beamngdrive: 12
-drive.v.09: 1 Total Combined Value: 12
-  Hashtags: beamngdrive: 12
-drive.v.11: 1 Total Combined Value: 12
-  Hashtags: beamngdrive: 12
-drive.v.15: 1 Total Combined Value: 12
-  Hashtags: beamngdrive: 12
-drive.n.11: 1 Total Combined Value: 12
-  Hashtags: beamngdrive: 12
-drive.v.12: 1 Total Combined Value: 12
+drive.v.17: 1 Total Combined Value: 12
   Hashtags: beamngdrive: 12
 drive.v.14: 1 Total Combined Value: 12
   Hashtags: beamngdrive: 12
@@ -2600,179 +2570,203 @@ drive.v.03: 1 Total Combined Value: 12
   Hashtags: beamngdrive: 12
 driveway.n.01: 1 Total Combined Value: 12
   Hashtags: beamngdrive: 12
-drive.v.17: 1 Total Combined Value: 12
+drive.n.10: 1 Total Combined Value: 12
   Hashtags: beamngdrive: 12
-campaign.n.02: 1 Total Combined Value: 12
+drive.v.15: 1 Total Combined Value: 12
   Hashtags: beamngdrive: 12
-drive.n.05: 1 Total Combined Value: 12
+force.v.06: 1 Total Combined Value: 12
   Hashtags: beamngdrive: 12
 drive.n.08: 1 Total Combined Value: 12
   Hashtags: beamngdrive: 12
+tug.v.02: 1 Total Combined Value: 12
+  Hashtags: beamngdrive: 12
 repel.v.01: 1 Total Combined Value: 12
   Hashtags: beamngdrive: 12
-drive.n.01: 1 Total Combined Value: 12
+drive.v.13: 1 Total Combined Value: 12
+  Hashtags: beamngdrive: 12
+drive.v.22: 1 Total Combined Value: 12
+  Hashtags: beamngdrive: 12
+drive.v.16: 1 Total Combined Value: 12
+  Hashtags: beamngdrive: 12
+drive.v.05: 1 Total Combined Value: 12
+  Hashtags: beamngdrive: 12
+drive.v.11: 1 Total Combined Value: 12
+  Hashtags: beamngdrive: 12
+drive.n.02: 1 Total Combined Value: 12
+  Hashtags: beamngdrive: 12
+drive.v.09: 1 Total Combined Value: 12
+  Hashtags: beamngdrive: 12
+drive.n.11: 1 Total Combined Value: 12
+  Hashtags: beamngdrive: 12
+drive.v.08: 1 Total Combined Value: 12
   Hashtags: beamngdrive: 12
 drive.v.01: 1 Total Combined Value: 12
   Hashtags: beamngdrive: 12
-drive.v.19: 1 Total Combined Value: 12
+campaign.n.02: 1 Total Combined Value: 12
   Hashtags: beamngdrive: 12
-drive.v.07: 1 Total Combined Value: 12
+drive.n.07: 1 Total Combined Value: 12
+  Hashtags: beamngdrive: 12
+drive.v.12: 1 Total Combined Value: 12
   Hashtags: beamngdrive: 12
 drive.v.18: 1 Total Combined Value: 12
   Hashtags: beamngdrive: 12
-rainbow.n.01: 1 Total Combined Value: 12
-  Hashtags: rainbowdash: 12
+drive.n.06: 1 Total Combined Value: 12
+  Hashtags: beamngdrive: 12
+drive.v.07: 1 Total Combined Value: 12
+  Hashtags: beamngdrive: 12
+drive.n.12: 1 Total Combined Value: 12
+  Hashtags: beamngdrive: 12
+drive.v.19: 1 Total Combined Value: 12
+  Hashtags: beamngdrive: 12
+drive.n.05: 1 Total Combined Value: 12
+  Hashtags: beamngdrive: 12
 rainbow.n.02: 1 Total Combined Value: 12
   Hashtags: rainbowdash: 12
-book.n.06: 1 Total Combined Value: 12
-  Hashtags: booktok: 12
-book.n.11: 1 Total Combined Value: 12
-  Hashtags: booktok: 12
-ledger.n.01: 1 Total Combined Value: 12
+rainbow.n.01: 1 Total Combined Value: 12
+  Hashtags: rainbowdash: 12
+book.v.03: 1 Total Combined Value: 12
   Hashtags: booktok: 12
 record.n.05: 1 Total Combined Value: 12
   Hashtags: booktok: 12
-book.v.01: 1 Total Combined Value: 12
-  Hashtags: booktok: 12
-reserve.v.04: 1 Total Combined Value: 12
-  Hashtags: booktok: 12
-book.v.04: 1 Total Combined Value: 12
-  Hashtags: booktok: 12
-book.n.07: 1 Total Combined Value: 12
-  Hashtags: booktok: 12
-book.n.10: 1 Total Combined Value: 12
+bible.n.01: 1 Total Combined Value: 12
   Hashtags: booktok: 12
 book.n.02: 1 Total Combined Value: 12
   Hashtags: booktok: 12
-bible.n.01: 1 Total Combined Value: 12
-  Hashtags: booktok: 12
 koran.n.01: 1 Total Combined Value: 12
   Hashtags: booktok: 12
-book.n.01: 1 Total Combined Value: 12
+book.n.06: 1 Total Combined Value: 12
   Hashtags: booktok: 12
-book.v.03: 1 Total Combined Value: 12
+book.n.07: 1 Total Combined Value: 12
+  Hashtags: booktok: 12
+book.n.11: 1 Total Combined Value: 12
+  Hashtags: booktok: 12
+book.v.04: 1 Total Combined Value: 12
+  Hashtags: booktok: 12
+ledger.n.01: 1 Total Combined Value: 12
   Hashtags: booktok: 12
 script.n.01: 1 Total Combined Value: 12
   Hashtags: booktok: 12
-explore.v.03: 1 Total Combined Value: 12
-  Hashtags: explore: 12
+reserve.v.04: 1 Total Combined Value: 12
+  Hashtags: booktok: 12
+book.v.01: 1 Total Combined Value: 12
+  Hashtags: booktok: 12
+book.n.01: 1 Total Combined Value: 12
+  Hashtags: booktok: 12
+book.n.10: 1 Total Combined Value: 12
+  Hashtags: booktok: 12
 explore.v.02: 1 Total Combined Value: 12
-  Hashtags: explore: 12
-explore.v.04: 1 Total Combined Value: 12
   Hashtags: explore: 12
 research.v.02: 1 Total Combined Value: 12
   Hashtags: explore: 12
-sonic.a.01: 1 Total Combined Value: 12
-  Hashtags: sonic: 12
+explore.v.04: 1 Total Combined Value: 12
+  Hashtags: explore: 12
+explore.v.03: 1 Total Combined Value: 12
+  Hashtags: explore: 12
 sonic.s.02: 1 Total Combined Value: 12
+  Hashtags: sonic: 12
+sonic.a.01: 1 Total Combined Value: 12
   Hashtags: sonic: 12
 girlfriend.n.02: 1 Total Combined Value: 12
   Hashtags: egirl: 12
-girl.n.01: 1 Total Combined Value: 12
-  Hashtags: egirl: 12
 girl.n.05: 1 Total Combined Value: 12
-  Hashtags: egirl: 12
-female_child.n.01: 1 Total Combined Value: 12
   Hashtags: egirl: 12
 daughter.n.01: 1 Total Combined Value: 12
   Hashtags: egirl: 12
-crazy.s.05: 1 Total Combined Value: 12
+girl.n.01: 1 Total Combined Value: 12
+  Hashtags: egirl: 12
+female_child.n.01: 1 Total Combined Value: 12
+  Hashtags: egirl: 12
+crazy.s.03: 1 Total Combined Value: 12
+  Hashtags: crazy: 12
+crazy.s.04: 1 Total Combined Value: 12
   Hashtags: crazy: 12
 crazy.s.02: 1 Total Combined Value: 12
   Hashtags: crazy: 12
 crazy.n.01: 1 Total Combined Value: 12
   Hashtags: crazy: 12
+crazy.s.05: 1 Total Combined Value: 12
+  Hashtags: crazy: 12
 brainsick.s.01: 1 Total Combined Value: 12
-  Hashtags: crazy: 12
-crazy.s.03: 1 Total Combined Value: 12
-  Hashtags: crazy: 12
-crazy.s.04: 1 Total Combined Value: 12
   Hashtags: crazy: 12
 dona.n.01: 1 Total Combined Value: 12
   Hashtags: mcdonalds: 12
-locomotion.n.02: 1 Total Combined Value: 12
-  Hashtags: travel: 12
-travel.n.01: 1 Total Combined Value: 12
-  Hashtags: travel: 12
-travel.v.06: 1 Total Combined Value: 12
+change_of_location.n.01: 1 Total Combined Value: 12
   Hashtags: travel: 12
 travel.v.05: 1 Total Combined Value: 12
   Hashtags: travel: 12
-travel.v.03: 1 Total Combined Value: 12
-  Hashtags: travel: 12
-change_of_location.n.01: 1 Total Combined Value: 12
+travel.n.01: 1 Total Combined Value: 12
   Hashtags: travel: 12
 travel.v.01: 1 Total Combined Value: 12
   Hashtags: travel: 12
+travel.v.06: 1 Total Combined Value: 12
+  Hashtags: travel: 12
+locomotion.n.02: 1 Total Combined Value: 12
+  Hashtags: travel: 12
+travel.v.03: 1 Total Combined Value: 12
+  Hashtags: travel: 12
 manner.n.01: 1 Total Combined Value: 12
-  Hashtags: fashion: 12
-fashion.n.02: 1 Total Combined Value: 12
   Hashtags: fashion: 12
 fashion.v.01: 1 Total Combined Value: 12
   Hashtags: fashion: 12
-fashion.n.04: 1 Total Combined Value: 12
-  Hashtags: fashion: 12
 fashion.n.03: 1 Total Combined Value: 12
   Hashtags: fashion: 12
-flower.n.02: 1 Total Combined Value: 12
-  Hashtags: ramonaflowers: 12
+fashion.n.02: 1 Total Combined Value: 12
+  Hashtags: fashion: 12
+fashion.n.04: 1 Total Combined Value: 12
+  Hashtags: fashion: 12
 flower.n.03: 1 Total Combined Value: 12
   Hashtags: ramonaflowers: 12
-flower.n.01: 1 Total Combined Value: 12
+flower.n.02: 1 Total Combined Value: 12
   Hashtags: ramonaflowers: 12
 bloom.v.01: 1 Total Combined Value: 12
+  Hashtags: ramonaflowers: 12
+flower.n.01: 1 Total Combined Value: 12
   Hashtags: ramonaflowers: 12
 taskmaster.n.01: 1 Total Combined Value: 12
   Hashtags: taskmasternz: 12
 england.n.01: 1 Total Combined Value: 11
   Hashtags: england: 11
+epic.a.02: 1 Total Combined Value: 11
+  Hashtags: epic: 11
 epic.s.01: 1 Total Combined Value: 11
   Hashtags: epic: 11
 epic_poem.n.01: 1 Total Combined Value: 11
-  Hashtags: epic: 11
-epic.a.02: 1 Total Combined Value: 11
   Hashtags: epic: 11
 country.n.02: 1 Total Combined Value: 11
   Hashtags: country: 11
 country.n.04: 1 Total Combined Value: 11
   Hashtags: country: 11
-area.n.01: 1 Total Combined Value: 11
-  Hashtags: country: 11
 state.n.04: 1 Total Combined Value: 11
   Hashtags: country: 11
 nation.n.02: 1 Total Combined Value: 11
   Hashtags: country: 11
-core.n.05: 1 Total Combined Value: 11
-  Hashtags: corecore: 11
+area.n.01: 1 Total Combined Value: 11
+  Hashtags: country: 11
 core.v.01: 1 Total Combined Value: 11
   Hashtags: corecore: 11
-effect.n.04: 1 Total Combined Value: 11
-  Hashtags: corecore: 11
-core.n.01: 1 Total Combined Value: 11
-  Hashtags: corecore: 11
-core.n.02: 1 Total Combined Value: 11
+core.n.05: 1 Total Combined Value: 11
   Hashtags: corecore: 11
 core.n.03: 1 Total Combined Value: 11
   Hashtags: corecore: 11
+core.n.02: 1 Total Combined Value: 11
+  Hashtags: corecore: 11
+effect.n.04: 1 Total Combined Value: 11
+  Hashtags: corecore: 11
 core.n.08: 1 Total Combined Value: 11
+  Hashtags: corecore: 11
+core.n.01: 1 Total Combined Value: 11
   Hashtags: corecore: 11
 core.n.10: 1 Total Combined Value: 11
   Hashtags: corecore: 11
-core.n.09: 1 Total Combined Value: 11
-  Hashtags: corecore: 11
 congress_of_racial_equality.n.01: 1 Total Combined Value: 11
+  Hashtags: corecore: 11
+core.n.09: 1 Total Combined Value: 11
   Hashtags: corecore: 11
 kernel.n.03: 1 Total Combined Value: 11
   Hashtags: corecore: 11
 sergio.s.1: 1 Total Combined Value: 11
   Hashtags: sergioperez: 11
-solo.s.01: 1 Total Combined Value: 11
-  Hashtags: solo: 11
 solo.n.03: 1 Total Combined Value: 11
-  Hashtags: solo: 11
-alone.r.02: 1 Total Combined Value: 11
-  Hashtags: solo: 11
-solo.v.02: 1 Total Combined Value: 11
   Hashtags: solo: 11
 solo.n.01: 1 Total Combined Value: 11
   Hashtags: solo: 11
@@ -2780,55 +2774,61 @@ solo.v.01: 1 Total Combined Value: 11
   Hashtags: solo: 11
 solo.n.02: 1 Total Combined Value: 11
   Hashtags: solo: 11
+solo.v.02: 1 Total Combined Value: 11
+  Hashtags: solo: 11
+solo.s.01: 1 Total Combined Value: 11
+  Hashtags: solo: 11
+alone.r.02: 1 Total Combined Value: 11
+  Hashtags: solo: 11
 maiden_over.n.01: 1 Total Combined Value: 11
-  Hashtags: ironmaiden: 11
-maid.n.02: 1 Total Combined Value: 11
   Hashtags: ironmaiden: 11
 inaugural.s.02: 1 Total Combined Value: 11
   Hashtags: ironmaiden: 11
+maid.n.02: 1 Total Combined Value: 11
+  Hashtags: ironmaiden: 11
 riff.n.02: 1 Total Combined Value: 11
-  Hashtags: riff: 11
-flick.v.02: 1 Total Combined Value: 11
   Hashtags: riff: 11
 riff.n.01: 1 Total Combined Value: 11
   Hashtags: riff: 11
+flick.v.02: 1 Total Combined Value: 11
+  Hashtags: riff: 11
 riff.v.02: 1 Total Combined Value: 11
   Hashtags: riff: 11
+station.n.03: 1 Total Combined Value: 11
+  Hashtags: playstation: 11
 station.v.01: 1 Total Combined Value: 11
-  Hashtags: playstation: 11
-station.n.01: 1 Total Combined Value: 11
-  Hashtags: playstation: 11
-place.n.10: 1 Total Combined Value: 11
   Hashtags: playstation: 11
 station.n.05: 1 Total Combined Value: 11
   Hashtags: playstation: 11
 post.n.01: 1 Total Combined Value: 11
   Hashtags: playstation: 11
-station.n.03: 1 Total Combined Value: 11
+place.n.10: 1 Total Combined Value: 11
+  Hashtags: playstation: 11
+station.n.01: 1 Total Combined Value: 11
   Hashtags: playstation: 11
 ireland.n.02: 1 Total Combined Value: 11
   Hashtags: ireland: 11
 ireland.n.01: 1 Total Combined Value: 11
   Hashtags: ireland: 11
-acid.n.02: 1 Total Combined Value: 11
-  Hashtags: superman: 11
 demigod.n.01: 1 Total Combined Value: 11
   Hashtags: superman: 11
-magic_trick.n.01: 1 Total Combined Value: 11
+acid.n.02: 1 Total Combined Value: 11
+  Hashtags: superman: 11
+magic.n.01: 1 Total Combined Value: 11
   Hashtags: magic: 11
 charming.s.02: 1 Total Combined Value: 11
   Hashtags: magic: 11
-magic.n.01: 1 Total Combined Value: 11
+magic_trick.n.01: 1 Total Combined Value: 11
   Hashtags: magic: 11
-season.v.01: 1 Total Combined Value: 11
+season.v.02: 1 Total Combined Value: 11
   Hashtags: aotseason4: 11
-temper.v.04: 1 Total Combined Value: 11
+season.v.01: 1 Total Combined Value: 11
   Hashtags: aotseason4: 11
 season.n.02: 1 Total Combined Value: 11
   Hashtags: aotseason4: 11
-season.n.01: 1 Total Combined Value: 11
+temper.v.04: 1 Total Combined Value: 11
   Hashtags: aotseason4: 11
-season.v.02: 1 Total Combined Value: 11
+season.n.01: 1 Total Combined Value: 11
   Hashtags: aotseason4: 11
 season.n.03: 1 Total Combined Value: 11
   Hashtags: aotseason4: 11
@@ -2836,127 +2836,131 @@ septuple.s.01: 1 Total Combined Value: 11
   Hashtags: avengedsevenfold: 11
 sevenfold.r.01: 1 Total Combined Value: 11
   Hashtags: avengedsevenfold: 11
-fail.v.06: 1 Total Combined Value: 11
-  Hashtags: fail: 11
-fail.v.08: 1 Total Combined Value: 11
-  Hashtags: fail: 11
-fail.v.07: 1 Total Combined Value: 11
-  Hashtags: fail: 11
 fail.v.11: 1 Total Combined Value: 11
-  Hashtags: fail: 11
-fail.v.03: 1 Total Combined Value: 11
-  Hashtags: fail: 11
-fail.v.02: 1 Total Combined Value: 11
-  Hashtags: fail: 11
-fail.v.05: 1 Total Combined Value: 11
   Hashtags: fail: 11
 fail.v.04: 1 Total Combined Value: 11
   Hashtags: fail: 11
-fail.v.09: 1 Total Combined Value: 11
-  Hashtags: fail: 11
-fail.v.10: 1 Total Combined Value: 11
+fail.v.05: 1 Total Combined Value: 11
   Hashtags: fail: 11
 fail.v.01: 1 Total Combined Value: 11
   Hashtags: fail: 11
+fail.v.10: 1 Total Combined Value: 11
+  Hashtags: fail: 11
+fail.v.09: 1 Total Combined Value: 11
+  Hashtags: fail: 11
+fail.v.02: 1 Total Combined Value: 11
+  Hashtags: fail: 11
+fail.v.07: 1 Total Combined Value: 11
+  Hashtags: fail: 11
+fail.v.03: 1 Total Combined Value: 11
+  Hashtags: fail: 11
+fail.v.08: 1 Total Combined Value: 11
+  Hashtags: fail: 11
+fail.v.06: 1 Total Combined Value: 11
+  Hashtags: fail: 11
 filming.n.01: 1 Total Combined Value: 11
   Hashtags: cinematography: 11
-luff.v.01: 1 Total Combined Value: 11
-  Hashtags: luffy: 11
-luff.n.01: 1 Total Combined Value: 11
-  Hashtags: luffy: 11
 luff.n.02: 1 Total Combined Value: 11
   Hashtags: luffy: 11
 luff.v.02: 1 Total Combined Value: 11
   Hashtags: luffy: 11
-field_hockey.n.01: 1 Total Combined Value: 11
-  Hashtags: hockey: 11
+luff.n.01: 1 Total Combined Value: 11
+  Hashtags: luffy: 11
+luff.v.01: 1 Total Combined Value: 11
+  Hashtags: luffy: 11
 ice_hockey.n.01: 1 Total Combined Value: 11
   Hashtags: hockey: 11
-nature.n.04: 1 Total Combined Value: 11
-  Hashtags: nature: 11
+field_hockey.n.01: 1 Total Combined Value: 11
+  Hashtags: hockey: 11
 nature.n.01: 1 Total Combined Value: 11
   Hashtags: nature: 11
-nature.n.05: 1 Total Combined Value: 11
-  Hashtags: nature: 11
-nature.n.03: 1 Total Combined Value: 11
+nature.n.04: 1 Total Combined Value: 11
   Hashtags: nature: 11
 nature.n.02: 1 Total Combined Value: 11
   Hashtags: nature: 11
+nature.n.03: 1 Total Combined Value: 11
+  Hashtags: nature: 11
+nature.n.05: 1 Total Combined Value: 11
+  Hashtags: nature: 11
 thestar.s.1: 1 Total Combined Value: 11
   Hashtags: fromthestart: 11
-crash.v.10: 1 Total Combined Value: 11
-  Hashtags: crash: 11
-crash.v.03: 1 Total Combined Value: 11
-  Hashtags: crash: 11
-crash.n.05: 1 Total Combined Value: 11
-  Hashtags: crash: 11
-crash.v.09: 1 Total Combined Value: 11
-  Hashtags: crash: 11
-crash.v.04: 1 Total Combined Value: 11
-  Hashtags: crash: 11
-crash.n.04: 1 Total Combined Value: 11
-  Hashtags: crash: 11
-crash.n.02: 1 Total Combined Value: 11
-  Hashtags: crash: 11
-crash.v.01: 1 Total Combined Value: 11
-  Hashtags: crash: 11
-crash.v.06: 1 Total Combined Value: 11
-  Hashtags: crash: 11
-doss.v.01: 1 Total Combined Value: 11
+fromthestart.s.1: 1 Total Combined Value: 11
+  Hashtags: fromthestart: 11
+mariokart.s.1: 1 Total Combined Value: 11
+  Hashtags: mariokart: 11
+clang.n.01: 1 Total Combined Value: 11
   Hashtags: crash: 11
 crash.v.11: 1 Total Combined Value: 11
   Hashtags: crash: 11
-crash.v.05: 1 Total Combined Value: 11
+crash.v.12: 1 Total Combined Value: 11
   Hashtags: crash: 11
-clang.n.01: 1 Total Combined Value: 11
+crash.n.04: 1 Total Combined Value: 11
+  Hashtags: crash: 11
+crash.v.10: 1 Total Combined Value: 11
   Hashtags: crash: 11
 barge_in.v.01: 1 Total Combined Value: 11
   Hashtags: crash: 11
-crash.v.12: 1 Total Combined Value: 11
+doss.v.01: 1 Total Combined Value: 11
   Hashtags: crash: 11
-crash.v.07: 1 Total Combined Value: 11
-  Hashtags: crash: 11
-crash.v.02: 1 Total Combined Value: 11
+crash.v.06: 1 Total Combined Value: 11
   Hashtags: crash: 11
 crash.n.03: 1 Total Combined Value: 11
   Hashtags: crash: 11
-live.r.01: 1 Total Combined Value: 11
-  Hashtags: live: 11
-live.a.02: 1 Total Combined Value: 11
+crash.v.02: 1 Total Combined Value: 11
+  Hashtags: crash: 11
+crash.v.05: 1 Total Combined Value: 11
+  Hashtags: crash: 11
+crash.v.07: 1 Total Combined Value: 11
+  Hashtags: crash: 11
+crash.v.09: 1 Total Combined Value: 11
+  Hashtags: crash: 11
+crash.v.03: 1 Total Combined Value: 11
+  Hashtags: crash: 11
+crash.v.04: 1 Total Combined Value: 11
+  Hashtags: crash: 11
+crash.v.01: 1 Total Combined Value: 11
+  Hashtags: crash: 11
+crash.n.05: 1 Total Combined Value: 11
+  Hashtags: crash: 11
+crash.n.02: 1 Total Combined Value: 11
+  Hashtags: crash: 11
+populate.v.01: 1 Total Combined Value: 11
   Hashtags: live: 11
 live.s.04: 1 Total Combined Value: 11
   Hashtags: live: 11
-survive.v.01: 1 Total Combined Value: 11
-  Hashtags: live: 11
-bouncy.s.01: 1 Total Combined Value: 11
+live.a.01: 1 Total Combined Value: 11
   Hashtags: live: 11
 live.v.02: 1 Total Combined Value: 11
   Hashtags: live: 11
-populate.v.01: 1 Total Combined Value: 11
-  Hashtags: live: 11
-know.v.05: 1 Total Combined Value: 11
-  Hashtags: live: 11
-live.v.07: 1 Total Combined Value: 11
-  Hashtags: live: 11
 alive.a.01: 1 Total Combined Value: 11
-  Hashtags: live: 11
-live.a.01: 1 Total Combined Value: 11
-  Hashtags: live: 11
-alive.s.07: 1 Total Combined Value: 11
-  Hashtags: live: 11
-hot.s.20: 1 Total Combined Value: 11
-  Hashtags: live: 11
-exist.v.02: 1 Total Combined Value: 11
-  Hashtags: live: 11
-be.v.11: 1 Total Combined Value: 11
   Hashtags: live: 11
 live.s.05: 1 Total Combined Value: 11
   Hashtags: live: 11
-live.s.07: 1 Total Combined Value: 11
+be.v.11: 1 Total Combined Value: 11
+  Hashtags: live: 11
+alive.s.07: 1 Total Combined Value: 11
+  Hashtags: live: 11
+live.v.07: 1 Total Combined Value: 11
+  Hashtags: live: 11
+survive.v.01: 1 Total Combined Value: 11
+  Hashtags: live: 11
+live.a.02: 1 Total Combined Value: 11
   Hashtags: live: 11
 live.s.09: 1 Total Combined Value: 11
   Hashtags: live: 11
+live.s.07: 1 Total Combined Value: 11
+  Hashtags: live: 11
+hot.s.20: 1 Total Combined Value: 11
+  Hashtags: live: 11
 live.s.08: 1 Total Combined Value: 11
+  Hashtags: live: 11
+bouncy.s.01: 1 Total Combined Value: 11
+  Hashtags: live: 11
+exist.v.02: 1 Total Combined Value: 11
+  Hashtags: live: 11
+live.r.01: 1 Total Combined Value: 11
+  Hashtags: live: 11
+know.v.05: 1 Total Combined Value: 11
   Hashtags: live: 11
 astronomy.n.01: 1 Total Combined Value: 11
   Hashtags: astronomy: 11
@@ -2964,21 +2968,21 @@ linguistics.n.01: 1 Total Combined Value: 11
   Hashtags: linguistics: 11
 linguistics.n.02: 1 Total Combined Value: 11
   Hashtags: linguistics: 11
-death.n.01: 1 Total Combined Value: 11
-  Hashtags: deathcore: 11
 death.n.04: 1 Total Combined Value: 11
-  Hashtags: deathcore: 11
-death.n.05: 1 Total Combined Value: 11
-  Hashtags: deathcore: 11
-death.n.06: 1 Total Combined Value: 11
-  Hashtags: deathcore: 11
-death.n.08: 1 Total Combined Value: 11
   Hashtags: deathcore: 11
 death.n.03: 1 Total Combined Value: 11
   Hashtags: deathcore: 11
-end.n.06: 1 Total Combined Value: 11
+death.n.01: 1 Total Combined Value: 11
+  Hashtags: deathcore: 11
+death.n.05: 1 Total Combined Value: 11
+  Hashtags: deathcore: 11
+death.n.08: 1 Total Combined Value: 11
   Hashtags: deathcore: 11
 death.n.02: 1 Total Combined Value: 11
+  Hashtags: deathcore: 11
+end.n.06: 1 Total Combined Value: 11
+  Hashtags: deathcore: 11
+death.n.06: 1 Total Combined Value: 11
   Hashtags: deathcore: 11
 haydenchristensen.s.1: 1 Total Combined Value: 11
   Hashtags: haydenchristensen: 11
@@ -2986,7 +2990,7 @@ hayden.s.1: 1 Total Combined Value: 11
   Hashtags: haydenchristensen: 11
 combatant.n.01: 1 Total Combined Value: 11
   Hashtags: foofighters: 11
-fighter.n.02: 1 Total Combined Value: 11
-  Hashtags: foofighters: 11
 champion.n.02: 1 Total Combined Value: 11
+  Hashtags: foofighters: 11
+fighter.n.02: 1 Total Combined Value: 11
   Hashtags: foofighters: 11

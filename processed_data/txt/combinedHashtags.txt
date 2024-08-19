@@ -122,7 +122,6 @@ christmas: 25, 0.24%
 pets: 25, 0.24%
 xybca: 24, 0.23%
 politics: 24, 0.23%
-mario: 24, 0.23%
 poker: 24, 0.23%
 youtube: 23, 0.22%
 toronto: 23, 0.22%
@@ -248,6 +247,7 @@ dc: 13, 0.13%
 batman: 13, 0.13%
 davidtennant: 13, 0.13%
 mlpfandom: 13, 0.13%
+mario: 13, 0.13%
 mylittleponyfriendshipismagic: 13, 0.13%
 design: 13, 0.13%
 baldursgate3: 13, 0.13%
@@ -314,6 +314,7 @@ luffy: 11, 0.11%
 hockey: 11, 0.11%
 nature: 11, 0.11%
 fromthestart: 11, 0.11%
+mariokart: 11, 0.11%
 crash: 11, 0.11%
 live: 11, 0.11%
 astronomy: 11, 0.11%

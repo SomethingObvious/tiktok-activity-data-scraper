@@ -12,10 +12,10 @@
         "value": 325,
         "percentage": 3.1358548822848316,
         "synsets": [
-            "metallic.a.01",
             "metal.v.01",
             "metallic_element.n.01",
-            "alloy.n.01"
+            "alloy.n.01",
+            "metallic.a.01"
         ]
     },
     {
@@ -23,18 +23,18 @@
         "value": 301,
         "percentage": 2.904284060208414,
         "synsets": [
-            "star.n.04",
+            "star.v.03",
             "asterisk.n.01",
-            "leading.s.01",
-            "headliner.n.01",
-            "star_topology.n.01",
-            "star.v.01",
-            "star.n.01",
-            "star.n.05",
-            "ace.n.03",
             "star.v.02",
+            "headliner.n.01",
+            "star.v.01",
+            "ace.n.03",
+            "star.n.01",
             "star.n.03",
-            "star.v.03"
+            "star.n.04",
+            "star_topology.n.01",
+            "star.n.05",
+            "leading.s.01"
         ]
     },
     {
@@ -57,11 +57,11 @@
         "value": 235,
         "percentage": 2.267464299498263,
         "synsets": [
-            "music.n.01",
-            "music.n.04",
-            "music.n.03",
             "music.n.02",
-            "music.n.05"
+            "music.n.05",
+            "music.n.04",
+            "music.n.01",
+            "music.n.03"
         ]
     },
     {
@@ -69,13 +69,13 @@
         "value": 209,
         "percentage": 2.016595908915477,
         "synsets": [
-            "convention.n.02",
-            "rule.n.11",
-            "recipe.n.01",
-            "formula.n.06",
-            "formula.n.04",
             "formula.n.01",
-            "formula.n.03"
+            "formula.n.06",
+            "rule.n.11",
+            "formula.n.04",
+            "formula.n.03",
+            "convention.n.02",
+            "recipe.n.01"
         ]
     },
     {
@@ -91,9 +91,9 @@
         "value": 140,
         "percentage": 1.3508297954457738,
         "synsets": [
+            "print.v.04",
             "print.v.01",
             "print.v.03",
-            "print.v.04",
             "print.v.02"
         ]
     },
@@ -104,9 +104,9 @@
         "synsets": [
             "engineering.n.03",
             "mastermind.v.01",
-            "engineer.v.01",
             "technology.n.01",
-            "engineering.n.02"
+            "engineering.n.02",
+            "engineer.v.01"
         ]
     },
     {
@@ -135,16 +135,16 @@
         "value": 97,
         "percentage": 0.9359320725588577,
         "synsets": [
-            "cat.n.01",
+            "cat-o'-nine-tails.n.01",
+            "cat.v.01",
+            "kat.n.01",
             "vomit.v.01",
             "caterpillar.n.02",
-            "computerized_tomography.n.01",
-            "cat.n.03",
-            "kat.n.01",
-            "guy.n.01",
+            "cat.n.01",
             "big_cat.n.01",
-            "cat.v.01",
-            "cat-o'-nine-tails.n.01"
+            "guy.n.01",
+            "computerized_tomography.n.01",
+            "cat.n.03"
         ]
     },
     {
@@ -160,9 +160,9 @@
         "value": 87,
         "percentage": 0.8394442300270166,
         "synsets": [
+            "hearty.s.02",
             "meet.v.04",
             "comforting.s.01",
-            "hearty.s.02",
             "satisfy.v.02",
             "satisfy.v.01"
         ]
@@ -194,11 +194,11 @@
         "value": 74,
         "percentage": 0.7140100347356233,
         "synsets": [
-            "rush.v.01",
             "race.v.04",
-            "race.v.03",
             "race.v.02",
-            "racing.n.01"
+            "rush.v.01",
+            "racing.n.01",
+            "race.v.03"
         ]
     },
     {
@@ -227,11 +227,11 @@
         "percentage": 0.6561173292165187,
         "synsets": [
             "animation.n.03",
-            "vivification.n.02",
+            "animation.n.05",
             "animation.n.01",
             "liveliness.n.01",
             "animation.n.02",
-            "animation.n.05"
+            "vivification.n.02"
         ]
     },
     {
@@ -239,9 +239,9 @@
         "value": 68,
         "percentage": 0.6561173292165187,
         "synsets": [
-            "food.n.01",
             "food.n.02",
-            "food.n.03"
+            "food.n.03",
+            "food.n.01"
         ]
     },
     {
@@ -249,10 +249,10 @@
         "value": 66,
         "percentage": 0.6368197607101505,
         "synsets": [
+            "laugh.n.01",
             "joke.n.01",
-            "laugh.v.01",
             "laugh.n.02",
-            "laugh.n.01"
+            "laugh.v.01"
         ]
     },
     {
@@ -284,9 +284,9 @@
         "value": 63,
         "percentage": 0.6078734079505983,
         "synsets": [
+            "university.n.02",
             "university.n.01",
-            "university.n.03",
-            "university.n.02"
+            "university.n.03"
         ]
     },
     {
@@ -294,15 +294,15 @@
         "value": 61,
         "percentage": 0.5885758394442301,
         "synsets": [
-            "rock.n.01",
-            "rock.v.01",
-            "rock.n.07",
-            "rock_candy.n.01",
-            "rock.n.02",
-            "rock.n.03",
-            "rock.n.04",
             "rock.v.02",
-            "rock_'n'_roll.n.01"
+            "rock.n.01",
+            "rock_candy.n.01",
+            "rock.v.01",
+            "rock_'n'_roll.n.01",
+            "rock.n.02",
+            "rock.n.07",
+            "rock.n.03",
+            "rock.n.04"
         ]
     },
     {
@@ -324,13 +324,13 @@
         "value": 58,
         "percentage": 0.5596294866846778,
         "synsets": [
-            "sophisticate.v.03",
-            "doctor.n.04",
-            "doctor.n.03",
+            "doctor_of_the_church.n.01",
             "repair.v.01",
             "doctor.v.02",
+            "sophisticate.v.03",
             "doctor.n.01",
-            "doctor_of_the_church.n.01"
+            "doctor.n.04",
+            "doctor.n.03"
         ]
     },
     {
@@ -344,16 +344,16 @@
         "value": 56,
         "percentage": 0.5403319181783095,
         "synsets": [
-            "office.n.04",
-            "power.n.02",
-            "power.n.01",
-            "power.v.01",
             "ability.n.02",
             "baron.n.03",
-            "might.n.01",
-            "power.n.05",
             "exponent.n.03",
-            "world_power.n.01"
+            "power.n.05",
+            "power.n.01",
+            "might.n.01",
+            "office.n.04",
+            "world_power.n.01",
+            "power.n.02",
+            "power.v.01"
         ]
     },
     {
@@ -376,9 +376,9 @@
         "value": 54,
         "percentage": 0.5210343496719414,
         "synsets": [
+            "pilgrim.n.03",
             "pilgrim.n.02",
-            "pilgrim.n.01",
-            "pilgrim.n.03"
+            "pilgrim.n.01"
         ]
     },
     {
@@ -396,9 +396,9 @@
         "value": 53,
         "percentage": 0.5113855654187573,
         "synsets": [
-            "cram.v.03",
             "drum.v.02",
-            "drum.v.01"
+            "drum.v.01",
+            "cram.v.03"
         ]
     },
     {
@@ -406,14 +406,14 @@
         "value": 52,
         "percentage": 0.5017367811655732,
         "synsets": [
-            "little.a.02",
+            "little.n.01",
             "little.s.07",
+            "little.r.01",
+            "little.a.02",
             "fiddling.s.01",
+            "little.s.03",
             "small.a.01",
             "little.s.05",
-            "little.r.01",
-            "little.n.01",
-            "little.s.03",
             "short.a.03",
             "little.s.08"
         ]
@@ -423,8 +423,8 @@
         "value": 52,
         "percentage": 0.5017367811655732,
         "synsets": [
-            "college.n.01",
             "college.n.03",
+            "college.n.01",
             "college.n.02"
         ]
     },
@@ -433,21 +433,21 @@
         "value": 50,
         "percentage": 0.48243921265920503,
         "synsets": [
-            "bull's_eye.n.02",
+            "bull.n.06",
+            "bull.v.02",
+            "bull.n.01",
+            "bull.n.05",
             "bull.v.01",
+            "bullshit.n.01",
+            "talk_through_one's_hat.v.01",
+            "bull.n.04",
             "taurus.n.04",
             "bull.v.04",
-            "bull.n.01",
-            "bull.n.04",
-            "bull.n.11",
-            "bull.n.10",
-            "bullshit.n.01",
-            "bull.n.05",
-            "bull.n.06",
+            "bull's_eye.n.02",
             "bull.n.02",
-            "taurus.n.02",
-            "bull.v.02",
-            "talk_through_one's_hat.v.01"
+            "bull.n.10",
+            "bull.n.11",
+            "taurus.n.02"
         ]
     },
     {
@@ -455,36 +455,36 @@
         "value": 49,
         "percentage": 0.4727904284060209,
         "synsets": [
-            "heavy.s.20",
-            "heavy.s.23",
-            "fleshy.s.01",
-            "heavy.a.09",
-            "dense.s.01",
-            "big.s.06",
-            "heavy.s.26",
-            "heavy.n.01",
+            "heavy.s.12",
             "arduous.s.01",
+            "heavy.s.26",
             "big.s.13",
-            "heavy.a.02",
-            "heavy.s.19",
-            "heavy.a.08",
-            "heavy.s.25",
-            "heavy.a.03",
-            "heavy.s.22",
-            "heavy.a.01",
-            "intemperate.s.03",
-            "heavy.s.10",
             "heavy.a.04",
-            "heavy.r.01",
-            "clayey.s.02",
-            "heavy.s.18",
-            "heavy.s.15",
+            "dense.s.01",
+            "intemperate.s.03",
+            "heavy.s.20",
+            "heavy.a.01",
             "heavy.s.13",
-            "grave.s.03",
-            "heavy.s.07",
             "heavy.n.02",
+            "heavy.r.01",
+            "heavy.a.08",
+            "heavy.s.23",
+            "heavy.a.09",
+            "fleshy.s.01",
+            "heavy.s.22",
+            "heavy.s.25",
+            "heavy.s.18",
+            "heavy.s.10",
             "heavy.s.21",
-            "heavy.s.12"
+            "heavy.s.07",
+            "heavy.a.02",
+            "heavy.n.01",
+            "heavy.a.03",
+            "grave.s.03",
+            "clayey.s.02",
+            "heavy.s.19",
+            "heavy.s.15",
+            "big.s.06"
         ]
     },
     {
@@ -525,12 +525,12 @@
         "value": 46,
         "percentage": 0.44384407564646866,
         "synsets": [
-            "twitch.v.05",
-            "twitch.v.01",
             "flip.v.04",
+            "jerk.v.02",
+            "twitch.v.01",
             "twitch.n.01",
-            "pinch.v.01",
-            "jerk.v.02"
+            "twitch.v.05",
+            "pinch.v.01"
         ]
     },
     {
@@ -538,16 +538,16 @@
         "value": 45,
         "percentage": 0.43419529139328455,
         "synsets": [
-            "swoop.n.01",
             "slide.n.06",
+            "slide.n.01",
+            "slide.n.04",
+            "swoop.n.01",
+            "slither.v.01",
+            "slide.v.03",
+            "slide.n.02",
             "chute.n.02",
             "slide.n.05",
-            "skid.v.04",
-            "slide.n.01",
-            "slide.n.02",
-            "slither.v.01",
-            "slide.n.04",
-            "slide.v.03"
+            "skid.v.04"
         ]
     },
     {
@@ -598,8 +598,8 @@
         "synsets": [
             "streamer.n.02",
             "streamer.n.01",
-            "banner.n.01",
-            "pennant.n.03"
+            "pennant.n.03",
+            "banner.n.01"
         ]
     },
     {
@@ -607,15 +607,15 @@
         "value": 42,
         "percentage": 0.4052489386337322,
         "synsets": [
-            "fun.n.02",
-            "sport.v.01",
             "mutant.n.01",
             "sport.n.01",
             "sport.n.05",
-            "sport.n.04",
+            "sport.v.01",
             "frolic.v.01",
             "sport.n.02",
-            "sport.n.03"
+            "sport.n.03",
+            "fun.n.02",
+            "sport.n.04"
         ]
     },
     {
@@ -623,19 +623,19 @@
         "value": 42,
         "percentage": 0.4052489386337322,
         "synsets": [
-            "real_number.n.01",
-            "real.n.02",
-            "real.s.03",
-            "actual.s.03",
-            "real.a.06",
-            "real.n.03",
-            "substantial.a.03",
-            "very.r.01",
-            "real.s.08",
             "real.s.04",
-            "veridical.s.01",
+            "real.a.02",
+            "very.r.01",
+            "real.n.03",
             "real.a.01",
-            "real.a.02"
+            "real.s.08",
+            "actual.s.03",
+            "real.s.03",
+            "substantial.a.03",
+            "real.n.02",
+            "real_number.n.01",
+            "real.a.06",
+            "veridical.s.01"
         ]
     },
     {
@@ -665,8 +665,8 @@
         "value": 42,
         "percentage": 0.40524893863373224,
         "synsets": [
-            "crippled.s.01",
-            "game.s.02"
+            "game.s.02",
+            "crippled.s.01"
         ]
     },
     {
@@ -674,24 +674,24 @@
         "value": 41,
         "percentage": 0.3956001543805481,
         "synsets": [
-            "nibble.v.03",
+            "piece.n.09",
+            "musical_composition.n.01",
             "piece.n.02",
             "assemble.v.01",
-            "musical_composition.n.01",
             "part.n.03",
+            "piece.n.08",
+            "objet_d'art.n.01",
+            "while.n.01",
             "man.n.10",
             "slice.n.01",
             "patch.v.01",
-            "piece.n.09",
-            "piece.v.03",
             "piece.n.01",
-            "piece.n.06",
-            "firearm.n.01",
-            "while.n.01",
             "piece.v.05",
-            "piece.n.08",
+            "piece.v.03",
             "piece.n.05",
-            "objet_d'art.n.01"
+            "firearm.n.01",
+            "nibble.v.03",
+            "piece.n.06"
         ]
     },
     {
@@ -700,14 +700,14 @@
         "percentage": 0.3956001543805481,
         "synsets": [
             "sponge.n.01",
+            "sponge.v.03",
+            "sponge.v.04",
+            "quick_study.n.01",
             "mooch.v.01",
             "sponge.v.05",
-            "sponge.v.04",
-            "leech.n.02",
-            "sponge.v.03",
-            "quick_study.n.01",
             "sponge.v.01",
-            "sponge.n.04"
+            "sponge.n.04",
+            "leech.n.02"
         ]
     },
     {
@@ -723,10 +723,10 @@
         "value": 41,
         "percentage": 0.3956001543805481,
         "synsets": [
-            "loon.n.02",
-            "diver.n.02",
             "diver.n.01",
-            "divers.s.01"
+            "diver.n.02",
+            "divers.s.01",
+            "loon.n.02"
         ]
     },
     {
@@ -735,11 +735,11 @@
         "percentage": 0.385951370127364,
         "synsets": [
             "dance.n.01",
-            "dance.v.01",
-            "dancing.n.01",
             "dance.v.02",
             "dance.v.03",
+            "dancing.n.01",
             "dance.n.04",
+            "dance.v.01",
             "dance.n.02"
         ]
     },
@@ -748,42 +748,42 @@
         "value": 40,
         "percentage": 0.385951370127364,
         "synsets": [
-            "traverse.v.01",
-            "cover.n.10",
-            "cover.v.24",
+            "cover.n.09",
+            "cover.v.16",
+            "cover.v.12",
+            "blanket.n.01",
+            "cover.n.07",
             "report.v.05",
-            "cover.v.09",
-            "cover.v.10",
-            "cover.v.17",
+            "cover.v.19",
+            "cover.v.02",
+            "traverse.v.01",
             "cover.v.18",
+            "cover_charge.n.01",
+            "cover.v.11",
+            "cover.v.13",
+            "embrace.v.01",
+            "cover.v.04",
+            "covering.n.01",
+            "cover.v.24",
+            "cover.v.09",
             "cover.v.15",
             "cover.v.03",
-            "cover.v.12",
-            "cover.v.19",
-            "blanket.n.01",
-            "cover.n.03",
-            "cover.v.01",
-            "top.n.09",
-            "brood.v.05",
-            "cover.v.16",
-            "cover.v.26",
-            "cover.n.09",
-            "cover.v.11",
-            "cover.n.07",
-            "shroud.v.01",
-            "cover.v.05",
-            "cover_charge.n.01",
-            "binding.n.05",
-            "cover.v.13",
-            "cover.v.04",
+            "cover.v.17",
             "cover.v.14",
-            "embrace.v.01",
-            "overlay.v.01",
-            "cover.v.23",
-            "covering.n.01",
             "breed.v.02",
-            "cover.v.02",
-            "screen.n.04"
+            "cover.v.23",
+            "cover.v.10",
+            "top.n.09",
+            "binding.n.05",
+            "screen.n.04",
+            "cover.v.05",
+            "cover.n.03",
+            "shroud.v.01",
+            "overlay.v.01",
+            "brood.v.05",
+            "cover.v.26",
+            "cover.n.10",
+            "cover.v.01"
         ]
     },
     {
@@ -798,10 +798,10 @@
         "percentage": 0.37630258587417986,
         "synsets": [
             "news_program.n.01",
-            "news.n.04",
-            "newsworthiness.n.01",
             "news.n.01",
-            "news.n.02"
+            "newsworthiness.n.01",
+            "news.n.02",
+            "news.n.04"
         ]
     },
     {
@@ -815,11 +815,11 @@
         "value": 39,
         "percentage": 0.37630258587417986,
         "synsets": [
-            "vision.n.03",
             "vision.n.05",
+            "vision.n.01",
             "sight.n.03",
-            "imagination.n.01",
-            "vision.n.01"
+            "vision.n.03",
+            "imagination.n.01"
         ]
     },
     {
@@ -828,9 +828,9 @@
         "percentage": 0.3666538016209958,
         "synsets": [
             "clone.n.02",
-            "ringer.n.02",
             "clone.v.01",
-            "knockoff.n.01"
+            "knockoff.n.01",
+            "ringer.n.02"
         ]
     },
     {
@@ -838,15 +838,15 @@
         "value": 38,
         "percentage": 0.3666538016209958,
         "synsets": [
-            "promise.n.02",
-            "hope.n.05",
             "hope.n.02",
-            "hope.n.04",
-            "hope.v.02",
-            "hope.v.01",
             "hope.n.01",
+            "hope.n.06",
+            "hope.n.05",
+            "hope.v.01",
+            "hope.v.02",
             "hope.v.03",
-            "hope.n.06"
+            "hope.n.04",
+            "promise.n.02"
         ]
     },
     {
@@ -885,21 +885,21 @@
         "value": 36,
         "percentage": 0.34735623311462754,
         "synsets": [
-            "approach.n.01",
-            "attack.v.03",
-            "attack.n.08",
-            "attack.n.09",
-            "attack.v.02",
-            "fire.n.09",
-            "assail.v.01",
-            "attack.n.02",
-            "attack.n.01",
-            "attack.n.05",
-            "attack.v.01",
-            "attack.v.06",
-            "attack.n.06",
             "attack.v.05",
-            "attack.n.07"
+            "attack.n.07",
+            "attack.n.09",
+            "attack.n.05",
+            "attack.n.02",
+            "attack.n.08",
+            "assail.v.01",
+            "attack.v.02",
+            "attack.n.01",
+            "approach.n.01",
+            "attack.n.06",
+            "attack.v.01",
+            "attack.v.03",
+            "fire.n.09",
+            "attack.v.06"
         ]
     },
     {
@@ -923,9 +923,9 @@
         "value": 35,
         "percentage": 0.33770744886144355,
         "synsets": [
-            "marvel.v.02",
+            "wonder.n.02",
             "wonder.v.03",
-            "wonder.n.02"
+            "marvel.v.02"
         ]
     },
     {
@@ -945,12 +945,12 @@
         "value": 35,
         "percentage": 0.33770744886144355,
         "synsets": [
-            "learn.v.01",
             "learn.v.02",
-            "teach.v.01",
             "learn.v.04",
+            "learn.v.01",
+            "determine.v.08",
             "memorize.v.01",
-            "determine.v.08"
+            "teach.v.01"
         ]
     },
     {
@@ -972,8 +972,8 @@
         "value": 34,
         "percentage": 0.32805866460825933,
         "synsets": [
-            "wholesome.a.01",
-            "wholesome.s.02"
+            "wholesome.s.02",
+            "wholesome.a.01"
         ]
     },
     {
@@ -982,11 +982,11 @@
         "percentage": 0.32805866460825933,
         "synsets": [
             "hamilton.n.03",
-            "hamilton.n.04",
             "hamilton.n.06",
             "hamilton.n.01",
-            "hamilton.n.02",
-            "hamilton.n.05"
+            "hamilton.n.05",
+            "hamilton.n.04",
+            "hamilton.n.02"
         ]
     },
     {
@@ -1011,10 +1011,10 @@
         "percentage": 0.3087610961018912,
         "synsets": [
             "tease.v.02",
-            "cryptography.n.02",
-            "code.v.01",
             "gull.v.02",
-            "code.v.02"
+            "code.v.02",
+            "code.v.01",
+            "cryptography.n.02"
         ]
     },
     {
@@ -1022,9 +1022,9 @@
         "value": 31,
         "percentage": 0.29911231184870707,
         "synsets": [
-            "digital.a.01",
+            "digital.a.03",
             "digital.a.02",
-            "digital.a.03"
+            "digital.a.01"
         ]
     },
     {
@@ -1032,11 +1032,11 @@
         "value": 31,
         "percentage": 0.29911231184870707,
         "synsets": [
-            "positivity.n.02",
-            "incontrovertibility.n.01",
             "favorableness.n.01",
+            "positivity.n.04",
+            "positivity.n.02",
             "positivity.n.01",
-            "positivity.n.04"
+            "incontrovertibility.n.01"
         ]
     },
     {
@@ -1044,15 +1044,15 @@
         "value": 31,
         "percentage": 0.29911231184870707,
         "synsets": [
+            "root.n.03",
             "bow.n.03",
+            "stalk.n.02",
+            "stem.v.04",
+            "shank.n.03",
+            "stem.v.03",
+            "stem.v.01",
             "stem.n.04",
             "stem.v.02",
-            "stem.v.03",
-            "stem.v.04",
-            "stem.v.01",
-            "stalk.n.02",
-            "shank.n.03",
-            "root.n.03",
             "stem_turn.n.01"
         ]
     },
@@ -1102,9 +1102,9 @@
         "value": 29,
         "percentage": 0.27981474334233886,
         "synsets": [
+            "car.n.01",
             "car.n.04",
             "car.n.02",
-            "car.n.01",
             "cable_car.n.01",
             "car.n.03"
         ]
@@ -1122,12 +1122,12 @@
         "value": 28,
         "percentage": 0.2701659590891548,
         "synsets": [
-            "humor.n.05",
-            "liquid_body_substance.n.01",
-            "temper.n.02",
-            "wit.n.01",
-            "humor.v.01",
             "humor.n.04",
+            "humor.n.05",
+            "wit.n.01",
+            "liquid_body_substance.n.01",
+            "humor.v.01",
+            "temper.n.02",
             "humor.n.02"
         ]
     },
@@ -1136,15 +1136,15 @@
         "value": 28,
         "percentage": 0.2701659590891548,
         "synsets": [
+            "charlemagne.n.01",
             "charles.n.05",
-            "charles.n.01",
-            "charles.n.04",
             "charles.n.02",
             "charles.n.06",
-            "charlemagne.n.01",
+            "charles.n.07",
+            "charles.n.01",
             "charles.n.09",
-            "charles.n.03",
-            "charles.n.07"
+            "charles.n.04",
+            "charles.n.03"
         ]
     },
     {
@@ -1158,16 +1158,16 @@
         "value": 27,
         "percentage": 0.2605171748359707,
         "synsets": [
-            "love.v.02",
-            "love.n.02",
-            "sleep_together.v.01",
-            "love.n.04",
-            "love.n.01",
-            "love.v.01",
             "love.n.05",
-            "sexual_love.n.02",
+            "love.n.02",
+            "love.v.03",
+            "love.n.04",
             "beloved.n.01",
-            "love.v.03"
+            "love.v.02",
+            "sleep_together.v.01",
+            "love.v.01",
+            "sexual_love.n.02",
+            "love.n.01"
         ]
     },
     {
@@ -1182,8 +1182,8 @@
         "percentage": 0.2605171748359707,
         "synsets": [
             "purgative.n.01",
-            "physics.n.01",
-            "physics.n.02"
+            "physics.n.02",
+            "physics.n.01"
         ]
     },
     {
@@ -1197,8 +1197,8 @@
         "value": 26,
         "percentage": 0.2508683905827866,
         "synsets": [
-            "tutorial.a.01",
-            "tutorial.n.01"
+            "tutorial.n.01",
+            "tutorial.a.01"
         ]
     },
     {
@@ -1206,11 +1206,11 @@
         "value": 26,
         "percentage": 0.2508683905827866,
         "synsets": [
-            "japan.v.01",
-            "japan.n.03",
-            "japan.n.02",
             "japan.n.04",
-            "japan.n.01"
+            "japan.n.02",
+            "japan.n.01",
+            "japan.v.01",
+            "japan.n.03"
         ]
     },
     {
@@ -1218,15 +1218,15 @@
         "value": 26,
         "percentage": 0.2508683905827866,
         "synsets": [
-            "consolation.n.02",
-            "quilt.n.01",
-            "comfort.n.01",
-            "ease.n.02",
-            "comfort.v.01",
-            "comfort.n.05",
-            "comfort.n.07",
             "comfort.n.02",
-            "comfort.v.02"
+            "comfort.v.01",
+            "consolation.n.02",
+            "ease.n.02",
+            "quilt.n.01",
+            "comfort.n.07",
+            "comfort.n.01",
+            "comfort.v.02",
+            "comfort.n.05"
         ]
     },
     {
@@ -1234,10 +1234,10 @@
         "value": 26,
         "percentage": 0.2508683905827866,
         "synsets": [
-            "video.n.01",
+            "video.n.03",
             "television.n.01",
             "video_recording.n.01",
-            "video.n.03"
+            "video.n.01"
         ]
     },
     {
@@ -1251,8 +1251,8 @@
         "value": 26,
         "percentage": 0.2508683905827866,
         "synsets": [
-            "travel.v.02",
-            "travel.v.04"
+            "travel.v.04",
+            "travel.v.02"
         ]
     },
     {
@@ -1260,8 +1260,8 @@
         "value": 25,
         "percentage": 0.24121960632960252,
         "synsets": [
-            "football.n.02",
-            "football.n.01"
+            "football.n.01",
+            "football.n.02"
         ]
     },
     {
@@ -1285,10 +1285,10 @@
         "value": 25,
         "percentage": 0.24121960632960252,
         "synsets": [
-            "dragon.n.04",
-            "dragon.n.01",
             "dragon.n.02",
-            "draco.n.02"
+            "dragon.n.01",
+            "draco.n.02",
+            "dragon.n.04"
         ]
     },
     {
@@ -1305,12 +1305,12 @@
         "value": 25,
         "percentage": 0.2412196063296025,
         "synsets": [
-            "pet.v.02",
-            "pet.v.01",
-            "darling.n.01",
             "pet.n.03",
             "pet.n.01",
-            "positron_emission_tomography.n.01"
+            "pet.v.01",
+            "positron_emission_tomography.n.01",
+            "darling.n.01",
+            "pet.v.02"
         ]
     },
     {
@@ -1326,17 +1326,9 @@
         "synsets": [
             "politics.n.03",
             "politics.n.05",
-            "politics.n.02",
             "politics.n.04",
+            "politics.n.02",
             "politics.n.01"
-        ]
-    },
-    {
-        "name": "mario",
-        "value": 24,
-        "percentage": 0.23157082207641838,
-        "synsets": [
-            "mario.s.1"
         ]
     },
     {
@@ -1344,8 +1336,8 @@
         "value": 24,
         "percentage": 0.23157082207641838,
         "synsets": [
-            "poker.n.02",
-            "poker.n.01"
+            "poker.n.01",
+            "poker.n.02"
         ]
     },
     {
@@ -1353,15 +1345,15 @@
         "value": 23,
         "percentage": 0.2219220378232343,
         "synsets": [
-            "tube.n.04",
-            "tube.n.02",
-            "tube.v.03",
-            "tube.v.04",
             "tube.v.01",
-            "metro.n.01",
-            "tube.n.01",
             "tube.v.02",
-            "pipe.n.03"
+            "tube.n.04",
+            "metro.n.01",
+            "tube.n.02",
+            "pipe.n.03",
+            "tube.n.01",
+            "tube.v.03",
+            "tube.v.04"
         ]
     },
     {
@@ -1383,8 +1375,8 @@
         "value": 23,
         "percentage": 0.22192203782323427,
         "synsets": [
-            "british.n.01",
-            "british.a.01"
+            "british.a.01",
+            "british.n.01"
         ]
     },
     {
@@ -1392,17 +1384,17 @@
         "value": 23,
         "percentage": 0.22192203782323427,
         "synsets": [
-            "nip.v.03",
-            "clip.v.03",
             "snip.v.02",
-            "clip.v.05",
-            "clip.n.04",
-            "cartridge_holder.n.01",
+            "clip.n.06",
             "clip.n.05",
-            "clip.n.03",
-            "time.n.01",
+            "clip.v.03",
             "trot.v.01",
-            "clip.n.06"
+            "clip.v.05",
+            "clip.n.03",
+            "clip.n.04",
+            "time.n.01",
+            "nip.v.03",
+            "cartridge_holder.n.01"
         ]
     },
     {
@@ -1416,8 +1408,8 @@
         "value": 22,
         "percentage": 0.21227325357005017,
         "synsets": [
-            "daniel.n.01",
             "daniel.n.03",
+            "daniel.n.01",
             "daniel.n.02"
         ]
     },
@@ -1427,11 +1419,11 @@
         "percentage": 0.21227325357005017,
         "synsets": [
             "graphic.a.03",
+            "graphic.s.05",
+            "graphic.a.04",
             "graphic.s.02",
             "graphic.n.01",
-            "graphic.s.01",
-            "graphic.a.04",
-            "graphic.s.05"
+            "graphic.s.01"
         ]
     },
     {
@@ -1440,9 +1432,9 @@
         "percentage": 0.21227325357005017,
         "synsets": [
             "putter.v.03",
-            "putter.v.02",
+            "potter.v.02",
             "potter.n.01",
-            "potter.v.02"
+            "putter.v.02"
         ]
     },
     {
@@ -1456,15 +1448,15 @@
         "value": 22,
         "percentage": 0.21227325357005017,
         "synsets": [
-            "challenge.n.02",
-            "challenge.n.05",
-            "challenge.v.03",
-            "challenge.v.04",
-            "challenge.n.04",
-            "challenge.v.02",
-            "challenge.n.03",
+            "challenge.n.01",
             "challenge.v.01",
-            "challenge.n.01"
+            "challenge.v.03",
+            "challenge.n.04",
+            "challenge.n.02",
+            "challenge.v.04",
+            "challenge.v.02",
+            "challenge.n.05",
+            "challenge.n.03"
         ]
     },
     {
@@ -1472,12 +1464,12 @@
         "value": 22,
         "percentage": 0.21227325357005017,
         "synsets": [
-            "flit.n.01",
             "flit.v.01",
-            "dart.v.03",
             "dart.n.01",
+            "dart.v.03",
             "dart.v.02",
-            "dart.n.02"
+            "dart.n.02",
+            "flit.n.01"
         ]
     },
     {
@@ -1485,19 +1477,19 @@
         "value": 22,
         "percentage": 0.21227325357005017,
         "synsets": [
-            "queen.n.02",
-            "queen.n.03",
-            "queen.n.09",
-            "queen.n.04",
-            "queen.n.01",
-            "queen.v.01",
-            "queen.n.08",
-            "queen.v.02",
             "tabby.n.02",
+            "queen.n.03",
+            "queen.n.01",
+            "queen.n.02",
+            "queen.v.02",
             "queen.n.07",
-            "fagot.n.01",
             "king.n.02",
-            "queens.n.01"
+            "queen.n.04",
+            "fagot.n.01",
+            "queens.n.01",
+            "queen.n.08",
+            "queen.v.01",
+            "queen.n.09"
         ]
     },
     {
@@ -1506,14 +1498,14 @@
         "percentage": 0.2026244693168661,
         "synsets": [
             "bass.n.08",
-            "bass.n.06",
-            "bass.n.03",
-            "bass.n.02",
-            "bass.n.01",
-            "bass.n.07",
+            "freshwater_bass.n.01",
             "sea_bass.n.01",
+            "bass.n.07",
             "bass.s.01",
-            "freshwater_bass.n.01"
+            "bass.n.03",
+            "bass.n.06",
+            "bass.n.02",
+            "bass.n.01"
         ]
     },
     {
@@ -1529,14 +1521,14 @@
         "value": 21,
         "percentage": 0.2026244693168661,
         "synsets": [
-            "movement.n.03",
-            "motion.n.06",
-            "gesture.n.02",
-            "motion.n.04",
             "motion.n.05",
-            "apparent_motion.n.01",
+            "gesticulate.v.01",
+            "gesture.n.02",
             "motion.n.03",
-            "gesticulate.v.01"
+            "motion.n.04",
+            "apparent_motion.n.01",
+            "motion.n.06",
+            "movement.n.03"
         ]
     },
     {
@@ -1561,10 +1553,10 @@
         "percentage": 0.192975685063682,
         "synsets": [
             "paratrooper.n.01",
-            "para.n.02",
             "belem.n.01",
-            "para.n.04",
-            "parity.n.01"
+            "para.n.02",
+            "parity.n.01",
+            "para.n.04"
         ]
     },
     {
@@ -1572,13 +1564,13 @@
         "value": 20,
         "percentage": 0.192975685063682,
         "synsets": [
-            "trump.v.03",
-            "trump.v.04",
-            "trump.v.01",
             "trump.n.01",
+            "trump.v.01",
+            "trump.v.04",
             "trump.n.02",
-            "cornet.n.01",
-            "outdo.v.02"
+            "outdo.v.02",
+            "trump.v.03",
+            "cornet.n.01"
         ]
     },
     {
@@ -1586,27 +1578,27 @@
         "value": 20,
         "percentage": 0.192975685063682,
         "synsets": [
-            "inner_light.n.01",
-            "light_up.v.05",
-            "unhorse.v.01",
-            "lighter.n.02",
-            "ignite.v.01",
-            "light.n.08",
-            "sparkle.n.01",
-            "fall.v.20",
-            "alight.v.01",
-            "light.n.14",
-            "light.n.06",
-            "light.v.01",
-            "light.n.03",
-            "light.n.10",
             "light.n.07",
-            "light.n.09",
-            "light.n.05",
-            "light.n.02",
-            "light.n.01",
+            "ignite.v.01",
+            "alight.v.01",
+            "light.n.08",
+            "unhorse.v.01",
+            "fall.v.20",
+            "light.n.10",
+            "light.n.06",
+            "light.n.12",
+            "light.n.14",
             "luminosity.n.01",
-            "light.n.12"
+            "lighter.n.02",
+            "light.n.09",
+            "sparkle.n.01",
+            "light.v.01",
+            "inner_light.n.01",
+            "light.n.02",
+            "light.n.03",
+            "light.n.01",
+            "light.n.05",
+            "light_up.v.05"
         ]
     },
     {
@@ -1620,9 +1612,9 @@
         "value": 20,
         "percentage": 0.192975685063682,
         "synsets": [
-            "tattoo.n.03",
-            "tattoo.n.01",
             "tattoo.v.01",
+            "tattoo.n.01",
+            "tattoo.n.03",
             "tattoo.n.02"
         ]
     },
@@ -1640,18 +1632,18 @@
         "percentage": 0.1833269008104979,
         "synsets": [
             "gathering.n.01",
-            "meet.v.07",
-            "gain.v.07",
-            "gather.v.05",
-            "accumulate.v.02",
-            "gather.v.04",
-            "assemble.v.03",
-            "assembly.n.06",
-            "gather.v.08",
             "gather.n.01",
-            "gather.v.07",
+            "gather.v.08",
             "gather.n.02",
-            "gather.v.01"
+            "accumulate.v.02",
+            "assemble.v.03",
+            "gather.v.07",
+            "assembly.n.06",
+            "gather.v.05",
+            "meet.v.07",
+            "gather.v.01",
+            "gain.v.07",
+            "gather.v.04"
         ]
     },
     {
@@ -1659,9 +1651,9 @@
         "value": 19,
         "percentage": 0.1833269008104979,
         "synsets": [
+            "indie.n.01",
             "indie.s.01",
-            "indie.n.02",
-            "indie.n.01"
+            "indie.n.02"
         ]
     },
     {
@@ -1669,8 +1661,8 @@
         "value": 19,
         "percentage": 0.1833269008104979,
         "synsets": [
-            "concert.v.01",
             "concert.v.02",
+            "concert.v.01",
             "concert.n.01"
         ]
     },
@@ -1679,11 +1671,11 @@
         "value": 19,
         "percentage": 0.1833269008104979,
         "synsets": [
-            "shot.n.09",
-            "barb.v.01",
-            "barb.n.02",
+            "barb.n.03",
             "barb.n.04",
-            "barb.n.03"
+            "shot.n.09",
+            "barb.n.02",
+            "barb.v.01"
         ]
     },
     {
@@ -1691,12 +1683,12 @@
         "value": 19,
         "percentage": 0.1833269008104979,
         "synsets": [
-            "shiner.n.01",
-            "mouse.n.04",
             "mouse.v.02",
-            "mouse.n.01",
             "sneak.v.01",
-            "mouse.n.03"
+            "mouse.n.03",
+            "mouse.n.01",
+            "mouse.n.04",
+            "shiner.n.01"
         ]
     },
     {
@@ -1710,10 +1702,10 @@
         "value": 19,
         "percentage": 0.1833269008104979,
         "synsets": [
-            "hat.n.02",
-            "hat.v.02",
+            "hat.v.01",
             "hat.n.01",
-            "hat.v.01"
+            "hat.v.02",
+            "hat.n.02"
         ]
     },
     {
@@ -1721,10 +1713,10 @@
         "value": 19,
         "percentage": 0.1833269008104979,
         "synsets": [
-            "piano.a.01",
             "piano.n.02",
-            "piano.n.01",
-            "piano.r.01"
+            "piano.a.01",
+            "piano.r.01",
+            "piano.n.01"
         ]
     },
     {
@@ -1765,8 +1757,8 @@
         "value": 18,
         "percentage": 0.17367811655731377,
         "synsets": [
-            "childhood.n.01",
-            "childhood.n.02"
+            "childhood.n.02",
+            "childhood.n.01"
         ]
     },
     {
@@ -1774,9 +1766,9 @@
         "value": 18,
         "percentage": 0.17367811655731377,
         "synsets": [
-            "python.n.03",
+            "python.n.02",
             "python.n.01",
-            "python.n.02"
+            "python.n.03"
         ]
     },
     {
@@ -1784,9 +1776,9 @@
         "value": 18,
         "percentage": 0.17367811655731377,
         "synsets": [
-            "comic.a.02",
+            "comedian.n.01",
             "amusing.s.02",
-            "comedian.n.01"
+            "comic.a.02"
         ]
     },
     {
@@ -1794,13 +1786,13 @@
         "value": 17,
         "percentage": 0.16402933230412967,
         "synsets": [
+            "chemical_reaction.n.01",
             "reaction.n.05",
+            "reaction.n.06",
+            "reaction.n.07",
             "reaction.n.02",
             "reaction.n.04",
-            "reaction.n.03",
-            "reaction.n.07",
-            "chemical_reaction.n.01",
-            "reaction.n.06"
+            "reaction.n.03"
         ]
     },
     {
@@ -1822,10 +1814,10 @@
         "value": 17,
         "percentage": 0.16402933230412967,
         "synsets": [
-            "model.n.04",
-            "simulation.n.02",
             "pretense.n.01",
-            "simulation.n.01"
+            "simulation.n.02",
+            "simulation.n.01",
+            "model.n.04"
         ]
     },
     {
@@ -1865,9 +1857,9 @@
         "value": 17,
         "percentage": 0.16402933230412967,
         "synsets": [
+            "printer.n.01",
             "printer.n.02",
-            "printer.n.03",
-            "printer.n.01"
+            "printer.n.03"
         ]
     },
     {
@@ -1875,9 +1867,9 @@
         "value": 17,
         "percentage": 0.16402933230412967,
         "synsets": [
+            "klein.n.02",
             "klein.n.03",
-            "klein.n.01",
-            "klein.n.02"
+            "klein.n.01"
         ]
     },
     {
@@ -1897,9 +1889,9 @@
         "value": 17,
         "percentage": 0.16402933230412967,
         "synsets": [
-            "commando.n.01",
+            "texas_ranger.n.01",
             "fire_warden.n.01",
-            "texas_ranger.n.01"
+            "commando.n.01"
         ]
     },
     {
@@ -1907,28 +1899,28 @@
         "value": 16,
         "percentage": 0.1543805480509456,
         "synsets": [
-            "casing.n.03",
-            "encase.v.01",
-            "case.n.20",
-            "case.n.11",
-            "case.n.06",
-            "subject.n.06",
-            "case.v.01",
-            "case.n.19",
-            "case.n.01",
-            "shell.n.08",
-            "case.n.04",
-            "case.n.09",
-            "lawsuit.n.01",
-            "character.n.05",
             "event.n.02",
-            "case.n.12",
-            "case.n.10",
-            "case.n.08",
-            "case.n.18",
-            "sheath.n.02",
+            "lawsuit.n.01",
+            "subject.n.06",
+            "case.n.20",
+            "case.n.09",
+            "case.n.01",
+            "encase.v.01",
+            "case.n.06",
+            "casing.n.03",
+            "case.n.11",
             "font.n.01",
-            "case.n.05"
+            "case.n.18",
+            "case.n.05",
+            "character.n.05",
+            "case.n.04",
+            "case.n.08",
+            "case.n.19",
+            "case.v.01",
+            "shell.n.08",
+            "case.n.12",
+            "sheath.n.02",
+            "case.n.10"
         ]
     },
     {
@@ -1942,10 +1934,10 @@
         "value": 16,
         "percentage": 0.1543805480509456,
         "synsets": [
-            "interesting.a.01",
-            "interest.v.01",
+            "concern.v.02",
             "matter_to.v.01",
-            "concern.v.02"
+            "interesting.a.01",
+            "interest.v.01"
         ]
     },
     {
@@ -1976,10 +1968,10 @@
         "value": 16,
         "percentage": 0.1543805480509456,
         "synsets": [
-            "supporter.n.01",
             "acquaintance.n.03",
-            "ally.n.02",
             "friend.n.01",
+            "ally.n.02",
+            "supporter.n.01",
             "friend.n.05"
         ]
     },
@@ -1994,11 +1986,11 @@
         "value": 16,
         "percentage": 0.1543805480509456,
         "synsets": [
-            "interview.v.02",
+            "interview.v.01",
             "interview.n.01",
-            "interview.v.03",
             "consultation.n.01",
-            "interview.v.01"
+            "interview.v.02",
+            "interview.v.03"
         ]
     },
     {
@@ -2006,16 +1998,16 @@
         "value": 16,
         "percentage": 0.1543805480509456,
         "synsets": [
+            "jab.v.01",
+            "punch.n.01",
             "poke.n.01",
             "intrude.v.03",
-            "jab.v.01",
-            "poke.v.05",
-            "poke.v.03",
             "thump.v.03",
-            "sack.n.01",
+            "poke.v.05",
             "dawdler.n.01",
+            "sack.n.01",
             "jab.n.01",
-            "punch.n.01"
+            "poke.v.03"
         ]
     },
     {
@@ -2029,10 +2021,10 @@
         "value": 16,
         "percentage": 0.1543805480509456,
         "synsets": [
-            "mean.v.01",
-            "intend.v.02",
             "intend.v.01",
-            "mean.v.03"
+            "mean.v.03",
+            "intend.v.02",
+            "mean.v.01"
         ]
     },
     {
@@ -2048,8 +2040,8 @@
         "value": 16,
         "percentage": 0.1543805480509456,
         "synsets": [
-            "pickle.n.01",
             "pickle.v.01",
+            "pickle.n.01",
             "fix.n.01"
         ]
     },
@@ -2058,10 +2050,10 @@
         "value": 16,
         "percentage": 0.1543805480509456,
         "synsets": [
+            "glad.s.02",
             "felicitous.s.02",
-            "happy.a.01",
             "happy.s.04",
-            "glad.s.02"
+            "happy.a.01"
         ]
     },
     {
@@ -2083,8 +2075,8 @@
         "value": 16,
         "percentage": 0.1543805480509456,
         "synsets": [
-            "irish.n.01",
             "irish.n.03",
+            "irish.n.01",
             "irish.a.01",
             "irish.n.02"
         ]
@@ -2102,9 +2094,9 @@
         "value": 15,
         "percentage": 0.14473176379776148,
         "synsets": [
-            "amaze.v.01",
             "amazing.s.02",
             "perplex.v.01",
+            "amaze.v.01",
             "amazing.s.01"
         ]
     },
@@ -2113,42 +2105,40 @@
         "value": 15,
         "percentage": 0.14473176379776148,
         "synsets": [
-            "good.s.07",
-            "beneficial.s.01",
-            "good.n.01",
-            "good.s.18",
-            "good.s.15",
-            "well.r.01",
             "good.s.19",
             "good.n.03",
-            "dependable.s.04",
-            "adept.s.01",
-            "commodity.n.01",
-            "thoroughly.r.02",
-            "estimable.s.02",
-            "good.s.13",
-            "good.s.20",
-            "good.s.17",
-            "good.a.03",
-            "effective.s.04",
-            "good.a.01",
-            "dear.s.02",
-            "good.s.16",
-            "full.s.06",
-            "good.s.09",
             "good.s.06",
-            "good.n.02",
             "good.s.12",
-            "good.s.21"
+            "good.s.21",
+            "good.s.15",
+            "effective.s.04",
+            "good.n.01",
+            "dependable.s.04",
+            "well.r.01",
+            "good.s.18",
+            "good.a.01",
+            "good.s.13",
+            "good.n.02",
+            "good.s.20",
+            "estimable.s.02",
+            "good.s.17",
+            "good.s.07",
+            "adept.s.01",
+            "full.s.06",
+            "beneficial.s.01",
+            "good.a.03",
+            "thoroughly.r.02",
+            "good.s.16",
+            "commodity.n.01",
+            "good.s.09",
+            "dear.s.02"
         ]
     },
     {
         "name": "onthisday",
         "value": 15,
         "percentage": 0.14473176379776148,
-        "synsets": [
-            "this.s.1"
-        ]
+        "synsets": []
     },
     {
         "name": "catlover",
@@ -2165,14 +2155,14 @@
         "value": 15,
         "percentage": 0.14473176379776148,
         "synsets": [
-            "dog.n.03",
-            "pawl.n.01",
-            "cad.n.01",
-            "andiron.n.01",
-            "dog.n.01",
-            "chase.v.01",
             "frank.n.02",
-            "frump.n.01"
+            "chase.v.01",
+            "pawl.n.01",
+            "dog.n.01",
+            "cad.n.01",
+            "dog.n.03",
+            "frump.n.01",
+            "andiron.n.01"
         ]
     },
     {
@@ -2198,9 +2188,9 @@
         "percentage": 0.14473176379776148,
         "synsets": [
             "illusion.n.02",
+            "fantasy.n.01",
             "fantasy.v.01",
-            "fantasy.n.02",
-            "fantasy.n.01"
+            "fantasy.n.02"
         ]
     },
     {
@@ -2208,13 +2198,13 @@
         "value": 15,
         "percentage": 0.14473176379776148,
         "synsets": [
-            "short_circuit.n.01",
-            "shortstop.n.02",
-            "short-change.v.01",
-            "drawers.n.01",
             "short_pants.n.01",
             "short.n.01",
-            "short-circuit.v.02"
+            "drawers.n.01",
+            "shortstop.n.02",
+            "short_circuit.n.01",
+            "short-circuit.v.02",
+            "short-change.v.01"
         ]
     },
     {
@@ -2261,19 +2251,19 @@
         "value": 15,
         "percentage": 0.14473176379776148,
         "synsets": [
-            "beam.n.02",
-            "beam.n.03",
-            "shine.v.02",
             "air.v.03",
+            "glow.v.02",
+            "beam.n.06",
+            "beam.n.04",
+            "beam.v.01",
+            "shine.v.02",
+            "beam.n.02",
             "glow.v.05",
+            "beam.n.03",
             "radio_beam.n.01",
             "beam.n.05",
-            "beam.v.01",
-            "beam.n.06",
-            "glow.v.02",
-            "beam.n.04",
-            "balance_beam.n.01",
-            "beam.v.03"
+            "beam.v.03",
+            "balance_beam.n.01"
         ]
     },
     {
@@ -2281,8 +2271,8 @@
         "value": 15,
         "percentage": 0.14473176379776148,
         "synsets": [
-            "italian.n.01",
             "italian.a.01",
+            "italian.n.01",
             "italian.n.02"
         ]
     },
@@ -2291,8 +2281,8 @@
         "value": 15,
         "percentage": 0.14473176379776148,
         "synsets": [
-            "photography.n.01",
             "photography.n.02",
+            "photography.n.01",
             "photography.n.03"
         ]
     },
@@ -2301,10 +2291,10 @@
         "value": 15,
         "percentage": 0.14473176379776148,
         "synsets": [
-            "scheduling.n.01",
+            "program.v.02",
             "programming.n.02",
             "program.v.01",
-            "program.v.02"
+            "scheduling.n.01"
         ]
     },
     {
@@ -2320,10 +2310,10 @@
         "value": 15,
         "percentage": 0.14473176379776148,
         "synsets": [
-            "electric.s.03",
+            "electric.n.01",
             "electric.s.02",
             "electric.a.01",
-            "electric.n.01"
+            "electric.s.03"
         ]
     },
     {
@@ -2345,8 +2335,8 @@
         "value": 14,
         "percentage": 0.1350829795445774,
         "synsets": [
-            "america.n.02",
-            "united_states.n.01"
+            "united_states.n.01",
+            "america.n.02"
         ]
     },
     {
@@ -2362,16 +2352,16 @@
         "value": 14,
         "percentage": 0.1350829795445774,
         "synsets": [
+            "school.n.02",
             "school.v.03",
-            "school.v.01",
-            "school.n.05",
-            "school.n.07",
-            "educate.v.03",
             "school.n.01",
-            "school.n.04",
-            "school.n.03",
             "school.n.06",
-            "school.n.02"
+            "school.n.05",
+            "school.n.03",
+            "school.v.01",
+            "educate.v.03",
+            "school.n.07",
+            "school.n.04"
         ]
     },
     {
@@ -2395,12 +2385,12 @@
         "percentage": 0.1350829795445774,
         "synsets": [
             "behind.r.02",
-            "behind.s.01",
             "behind.r.01",
-            "buttocks.n.01",
             "behind.r.05",
-            "behind.r.03",
-            "behind.r.04"
+            "buttocks.n.01",
+            "behind.r.04",
+            "behind.s.01",
+            "behind.r.03"
         ]
     },
     {
@@ -2408,11 +2398,11 @@
         "value": 14,
         "percentage": 0.1350829795445774,
         "synsets": [
-            "terminology.n.01",
             "linguistic_process.n.02",
-            "speech.n.02",
-            "language.n.01",
             "lyric.n.01",
+            "speech.n.02",
+            "terminology.n.01",
+            "language.n.01",
             "language.n.05"
         ]
     },
@@ -2455,16 +2445,16 @@
         "value": 13,
         "percentage": 0.1254341952913933,
         "synsets": [
-            "sing.v.01",
-            "sing.v.02",
-            "spill_the_beans.v.01",
             "singe.v.01",
-            "tattle.n.01",
-            "whistle.v.05",
-            "scorch.v.02",
-            "sing.v.03",
+            "cantabile.s.01",
+            "sing.v.01",
             "singing.n.01",
-            "cantabile.s.01"
+            "whistle.v.05",
+            "spill_the_beans.v.01",
+            "sing.v.02",
+            "sing.v.03",
+            "scorch.v.02",
+            "tattle.n.01"
         ]
     },
     {
@@ -2491,8 +2481,8 @@
             "cycle.n.01",
             "rhythm_method_of_birth_control.n.01",
             "rhythm.n.02",
-            "rhythm.n.04",
-            "rhythm.n.01"
+            "rhythm.n.01",
+            "rhythm.n.04"
         ]
     },
     {
@@ -2513,11 +2503,11 @@
         "percentage": 0.1254341952913933,
         "synsets": [
             "pour.v.04",
-            "pour.v.01",
             "pour.v.06",
-            "pour.v.05",
             "decant.v.01",
-            "pour.v.02"
+            "pour.v.01",
+            "pour.v.02",
+            "pour.v.05"
         ]
     },
     {
@@ -2525,11 +2515,11 @@
         "value": 13,
         "percentage": 0.1254341952913933,
         "synsets": [
+            "cockamamie.s.01",
             "airheaded.s.01",
-            "punch-drunk.s.01",
-            "pathetic.s.03",
             "silly.n.01",
-            "cockamamie.s.01"
+            "punch-drunk.s.01",
+            "pathetic.s.03"
         ]
     },
     {
@@ -2537,8 +2527,8 @@
         "value": 13,
         "percentage": 0.1254341952913933,
         "synsets": [
-            "apple.n.02",
-            "apple.n.01"
+            "apple.n.01",
+            "apple.n.02"
         ]
     },
     {
@@ -2546,14 +2536,14 @@
         "value": 13,
         "percentage": 0.1254341952913933,
         "synsets": [
-            "family.n.01",
-            "family.n.04",
+            "kin.n.01",
             "family.n.06",
-            "family.n.08",
             "class.n.01",
-            "family.n.02",
             "syndicate.n.01",
-            "kin.n.01"
+            "family.n.04",
+            "family.n.08",
+            "family.n.01",
+            "family.n.02"
         ]
     },
     {
@@ -2609,6 +2599,14 @@
         ]
     },
     {
+        "name": "mario",
+        "value": 13,
+        "percentage": 0.1254341952913933,
+        "synsets": [
+            "mario.s.1"
+        ]
+    },
+    {
         "name": "mylittleponyfriendshipismagic",
         "value": 13,
         "percentage": 0.1254341952913933,
@@ -2621,19 +2619,19 @@
         "value": 13,
         "percentage": 0.1254341952913933,
         "synsets": [
-            "design.n.06",
             "design.n.02",
-            "blueprint.n.01",
-            "design.v.03",
-            "design.v.07",
-            "invention.n.01",
-            "design.v.05",
-            "design.n.01",
-            "design.v.04",
+            "design.n.06",
             "purpose.n.01",
+            "design.n.01",
+            "design.v.05",
+            "design.n.04",
+            "blueprint.n.01",
+            "design.v.04",
+            "design.v.07",
             "design.v.06",
             "plan.v.03",
-            "design.n.04",
+            "design.v.03",
+            "invention.n.01",
             "design.v.02"
         ]
     },
@@ -2650,17 +2648,17 @@
         "value": 13,
         "percentage": 0.1254341952913933,
         "synsets": [
-            "cool.s.02",
+            "cool.n.01",
+            "cool.v.03",
             "cool.a.04",
+            "cool.v.02",
+            "cool.v.01",
+            "cool.s.05",
+            "aplomb.n.01",
+            "cool.a.01",
             "cool.a.03",
             "cool.s.06",
-            "cool.v.02",
-            "cool.v.03",
-            "cool.a.01",
-            "cool.v.01",
-            "cool.n.01",
-            "cool.s.05",
-            "aplomb.n.01"
+            "cool.s.02"
         ]
     },
     {
@@ -2689,8 +2687,8 @@
         "value": 13,
         "percentage": 0.1254341952913933,
         "synsets": [
-            "creative.s.02",
-            "creative.a.01"
+            "creative.a.01",
+            "creative.s.02"
         ]
     },
     {
@@ -2717,9 +2715,9 @@
         "value": 12,
         "percentage": 0.11578541103820919,
         "synsets": [
+            "fitness.n.01",
             "fitness.n.04",
             "fitness.n.02",
-            "fitness.n.01",
             "seaworthiness.n.01"
         ]
     },
@@ -2728,13 +2726,13 @@
         "value": 12,
         "percentage": 0.11578541103820919,
         "synsets": [
-            "south.r.01",
-            "south.n.01",
-            "south.n.04",
             "south.n.05",
+            "confederacy.n.01",
+            "south.n.04",
             "south.a.01",
+            "south.n.01",
             "south.n.03",
-            "confederacy.n.01"
+            "south.r.01"
         ]
     },
     {
@@ -2742,12 +2740,12 @@
         "value": 12,
         "percentage": 0.11578541103820919,
         "synsets": [
-            "punk_rocker.n.01",
-            "kindling.n.01",
-            "punk_rock.n.01",
             "hood.n.01",
             "bum.s.01",
-            "punk.n.02"
+            "punk_rocker.n.01",
+            "punk.n.02",
+            "kindling.n.01",
+            "punk_rock.n.01"
         ]
     },
     {
@@ -2755,10 +2753,10 @@
         "value": 12,
         "percentage": 0.11578541103820919,
         "synsets": [
-            "fact.n.03",
+            "fact.n.04",
             "fact.n.02",
             "fact.n.01",
-            "fact.n.04"
+            "fact.n.03"
         ]
     },
     {
@@ -2774,14 +2772,14 @@
         "value": 12,
         "percentage": 0.11578541103820919,
         "synsets": [
-            "paint.v.01",
-            "paint.v.02",
-            "painting.n.02",
-            "paint.v.04",
+            "painting.n.03",
             "painting.n.01",
-            "paint.v.03",
             "painting.n.04",
-            "painting.n.03"
+            "paint.v.03",
+            "paint.v.02",
+            "paint.v.01",
+            "painting.n.02",
+            "paint.v.04"
         ]
     },
     {
@@ -2803,14 +2801,14 @@
         "value": 12,
         "percentage": 0.11578541103820919,
         "synsets": [
-            "map.v.01",
-            "map.v.03",
-            "map.v.06",
-            "map.v.04",
             "map.v.02",
-            "map.v.05",
+            "map.v.04",
             "map.n.01",
-            "function.n.01"
+            "map.v.06",
+            "map.v.03",
+            "map.v.05",
+            "function.n.01",
+            "map.v.01"
         ]
     },
     {
@@ -2826,9 +2824,9 @@
         "value": 12,
         "percentage": 0.11578541103820919,
         "synsets": [
-            "sandwich.v.01",
             "sandwich.n.01",
-            "sandwich.v.02"
+            "sandwich.v.02",
+            "sandwich.v.01"
         ]
     },
     {
@@ -2844,21 +2842,21 @@
         "value": 12,
         "percentage": 0.11578541103820919,
         "synsets": [
-            "sound.v.01",
-            "sound.n.08",
-            "sound.v.06",
             "fathom.v.02",
-            "strait.n.01",
-            "audio.n.01",
-            "phone.n.02",
-            "sound.v.03",
-            "voice.v.02",
-            "sound.n.03",
-            "sound.v.04",
-            "sound.n.04",
             "sound.v.02",
+            "audio.n.01",
+            "voice.v.02",
+            "strait.n.01",
             "sound.n.02",
-            "sound.n.01"
+            "phone.n.02",
+            "sound.v.01",
+            "sound.n.04",
+            "sound.v.03",
+            "sound.v.04",
+            "sound.n.01",
+            "sound.n.03",
+            "sound.n.08",
+            "sound.v.06"
         ]
     },
     {
@@ -2919,8 +2917,8 @@
         "value": 12,
         "percentage": 0.11578541103820919,
         "synsets": [
-            "rainbow.n.01",
-            "rainbow.n.02"
+            "rainbow.n.02",
+            "rainbow.n.01"
         ]
     },
     {
@@ -2928,21 +2926,21 @@
         "value": 12,
         "percentage": 0.11578541103820919,
         "synsets": [
-            "book.n.06",
-            "book.n.11",
-            "ledger.n.01",
-            "record.n.05",
-            "book.v.01",
-            "reserve.v.04",
-            "book.v.04",
-            "book.n.07",
-            "book.n.10",
-            "book.n.02",
-            "bible.n.01",
-            "koran.n.01",
-            "book.n.01",
             "book.v.03",
-            "script.n.01"
+            "record.n.05",
+            "bible.n.01",
+            "book.n.02",
+            "koran.n.01",
+            "book.n.06",
+            "book.n.07",
+            "book.n.11",
+            "book.v.04",
+            "ledger.n.01",
+            "script.n.01",
+            "reserve.v.04",
+            "book.v.01",
+            "book.n.01",
+            "book.n.10"
         ]
     },
     {
@@ -2950,10 +2948,10 @@
         "value": 12,
         "percentage": 0.11578541103820919,
         "synsets": [
-            "explore.v.03",
             "explore.v.02",
+            "research.v.02",
             "explore.v.04",
-            "research.v.02"
+            "explore.v.03"
         ]
     },
     {
@@ -2961,8 +2959,8 @@
         "value": 12,
         "percentage": 0.11578541103820919,
         "synsets": [
-            "sonic.a.01",
-            "sonic.s.02"
+            "sonic.s.02",
+            "sonic.a.01"
         ]
     },
     {
@@ -2971,10 +2969,10 @@
         "percentage": 0.11578541103820919,
         "synsets": [
             "girlfriend.n.02",
-            "girl.n.01",
             "girl.n.05",
-            "female_child.n.01",
-            "daughter.n.01"
+            "daughter.n.01",
+            "girl.n.01",
+            "female_child.n.01"
         ]
     },
     {
@@ -2982,12 +2980,12 @@
         "value": 12,
         "percentage": 0.11578541103820919,
         "synsets": [
-            "crazy.s.05",
+            "crazy.s.03",
+            "crazy.s.04",
             "crazy.s.02",
             "crazy.n.01",
-            "brainsick.s.01",
-            "crazy.s.03",
-            "crazy.s.04"
+            "crazy.s.05",
+            "brainsick.s.01"
         ]
     },
     {
@@ -3010,10 +3008,10 @@
         "percentage": 0.11578541103820919,
         "synsets": [
             "manner.n.01",
-            "fashion.n.02",
             "fashion.v.01",
-            "fashion.n.04",
-            "fashion.n.03"
+            "fashion.n.03",
+            "fashion.n.02",
+            "fashion.n.04"
         ]
     },
     {
@@ -3021,10 +3019,10 @@
         "value": 12,
         "percentage": 0.11578541103820919,
         "synsets": [
-            "flower.n.02",
             "flower.n.03",
-            "flower.n.01",
-            "bloom.v.01"
+            "flower.n.02",
+            "bloom.v.01",
+            "flower.n.01"
         ]
     },
     {
@@ -3048,9 +3046,9 @@
         "value": 11,
         "percentage": 0.10613662678502508,
         "synsets": [
+            "epic.a.02",
             "epic.s.01",
-            "epic_poem.n.01",
-            "epic.a.02"
+            "epic_poem.n.01"
         ]
     },
     {
@@ -3060,9 +3058,9 @@
         "synsets": [
             "country.n.02",
             "country.n.04",
-            "area.n.01",
             "state.n.04",
-            "nation.n.02"
+            "nation.n.02",
+            "area.n.01"
         ]
     },
     {
@@ -3070,16 +3068,16 @@
         "value": 11,
         "percentage": 0.10613662678502508,
         "synsets": [
-            "core.n.05",
             "core.v.01",
-            "effect.n.04",
-            "core.n.01",
-            "core.n.02",
+            "core.n.05",
             "core.n.03",
+            "core.n.02",
+            "effect.n.04",
             "core.n.08",
+            "core.n.01",
             "core.n.10",
-            "core.n.09",
             "congress_of_racial_equality.n.01",
+            "core.n.09",
             "kernel.n.03"
         ]
     },
@@ -3108,13 +3106,13 @@
         "value": 11,
         "percentage": 0.10613662678502508,
         "synsets": [
-            "solo.s.01",
             "solo.n.03",
-            "alone.r.02",
-            "solo.v.02",
             "solo.n.01",
             "solo.v.01",
-            "solo.n.02"
+            "solo.n.02",
+            "solo.v.02",
+            "solo.s.01",
+            "alone.r.02"
         ]
     },
     {
@@ -3123,8 +3121,8 @@
         "percentage": 0.10613662678502508,
         "synsets": [
             "maiden_over.n.01",
-            "maid.n.02",
-            "inaugural.s.02"
+            "inaugural.s.02",
+            "maid.n.02"
         ]
     },
     {
@@ -3139,8 +3137,8 @@
         "percentage": 0.10613662678502508,
         "synsets": [
             "riff.n.02",
-            "flick.v.02",
             "riff.n.01",
+            "flick.v.02",
             "riff.v.02"
         ]
     },
@@ -3149,12 +3147,12 @@
         "value": 11,
         "percentage": 0.10613662678502508,
         "synsets": [
+            "station.n.03",
             "station.v.01",
-            "station.n.01",
-            "place.n.10",
             "station.n.05",
             "post.n.01",
-            "station.n.03"
+            "place.n.10",
+            "station.n.01"
         ]
     },
     {
@@ -3171,8 +3169,8 @@
         "value": 11,
         "percentage": 0.10613662678502508,
         "synsets": [
-            "acid.n.02",
-            "demigod.n.01"
+            "demigod.n.01",
+            "acid.n.02"
         ]
     },
     {
@@ -3180,9 +3178,9 @@
         "value": 11,
         "percentage": 0.10613662678502508,
         "synsets": [
-            "magic_trick.n.01",
+            "magic.n.01",
             "charming.s.02",
-            "magic.n.01"
+            "magic_trick.n.01"
         ]
     },
     {
@@ -3196,11 +3194,11 @@
         "value": 11,
         "percentage": 0.10613662678502508,
         "synsets": [
-            "season.v.01",
-            "temper.v.04",
-            "season.n.02",
-            "season.n.01",
             "season.v.02",
+            "season.v.01",
+            "season.n.02",
+            "temper.v.04",
+            "season.n.01",
             "season.n.03"
         ]
     },
@@ -3224,17 +3222,17 @@
         "value": 11,
         "percentage": 0.10613662678502508,
         "synsets": [
-            "fail.v.06",
-            "fail.v.08",
-            "fail.v.07",
             "fail.v.11",
-            "fail.v.03",
-            "fail.v.02",
-            "fail.v.05",
             "fail.v.04",
-            "fail.v.09",
+            "fail.v.05",
+            "fail.v.01",
             "fail.v.10",
-            "fail.v.01"
+            "fail.v.09",
+            "fail.v.02",
+            "fail.v.07",
+            "fail.v.03",
+            "fail.v.08",
+            "fail.v.06"
         ]
     },
     {
@@ -3250,10 +3248,10 @@
         "value": 11,
         "percentage": 0.10613662678502508,
         "synsets": [
-            "luff.v.01",
-            "luff.n.01",
             "luff.n.02",
-            "luff.v.02"
+            "luff.v.02",
+            "luff.n.01",
+            "luff.v.01"
         ]
     },
     {
@@ -3261,8 +3259,8 @@
         "value": 11,
         "percentage": 0.10613662678502508,
         "synsets": [
-            "field_hockey.n.01",
-            "ice_hockey.n.01"
+            "ice_hockey.n.01",
+            "field_hockey.n.01"
         ]
     },
     {
@@ -3270,11 +3268,11 @@
         "value": 11,
         "percentage": 0.10613662678502508,
         "synsets": [
-            "nature.n.04",
             "nature.n.01",
-            "nature.n.05",
+            "nature.n.04",
+            "nature.n.02",
             "nature.n.03",
-            "nature.n.02"
+            "nature.n.05"
         ]
     },
     {
@@ -3282,7 +3280,16 @@
         "value": 11,
         "percentage": 0.10613662678502508,
         "synsets": [
-            "thestar.s.1"
+            "thestar.s.1",
+            "fromthestart.s.1"
+        ]
+    },
+    {
+        "name": "mariokart",
+        "value": 11,
+        "percentage": 0.10613662678502508,
+        "synsets": [
+            "mariokart.s.1"
         ]
     },
     {
@@ -3290,24 +3297,24 @@
         "value": 11,
         "percentage": 0.10613662678502508,
         "synsets": [
-            "crash.v.10",
-            "crash.v.03",
-            "crash.n.05",
-            "crash.v.09",
-            "crash.v.04",
-            "crash.n.04",
-            "crash.n.02",
-            "crash.v.01",
-            "crash.v.06",
-            "doss.v.01",
-            "crash.v.11",
-            "crash.v.05",
             "clang.n.01",
-            "barge_in.v.01",
+            "crash.v.11",
             "crash.v.12",
-            "crash.v.07",
+            "crash.n.04",
+            "crash.v.10",
+            "barge_in.v.01",
+            "doss.v.01",
+            "crash.v.06",
+            "crash.n.03",
             "crash.v.02",
-            "crash.n.03"
+            "crash.v.05",
+            "crash.v.07",
+            "crash.v.09",
+            "crash.v.03",
+            "crash.v.04",
+            "crash.v.01",
+            "crash.n.05",
+            "crash.n.02"
         ]
     },
     {
@@ -3315,25 +3322,25 @@
         "value": 11,
         "percentage": 0.10613662678502508,
         "synsets": [
-            "live.r.01",
-            "live.a.02",
-            "live.s.04",
-            "survive.v.01",
-            "bouncy.s.01",
-            "live.v.02",
             "populate.v.01",
-            "know.v.05",
-            "live.v.07",
-            "alive.a.01",
+            "live.s.04",
             "live.a.01",
-            "alive.s.07",
-            "hot.s.20",
-            "exist.v.02",
-            "be.v.11",
+            "live.v.02",
+            "alive.a.01",
             "live.s.05",
-            "live.s.07",
+            "be.v.11",
+            "alive.s.07",
+            "live.v.07",
+            "survive.v.01",
+            "live.a.02",
             "live.s.09",
-            "live.s.08"
+            "live.s.07",
+            "hot.s.20",
+            "live.s.08",
+            "bouncy.s.01",
+            "exist.v.02",
+            "live.r.01",
+            "know.v.05"
         ]
     },
     {
@@ -3358,14 +3365,14 @@
         "value": 11,
         "percentage": 0.10613662678502508,
         "synsets": [
-            "death.n.01",
             "death.n.04",
-            "death.n.05",
-            "death.n.06",
-            "death.n.08",
             "death.n.03",
+            "death.n.01",
+            "death.n.05",
+            "death.n.08",
+            "death.n.02",
             "end.n.06",
-            "death.n.02"
+            "death.n.06"
         ]
     },
     {
@@ -3383,8 +3390,8 @@
         "percentage": 0.10613662678502508,
         "synsets": [
             "combatant.n.01",
-            "fighter.n.02",
-            "champion.n.02"
+            "champion.n.02",
+            "fighter.n.02"
         ]
     }
 ]
