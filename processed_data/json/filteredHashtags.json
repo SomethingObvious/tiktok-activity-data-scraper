@@ -25,18 +25,18 @@
             "leading.s.01"
         ],
         "unique_synsets": [
-            "star.n.03",
-            "leading.s.01",
-            "star.v.01",
-            "star_topology.n.01",
-            "star.v.02",
             "star.n.04",
+            "star.v.01",
             "star.n.01",
-            "ace.n.03",
-            "headliner.n.01",
-            "star.v.03",
             "star.n.05",
-            "asterisk.n.01"
+            "asterisk.n.01",
+            "leading.s.01",
+            "headliner.n.01",
+            "star_topology.n.01",
+            "ace.n.03",
+            "star.v.02",
+            "star.n.03",
+            "star.v.03"
         ]
     },
     {
@@ -53,13 +53,13 @@
             "rule.n.11"
         ],
         "unique_synsets": [
-            "formula.n.06",
-            "convention.n.02",
             "recipe.n.01",
-            "formula.n.03",
             "formula.n.04",
             "formula.n.01",
-            "rule.n.11"
+            "convention.n.02",
+            "formula.n.03",
+            "rule.n.11",
+            "formula.n.06"
         ]
     },
     {
@@ -84,9 +84,9 @@
             "metallic.a.01"
         ],
         "unique_synsets": [
+            "metal.v.01",
             "metallic_element.n.01",
             "alloy.n.01",
-            "metal.v.01",
             "metallic.a.01"
         ]
     },
@@ -102,11 +102,11 @@
             "music.n.05"
         ],
         "unique_synsets": [
-            "music.n.02",
-            "music.n.03",
-            "music.n.05",
             "music.n.01",
-            "music.n.04"
+            "music.n.04",
+            "music.n.03",
+            "music.n.02",
+            "music.n.05"
         ]
     },
     {
@@ -131,8 +131,8 @@
             "anime.n.02"
         ],
         "unique_synsets": [
-            "zanzibar_copal.n.01",
-            "anime.n.02"
+            "anime.n.02",
+            "zanzibar_copal.n.01"
         ]
     },
     {
@@ -175,14 +175,14 @@
             "print.v.04"
         ],
         "unique_synsets": [
+            "print.v.01",
             "printing.n.03",
             "print.v.03",
             "print.v.04",
-            "print.v.01",
-            "print.v.02",
+            "impression.n.06",
             "printing.n.02",
-            "printing.n.01",
-            "impression.n.06"
+            "print.v.02",
+            "printing.n.01"
         ]
     },
     {
@@ -204,11 +204,11 @@
             "mastermind.v.01"
         ],
         "unique_synsets": [
-            "engineering.n.02",
-            "engineer.v.01",
             "engineering.n.03",
             "mastermind.v.01",
-            "technology.n.01"
+            "engineer.v.01",
+            "technology.n.01",
+            "engineering.n.02"
         ]
     },
     {
@@ -235,10 +235,10 @@
         ],
         "unique_synsets": [
             "turn_out.v.10",
-            "splay.s.01",
-            "splay.v.01",
             "dislocate.v.01",
-            "splay.n.01"
+            "splay.n.01",
+            "splay.v.01",
+            "splay.s.01"
         ]
     },
     {
@@ -267,10 +267,10 @@
             "comforting.s.01"
         ],
         "unique_synsets": [
-            "comforting.s.01",
-            "satisfy.v.02",
-            "hearty.s.02",
             "meet.v.04",
+            "comforting.s.01",
+            "hearty.s.02",
+            "satisfy.v.02",
             "satisfy.v.01"
         ]
     },
@@ -289,10 +289,10 @@
         "unique_synsets": [
             "animation.n.03",
             "vivification.n.02",
+            "animation.n.01",
             "liveliness.n.01",
             "animation.n.02",
-            "animation.n.05",
-            "animation.n.01"
+            "animation.n.05"
         ]
     },
     {
@@ -313,15 +313,15 @@
         ],
         "unique_synsets": [
             "cat.n.01",
-            "cat-o'-nine-tails.n.01",
-            "kat.n.01",
-            "cat.v.01",
+            "computerized_tomography.n.01",
+            "caterpillar.n.02",
             "vomit.v.01",
             "cat.n.03",
-            "caterpillar.n.02",
-            "big_cat.n.01",
+            "kat.n.01",
             "guy.n.01",
-            "computerized_tomography.n.01"
+            "big_cat.n.01",
+            "cat.v.01",
+            "cat-o'-nine-tails.n.01"
         ]
     },
     {
@@ -351,15 +351,15 @@
             "rock.v.02"
         ],
         "unique_synsets": [
-            "rock.n.03",
-            "rock.v.02",
-            "rock.n.04",
-            "rock_'n'_roll.n.01",
             "rock.n.01",
-            "rock.n.02",
-            "rock.n.07",
             "rock.v.01",
-            "rock_candy.n.01"
+            "rock.n.07",
+            "rock_candy.n.01",
+            "rock.n.02",
+            "rock.n.03",
+            "rock.n.04",
+            "rock.v.02",
+            "rock_'n'_roll.n.01"
         ]
     },
     {
@@ -422,16 +422,16 @@
             "little.r.01"
         ],
         "unique_synsets": [
-            "small.a.01",
-            "little.s.03",
-            "little.r.01",
-            "little.s.08",
-            "little.s.07",
-            "little.s.05",
-            "little.n.01",
-            "short.a.03",
             "little.a.02",
-            "fiddling.s.01"
+            "little.s.07",
+            "fiddling.s.01",
+            "small.a.01",
+            "little.s.05",
+            "little.r.01",
+            "little.n.01",
+            "little.s.03",
+            "short.a.03",
+            "little.s.08"
         ]
     },
     {
@@ -456,21 +456,21 @@
             "bull.v.04"
         ],
         "unique_synsets": [
-            "bull.v.02",
-            "bull.v.01",
-            "bull.v.04",
-            "taurus.n.04",
             "bull's_eye.n.02",
-            "talk_through_one's_hat.v.01",
-            "taurus.n.02",
+            "bull.v.01",
+            "taurus.n.04",
+            "bull.v.04",
+            "bull.n.01",
             "bull.n.04",
+            "bull.n.11",
+            "bull.n.10",
+            "bullshit.n.01",
             "bull.n.05",
             "bull.n.06",
-            "bullshit.n.01",
             "bull.n.02",
-            "bull.n.10",
-            "bull.n.11",
-            "bull.n.01"
+            "taurus.n.02",
+            "bull.v.02",
+            "talk_through_one's_hat.v.01"
         ]
     },
     {
@@ -521,36 +521,36 @@
             "heavy.r.01"
         ],
         "unique_synsets": [
-            "heavy.s.18",
-            "big.s.13",
-            "fleshy.s.01",
-            "heavy.s.19",
-            "heavy.s.12",
-            "dense.s.01",
-            "heavy.a.01",
-            "heavy.s.07",
-            "heavy.s.13",
-            "big.s.06",
             "heavy.s.20",
             "heavy.s.23",
-            "heavy.n.02",
-            "heavy.s.22",
-            "intemperate.s.03",
-            "clayey.s.02",
-            "grave.s.03",
+            "fleshy.s.01",
             "heavy.a.09",
-            "heavy.s.15",
+            "dense.s.01",
+            "big.s.06",
             "heavy.s.26",
+            "heavy.n.01",
+            "arduous.s.01",
+            "big.s.13",
             "heavy.a.02",
+            "heavy.s.19",
+            "heavy.a.08",
             "heavy.s.25",
+            "heavy.a.03",
+            "heavy.s.22",
+            "heavy.a.01",
+            "intemperate.s.03",
+            "heavy.s.10",
             "heavy.a.04",
             "heavy.r.01",
-            "heavy.a.08",
-            "arduous.s.01",
-            "heavy.s.10",
-            "heavy.a.03",
-            "heavy.n.01",
-            "heavy.s.21"
+            "clayey.s.02",
+            "heavy.s.18",
+            "heavy.s.15",
+            "heavy.s.13",
+            "grave.s.03",
+            "heavy.s.07",
+            "heavy.n.02",
+            "heavy.s.21",
+            "heavy.s.12"
         ]
     },
     {
@@ -595,8 +595,8 @@
             "skill.n.02"
         ],
         "unique_synsets": [
-            "science.n.01",
-            "skill.n.02"
+            "skill.n.02",
+            "science.n.01"
         ]
     },
     {
@@ -622,11 +622,11 @@
             "music.n.05"
         ],
         "unique_synsets": [
-            "music.n.02",
-            "music.n.03",
-            "music.n.05",
             "music.n.01",
-            "music.n.04"
+            "music.n.04",
+            "music.n.03",
+            "music.n.02",
+            "music.n.05"
         ]
     },
     {
@@ -640,9 +640,9 @@
             "metallic.a.01"
         ],
         "unique_synsets": [
+            "metal.v.01",
             "metallic_element.n.01",
             "alloy.n.01",
-            "metal.v.01",
             "metallic.a.01"
         ]
     },
@@ -663,16 +663,16 @@
             "slide.v.03"
         ],
         "unique_synsets": [
-            "slide.v.03",
-            "skid.v.04",
-            "chute.n.02",
-            "slither.v.01",
+            "swoop.n.01",
             "slide.n.06",
-            "slide.n.04",
+            "chute.n.02",
             "slide.n.05",
-            "slide.n.02",
+            "skid.v.04",
             "slide.n.01",
-            "swoop.n.01"
+            "slide.n.02",
+            "slither.v.01",
+            "slide.n.04",
+            "slide.v.03"
         ]
     },
     {
@@ -729,18 +729,18 @@
             "leading.s.01"
         ],
         "unique_synsets": [
-            "star.n.03",
-            "leading.s.01",
-            "star.v.01",
-            "star_topology.n.01",
-            "star.v.02",
             "star.n.04",
+            "star.v.01",
             "star.n.01",
-            "ace.n.03",
-            "headliner.n.01",
-            "star.v.03",
             "star.n.05",
-            "asterisk.n.01"
+            "asterisk.n.01",
+            "leading.s.01",
+            "headliner.n.01",
+            "star_topology.n.01",
+            "ace.n.03",
+            "star.v.02",
+            "star.n.03",
+            "star.v.03"
         ]
     },
     {
@@ -759,15 +759,15 @@
             "frolic.v.01"
         ],
         "unique_synsets": [
+            "fun.n.02",
             "sport.v.01",
             "mutant.n.01",
-            "fun.n.02",
-            "sport.n.02",
-            "frolic.v.01",
             "sport.n.01",
-            "sport.n.03",
             "sport.n.05",
-            "sport.n.04"
+            "sport.n.04",
+            "frolic.v.01",
+            "sport.n.02",
+            "sport.n.03"
         ]
     },
     {
@@ -790,19 +790,19 @@
             "very.r.01"
         ],
         "unique_synsets": [
-            "real.a.06",
-            "real.a.01",
-            "real.a.02",
-            "real.s.04",
-            "substantial.a.03",
-            "real.s.08",
-            "very.r.01",
-            "veridical.s.01",
-            "actual.s.03",
-            "real.n.03",
             "real_number.n.01",
             "real.n.02",
-            "real.s.03"
+            "real.s.03",
+            "actual.s.03",
+            "real.a.06",
+            "real.n.03",
+            "substantial.a.03",
+            "very.r.01",
+            "real.s.08",
+            "real.s.04",
+            "veridical.s.01",
+            "real.a.01",
+            "real.a.02"
         ]
     },
     {
@@ -837,13 +837,13 @@
             "repair.v.01"
         ],
         "unique_synsets": [
-            "doctor.n.03",
-            "sophisticate.v.03",
-            "doctor_of_the_church.n.01",
             "doctor.n.04",
+            "sophisticate.v.03",
+            "doctor.n.03",
             "repair.v.01",
             "doctor.v.02",
-            "doctor.n.01"
+            "doctor.n.01",
+            "doctor_of_the_church.n.01"
         ]
     },
     {
@@ -871,24 +871,24 @@
             "piece.v.05"
         ],
         "unique_synsets": [
-            "piece.v.05",
-            "piece.n.06",
-            "objet_d'art.n.01",
-            "piece.n.09",
-            "assemble.v.01",
-            "piece.n.02",
-            "musical_composition.n.01",
-            "piece.v.03",
-            "piece.n.08",
-            "firearm.n.01",
             "nibble.v.03",
-            "piece.n.01",
+            "piece.n.02",
+            "assemble.v.01",
+            "musical_composition.n.01",
             "part.n.03",
-            "patch.v.01",
-            "while.n.01",
-            "slice.n.01",
             "man.n.10",
-            "piece.n.05"
+            "slice.n.01",
+            "patch.v.01",
+            "piece.n.09",
+            "piece.v.03",
+            "piece.n.01",
+            "piece.n.06",
+            "firearm.n.01",
+            "while.n.01",
+            "piece.v.05",
+            "piece.n.08",
+            "piece.n.05",
+            "objet_d'art.n.01"
         ]
     },
     {
@@ -920,13 +920,13 @@
             "dance.v.03"
         ],
         "unique_synsets": [
-            "dance.n.02",
-            "dance.n.04",
             "dance.n.01",
-            "dance.v.03",
             "dance.v.01",
+            "dancing.n.01",
             "dance.v.02",
-            "dancing.n.01"
+            "dance.v.03",
+            "dance.n.04",
+            "dance.n.02"
         ]
     },
     {
@@ -952,22 +952,22 @@
             "ring.v.06"
         ],
         "unique_synsets": [
-            "hoop.n.02",
-            "gang.n.01",
-            "ring.n.07",
-            "band.n.12",
-            "ring.v.01",
             "call.v.03",
-            "ring.n.02",
-            "surround.v.01",
-            "rings.n.01",
             "ring.v.03",
-            "ring.n.08",
-            "ring.v.06",
-            "ring.n.01",
+            "ring.n.02",
             "resound.v.01",
+            "closed_chain.n.01",
+            "band.n.12",
             "ring.n.06",
-            "closed_chain.n.01"
+            "ring.n.08",
+            "hoop.n.02",
+            "ring.v.01",
+            "surround.v.01",
+            "ring.n.01",
+            "ring.n.07",
+            "gang.n.01",
+            "ring.v.06",
+            "rings.n.01"
         ]
     },
     {
@@ -989,11 +989,11 @@
             "newsworthiness.n.01"
         ],
         "unique_synsets": [
-            "news.n.02",
-            "newsworthiness.n.01",
             "news_program.n.01",
             "news.n.04",
-            "news.n.01"
+            "newsworthiness.n.01",
+            "news.n.01",
+            "news.n.02"
         ]
     },
     {
@@ -1015,18 +1015,18 @@
             "leading.s.01"
         ],
         "unique_synsets": [
-            "star.n.03",
-            "leading.s.01",
-            "star.v.01",
-            "star_topology.n.01",
-            "star.v.02",
             "star.n.04",
+            "star.v.01",
             "star.n.01",
-            "ace.n.03",
-            "headliner.n.01",
-            "star.v.03",
             "star.n.05",
-            "asterisk.n.01"
+            "asterisk.n.01",
+            "leading.s.01",
+            "headliner.n.01",
+            "star_topology.n.01",
+            "ace.n.03",
+            "star.v.02",
+            "star.n.03",
+            "star.v.03"
         ]
     },
     {
@@ -1052,15 +1052,15 @@
             "cram.v.03"
         ],
         "unique_synsets": [
-            "barrel.n.03",
-            "drum.v.01",
-            "drum.n.04",
-            "brake_drum.n.01",
-            "drum.n.06",
-            "drum.v.02",
-            "cram.v.03",
             "drum.n.01",
-            "drum.n.02"
+            "brake_drum.n.01",
+            "drum.n.02",
+            "cram.v.03",
+            "drum.n.06",
+            "drum.n.04",
+            "drum.v.02",
+            "barrel.n.03",
+            "drum.v.01"
         ]
     },
     {
@@ -1074,10 +1074,10 @@
             "clone.v.01"
         ],
         "unique_synsets": [
-            "knockoff.n.01",
             "clone.n.02",
             "ringer.n.02",
-            "clone.v.01"
+            "clone.v.01",
+            "knockoff.n.01"
         ]
     },
     {
@@ -1096,15 +1096,15 @@
             "hope.v.03"
         ],
         "unique_synsets": [
+            "promise.n.02",
+            "hope.n.05",
             "hope.n.02",
-            "hope.n.01",
-            "hope.v.01",
             "hope.n.04",
             "hope.v.02",
-            "hope.n.05",
-            "hope.n.06",
-            "promise.n.02",
-            "hope.v.03"
+            "hope.v.01",
+            "hope.n.01",
+            "hope.v.03",
+            "hope.n.06"
         ]
     },
     {
@@ -1159,16 +1159,16 @@
             "power.v.01"
         ],
         "unique_synsets": [
-            "power.v.01",
-            "might.n.01",
-            "baron.n.03",
-            "power.n.05",
-            "power.n.01",
-            "ability.n.02",
-            "world_power.n.01",
+            "office.n.04",
             "power.n.02",
+            "power.n.01",
+            "power.v.01",
+            "ability.n.02",
+            "baron.n.03",
+            "might.n.01",
+            "power.n.05",
             "exponent.n.03",
-            "office.n.04"
+            "world_power.n.01"
         ]
     },
     {
@@ -1193,21 +1193,21 @@
             "attack.v.06"
         ],
         "unique_synsets": [
+            "approach.n.01",
             "attack.v.03",
             "attack.n.08",
-            "approach.n.01",
-            "attack.v.05",
-            "attack.n.05",
+            "attack.n.09",
             "attack.v.02",
-            "attack.n.07",
-            "attack.n.02",
-            "assail.v.01",
-            "attack.n.01",
-            "attack.v.01",
-            "attack.n.06",
-            "attack.v.06",
             "fire.n.09",
-            "attack.n.09"
+            "assail.v.01",
+            "attack.n.02",
+            "attack.n.01",
+            "attack.n.05",
+            "attack.v.01",
+            "attack.v.06",
+            "attack.n.06",
+            "attack.v.05",
+            "attack.n.07"
         ]
     },
     {
@@ -1220,9 +1220,9 @@
             "marvel.v.02"
         ],
         "unique_synsets": [
+            "marvel.v.02",
             "wonder.v.03",
-            "wonder.n.02",
-            "marvel.v.02"
+            "wonder.n.02"
         ]
     },
     {
@@ -1238,12 +1238,12 @@
             "twitch.v.05"
         ],
         "unique_synsets": [
-            "twitch.v.01",
             "twitch.v.05",
-            "pinch.v.01",
+            "twitch.v.01",
+            "flip.v.04",
             "twitch.n.01",
             "jerk.v.02",
-            "flip.v.04"
+            "pinch.v.01"
         ]
     },
     {
@@ -1267,13 +1267,13 @@
             "rule.n.11"
         ],
         "unique_synsets": [
-            "formula.n.06",
-            "convention.n.02",
             "recipe.n.01",
-            "formula.n.03",
             "formula.n.04",
             "formula.n.01",
-            "rule.n.11"
+            "convention.n.02",
+            "formula.n.03",
+            "rule.n.11",
+            "formula.n.06"
         ]
     },
     {
@@ -1297,11 +1297,11 @@
         ],
         "unique_synsets": [
             "learn.v.01",
-            "memorize.v.01",
-            "learn.v.04",
-            "determine.v.08",
+            "learn.v.02",
             "teach.v.01",
-            "learn.v.02"
+            "learn.v.04",
+            "memorize.v.01",
+            "determine.v.08"
         ]
     },
     {
@@ -1326,9 +1326,9 @@
             "print.v.04"
         ],
         "unique_synsets": [
+            "print.v.01",
             "print.v.02",
             "print.v.03",
-            "print.v.01",
             "print.v.04"
         ]
     },
@@ -1348,8 +1348,8 @@
             "musician.n.02"
         ],
         "unique_synsets": [
-            "musician.n.02",
-            "musician.n.01"
+            "musician.n.01",
+            "musician.n.02"
         ]
     },
     {
@@ -1361,8 +1361,8 @@
             "wholesome.s.02"
         ],
         "unique_synsets": [
-            "wholesome.s.02",
-            "wholesome.a.01"
+            "wholesome.a.01",
+            "wholesome.s.02"
         ]
     },
     {
@@ -1378,12 +1378,12 @@
             "hamilton.n.06"
         ],
         "unique_synsets": [
-            "hamilton.n.06",
             "hamilton.n.03",
+            "hamilton.n.04",
+            "hamilton.n.06",
             "hamilton.n.01",
-            "hamilton.n.05",
             "hamilton.n.02",
-            "hamilton.n.04"
+            "hamilton.n.05"
         ]
     },
     {
@@ -1398,11 +1398,11 @@
             "history.n.05"
         ],
         "unique_synsets": [
-            "history.n.04",
             "history.n.02",
-            "history.n.03",
+            "history.n.01",
             "history.n.05",
-            "history.n.01"
+            "history.n.03",
+            "history.n.04"
         ]
     },
     {
@@ -1434,15 +1434,15 @@
         ],
         "unique_synsets": [
             "cat.n.01",
-            "cat-o'-nine-tails.n.01",
-            "kat.n.01",
-            "cat.v.01",
+            "computerized_tomography.n.01",
+            "caterpillar.n.02",
             "vomit.v.01",
             "cat.n.03",
-            "caterpillar.n.02",
-            "big_cat.n.01",
+            "kat.n.01",
             "guy.n.01",
-            "computerized_tomography.n.01"
+            "big_cat.n.01",
+            "cat.v.01",
+            "cat-o'-nine-tails.n.01"
         ]
     },
     {
@@ -1468,10 +1468,10 @@
             "tease.v.02"
         ],
         "unique_synsets": [
-            "code.v.01",
-            "cryptography.n.02",
-            "gull.v.02",
             "tease.v.02",
+            "cryptography.n.02",
+            "code.v.01",
+            "gull.v.02",
             "code.v.02"
         ]
     },
@@ -1486,10 +1486,10 @@
             "banner.n.01"
         ],
         "unique_synsets": [
-            "banner.n.01",
-            "pennant.n.03",
+            "streamer.n.02",
             "streamer.n.01",
-            "streamer.n.02"
+            "banner.n.01",
+            "pennant.n.03"
         ]
     },
     {
@@ -1502,8 +1502,8 @@
             "university.n.03"
         ],
         "unique_synsets": [
-            "university.n.03",
             "university.n.01",
+            "university.n.03",
             "university.n.02"
         ]
     },
@@ -1528,9 +1528,9 @@
             "digital.a.03"
         ],
         "unique_synsets": [
+            "digital.a.01",
             "digital.a.02",
-            "digital.a.03",
-            "digital.a.01"
+            "digital.a.03"
         ]
     },
     {
@@ -1546,10 +1546,10 @@
         ],
         "unique_synsets": [
             "positivity.n.02",
-            "positivity.n.01",
+            "incontrovertibility.n.01",
             "favorableness.n.01",
-            "positivity.n.04",
-            "incontrovertibility.n.01"
+            "positivity.n.01",
+            "positivity.n.04"
         ]
     },
     {
@@ -1569,16 +1569,16 @@
             "stem.v.04"
         ],
         "unique_synsets": [
-            "stem.v.04",
-            "stem.n.04",
             "bow.n.03",
-            "stem_turn.n.01",
+            "stem.n.04",
             "stem.v.02",
-            "stem.v.01",
-            "root.n.03",
-            "shank.n.03",
             "stem.v.03",
-            "stalk.n.02"
+            "stem.v.04",
+            "stem.v.01",
+            "stalk.n.02",
+            "shank.n.03",
+            "root.n.03",
+            "stem_turn.n.01"
         ]
     },
     {
@@ -1591,8 +1591,8 @@
             "university.n.03"
         ],
         "unique_synsets": [
-            "university.n.03",
             "university.n.01",
+            "university.n.03",
             "university.n.02"
         ]
     },
@@ -1612,14 +1612,14 @@
             "sponge.v.05"
         ],
         "unique_synsets": [
-            "quick_study.n.01",
             "sponge.n.01",
+            "mooch.v.01",
             "sponge.v.05",
             "sponge.v.04",
-            "sponge.v.01",
-            "mooch.v.01",
             "leech.n.02",
             "sponge.v.03",
+            "quick_study.n.01",
+            "sponge.v.01",
             "sponge.n.04"
         ]
     },
@@ -1633,8 +1633,8 @@
             "food.n.03"
         ],
         "unique_synsets": [
-            "food.n.01",
             "food.n.02",
+            "food.n.01",
             "food.n.03"
         ]
     },
@@ -1649,9 +1649,9 @@
             "metallic.a.01"
         ],
         "unique_synsets": [
+            "metal.v.01",
             "metallic_element.n.01",
             "alloy.n.01",
-            "metal.v.01",
             "metallic.a.01"
         ]
     },
@@ -1700,9 +1700,9 @@
             "drive.v.02"
         ],
         "unique_synsets": [
+            "motor.n.01",
             "motor.n.02",
-            "drive.v.02",
-            "motor.n.01"
+            "drive.v.02"
         ]
     },
     {
@@ -1717,11 +1717,11 @@
             "cable_car.n.01"
         ],
         "unique_synsets": [
-            "cable_car.n.01",
-            "car.n.02",
-            "car.n.03",
             "car.n.04",
-            "car.n.01"
+            "car.n.02",
+            "car.n.01",
+            "cable_car.n.01",
+            "car.n.03"
         ]
     },
     {
@@ -1738,12 +1738,12 @@
             "humor.v.01"
         ],
         "unique_synsets": [
+            "humor.n.05",
+            "liquid_body_substance.n.01",
+            "temper.n.02",
+            "wit.n.01",
             "humor.v.01",
             "humor.n.04",
-            "humor.n.05",
-            "wit.n.01",
-            "temper.n.02",
-            "liquid_body_substance.n.01",
             "humor.n.02"
         ]
     },
@@ -1759,11 +1759,11 @@
             "race.v.04"
         ],
         "unique_synsets": [
-            "rush.v.01",
             "race.v.03",
+            "race.v.02",
+            "rush.v.01",
             "race.v.04",
-            "racing.n.01",
-            "race.v.02"
+            "racing.n.01"
         ]
     },
     {
@@ -1809,42 +1809,42 @@
             "cover.v.26"
         ],
         "unique_synsets": [
-            "cover.v.10",
-            "overlay.v.01",
-            "cover.n.07",
-            "binding.n.05",
-            "cover.v.14",
-            "brood.v.05",
-            "cover.v.03",
-            "cover_charge.n.01",
-            "screen.n.04",
-            "cover.v.19",
-            "cover.v.12",
-            "cover.v.04",
-            "covering.n.01",
-            "cover.v.11",
-            "cover.v.02",
-            "cover.v.01",
-            "cover.n.03",
-            "top.n.09",
-            "cover.v.17",
-            "cover.v.15",
-            "cover.v.23",
-            "cover.v.16",
-            "cover.v.13",
-            "embrace.v.01",
+            "traverse.v.01",
             "cover.n.10",
-            "blanket.n.01",
-            "cover.n.09",
-            "cover.v.26",
             "cover.v.24",
-            "shroud.v.01",
             "report.v.05",
             "cover.v.09",
-            "traverse.v.01",
-            "breed.v.02",
+            "cover.v.10",
+            "cover.v.17",
+            "cover.v.18",
+            "cover.v.15",
+            "cover.v.03",
+            "cover.v.12",
+            "cover.v.19",
+            "blanket.n.01",
+            "cover.n.03",
+            "cover.v.01",
+            "top.n.09",
+            "brood.v.05",
+            "cover.v.16",
+            "cover.v.26",
+            "cover.n.09",
+            "cover.v.11",
+            "cover.n.07",
+            "shroud.v.01",
             "cover.v.05",
-            "cover.v.18"
+            "cover_charge.n.01",
+            "binding.n.05",
+            "cover.v.13",
+            "cover.v.04",
+            "cover.v.14",
+            "embrace.v.01",
+            "overlay.v.01",
+            "cover.v.23",
+            "covering.n.01",
+            "breed.v.02",
+            "cover.v.02",
+            "screen.n.04"
         ]
     },
     {
@@ -1863,15 +1863,15 @@
             "charles.n.09"
         ],
         "unique_synsets": [
-            "charles.n.03",
-            "charlemagne.n.01",
-            "charles.n.06",
             "charles.n.05",
             "charles.n.01",
-            "charles.n.02",
-            "charles.n.07",
             "charles.n.04",
-            "charles.n.09"
+            "charles.n.02",
+            "charles.n.06",
+            "charlemagne.n.01",
+            "charles.n.09",
+            "charles.n.03",
+            "charles.n.07"
         ]
     },
     {
@@ -1895,20 +1895,20 @@
             "game.s.02"
         ],
         "unique_synsets": [
-            "game.n.04",
-            "game.s.02",
-            "plot.n.01",
-            "crippled.s.01",
+            "game.n.09",
             "game.n.05",
             "game.n.11",
-            "game.n.01",
-            "game.n.03",
             "bet_on.v.01",
-            "game.n.02",
             "game.n.06",
+            "game.n.03",
+            "game.n.04",
+            "game.n.02",
+            "game.n.01",
+            "crippled.s.01",
             "game.n.10",
-            "game.n.09",
-            "game.n.07"
+            "plot.n.01",
+            "game.n.07",
+            "game.s.02"
         ]
     },
     {
@@ -1935,16 +1935,16 @@
             "sleep_together.v.01"
         ],
         "unique_synsets": [
-            "love.n.05",
-            "love.n.01",
-            "beloved.n.01",
-            "love.n.02",
-            "love.v.03",
-            "sexual_love.n.02",
             "love.v.02",
+            "love.n.02",
             "sleep_together.v.01",
             "love.n.04",
-            "love.v.01"
+            "love.n.01",
+            "love.v.01",
+            "love.n.05",
+            "sexual_love.n.02",
+            "beloved.n.01",
+            "love.v.03"
         ]
     },
     {
@@ -1966,11 +1966,11 @@
             "race.v.04"
         ],
         "unique_synsets": [
-            "rush.v.01",
             "race.v.03",
+            "race.v.02",
+            "rush.v.01",
             "race.v.04",
-            "racing.n.01",
-            "race.v.02"
+            "racing.n.01"
         ]
     },
     {
@@ -2012,15 +2012,15 @@
             "space.v.01"
         ],
         "unique_synsets": [
-            "quad.n.03",
-            "space.n.02",
-            "distance.n.05",
             "space.n.07",
-            "space.n.03",
-            "outer_space.n.01",
-            "space.n.05",
-            "space.v.01",
             "space.n.08",
+            "space.n.05",
+            "outer_space.n.01",
+            "distance.n.05",
+            "space.n.03",
+            "quad.n.03",
+            "space.v.01",
+            "space.n.02",
             "space.n.01"
         ]
     },
@@ -2036,9 +2036,9 @@
         ],
         "unique_synsets": [
             "loon.n.02",
-            "divers.s.01",
+            "diver.n.02",
             "diver.n.01",
-            "diver.n.02"
+            "divers.s.01"
         ]
     },
     {
@@ -2050,8 +2050,8 @@
             "tutorial.a.01"
         ],
         "unique_synsets": [
-            "tutorial.n.01",
-            "tutorial.a.01"
+            "tutorial.a.01",
+            "tutorial.n.01"
         ]
     },
     {
@@ -2081,11 +2081,11 @@
             "japan.v.01"
         ],
         "unique_synsets": [
-            "japan.n.04",
-            "japan.n.03",
             "japan.v.01",
-            "japan.n.01",
-            "japan.n.02"
+            "japan.n.03",
+            "japan.n.02",
+            "japan.n.04",
+            "japan.n.01"
         ]
     },
     {
@@ -2105,14 +2105,14 @@
         ],
         "unique_synsets": [
             "consolation.n.02",
-            "comfort.n.02",
-            "comfort.n.05",
             "quilt.n.01",
-            "comfort.v.02",
             "comfort.n.01",
             "ease.n.02",
             "comfort.v.01",
-            "comfort.n.07"
+            "comfort.n.05",
+            "comfort.n.07",
+            "comfort.n.02",
+            "comfort.v.02"
         ]
     },
     {
@@ -2126,10 +2126,10 @@
             "television.n.01"
         ],
         "unique_synsets": [
-            "video.n.03",
             "video.n.01",
             "television.n.01",
-            "video_recording.n.01"
+            "video_recording.n.01",
+            "video.n.03"
         ]
     },
     {
@@ -2142,9 +2142,9 @@
             "pilgrim.n.03"
         ],
         "unique_synsets": [
-            "pilgrim.n.01",
             "pilgrim.n.03",
-            "pilgrim.n.02"
+            "pilgrim.n.02",
+            "pilgrim.n.01"
         ]
     },
     {
@@ -2203,48 +2203,48 @@
             "draw.v.36"
         ],
         "unique_synsets": [
-            "lottery.n.02",
-            "puff.v.02",
-            "draw.v.33",
-            "string.v.01",
-            "draw.v.14",
-            "draw.v.19",
-            "draw.v.21",
-            "drawing.n.03",
-            "draw.v.15",
-            "disembowel.v.01",
-            "draw.v.10",
-            "attract.v.01",
-            "drawing.n.02",
+            "draw.v.16",
+            "draw.v.17",
+            "pull.v.09",
+            "draw.v.22",
             "draw.v.04",
-            "absorb.v.04",
-            "trace.v.02",
+            "draw.v.06",
+            "drawing.n.05",
+            "withdraw.v.09",
             "draw.v.07",
-            "draw.v.20",
+            "string.v.01",
+            "pull_back.v.04",
+            "puff.v.02",
+            "draw.v.10",
+            "describe.v.01",
+            "drawing.n.01",
+            "draw.v.14",
+            "draw.v.33",
+            "draw.v.15",
+            "drawing.n.03",
+            "absorb.v.04",
+            "attract.v.01",
+            "reap.v.02",
             "draw.v.36",
+            "draw.v.32",
+            "draw.v.05",
+            "draw.v.23",
+            "draw.v.19",
+            "draw.v.20",
+            "draw.v.09",
+            "drawing.n.02",
+            "draw.v.35",
+            "tie.v.02",
+            "guide.v.05",
+            "draft.n.11",
+            "draw.v.21",
+            "draw.v.31",
+            "disembowel.v.01",
+            "lottery.n.02",
+            "trace.v.02",
             "draw.v.12",
             "draw.v.18",
-            "draw.v.16",
-            "drawing.n.01",
-            "draw.v.05",
-            "guide.v.05",
-            "draw.v.09",
-            "tie.v.02",
-            "draw.v.31",
-            "drawing.n.05",
-            "describe.v.01",
-            "pull.v.01",
-            "draw.v.23",
-            "pull_back.v.04",
-            "draw.v.22",
-            "pull.v.09",
-            "reap.v.02",
-            "draw.v.06",
-            "draft.n.11",
-            "draw.v.17",
-            "draw.v.35",
-            "withdraw.v.09",
-            "draw.v.32"
+            "pull.v.01"
         ]
     },
     {
@@ -2256,8 +2256,8 @@
             "football.n.02"
         ],
         "unique_synsets": [
-            "football.n.01",
-            "football.n.02"
+            "football.n.02",
+            "football.n.01"
         ]
     },
     {
@@ -2294,9 +2294,9 @@
         ],
         "unique_synsets": [
             "dragon.n.04",
-            "draco.n.02",
             "dragon.n.01",
-            "dragon.n.02"
+            "dragon.n.02",
+            "draco.n.02"
         ]
     },
     {
@@ -2308,8 +2308,8 @@
             "christmas.n.02"
         ],
         "unique_synsets": [
-            "christmas.n.01",
-            "christmas.n.02"
+            "christmas.n.02",
+            "christmas.n.01"
         ]
     },
     {
@@ -2342,11 +2342,11 @@
             "politics.n.05"
         ],
         "unique_synsets": [
+            "politics.n.03",
             "politics.n.05",
             "politics.n.02",
-            "politics.n.01",
             "politics.n.04",
-            "politics.n.03"
+            "politics.n.01"
         ]
     },
     {
@@ -2376,15 +2376,15 @@
             "tube.v.04"
         ],
         "unique_synsets": [
+            "tube.n.04",
+            "tube.n.02",
             "tube.v.03",
             "tube.v.04",
             "tube.v.01",
-            "tube.n.04",
-            "tube.v.02",
-            "pipe.n.03",
-            "tube.n.02",
+            "metro.n.01",
             "tube.n.01",
-            "metro.n.01"
+            "tube.v.02",
+            "pipe.n.03"
         ]
     },
     {
@@ -2435,8 +2435,8 @@
             "daniel.n.03"
         ],
         "unique_synsets": [
-            "daniel.n.03",
             "daniel.n.01",
+            "daniel.n.03",
             "daniel.n.02"
         ]
     },
@@ -2449,8 +2449,8 @@
             "engineering.n.02"
         ],
         "unique_synsets": [
-            "engineering.n.02",
-            "technology.n.01"
+            "technology.n.01",
+            "engineering.n.02"
         ]
     },
     {
@@ -2466,12 +2466,12 @@
             "graphic.s.05"
         ],
         "unique_synsets": [
-            "graphic.a.04",
-            "graphic.n.01",
             "graphic.a.03",
             "graphic.s.02",
-            "graphic.s.05",
-            "graphic.s.01"
+            "graphic.n.01",
+            "graphic.s.01",
+            "graphic.a.04",
+            "graphic.s.05"
         ]
     },
     {
@@ -2487,12 +2487,12 @@
             "sketch.v.02"
         ],
         "unique_synsets": [
-            "cartoon.n.01",
-            "sketch.n.02",
             "sketch.v.01",
-            "sketch.v.02",
+            "sketch.n.02",
             "sketch.n.01",
-            "sketch.n.03"
+            "sketch.n.03",
+            "sketch.v.02",
+            "cartoon.n.01"
         ]
     },
     {
@@ -2506,10 +2506,10 @@
             "putter.v.03"
         ],
         "unique_synsets": [
-            "potter.n.01",
-            "potter.v.02",
+            "putter.v.03",
             "putter.v.02",
-            "putter.v.03"
+            "potter.n.01",
+            "potter.v.02"
         ]
     },
     {
@@ -2535,15 +2535,15 @@
             "challenge.v.04"
         ],
         "unique_synsets": [
-            "challenge.v.03",
+            "challenge.n.02",
             "challenge.n.05",
-            "challenge.n.03",
-            "challenge.n.04",
-            "challenge.v.01",
-            "challenge.n.01",
-            "challenge.v.02",
+            "challenge.v.03",
             "challenge.v.04",
-            "challenge.n.02"
+            "challenge.n.04",
+            "challenge.v.02",
+            "challenge.n.03",
+            "challenge.v.01",
+            "challenge.n.01"
         ]
     },
     {
@@ -2559,11 +2559,11 @@
             "dart.v.03"
         ],
         "unique_synsets": [
-            "dart.v.03",
             "flit.n.01",
+            "flit.v.01",
+            "dart.v.03",
             "dart.n.01",
             "dart.v.02",
-            "flit.v.01",
             "dart.n.02"
         ]
     },
@@ -2587,19 +2587,19 @@
             "queen.v.02"
         ],
         "unique_synsets": [
-            "queen.n.01",
-            "fagot.n.01",
-            "queen.n.09",
-            "queen.v.02",
-            "queen.v.01",
-            "queen.n.07",
-            "tabby.n.02",
             "queen.n.02",
             "queen.n.03",
-            "queens.n.01",
+            "queen.n.09",
             "queen.n.04",
+            "queen.n.01",
+            "queen.v.01",
+            "queen.n.08",
+            "queen.v.02",
+            "tabby.n.02",
+            "queen.n.07",
+            "fagot.n.01",
             "king.n.02",
-            "queen.n.08"
+            "queens.n.01"
         ]
     },
     {
@@ -2613,9 +2613,9 @@
             "metallic.a.01"
         ],
         "unique_synsets": [
+            "metal.v.01",
             "metallic_element.n.01",
             "alloy.n.01",
-            "metal.v.01",
             "metallic.a.01"
         ]
     },
@@ -2629,8 +2629,8 @@
             "food.n.03"
         ],
         "unique_synsets": [
-            "food.n.01",
             "food.n.02",
+            "food.n.01",
             "food.n.03"
         ]
     },
@@ -2648,13 +2648,13 @@
             "film.v.02"
         ],
         "unique_synsets": [
-            "film.n.03",
-            "film.n.02",
-            "film.v.01",
-            "film.n.04",
             "film.n.05",
+            "film.n.04",
+            "film.v.02",
             "movie.n.01",
-            "film.v.02"
+            "film.n.03",
+            "film.v.01",
+            "film.n.02"
         ]
     },
     {
@@ -2673,15 +2673,15 @@
             "bass.s.01"
         ],
         "unique_synsets": [
-            "bass.n.07",
-            "bass.n.02",
-            "bass.n.03",
-            "freshwater_bass.n.01",
-            "bass.s.01",
-            "sea_bass.n.01",
-            "bass.n.06",
             "bass.n.08",
-            "bass.n.01"
+            "bass.n.06",
+            "bass.n.03",
+            "bass.n.02",
+            "bass.n.01",
+            "bass.n.07",
+            "sea_bass.n.01",
+            "bass.s.01",
+            "freshwater_bass.n.01"
         ]
     },
     {
@@ -2693,8 +2693,8 @@
             "musician.n.02"
         ],
         "unique_synsets": [
-            "musician.n.02",
-            "musician.n.01"
+            "musician.n.01",
+            "musician.n.02"
         ]
     },
     {
@@ -2720,11 +2720,11 @@
             "vision.n.05"
         ],
         "unique_synsets": [
+            "vision.n.05",
             "vision.n.03",
-            "vision.n.01",
-            "imagination.n.01",
             "sight.n.03",
-            "vision.n.05"
+            "imagination.n.01",
+            "vision.n.01"
         ]
     },
     {
@@ -2754,13 +2754,13 @@
         ],
         "unique_synsets": [
             "movement.n.03",
+            "motion.n.06",
+            "gesture.n.02",
+            "motion.n.04",
             "motion.n.05",
             "apparent_motion.n.01",
             "motion.n.03",
-            "motion.n.04",
-            "gesticulate.v.01",
-            "gesture.n.02",
-            "motion.n.06"
+            "gesticulate.v.01"
         ]
     },
     {
@@ -2797,11 +2797,11 @@
             "belem.n.01"
         ],
         "unique_synsets": [
-            "para.n.02",
-            "parity.n.01",
-            "belem.n.01",
             "paratrooper.n.01",
-            "para.n.04"
+            "para.n.02",
+            "belem.n.01",
+            "para.n.04",
+            "parity.n.01"
         ]
     },
     {
@@ -2815,9 +2815,9 @@
             "metallic.a.01"
         ],
         "unique_synsets": [
+            "metal.v.01",
             "metallic_element.n.01",
             "alloy.n.01",
-            "metal.v.01",
             "metallic.a.01"
         ]
     },
@@ -2839,17 +2839,17 @@
             "print.v.04"
         ],
         "unique_synsets": [
-            "print.n.05",
-            "print.v.03",
             "print.n.02",
-            "print.n.06",
-            "print.v.04",
-            "mark.n.04",
             "print.v.01",
-            "print.v.02",
+            "mark.n.04",
+            "print.v.03",
+            "print.v.04",
             "print.n.01",
+            "print.n.06",
             "photographic_print.n.01",
-            "print.n.04"
+            "print.v.02",
+            "print.n.04",
+            "print.n.05"
         ]
     },
     {
@@ -2869,16 +2869,16 @@
             "power.v.01"
         ],
         "unique_synsets": [
-            "power.v.01",
-            "might.n.01",
-            "baron.n.03",
-            "power.n.05",
-            "power.n.01",
-            "ability.n.02",
-            "world_power.n.01",
+            "office.n.04",
             "power.n.02",
+            "power.n.01",
+            "power.v.01",
+            "ability.n.02",
+            "baron.n.03",
+            "might.n.01",
+            "power.n.05",
             "exponent.n.03",
-            "office.n.04"
+            "world_power.n.01"
         ]
     },
     {
@@ -2895,13 +2895,13 @@
             "trump.v.04"
         ],
         "unique_synsets": [
-            "trump.n.01",
             "trump.v.03",
             "trump.v.04",
             "trump.v.01",
-            "outdo.v.02",
+            "trump.n.01",
+            "trump.n.02",
             "cornet.n.01",
-            "trump.n.02"
+            "outdo.v.02"
         ]
     },
     {
@@ -2932,27 +2932,27 @@
             "unhorse.v.01"
         ],
         "unique_synsets": [
-            "unhorse.v.01",
             "inner_light.n.01",
-            "light.n.07",
-            "light.v.01",
-            "light.n.05",
-            "alight.v.01",
             "light_up.v.05",
-            "light.n.10",
-            "light.n.08",
-            "light.n.02",
-            "light.n.14",
-            "light.n.09",
-            "light.n.03",
-            "light.n.12",
-            "light.n.06",
-            "sparkle.n.01",
+            "unhorse.v.01",
             "lighter.n.02",
-            "luminosity.n.01",
             "ignite.v.01",
+            "light.n.08",
+            "sparkle.n.01",
             "fall.v.20",
-            "light.n.01"
+            "alight.v.01",
+            "light.n.14",
+            "light.n.06",
+            "light.v.01",
+            "light.n.03",
+            "light.n.10",
+            "light.n.07",
+            "light.n.09",
+            "light.n.05",
+            "light.n.02",
+            "light.n.01",
+            "luminosity.n.01",
+            "light.n.12"
         ]
     },
     {
@@ -2969,13 +2969,13 @@
             "film.v.02"
         ],
         "unique_synsets": [
-            "film.n.03",
-            "film.n.02",
-            "film.v.01",
-            "film.n.04",
             "film.n.05",
+            "film.n.04",
+            "film.v.02",
             "movie.n.01",
-            "film.v.02"
+            "film.n.03",
+            "film.v.01",
+            "film.n.02"
         ]
     },
     {
@@ -3029,8 +3029,8 @@
             "tattoo.v.01"
         ],
         "unique_synsets": [
-            "tattoo.n.01",
             "tattoo.n.03",
+            "tattoo.n.01",
             "tattoo.v.01",
             "tattoo.n.02"
         ]
@@ -3066,19 +3066,19 @@
             "gain.v.07"
         ],
         "unique_synsets": [
-            "gather.v.04",
-            "gather.v.07",
             "gathering.n.01",
-            "gather.v.08",
-            "gain.v.07",
-            "gather.n.02",
             "meet.v.07",
-            "gather.v.01",
+            "gain.v.07",
             "gather.v.05",
-            "gather.n.01",
-            "assemble.v.03",
             "accumulate.v.02",
-            "assembly.n.06"
+            "gather.v.04",
+            "assemble.v.03",
+            "assembly.n.06",
+            "gather.v.08",
+            "gather.n.01",
+            "gather.v.07",
+            "gather.n.02",
+            "gather.v.01"
         ]
     },
     {
@@ -3091,9 +3091,9 @@
             "indie.s.01"
         ],
         "unique_synsets": [
-            "indie.n.01",
+            "indie.s.01",
             "indie.n.02",
-            "indie.s.01"
+            "indie.n.01"
         ]
     },
     {
@@ -3125,11 +3125,11 @@
         ],
         "unique_synsets": [
             "cook.v.02",
-            "fudge.v.01",
-            "cooking.n.01",
             "cook.v.01",
+            "cook.v.03",
+            "cooking.n.01",
             "cook.v.05",
-            "cook.v.03"
+            "fudge.v.01"
         ]
     },
     {
@@ -3145,9 +3145,9 @@
         ],
         "unique_synsets": [
             "shot.n.09",
+            "barb.v.01",
             "barb.n.02",
             "barb.n.04",
-            "barb.v.01",
             "barb.n.03"
         ]
     },
@@ -3164,10 +3164,10 @@
             "mouse.v.02"
         ],
         "unique_synsets": [
-            "mouse.n.01",
             "shiner.n.01",
             "mouse.n.04",
             "mouse.v.02",
+            "mouse.n.01",
             "sneak.v.01",
             "mouse.n.03"
         ]
@@ -3196,16 +3196,16 @@
             "accelerate.v.02"
         ],
         "unique_synsets": [
-            "rush.v.01",
-            "amphetamine.n.01",
-            "accelerate.v.01",
-            "speed.n.02",
             "accelerate.v.02",
+            "accelerate.v.01",
+            "amphetamine.n.01",
+            "rush.v.01",
+            "focal_ratio.n.01",
             "travel_rapidly.v.01",
-            "speed.n.03",
             "speed.v.04",
             "speed.n.01",
-            "focal_ratio.n.01"
+            "speed.n.02",
+            "speed.n.03"
         ]
     },
     {
@@ -3220,9 +3220,9 @@
         ],
         "unique_synsets": [
             "hat.n.02",
+            "hat.v.02",
             "hat.n.01",
-            "hat.v.01",
-            "hat.v.02"
+            "hat.v.01"
         ]
     },
     {
@@ -3239,11 +3239,11 @@
         ],
         "unique_synsets": [
             "history.n.02",
-            "narrative.n.01",
             "fib.n.01",
+            "narrative.n.01",
             "story.n.02",
-            "report.n.03",
-            "floor.n.02"
+            "floor.n.02",
+            "report.n.03"
         ]
     },
     {
@@ -3257,9 +3257,9 @@
             "piano.r.01"
         ],
         "unique_synsets": [
-            "piano.n.01",
             "piano.a.01",
             "piano.n.02",
+            "piano.n.01",
             "piano.r.01"
         ]
     },
@@ -3322,58 +3322,58 @@
             "make.v.49"
         ],
         "unique_synsets": [
-            "gain.v.08",
-            "stool.v.04",
-            "make.v.19",
-            "devising.n.01",
-            "make.v.46",
-            "make.v.16",
-            "making.n.03",
-            "make.v.32",
-            "make.v.44",
+            "produce.v.02",
+            "have.v.17",
             "make.v.14",
-            "make.v.25",
-            "make.v.49",
             "make.v.36",
-            "make.v.30",
-            "take.v.27",
-            "make.v.42",
-            "name.v.03",
-            "make.v.02",
             "draw.v.04",
-            "make.v.01",
-            "make.v.33",
-            "do.v.08",
-            "reach.v.01",
-            "hold.v.03",
+            "make.v.18",
+            "make.v.32",
+            "make.v.30",
+            "devising.n.01",
+            "make.v.16",
             "make.v.45",
+            "cause.v.01",
+            "make.v.35",
+            "make.v.19",
+            "make.v.34",
             "cook.v.02",
             "make.v.27",
-            "produce.v.02",
-            "reach.v.07",
+            "gain.v.08",
+            "make.v.42",
             "make.v.31",
-            "have.v.17",
-            "cause.v.01",
+            "make.v.47",
+            "make.v.33",
+            "lay_down.v.01",
+            "hold.v.03",
             "make.v.15",
-            "make.v.35",
-            "make.v.37",
-            "induce.v.02",
-            "make.v.43",
-            "make.v.41",
+            "reach.v.01",
             "make.v.08",
+            "make.v.24",
+            "make.v.38",
+            "make.v.49",
+            "make.v.46",
+            "take.v.27",
+            "make.v.01",
+            "induce.v.02",
+            "create.v.05",
+            "do.v.08",
+            "make.v.41",
+            "make.v.43",
+            "make.v.02",
+            "reach.v.07",
+            "making.n.03",
             "make.v.48",
-            "construct.v.01",
             "make.v.03",
             "qualification.n.01",
-            "make.v.38",
+            "seduce.v.01",
+            "name.v.03",
+            "stool.v.04",
             "form.v.02",
-            "make.v.47",
-            "lay_down.v.01",
-            "make.v.34",
-            "make.v.24",
-            "create.v.05",
-            "make.v.18",
-            "seduce.v.01"
+            "make.v.25",
+            "make.v.44",
+            "make.v.37",
+            "construct.v.01"
         ]
     },
     {
@@ -3385,8 +3385,8 @@
             "potato.n.02"
         ],
         "unique_synsets": [
-            "potato.n.01",
-            "potato.n.02"
+            "potato.n.02",
+            "potato.n.01"
         ]
     },
     {
@@ -3400,9 +3400,9 @@
             "laugh.v.01"
         ],
         "unique_synsets": [
-            "laugh.n.02",
-            "laugh.v.01",
             "joke.n.01",
+            "laugh.v.01",
+            "laugh.n.02",
             "laugh.n.01"
         ]
     },
@@ -3440,12 +3440,12 @@
             "joke.v.02"
         ],
         "unique_synsets": [
-            "joke.n.04",
-            "joke.v.02",
-            "joke.v.01",
-            "jest.n.02",
             "joke.n.01",
-            "antic.n.01"
+            "joke.v.02",
+            "antic.n.01",
+            "jest.n.02",
+            "joke.v.01",
+            "joke.n.04"
         ]
     },
     {
@@ -3460,10 +3460,10 @@
             "comforting.s.01"
         ],
         "unique_synsets": [
-            "comforting.s.01",
-            "satisfy.v.02",
-            "hearty.s.02",
             "meet.v.04",
+            "comforting.s.01",
+            "hearty.s.02",
+            "satisfy.v.02",
             "satisfy.v.01"
         ]
     },
@@ -3499,11 +3499,11 @@
             "vision.n.05"
         ],
         "unique_synsets": [
+            "vision.n.05",
             "vision.n.03",
-            "vision.n.01",
-            "imagination.n.01",
             "sight.n.03",
-            "vision.n.05"
+            "imagination.n.01",
+            "vision.n.01"
         ]
     },
     {
@@ -3530,8 +3530,8 @@
         ],
         "unique_synsets": [
             "python.n.03",
-            "python.n.02",
-            "python.n.01"
+            "python.n.01",
+            "python.n.02"
         ]
     },
     {
@@ -3545,8 +3545,8 @@
         ],
         "unique_synsets": [
             "comic.a.02",
-            "comedian.n.01",
-            "amusing.s.02"
+            "amusing.s.02",
+            "comedian.n.01"
         ]
     },
     {
@@ -3562,12 +3562,12 @@
             "sung.n.01"
         ],
         "unique_synsets": [
-            "sung.n.01",
-            "song.n.01",
-            "birdcall.n.01",
+            "song.n.02",
             "song.n.05",
             "song.n.03",
-            "song.n.02"
+            "birdcall.n.01",
+            "sung.n.01",
+            "song.n.01"
         ]
     },
     {
@@ -3580,8 +3580,8 @@
             "food.n.03"
         ],
         "unique_synsets": [
-            "food.n.01",
             "food.n.02",
+            "food.n.01",
             "food.n.03"
         ]
     },
@@ -3599,13 +3599,13 @@
             "reaction.n.07"
         ],
         "unique_synsets": [
+            "reaction.n.05",
+            "reaction.n.02",
             "reaction.n.04",
             "reaction.n.03",
-            "reaction.n.06",
-            "reaction.n.05",
             "reaction.n.07",
-            "reaction.n.02",
-            "chemical_reaction.n.01"
+            "chemical_reaction.n.01",
+            "reaction.n.06"
         ]
     },
     {
@@ -3634,9 +3634,9 @@
         "unique_synsets": [
             "vocal.s.04",
             "song.n.01",
-            "vocal_music.n.01",
             "outspoken.s.01",
             "vocal.a.01",
+            "vocal_music.n.01",
             "vocal.a.02"
         ]
     },
@@ -3658,10 +3658,10 @@
             "pretense.n.01"
         ],
         "unique_synsets": [
-            "simulation.n.01",
             "model.n.04",
+            "simulation.n.02",
             "pretense.n.01",
-            "simulation.n.02"
+            "simulation.n.01"
         ]
     },
     {
@@ -3677,12 +3677,12 @@
             "joke.v.02"
         ],
         "unique_synsets": [
-            "joke.n.04",
-            "joke.v.02",
-            "joke.v.01",
-            "jest.n.02",
             "joke.n.01",
-            "antic.n.01"
+            "joke.v.02",
+            "antic.n.01",
+            "jest.n.02",
+            "joke.v.01",
+            "joke.n.04"
         ]
     },
     {
@@ -3739,8 +3739,8 @@
             "printer.n.03"
         ],
         "unique_synsets": [
-            "printer.n.03",
             "printer.n.02",
+            "printer.n.03",
             "printer.n.01"
         ]
     },
@@ -3754,8 +3754,8 @@
             "klein.n.03"
         ],
         "unique_synsets": [
-            "klein.n.01",
             "klein.n.03",
+            "klein.n.01",
             "klein.n.02"
         ]
     },
@@ -3783,9 +3783,9 @@
             "commando.n.01"
         ],
         "unique_synsets": [
+            "commando.n.01",
             "fire_warden.n.01",
-            "texas_ranger.n.01",
-            "commando.n.01"
+            "texas_ranger.n.01"
         ]
     },
     {
@@ -3800,11 +3800,11 @@
             "music.n.05"
         ],
         "unique_synsets": [
-            "music.n.02",
-            "music.n.03",
-            "music.n.05",
             "music.n.01",
-            "music.n.04"
+            "music.n.04",
+            "music.n.03",
+            "music.n.02",
+            "music.n.05"
         ]
     },
     {
@@ -3836,28 +3836,28 @@
             "encase.v.01"
         ],
         "unique_synsets": [
-            "case.n.05",
-            "lawsuit.n.01",
-            "case.n.09",
-            "character.n.05",
-            "event.n.02",
-            "case.n.06",
             "casing.n.03",
-            "case.n.08",
+            "encase.v.01",
+            "case.n.20",
             "case.n.11",
-            "case.n.19",
-            "case.n.10",
+            "case.n.06",
             "subject.n.06",
+            "case.v.01",
+            "case.n.19",
+            "case.n.01",
             "shell.n.08",
             "case.n.04",
-            "case.n.20",
-            "font.n.01",
-            "case.n.01",
-            "case.n.18",
+            "case.n.09",
+            "lawsuit.n.01",
+            "character.n.05",
+            "event.n.02",
             "case.n.12",
+            "case.n.10",
+            "case.n.08",
+            "case.n.18",
             "sheath.n.02",
-            "encase.v.01",
-            "case.v.01"
+            "font.n.01",
+            "case.n.05"
         ]
     },
     {
@@ -3878,10 +3878,10 @@
             "interesting.a.01"
         ],
         "unique_synsets": [
-            "matter_to.v.01",
             "interesting.a.01",
-            "concern.v.02",
-            "interest.v.01"
+            "interest.v.01",
+            "matter_to.v.01",
+            "concern.v.02"
         ]
     },
     {
@@ -3900,8 +3900,8 @@
             "ilium.n.02"
         ],
         "unique_synsets": [
-            "troy.n.02",
-            "ilium.n.02"
+            "ilium.n.02",
+            "troy.n.02"
         ]
     },
     {
@@ -3927,11 +3927,11 @@
             "friend.n.05"
         ],
         "unique_synsets": [
-            "friend.n.01",
             "supporter.n.01",
-            "friend.n.05",
+            "acquaintance.n.03",
             "ally.n.02",
-            "acquaintance.n.03"
+            "friend.n.01",
+            "friend.n.05"
         ]
     },
     {
@@ -3953,10 +3953,10 @@
             "interview.v.03"
         ],
         "unique_synsets": [
-            "interview.v.03",
-            "consultation.n.01",
             "interview.v.02",
             "interview.n.01",
+            "interview.v.03",
+            "consultation.n.01",
             "interview.v.01"
         ]
     },
@@ -3977,16 +3977,16 @@
             "poke.v.05"
         ],
         "unique_synsets": [
-            "jab.n.01",
-            "dawdler.n.01",
-            "intrude.v.03",
-            "punch.n.01",
-            "jab.v.01",
-            "thump.v.03",
-            "poke.v.03",
-            "poke.v.05",
             "poke.n.01",
-            "sack.n.01"
+            "intrude.v.03",
+            "jab.v.01",
+            "poke.v.05",
+            "poke.v.03",
+            "thump.v.03",
+            "sack.n.01",
+            "dawdler.n.01",
+            "jab.n.01",
+            "punch.n.01"
         ]
     },
     {
@@ -4007,10 +4007,10 @@
             "mean.v.03"
         ],
         "unique_synsets": [
-            "mean.v.03",
-            "intend.v.02",
             "mean.v.01",
-            "intend.v.01"
+            "intend.v.02",
+            "intend.v.01",
+            "mean.v.03"
         ]
     },
     {
@@ -4034,9 +4034,9 @@
             "pickle.v.01"
         ],
         "unique_synsets": [
-            "fix.n.01",
+            "pickle.n.01",
             "pickle.v.01",
-            "pickle.n.01"
+            "fix.n.01"
         ]
     },
     {
@@ -4049,9 +4049,9 @@
             "pilgrim.n.03"
         ],
         "unique_synsets": [
-            "pilgrim.n.01",
             "pilgrim.n.03",
-            "pilgrim.n.02"
+            "pilgrim.n.02",
+            "pilgrim.n.01"
         ]
     },
     {
@@ -4065,8 +4065,8 @@
             "happy.s.04"
         ],
         "unique_synsets": [
-            "happy.a.01",
             "felicitous.s.02",
+            "happy.a.01",
             "happy.s.04",
             "glad.s.02"
         ]
@@ -4103,13 +4103,13 @@
             "repair.v.01"
         ],
         "unique_synsets": [
-            "doctor.n.03",
-            "sophisticate.v.03",
-            "doctor_of_the_church.n.01",
             "doctor.n.04",
+            "sophisticate.v.03",
+            "doctor.n.03",
             "repair.v.01",
             "doctor.v.02",
-            "doctor.n.01"
+            "doctor.n.01",
+            "doctor_of_the_church.n.01"
         ]
     },
     {
@@ -4134,10 +4134,10 @@
             "irish.a.01"
         ],
         "unique_synsets": [
-            "irish.n.02",
-            "irish.a.01",
             "irish.n.01",
-            "irish.n.03"
+            "irish.n.03",
+            "irish.a.01",
+            "irish.n.02"
         ]
     },
     {
@@ -4162,10 +4162,10 @@
             "amazing.s.02"
         ],
         "unique_synsets": [
-            "perplex.v.01",
             "amaze.v.01",
-            "amazing.s.01",
-            "amazing.s.02"
+            "amazing.s.02",
+            "perplex.v.01",
+            "amazing.s.01"
         ]
     },
     {
@@ -4202,33 +4202,33 @@
             "thoroughly.r.02"
         ],
         "unique_synsets": [
-            "good.s.21",
-            "good.s.18",
             "good.s.07",
-            "effective.s.04",
-            "dependable.s.04",
+            "beneficial.s.01",
             "good.n.01",
-            "good.s.17",
-            "good.a.03",
-            "commodity.n.01",
-            "dear.s.02",
-            "thoroughly.r.02",
-            "good.s.20",
-            "good.s.16",
+            "good.s.18",
+            "good.s.15",
+            "well.r.01",
             "good.s.19",
             "good.n.03",
-            "beneficial.s.01",
-            "good.s.13",
-            "well.r.01",
-            "good.s.06",
-            "good.s.09",
-            "good.s.15",
-            "good.n.02",
-            "full.s.06",
+            "dependable.s.04",
             "adept.s.01",
-            "good.a.01",
+            "commodity.n.01",
+            "thoroughly.r.02",
             "estimable.s.02",
-            "good.s.12"
+            "good.s.13",
+            "good.s.20",
+            "good.s.17",
+            "good.a.03",
+            "effective.s.04",
+            "good.a.01",
+            "dear.s.02",
+            "good.s.16",
+            "full.s.06",
+            "good.s.09",
+            "good.s.06",
+            "good.n.02",
+            "good.s.12",
+            "good.s.21"
         ]
     },
     {
@@ -4252,9 +4252,9 @@
             "lover.n.03"
         ],
         "unique_synsets": [
-            "fan.n.03",
+            "lover.n.01",
             "lover.n.03",
-            "lover.n.01"
+            "fan.n.03"
         ]
     },
     {
@@ -4272,14 +4272,14 @@
             "chase.v.01"
         ],
         "unique_synsets": [
+            "dog.n.03",
             "pawl.n.01",
             "cad.n.01",
             "andiron.n.01",
             "dog.n.01",
-            "dog.n.03",
             "chase.v.01",
-            "frump.n.01",
-            "frank.n.02"
+            "frank.n.02",
+            "frump.n.01"
         ]
     },
     {
@@ -4334,10 +4334,10 @@
             "fantasy.v.01"
         ],
         "unique_synsets": [
-            "fantasy.n.02",
+            "illusion.n.02",
             "fantasy.v.01",
-            "fantasy.n.01",
-            "illusion.n.02"
+            "fantasy.n.02",
+            "fantasy.n.01"
         ]
     },
     {
@@ -4378,13 +4378,13 @@
             "short-circuit.v.02"
         ],
         "unique_synsets": [
-            "short-circuit.v.02",
-            "short_pants.n.01",
-            "drawers.n.01",
-            "short-change.v.01",
             "short_circuit.n.01",
+            "shortstop.n.02",
+            "short-change.v.01",
+            "drawers.n.01",
+            "short_pants.n.01",
             "short.n.01",
-            "shortstop.n.02"
+            "short-circuit.v.02"
         ]
     },
     {
@@ -4481,19 +4481,19 @@
             "glow.v.05"
         ],
         "unique_synsets": [
-            "radio_beam.n.01",
-            "balance_beam.n.01",
-            "beam.n.03",
-            "glow.v.02",
             "beam.n.02",
-            "beam.n.04",
-            "air.v.03",
-            "beam.v.01",
-            "beam.n.05",
-            "beam.n.06",
+            "beam.n.03",
             "shine.v.02",
-            "beam.v.03",
-            "glow.v.05"
+            "air.v.03",
+            "glow.v.05",
+            "radio_beam.n.01",
+            "beam.n.05",
+            "beam.v.01",
+            "beam.n.06",
+            "glow.v.02",
+            "beam.n.04",
+            "balance_beam.n.01",
+            "beam.v.03"
         ]
     },
     {
@@ -4506,9 +4506,9 @@
             "italian.a.01"
         ],
         "unique_synsets": [
+            "italian.n.01",
             "italian.a.01",
-            "italian.n.02",
-            "italian.n.01"
+            "italian.n.02"
         ]
     },
     {
@@ -4563,51 +4563,51 @@
             "give.v.44"
         ],
         "unique_synsets": [
-            "give.v.43",
-            "give.v.28",
-            "establish.v.05",
-            "give.v.19",
-            "move_over.v.01",
-            "grant.v.05",
-            "give.v.04",
-            "give.v.08",
-            "pass.v.05",
-            "collapse.v.01",
-            "give.v.29",
-            "give.v.34",
-            "give.n.01",
-            "give.v.27",
-            "give.v.35",
-            "give.v.07",
-            "give.v.10",
-            "sacrifice.v.01",
-            "give.v.20",
-            "give.v.31",
-            "give.v.09",
-            "give.v.39",
-            "give.v.44",
-            "give.v.15",
-            "give.v.03",
-            "give.v.36",
-            "give.v.05",
             "afford.v.04",
-            "hold.v.03",
-            "give.v.01",
-            "give.v.18",
-            "give.v.38",
-            "render.v.04",
-            "yield.v.01",
-            "feed.v.02",
             "give.v.40",
-            "give.v.21",
-            "give.v.33",
+            "give.v.34",
+            "give.v.03",
+            "give.v.28",
             "impart.v.01",
-            "give.v.14",
+            "give.v.44",
+            "sacrifice.v.01",
+            "move_over.v.01",
+            "yield.v.01",
+            "give.v.04",
+            "give.v.09",
+            "give.v.32",
+            "give.v.36",
+            "give.v.10",
+            "collapse.v.01",
+            "give.v.18",
+            "give.v.27",
+            "hold.v.03",
+            "give.v.21",
+            "give.v.43",
             "give.v.37",
+            "render.v.04",
+            "give.v.35",
+            "give.v.05",
+            "give.v.38",
+            "give.v.19",
+            "give.v.29",
+            "give.v.20",
+            "feed.v.02",
+            "give.v.07",
+            "give.v.15",
+            "give.v.33",
+            "give.v.39",
             "contribute.v.02",
-            "give.v.41",
             "give.v.42",
-            "give.v.32"
+            "give.n.01",
+            "give.v.14",
+            "pass.v.05",
+            "give.v.31",
+            "give.v.41",
+            "establish.v.05",
+            "give.v.08",
+            "give.v.01",
+            "grant.v.05"
         ]
     },
     {
@@ -4620,9 +4620,9 @@
             "photography.n.03"
         ],
         "unique_synsets": [
-            "photography.n.03",
             "photography.n.01",
-            "photography.n.02"
+            "photography.n.02",
+            "photography.n.03"
         ]
     },
     {
@@ -4654,11 +4654,11 @@
             "infinite.s.04"
         ],
         "unique_synsets": [
-            "countless.s.01",
             "infinite.a.01",
-            "space.n.01",
             "infinite.s.04",
-            "infinite.a.02"
+            "countless.s.01",
+            "infinite.a.02",
+            "space.n.01"
         ]
     },
     {
@@ -4770,15 +4770,15 @@
             "school.v.03"
         ],
         "unique_synsets": [
-            "school.n.03",
-            "school.n.05",
-            "school.n.01",
-            "school.n.06",
-            "school.v.01",
             "school.v.03",
+            "school.v.01",
+            "school.n.05",
             "school.n.07",
-            "school.n.04",
             "educate.v.03",
+            "school.n.01",
+            "school.n.04",
+            "school.n.03",
+            "school.n.06",
             "school.n.02"
         ]
     },
@@ -4791,8 +4791,8 @@
             "meow.v.01"
         ],
         "unique_synsets": [
-            "meow.v.01",
-            "meow.n.01"
+            "meow.n.01",
+            "meow.v.01"
         ]
     },
     {
@@ -4807,9 +4807,9 @@
         ],
         "unique_synsets": [
             "loon.n.02",
-            "divers.s.01",
+            "diver.n.02",
             "diver.n.01",
-            "diver.n.02"
+            "divers.s.01"
         ]
     },
     {
@@ -4822,8 +4822,8 @@
             "travel.v.04"
         ],
         "unique_synsets": [
-            "travel.v.02",
             "journey.n.01",
+            "travel.v.02",
             "travel.v.04"
         ]
     },
@@ -4838,10 +4838,10 @@
             "beget.v.01"
         ],
         "unique_synsets": [
-            "generate.v.01",
-            "render.v.04",
             "beget.v.01",
-            "generate.v.03"
+            "generate.v.01",
+            "generate.v.03",
+            "render.v.04"
         ]
     },
     {
@@ -4878,12 +4878,12 @@
             "behind.r.05"
         ],
         "unique_synsets": [
-            "buttocks.n.01",
-            "behind.r.03",
             "behind.r.02",
             "behind.s.01",
-            "behind.r.05",
             "behind.r.01",
+            "buttocks.n.01",
+            "behind.r.05",
+            "behind.r.03",
             "behind.r.04"
         ]
     },
@@ -4900,11 +4900,11 @@
             "terminology.n.01"
         ],
         "unique_synsets": [
-            "linguistic_process.n.02",
-            "language.n.01",
-            "speech.n.02",
-            "lyric.n.01",
             "terminology.n.01",
+            "linguistic_process.n.02",
+            "speech.n.02",
+            "language.n.01",
+            "lyric.n.01",
             "language.n.05"
         ]
     },
@@ -4980,15 +4980,15 @@
         ],
         "unique_synsets": [
             "sing.v.01",
+            "sing.v.02",
+            "spill_the_beans.v.01",
+            "singe.v.01",
+            "tattle.n.01",
+            "whistle.v.05",
+            "scorch.v.02",
             "sing.v.03",
             "singing.n.01",
-            "spill_the_beans.v.01",
-            "scorch.v.02",
-            "tattle.n.01",
-            "singe.v.01",
-            "sing.v.02",
-            "cantabile.s.01",
-            "whistle.v.05"
+            "cantabile.s.01"
         ]
     },
     {
@@ -5003,11 +5003,11 @@
             "music.n.05"
         ],
         "unique_synsets": [
-            "music.n.02",
-            "music.n.03",
-            "music.n.05",
             "music.n.01",
-            "music.n.04"
+            "music.n.04",
+            "music.n.03",
+            "music.n.02",
+            "music.n.05"
         ]
     },
     {
@@ -5044,10 +5044,10 @@
             "rhythm_method_of_birth_control.n.01"
         ],
         "unique_synsets": [
-            "rhythm.n.04",
             "cycle.n.01",
             "rhythm_method_of_birth_control.n.01",
             "rhythm.n.02",
+            "rhythm.n.04",
             "rhythm.n.01"
         ]
     },
@@ -5073,21 +5073,21 @@
             "ring.v.06"
         ],
         "unique_synsets": [
-            "band.n.04",
-            "band.n.12",
             "band.v.01",
-            "dance_band.n.01",
+            "set.n.05",
+            "band.n.04",
+            "band.n.06",
             "band.n.10",
+            "band.n.12",
             "ring.n.08",
-            "band.n.03",
             "band.n.11",
             "band.n.13",
-            "isthmus.n.02",
-            "ring.v.06",
-            "set.n.05",
-            "band.n.06",
+            "band.n.07",
             "band.n.02",
-            "band.n.07"
+            "dance_band.n.01",
+            "ring.v.06",
+            "isthmus.n.02",
+            "band.n.03"
         ]
     },
     {
@@ -5117,12 +5117,12 @@
             "pour.v.06"
         ],
         "unique_synsets": [
-            "pour.v.06",
             "pour.v.04",
             "pour.v.01",
+            "pour.v.06",
+            "pour.v.05",
             "decant.v.01",
-            "pour.v.02",
-            "pour.v.05"
+            "pour.v.02"
         ]
     },
     {
@@ -5138,8 +5138,8 @@
         ],
         "unique_synsets": [
             "airheaded.s.01",
-            "pathetic.s.03",
             "punch-drunk.s.01",
+            "pathetic.s.03",
             "silly.n.01",
             "cockamamie.s.01"
         ]
@@ -5173,13 +5173,13 @@
         ],
         "unique_synsets": [
             "family.n.01",
-            "family.n.02",
             "family.n.04",
-            "kin.n.01",
-            "family.n.08",
             "family.n.06",
+            "family.n.08",
+            "class.n.01",
+            "family.n.02",
             "syndicate.n.01",
-            "class.n.01"
+            "kin.n.01"
         ]
     },
     {
@@ -5193,9 +5193,9 @@
             "mastermind.v.01"
         ],
         "unique_synsets": [
-            "engineer.v.01",
             "mastermind.v.01",
             "engineer.n.01",
+            "engineer.v.01",
             "engineer.n.02"
         ]
     },
@@ -5240,17 +5240,17 @@
             "bet_on.v.01"
         ],
         "unique_synsets": [
-            "game.n.04",
-            "plot.n.01",
+            "game.n.09",
             "game.n.05",
             "game.n.11",
-            "game.n.01",
-            "game.n.03",
             "bet_on.v.01",
-            "game.n.02",
             "game.n.06",
+            "game.n.03",
+            "game.n.04",
+            "game.n.02",
+            "game.n.01",
             "game.n.10",
-            "game.n.09",
+            "plot.n.01",
             "game.n.07"
         ]
     },
@@ -5334,10 +5334,10 @@
             "prank.v.02"
         ],
         "unique_synsets": [
-            "antic.n.01",
+            "prank.v.01",
             "buffoonery.n.01",
-            "prank.v.02",
-            "prank.v.01"
+            "antic.n.01",
+            "prank.v.02"
         ]
     },
     {
@@ -5362,19 +5362,19 @@
         ],
         "unique_synsets": [
             "design.n.06",
-            "blueprint.n.01",
-            "purpose.n.01",
             "design.n.02",
+            "blueprint.n.01",
             "design.v.03",
+            "design.v.07",
             "invention.n.01",
             "design.v.05",
             "design.n.01",
-            "design.v.02",
             "design.v.04",
-            "design.v.07",
+            "purpose.n.01",
             "design.v.06",
+            "plan.v.03",
             "design.n.04",
-            "plan.v.03"
+            "design.v.02"
         ]
     },
     {
@@ -5391,11 +5391,11 @@
         ],
         "unique_synsets": [
             "pet.v.01",
-            "pet.n.03",
-            "pet.n.01",
-            "pet.v.02",
             "darling.n.01",
-            "positron_emission_tomography.n.01"
+            "positron_emission_tomography.n.01",
+            "pet.v.02",
+            "pet.n.03",
+            "pet.n.01"
         ]
     },
     {
@@ -5438,17 +5438,17 @@
             "cool.s.06"
         ],
         "unique_synsets": [
-            "aplomb.n.01",
-            "cool.s.06",
             "cool.s.02",
             "cool.a.04",
-            "cool.s.05",
             "cool.a.03",
+            "cool.s.06",
+            "cool.v.02",
             "cool.v.03",
             "cool.a.01",
-            "cool.v.02",
             "cool.v.01",
-            "cool.n.01"
+            "cool.n.01",
+            "cool.s.05",
+            "aplomb.n.01"
         ]
     },
     {
@@ -5511,8 +5511,8 @@
             "superb.s.02"
         ],
         "unique_synsets": [
-            "brilliant.s.01",
-            "superb.s.02"
+            "superb.s.02",
+            "brilliant.s.01"
         ]
     },
     {
@@ -5536,8 +5536,8 @@
             "weird.s.02"
         ],
         "unique_synsets": [
-            "eldritch.s.01",
             "wyrd.n.01",
+            "eldritch.s.01",
             "weird.s.02"
         ]
     },
@@ -5550,8 +5550,8 @@
             "poker.n.02"
         ],
         "unique_synsets": [
-            "poker.n.01",
-            "poker.n.02"
+            "poker.n.02",
+            "poker.n.01"
         ]
     },
     {
@@ -5565,10 +5565,10 @@
             "fitness.n.04"
         ],
         "unique_synsets": [
-            "seaworthiness.n.01",
+            "fitness.n.04",
             "fitness.n.02",
             "fitness.n.01",
-            "fitness.n.04"
+            "seaworthiness.n.01"
         ]
     },
     {
@@ -5598,12 +5598,12 @@
             "south.r.01"
         ],
         "unique_synsets": [
+            "south.r.01",
+            "south.n.01",
+            "south.n.04",
             "south.n.05",
             "south.a.01",
-            "south.r.01",
             "south.n.03",
-            "south.n.04",
-            "south.n.01",
             "confederacy.n.01"
         ]
     },
@@ -5620,12 +5620,12 @@
             "bum.s.01"
         ],
         "unique_synsets": [
-            "kindling.n.01",
             "punk_rocker.n.01",
+            "kindling.n.01",
             "punk_rock.n.01",
-            "punk.n.02",
+            "hood.n.01",
             "bum.s.01",
-            "hood.n.01"
+            "punk.n.02"
         ]
     },
     {
@@ -5639,9 +5639,9 @@
             "metallic.a.01"
         ],
         "unique_synsets": [
+            "metal.v.01",
             "metallic_element.n.01",
             "alloy.n.01",
-            "metal.v.01",
             "metallic.a.01"
         ]
     },
@@ -5657,9 +5657,9 @@
         ],
         "unique_synsets": [
             "fact.n.03",
+            "fact.n.02",
             "fact.n.01",
-            "fact.n.04",
-            "fact.n.02"
+            "fact.n.04"
         ]
     },
     {
@@ -5688,12 +5688,12 @@
             "paint.v.04"
         ],
         "unique_synsets": [
-            "paint.v.03",
             "paint.v.01",
+            "paint.v.02",
             "painting.n.02",
             "paint.v.04",
-            "paint.v.02",
             "painting.n.01",
+            "paint.v.03",
             "painting.n.04",
             "painting.n.03"
         ]
@@ -5742,14 +5742,14 @@
             "map.v.06"
         ],
         "unique_synsets": [
-            "map.v.06",
+            "map.v.01",
             "map.v.03",
+            "map.v.06",
+            "map.v.04",
             "map.v.02",
             "map.v.05",
-            "function.n.01",
             "map.n.01",
-            "map.v.04",
-            "map.v.01"
+            "function.n.01"
         ]
     },
     {
@@ -5773,9 +5773,9 @@
             "sandwich.v.02"
         ],
         "unique_synsets": [
-            "sandwich.v.02",
             "sandwich.v.01",
-            "sandwich.n.01"
+            "sandwich.n.01",
+            "sandwich.v.02"
         ]
     },
     {
@@ -5811,21 +5811,21 @@
             "fathom.v.02"
         ],
         "unique_synsets": [
+            "sound.v.01",
             "sound.n.08",
-            "sound.n.04",
-            "sound.n.01",
+            "sound.v.06",
+            "fathom.v.02",
+            "strait.n.01",
             "audio.n.01",
             "phone.n.02",
-            "sound.v.06",
+            "sound.v.03",
             "voice.v.02",
             "sound.n.03",
-            "fathom.v.02",
-            "sound.n.02",
-            "strait.n.01",
-            "sound.v.03",
+            "sound.v.04",
+            "sound.n.04",
             "sound.v.02",
-            "sound.v.01",
-            "sound.v.04"
+            "sound.n.02",
+            "sound.n.01"
         ]
     },
     {
@@ -5846,17 +5846,17 @@
             "clip.v.05"
         ],
         "unique_synsets": [
-            "cartridge_holder.n.01",
-            "clip.v.03",
-            "clip.v.05",
-            "clip.n.05",
             "nip.v.03",
-            "clip.n.04",
-            "trot.v.01",
+            "clip.v.03",
             "snip.v.02",
-            "time.n.01",
+            "clip.v.05",
+            "clip.n.04",
+            "cartridge_holder.n.01",
             "clip.n.03",
-            "clip.n.06"
+            "time.n.01",
+            "clip.n.06",
+            "trot.v.01",
+            "clip.n.05"
         ]
     },
     {
@@ -5922,42 +5922,42 @@
             "cover.v.26"
         ],
         "unique_synsets": [
-            "cover.v.10",
-            "overlay.v.01",
-            "cover.n.07",
-            "binding.n.05",
-            "cover.v.14",
-            "brood.v.05",
-            "cover.v.03",
-            "cover_charge.n.01",
-            "screen.n.04",
-            "cover.v.19",
-            "cover.v.12",
-            "cover.v.04",
-            "covering.n.01",
-            "cover.v.11",
-            "cover.v.02",
-            "cover.v.01",
-            "cover.n.03",
-            "top.n.09",
-            "cover.v.17",
-            "cover.v.15",
-            "cover.v.23",
-            "cover.v.16",
-            "cover.v.13",
-            "embrace.v.01",
+            "traverse.v.01",
             "cover.n.10",
-            "blanket.n.01",
-            "cover.n.09",
-            "cover.v.26",
             "cover.v.24",
-            "shroud.v.01",
             "report.v.05",
             "cover.v.09",
-            "traverse.v.01",
-            "breed.v.02",
+            "cover.v.10",
+            "cover.v.17",
+            "cover.v.18",
+            "cover.v.15",
+            "cover.v.03",
+            "cover.v.12",
+            "cover.v.19",
+            "blanket.n.01",
+            "cover.n.03",
+            "cover.v.01",
+            "top.n.09",
+            "brood.v.05",
+            "cover.v.16",
+            "cover.v.26",
+            "cover.n.09",
+            "cover.v.11",
+            "cover.n.07",
+            "shroud.v.01",
             "cover.v.05",
-            "cover.v.18"
+            "cover_charge.n.01",
+            "binding.n.05",
+            "cover.v.13",
+            "cover.v.04",
+            "cover.v.14",
+            "embrace.v.01",
+            "overlay.v.01",
+            "cover.v.23",
+            "covering.n.01",
+            "breed.v.02",
+            "cover.v.02",
+            "screen.n.04"
         ]
     },
     {
@@ -5993,9 +5993,9 @@
             "laugh.v.01"
         ],
         "unique_synsets": [
-            "laugh.n.02",
-            "laugh.v.01",
             "joke.n.01",
+            "laugh.v.01",
+            "laugh.n.02",
             "laugh.n.01"
         ]
     },
@@ -6004,10 +6004,10 @@
         "value": 12,
         "percentage": 0.11578541103820919,
         "synsets": [
-            "lgbt.s.1"
+            "lgbtq.s.1"
         ],
         "unique_synsets": [
-            "lgbt.s.1"
+            "lgbtq.s.1"
         ]
     },
     {
@@ -6069,40 +6069,40 @@
             "drive.v.22"
         ],
         "unique_synsets": [
-            "drive.v.13",
             "drive.n.12",
-            "drive.v.14",
+            "drive.n.07",
+            "force.v.06",
+            "drive.v.08",
+            "drive.v.13",
             "drive.n.06",
+            "drive.v.20",
+            "drive.v.05",
+            "drive.n.10",
+            "tug.v.02",
+            "drive.n.09",
+            "drive.v.22",
+            "drive.n.02",
+            "drive.v.16",
+            "drive.v.21",
+            "drive.v.09",
+            "drive.v.11",
+            "drive.v.15",
+            "drive.n.11",
             "drive.v.12",
+            "drive.v.14",
+            "drive.v.03",
+            "driveway.n.01",
             "drive.v.17",
             "campaign.n.02",
-            "drive.v.02",
-            "drive.n.09",
-            "tug.v.02",
-            "drive.v.15",
-            "drive.n.10",
-            "drive.v.16",
-            "drive.n.08",
-            "drive.v.07",
-            "drive.v.22",
             "drive.n.05",
-            "drive.n.11",
-            "drive.v.19",
-            "drive.v.21",
-            "drive.v.05",
-            "driveway.n.01",
+            "drive.n.08",
+            "drive.v.02",
             "repel.v.01",
-            "drive.v.11",
-            "drive.v.01",
-            "force.v.06",
-            "drive.v.18",
             "drive.n.01",
-            "drive.v.03",
-            "drive.v.09",
-            "drive.n.02",
-            "drive.v.20",
-            "drive.n.07",
-            "drive.v.08"
+            "drive.v.01",
+            "drive.v.19",
+            "drive.v.07",
+            "drive.v.18"
         ]
     },
     {
@@ -6114,8 +6114,8 @@
             "rainbow.n.02"
         ],
         "unique_synsets": [
-            "rainbow.n.02",
-            "rainbow.n.01"
+            "rainbow.n.01",
+            "rainbow.n.02"
         ]
     },
     {
@@ -6141,20 +6141,20 @@
         ],
         "unique_synsets": [
             "book.n.06",
-            "book.n.10",
-            "book.n.01",
             "book.n.11",
-            "script.n.01",
-            "book.v.04",
-            "reserve.v.04",
+            "ledger.n.01",
             "record.n.05",
             "book.v.01",
-            "book.v.03",
+            "reserve.v.04",
+            "book.v.04",
             "book.n.07",
+            "book.n.10",
             "book.n.02",
-            "ledger.n.01",
             "bible.n.01",
-            "koran.n.01"
+            "koran.n.01",
+            "book.n.01",
+            "book.v.03",
+            "script.n.01"
         ]
     },
     {
@@ -6169,9 +6169,9 @@
         ],
         "unique_synsets": [
             "explore.v.03",
-            "research.v.02",
             "explore.v.02",
-            "explore.v.04"
+            "explore.v.04",
+            "research.v.02"
         ]
     },
     {
@@ -6199,10 +6199,10 @@
             "girl.n.05"
         ],
         "unique_synsets": [
-            "female_child.n.01",
+            "girlfriend.n.02",
             "girl.n.01",
             "girl.n.05",
-            "girlfriend.n.02",
+            "female_child.n.01",
             "daughter.n.01"
         ]
     },
@@ -6219,12 +6219,12 @@
             "crazy.s.05"
         ],
         "unique_synsets": [
-            "crazy.s.02",
-            "crazy.s.04",
-            "crazy.s.03",
             "crazy.s.05",
+            "crazy.s.02",
+            "crazy.n.01",
             "brainsick.s.01",
-            "crazy.n.01"
+            "crazy.s.03",
+            "crazy.s.04"
         ]
     },
     {
@@ -6241,11 +6241,11 @@
         ],
         "unique_synsets": [
             "pet.v.01",
-            "pet.n.03",
-            "pet.n.01",
-            "pet.v.02",
             "darling.n.01",
-            "positron_emission_tomography.n.01"
+            "positron_emission_tomography.n.01",
+            "pet.v.02",
+            "pet.n.03",
+            "pet.n.01"
         ]
     },
     {
@@ -6293,14 +6293,14 @@
             "travel.v.06"
         ],
         "unique_synsets": [
-            "travel.v.02",
-            "travel.v.06",
-            "travel.v.05",
             "locomotion.n.02",
             "travel.n.01",
+            "travel.v.06",
+            "travel.v.02",
+            "travel.v.05",
             "travel.v.03",
-            "travel.v.04",
             "change_of_location.n.01",
+            "travel.v.04",
             "travel.v.01"
         ]
     },
@@ -6316,11 +6316,11 @@
             "mastermind.v.01"
         ],
         "unique_synsets": [
-            "engineering.n.02",
-            "engineer.v.01",
             "engineering.n.03",
             "mastermind.v.01",
-            "technology.n.01"
+            "engineer.v.01",
+            "technology.n.01",
+            "engineering.n.02"
         ]
     },
     {
@@ -6333,9 +6333,9 @@
             "pilgrim.n.03"
         ],
         "unique_synsets": [
-            "pilgrim.n.01",
             "pilgrim.n.03",
-            "pilgrim.n.02"
+            "pilgrim.n.02",
+            "pilgrim.n.01"
         ]
     },
     {
@@ -6350,11 +6350,11 @@
             "fashion.v.01"
         ],
         "unique_synsets": [
-            "fashion.n.03",
+            "manner.n.01",
             "fashion.n.02",
             "fashion.v.01",
             "fashion.n.04",
-            "manner.n.01"
+            "fashion.n.03"
         ]
     },
     {
@@ -6368,10 +6368,10 @@
             "bloom.v.01"
         ],
         "unique_synsets": [
+            "flower.n.02",
             "flower.n.03",
-            "bloom.v.01",
             "flower.n.01",
-            "flower.n.02"
+            "bloom.v.01"
         ]
     },
     {
@@ -6406,9 +6406,9 @@
             "epic.a.02"
         ],
         "unique_synsets": [
-            "epic.a.02",
             "epic.s.01",
-            "epic_poem.n.01"
+            "epic_poem.n.01",
+            "epic.a.02"
         ]
     },
     {
@@ -6427,14 +6427,14 @@
             "sponge.v.05"
         ],
         "unique_synsets": [
-            "quick_study.n.01",
             "sponge.n.01",
+            "mooch.v.01",
             "sponge.v.05",
             "sponge.v.04",
-            "sponge.v.01",
-            "mooch.v.01",
             "leech.n.02",
             "sponge.v.03",
+            "quick_study.n.01",
+            "sponge.v.01",
             "sponge.n.04"
         ]
     },
@@ -6450,10 +6450,10 @@
             "area.n.01"
         ],
         "unique_synsets": [
-            "country.n.04",
-            "state.n.04",
-            "area.n.01",
             "country.n.02",
+            "country.n.04",
+            "area.n.01",
+            "state.n.04",
             "nation.n.02"
         ]
     },
@@ -6475,17 +6475,17 @@
             "core.v.01"
         ],
         "unique_synsets": [
-            "congress_of_racial_equality.n.01",
-            "core.v.01",
-            "core.n.08",
-            "core.n.01",
             "core.n.05",
+            "core.v.01",
             "effect.n.04",
-            "core.n.09",
+            "core.n.01",
             "core.n.02",
-            "kernel.n.03",
             "core.n.03",
-            "core.n.10"
+            "core.n.08",
+            "core.n.10",
+            "core.n.09",
+            "congress_of_racial_equality.n.01",
+            "kernel.n.03"
         ]
     },
     {
@@ -6529,11 +6529,11 @@
             "music.n.05"
         ],
         "unique_synsets": [
-            "music.n.02",
-            "music.n.03",
-            "music.n.05",
             "music.n.01",
-            "music.n.04"
+            "music.n.04",
+            "music.n.03",
+            "music.n.02",
+            "music.n.05"
         ]
     },
     {
@@ -6571,12 +6571,12 @@
         ],
         "unique_synsets": [
             "solo.s.01",
-            "solo.n.01",
             "solo.n.03",
-            "solo.n.02",
-            "solo.v.02",
             "alone.r.02",
-            "solo.v.01"
+            "solo.v.02",
+            "solo.n.01",
+            "solo.v.01",
+            "solo.n.02"
         ]
     },
     {
@@ -6590,8 +6590,8 @@
         ],
         "unique_synsets": [
             "maiden_over.n.01",
-            "inaugural.s.02",
-            "maid.n.02"
+            "maid.n.02",
+            "inaugural.s.02"
         ]
     },
     {
@@ -6612,10 +6612,10 @@
             "riff.v.02"
         ],
         "unique_synsets": [
-            "riff.n.01",
             "riff.n.02",
-            "riff.v.02",
-            "flick.v.02"
+            "flick.v.02",
+            "riff.n.01",
+            "riff.v.02"
         ]
     },
     {
@@ -6631,12 +6631,12 @@
             "station.v.01"
         ],
         "unique_synsets": [
-            "station.n.05",
-            "station.n.03",
-            "place.n.10",
+            "station.v.01",
             "station.n.01",
+            "place.n.10",
+            "station.n.05",
             "post.n.01",
-            "station.v.01"
+            "station.n.03"
         ]
     },
     {
@@ -6661,8 +6661,8 @@
             "acid.n.02"
         ],
         "unique_synsets": [
-            "demigod.n.01",
-            "acid.n.02"
+            "acid.n.02",
+            "demigod.n.01"
         ]
     },
     {
@@ -6676,8 +6676,8 @@
         ],
         "unique_synsets": [
             "magic_trick.n.01",
-            "magic.n.01",
-            "charming.s.02"
+            "charming.s.02",
+            "magic.n.01"
         ]
     },
     {
@@ -6700,11 +6700,11 @@
             "temper.v.04"
         ],
         "unique_synsets": [
-            "season.n.01",
-            "season.v.02",
             "season.v.01",
             "temper.v.04",
             "season.n.02",
+            "season.n.01",
+            "season.v.02",
             "season.n.03"
         ]
     },
@@ -6721,12 +6721,12 @@
             "twitch.v.05"
         ],
         "unique_synsets": [
-            "twitch.v.01",
             "twitch.v.05",
-            "pinch.v.01",
+            "twitch.v.01",
+            "flip.v.04",
             "twitch.n.01",
             "jerk.v.02",
-            "flip.v.04"
+            "pinch.v.01"
         ]
     },
     {
@@ -6747,17 +6747,17 @@
             "clip.v.05"
         ],
         "unique_synsets": [
-            "cartridge_holder.n.01",
-            "clip.v.03",
-            "clip.v.05",
-            "clip.n.05",
             "nip.v.03",
-            "clip.n.04",
-            "trot.v.01",
+            "clip.v.03",
             "snip.v.02",
-            "time.n.01",
+            "clip.v.05",
+            "clip.n.04",
+            "cartridge_holder.n.01",
             "clip.n.03",
-            "clip.n.06"
+            "time.n.01",
+            "clip.n.06",
+            "trot.v.01",
+            "clip.n.05"
         ]
     },
     {
@@ -6780,8 +6780,8 @@
             "sevenfold.r.01"
         ],
         "unique_synsets": [
-            "sevenfold.r.01",
-            "septuple.s.01"
+            "septuple.s.01",
+            "sevenfold.r.01"
         ]
     },
     {
@@ -6810,16 +6810,16 @@
         ],
         "unique_synsets": [
             "fail.v.06",
-            "fail.v.04",
-            "fail.v.01",
-            "fail.v.05",
+            "fail.v.08",
             "fail.v.07",
-            "fail.v.09",
-            "fail.v.10",
             "fail.v.11",
             "fail.v.03",
             "fail.v.02",
-            "fail.v.08"
+            "fail.v.05",
+            "fail.v.04",
+            "fail.v.09",
+            "fail.v.10",
+            "fail.v.01"
         ]
     },
     {
@@ -6845,9 +6845,9 @@
         ],
         "unique_synsets": [
             "luff.v.01",
-            "luff.v.02",
             "luff.n.01",
-            "luff.n.02"
+            "luff.n.02",
+            "luff.v.02"
         ]
     },
     {
@@ -6875,11 +6875,11 @@
         ],
         "unique_synsets": [
             "history.n.02",
-            "narrative.n.01",
             "fib.n.01",
+            "narrative.n.01",
             "story.n.02",
-            "report.n.03",
-            "floor.n.02"
+            "floor.n.02",
+            "report.n.03"
         ]
     },
     {
@@ -6907,10 +6907,10 @@
             "nature.n.05"
         ],
         "unique_synsets": [
-            "nature.n.03",
-            "nature.n.05",
             "nature.n.04",
             "nature.n.01",
+            "nature.n.05",
+            "nature.n.03",
             "nature.n.02"
         ]
     },
@@ -6961,24 +6961,24 @@
             "doss.v.01"
         ],
         "unique_synsets": [
-            "doss.v.01",
+            "crash.v.10",
+            "crash.v.03",
+            "crash.n.05",
             "crash.v.09",
             "crash.v.04",
+            "crash.n.04",
+            "crash.n.02",
+            "crash.v.01",
+            "crash.v.06",
+            "doss.v.01",
+            "crash.v.11",
+            "crash.v.05",
             "clang.n.01",
             "barge_in.v.01",
-            "crash.n.02",
-            "crash.n.04",
-            "crash.v.03",
-            "crash.v.06",
-            "crash.v.02",
-            "crash.v.10",
-            "crash.v.11",
             "crash.v.12",
-            "crash.v.05",
-            "crash.n.03",
-            "crash.n.05",
             "crash.v.07",
-            "crash.v.01"
+            "crash.v.02",
+            "crash.n.03"
         ]
     },
     {
@@ -6992,10 +6992,10 @@
             "banner.n.01"
         ],
         "unique_synsets": [
-            "banner.n.01",
-            "pennant.n.03",
+            "streamer.n.02",
             "streamer.n.01",
-            "streamer.n.02"
+            "banner.n.01",
+            "pennant.n.03"
         ]
     },
     {
@@ -7024,25 +7024,25 @@
             "live.r.01"
         ],
         "unique_synsets": [
-            "live.s.07",
+            "live.r.01",
+            "live.a.02",
+            "live.s.04",
+            "survive.v.01",
+            "bouncy.s.01",
+            "live.v.02",
+            "populate.v.01",
+            "know.v.05",
             "live.v.07",
+            "alive.a.01",
+            "live.a.01",
+            "alive.s.07",
+            "hot.s.20",
             "exist.v.02",
             "be.v.11",
-            "alive.s.07",
-            "survive.v.01",
-            "populate.v.01",
             "live.s.05",
-            "alive.a.01",
-            "know.v.05",
-            "hot.s.20",
-            "bouncy.s.01",
-            "live.s.04",
-            "live.v.02",
-            "live.s.08",
+            "live.s.07",
             "live.s.09",
-            "live.r.01",
-            "live.a.01",
-            "live.a.02"
+            "live.s.08"
         ]
     },
     {
@@ -7065,8 +7065,8 @@
             "linguistics.n.02"
         ],
         "unique_synsets": [
-            "linguistics.n.02",
-            "linguistics.n.01"
+            "linguistics.n.01",
+            "linguistics.n.02"
         ]
     },
     {
@@ -7084,13 +7084,13 @@
             "death.n.08"
         ],
         "unique_synsets": [
-            "death.n.05",
-            "death.n.03",
             "death.n.01",
-            "death.n.06",
             "death.n.04",
-            "end.n.06",
+            "death.n.05",
+            "death.n.06",
             "death.n.08",
+            "death.n.03",
+            "end.n.06",
             "death.n.02"
         ]
     },
@@ -7099,10 +7099,12 @@
         "value": 11,
         "percentage": 0.10613662678502508,
         "synsets": [
-            "haydenchristensen.s.1"
+            "haydenchristensen.s.1",
+            "hayden.s.1"
         ],
         "unique_synsets": [
-            "haydenchristensen.s.1"
+            "haydenchristensen.s.1",
+            "hayden.s.1"
         ]
     },
     {
@@ -7129,8 +7131,8 @@
             "poker.n.02"
         ],
         "unique_synsets": [
-            "poker.n.01",
-            "poker.n.02"
+            "poker.n.02",
+            "poker.n.01"
         ]
     }
 ]

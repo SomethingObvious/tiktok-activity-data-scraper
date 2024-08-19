@@ -40,6 +40,7 @@ class Hashtag:
         return max_word if max_word else None
 
     def apply_synsets(self, word):
+        # Check for exact word in custom_synsets
         if word in self.custom_synsets:
             custom_synsets = self.custom_synsets[word]
             for synset_name in custom_synsets:
@@ -48,12 +49,24 @@ class Hashtag:
                     self.unique_synsets.add(synset_name)
                     print(f"Added custom synset: {synset_name} to hashtag: {self.name}")
 
+        # Check for substrings in custom_synsets
+        for custom_word in self.custom_synsets:
+            if len(custom_word) > 5 and custom_word in word:
+                custom_synsets = self.custom_synsets[custom_word]
+                for synset_name in custom_synsets:
+                    if synset_name not in self.synsets:
+                        self.synsets.append(synset_name)
+                        self.unique_synsets.add(synset_name)
+                        print(f"Added custom synset: {synset_name} for substring: {custom_word} to hashtag: {self.name}")
+
+        # Apply WordNet synsets
         synsets = wordnet.synsets(word)
         for synset in synsets:
             synset_name = synset.name()
             if synset_name not in self.synsets:
                 self.synsets.append(synset_name)
                 self.unique_synsets.add(synset_name)
+
 
     def __repr__(self):
         return f"{self.name}: {self.value}, {self.percentage:.2f}%"

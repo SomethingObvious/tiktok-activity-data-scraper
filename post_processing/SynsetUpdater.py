@@ -100,8 +100,38 @@ def convert_to_lowercase(file_path):
     else:
         print("All words and synset keys are already in lowercase.")
 
+def remove_pronouns(file_path):
+    pronouns = {
+        "i", "me", "my", "mine", "myself",
+        "we", "us", "our", "ours", "ourselves",
+        "you", "your", "yours", "yourself", "yourselves",
+        "he", "him", "his", "himself",
+        "she", "her", "hers", "herself",
+        "it", "its", "itself",
+        "they", "them", "their", "theirs", "themselves",
+        "this", "that", "these", "those",
+        "all", "another", "any", "anybody", "anyone", "anything",
+        "both", "each", "either", "everybody", "everyone", "everything",
+        "few", "many", "most", "neither", "nobody", "none", "noone", "nothing",
+        "one", "other", "others", "several", "some", "somebody", "someone", "something",
+        "such", "who", "whom", "whose", "which", "what", "whatever", "whoever", "whomever", "whichever", "whomever"
+    }
+
+    custom_synsets = load_custom_synsets(file_path)
+    words_to_remove = [word for word in custom_synsets if word in pronouns]
+
+    if words_to_remove:
+        for word in words_to_remove:
+            del custom_synsets[word]
+            print(f"Removed pronoun: '{word}' from custom_synsets.")
+
+        save_custom_synsets(file_path, custom_synsets)
+        print("Updated custom_synsets.json after removing pronouns.")
+    else:
+        print("No pronouns were found in custom_synsets.")
+
 def main():
-    file_path = 'custom_synsets.json'
+    file_path = 'post_processing/custom_synsets.json'
     
     # Print initial size
     print_custom_synsets_size(file_path, "start")
@@ -120,6 +150,7 @@ def main():
     clean_punctuation(file_path)
     remove_short_words(file_path)
     convert_to_lowercase(file_path)
+    remove_pronouns(file_path)
     
     # Print final size
     print(f"Custom synsets size at start: {start}")

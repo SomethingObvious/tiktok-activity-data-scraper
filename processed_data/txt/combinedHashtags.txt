@@ -113,7 +113,6 @@ japan: 26, 0.25%
 comfortfood: 26, 0.25%
 videogames: 26, 0.25%
 aot: 26, 0.25%
-lgbt: 26, 0.25%
 midjourney: 26, 0.25%
 football: 25, 0.24%
 drummer: 25, 0.24%
@@ -221,6 +220,7 @@ electricguitar: 15, 0.14%
 emo: 14, 0.14%
 photoshop: 14, 0.14%
 america: 14, 0.14%
+lgbt: 14, 0.14%
 school: 14, 0.14%
 meow: 14, 0.14%
 cdawgva: 14, 0.14%
@@ -275,6 +275,7 @@ kitten: 12, 0.12%
 laufey: 12, 0.12%
 thehobbit: 12, 0.12%
 monacogp: 12, 0.12%
+lgbtq: 12, 0.12%
 vine: 12, 0.12%
 wow: 12, 0.12%
 rainbowdash: 12, 0.12%

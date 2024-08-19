@@ -2204,9 +2204,6 @@
     "mogwai": [
         "mogwai.s.1"
     ],
-    "this": [
-        "this.s.1"
-    ],
     "jesu": [
         "jesu.s.1"
     ],
@@ -14105,9 +14102,6 @@
     "falloutnewvegas": [
         "falloutnewvegas.s.1"
     ],
-    "hitman": [
-        "hitman:.s.1"
-    ],
     "thedeliciouslastcourse": [
         "thedeliciouslastcourse.s.1"
     ],
@@ -14218,5 +14212,8 @@
     ],
     "maxpayne3": [
         "maxpayne3.s.1"
+    ],
+    "lgbtq": [
+        "lgbtq.s.1"
     ]
 }

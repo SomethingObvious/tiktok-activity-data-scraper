@@ -1,35 +1,35 @@
 starwars overlaps with: starwarsfan, starwarstiktok
 formula1 overlaps with: formulaone
-guitar overlaps with: guitarhero, guitarcover, guitarsolo, guitartok, guitarra, guitarplayer
-metal overlaps with: babymetal_japan, babymetal, metaltok, metalcore, metalmusic, metallica
-music overlaps with: newmusic, livemusic, rockmusic, musica
-gaming overlaps with: gamingontiktok, game, pcgaming, games
-guitartok overlaps with: guitarhero, guitarcover, guitarplayer, guitarsolo, guitarra, guitar
+guitar overlaps with: guitarcover, guitarhero, guitartok, guitarsolo, guitarra, guitarplayer
+metal overlaps with: babymetal, babymetal_japan, metalcore, metaltok, metalmusic, metallica
+music overlaps with: rockmusic, newmusic, musica, livemusic
+gaming overlaps with: gamingontiktok, pcgaming, games, game
+guitartok overlaps with: guitarcover, guitarhero, guitar, guitarsolo, guitarra, guitarplayer
 3dprinting overlaps with: 3dprinted, 3dprint
 engineering overlaps with: technology, engineer, mechanicalengineering
 cosplay overlaps with: cosplayer
 satisfying overlaps with: satisfyingvideo
 catsoftiktok overlaps with: cats
 guitarist overlaps with: guitaristsoftiktok
-math overlaps with: mathematics, maths
+math overlaps with: maths, mathematics
 metalhead overlaps with: metalheads
 anakinskywalker overlaps with: lukeskywalker
-movie overlaps with: movietok, filmtok, movies, barbiemovie, film
-newmusic overlaps with: music, livemusic, rockmusic, musica
-metaltok overlaps with: babymetal_japan, babymetal, metalcore, metalmusic, metal, metallica
-guitarsolo overlaps with: guitarhero, guitarcover, guitarplayer, guitartok, guitarra, guitar
-starwarsfan overlaps with: starwars, starwarstiktok
+movie overlaps with: filmtok, movietok, movies, film, barbiemovie
+newmusic overlaps with: rockmusic, music, musica, livemusic
+metaltok overlaps with: babymetal, babymetal_japan, metalcore, metalmusic, metallica, metal
+guitarsolo overlaps with: guitarcover, guitarhero, guitar, guitartok, guitarra, guitarplayer
+starwarsfan overlaps with: starwarstiktok, starwars
 doctorwho overlaps with: doctorwhotiktok
-metallica overlaps with: babymetal_japan, babymetal, metaltok, metalcore, metalmusic, metal
+metallica overlaps with: babymetal, babymetal_japan, metalcore, metaltok, metalmusic, metal
 lordoftherings overlaps with: band
-starwarstiktok overlaps with: starwars, starwarsfan
+starwarstiktok overlaps with: starwarsfan, starwars
 drums overlaps with: drumming
 gamingontiktok overlaps with: game, pcgaming, games, gaming
 college overlaps with: collegelife
 powermetal overlaps with: powerwolf
 twitch overlaps with: cdawgvatwitch
 formulaone overlaps with: formula1
-3dprinted overlaps with: 3dprinting, 3dprint
+3dprinted overlaps with: 3dprint, 3dprinting
 musician overlaps with: musiciansoftiktok
 history overlaps with: story, storytime
 artist overlaps with: artistsoftiktok
@@ -37,15 +37,15 @@ cats overlaps with: catsoftiktok
 lego overlaps with: legostarwars
 streamer overlaps with: twitchstreamer
 queensuniversity overlaps with: university
-movies overlaps with: movietok, filmtok, barbiemovie, movie, film
+movies overlaps with: filmtok, movietok, film, barbiemovie, movie
 university overlaps with: queensuniversity
 spongebob overlaps with: spongebobsquarepants
-food overlaps with: foodtok, foodtiktok
-babymetal overlaps with: babymetal_japan, metaltok, metalcore, metalmusic, metal, metallica
+food overlaps with: foodtiktok, foodtok
+babymetal overlaps with: babymetal_japan, metalcore, metaltok, metalmusic, metallica, metal
 motorsport overlaps with: beamngdrive
 racing overlaps with: speed, redbullracing
 cover overlaps with: aicover
-game overlaps with: gamingontiktok, games, pcgaming, gaming, gamer
+game overlaps with: games, gaming, gamer, gamingontiktok, pcgaming
 redbullracing overlaps with: speed, racing
 space overlaps with: infinitecraft
 helldivers2 overlaps with: helldivers
@@ -55,35 +55,35 @@ drawing overlaps with: filmmaking
 warhammer40k overlaps with: warhammer
 adhd overlaps with: adhdtiktok
 computerscience overlaps with: computer
-technology overlaps with: mechanicalengineering, engineering
+technology overlaps with: engineering, mechanicalengineering
 sketch overlaps with: cartoon
-metalmusic overlaps with: babymetal_japan, babymetal, metaltok, metalcore, metal, metallica
+metalmusic overlaps with: babymetal, babymetal_japan, metalcore, metaltok, metallica, metal
 foodtok overlaps with: foodtiktok, food
-filmtok overlaps with: movietok, movies, barbiemovie, movie, film
+filmtok overlaps with: movietok, movies, film, barbiemovie, movie
 musiciansoftiktok overlaps with: musician
 eurovision overlaps with: eurovision2024
-guitarcover overlaps with: guitarhero, guitarplayer, guitarsolo, guitartok, guitarra, guitar
-metalcore overlaps with: babymetal_japan, babymetal, metaltok, metalmusic, metal, metallica
-3dprint overlaps with: 3dprinting, 3dprinted
+guitarcover overlaps with: guitarhero, guitar, guitartok, guitarsolo, guitarra, guitarplayer
+metalcore overlaps with: babymetal, babymetal_japan, metaltok, metalmusic, metallica, metal
+3dprint overlaps with: 3dprinted, 3dprinting
 powerwolf overlaps with: powermetal
-film overlaps with: movietok, filmtok, movies, barbiemovie, movie
-guitarra overlaps with: guitarhero, guitarcover, guitarplayer, guitarsolo, guitartok, guitar
-guitarplayer overlaps with: guitarhero, guitarcover, guitarsolo, guitartok, guitarra, guitar
+film overlaps with: filmtok, movietok, movies, barbiemovie, movie
+guitarra overlaps with: guitarcover, guitarhero, guitar, guitartok, guitarsolo, guitarplayer
+guitarplayer overlaps with: guitarcover, guitarhero, guitar, guitartok, guitarsolo, guitarra
 tech overlaps with: techtok
 cooking overlaps with: filmmaking
 speed overlaps with: redbullracing, racing
 storytime overlaps with: story, history
-filmmaking overlaps with: givesyouwiiings, cooking, drawing
-makeulaugh overlaps with: joke, jokes, trynottolaugh
-jokes overlaps with: joke, trynottolaugh, makeulaugh, prank
+filmmaking overlaps with: givesyouwiiings, drawing, cooking
+makeulaugh overlaps with: jokes, trynottolaugh, joke
+jokes overlaps with: prank, joke, trynottolaugh, makeulaugh
 satisfyingvideo overlaps with: satisfying
-pcgaming overlaps with: gamingontiktok, game, gaming, games
+pcgaming overlaps with: gamingontiktok, games, gaming, game
 eurovision2024 overlaps with: eurovision
 song overlaps with: vocaloid
-foodtiktok overlaps with: foodtok, food
+foodtiktok overlaps with: food, foodtok
 vocaloid overlaps with: song
-joke overlaps with: trynottolaugh, makeulaugh, jokes, prank
-livemusic overlaps with: music, rockmusic, newmusic, musica
+joke overlaps with: prank, jokes, trynottolaugh, makeulaugh
+livemusic overlaps with: rockmusic, newmusic, music, musica
 scottpilgrimvstheworld overlaps with: scottpilgrim, scottpilgrimtakesoff
 techtok overlaps with: tech
 doctorwhotiktok overlaps with: doctorwho
@@ -91,49 +91,47 @@ drumming overlaps with: drums
 cosplayer overlaps with: cosplay
 computer overlaps with: computerscience
 collegelife overlaps with: college
-guitarhero overlaps with: guitarcover, guitarplayer, guitarsolo, guitartok, guitarra, guitar
-givesyouwiiings overlaps with: aigenerated, filmmaking
+guitarhero overlaps with: guitarcover, guitar, guitartok, guitarsolo, guitarra, guitarplayer
+givesyouwiiings overlaps with: filmmaking, aigenerated
 infinitecraft overlaps with: space
 metalheads overlaps with: metalhead
-movietok overlaps with: filmtok, movies, barbiemovie, movie, film
-lgbt overlaps with: lgbtq
+movietok overlaps with: filmtok, movies, film, barbiemovie, movie
 helldivers overlaps with: helldivers2
 midjourney overlaps with: travel
 aigenerated overlaps with: givesyouwiiings
 gamer overlaps with: game
 warhammer overlaps with: warhammer40k
-rockmusic overlaps with: music, livemusic, newmusic, musica
+rockmusic overlaps with: newmusic, music, musica, livemusic
 band overlaps with: lordoftherings
-engineer overlaps with: mechanicalengineering, engineering
-games overlaps with: gamingontiktok, pcgaming, game, gaming
+engineer overlaps with: engineering, mechanicalengineering
+games overlaps with: gamingontiktok, pcgaming, gaming, game
 mario overlaps with: mariokart
-prank overlaps with: joke, jokes
+prank overlaps with: jokes, joke
 pets overlaps with: muppets
-mathematics overlaps with: math, maths
+mathematics overlaps with: maths, math
 guitaristsoftiktok overlaps with: guitarist
 adhdtiktok overlaps with: adhd
 poker overlaps with: pokertok
 british overlaps with: britishfood
-babymetal_japan overlaps with: babymetal, metaltok, metalcore, metalmusic, metal, metallica
+babymetal_japan overlaps with: babymetal, metalcore, metaltok, metalmusic, metallica, metal
 legostarwars overlaps with: lego
 clips overlaps with: cdawgvaclips
 aicover overlaps with: cover
-trynottolaugh overlaps with: joke, makeulaugh, jokes
-lgbtq overlaps with: lgbt
+trynottolaugh overlaps with: joke, jokes, makeulaugh
 beamngdrive overlaps with: motorsport
 muppets overlaps with: pets
 lukeskywalker overlaps with: anakinskywalker
 travel overlaps with: midjourney
-mechanicalengineering overlaps with: technology, engineer, engineering
-scottpilgrimtakesoff overlaps with: scottpilgrim, scottpilgrimvstheworld
+mechanicalengineering overlaps with: technology, engineering, engineer
+scottpilgrimtakesoff overlaps with: scottpilgrimvstheworld, scottpilgrim
 spongebobsquarepants overlaps with: spongebob
-barbiemovie overlaps with: movietok, filmtok, movies, movie, film
-musica overlaps with: music, livemusic, newmusic, rockmusic
+barbiemovie overlaps with: filmtok, movietok, movies, film, movie
+musica overlaps with: rockmusic, newmusic, music, livemusic
 britishfood overlaps with: british
 cdawgvatwitch overlaps with: twitch
 cdawgvaclips overlaps with: clips
 artistsoftiktok overlaps with: artist
-maths overlaps with: mathematics, math
+maths overlaps with: math, mathematics
 story overlaps with: history, storytime
 mariokart overlaps with: mario
 twitchstreamer overlaps with: streamer
