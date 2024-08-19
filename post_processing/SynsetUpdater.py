@@ -90,6 +90,20 @@ def remove_short_words(file_path):
     else:
         print("No short words were found to remove.")
 
+def remove_long_words(file_path):
+    custom_synsets = load_custom_synsets(file_path)
+    filtered_synsets = {word: synsets for word, synsets in custom_synsets.items() if len(word) <= 30}
+    
+    if len(filtered_synsets) < len(custom_synsets):
+        removed_words = set(custom_synsets) - set(filtered_synsets)
+        for word in removed_words:
+            print(f"Removed long word: '{word}' from custom_synsets.")
+        
+        save_custom_synsets(file_path, filtered_synsets)
+        print("Updated custom_synsets.json after removing long words.")
+    else:
+        print("No long words were found to remove.")
+
 def convert_to_lowercase(file_path):
     custom_synsets = load_custom_synsets(file_path)
     lowercased_synsets = {word.lower(): [s.lower() for s in synsets] for word, synsets in custom_synsets.items()}
@@ -149,6 +163,7 @@ def main():
     remove_existing_words(file_path)
     clean_punctuation(file_path)
     remove_short_words(file_path)
+    remove_long_words(file_path)
     convert_to_lowercase(file_path)
     remove_pronouns(file_path)
     
