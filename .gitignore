@@ -1,0 +1,5 @@
+# Ignore everything in the scraper_data folder
+scraper_data/
+
+# Ignore everything in the processed_data folder
+processed_data/
