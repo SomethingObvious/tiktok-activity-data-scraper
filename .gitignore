@@ -3,14 +3,6 @@
 
 # Ignore everything in the processed_data folder
 /processed_data/
-post_processing/custom_synsets.json
-processed_data/json/combinedHashtags.json
-processed_data/json/filteredHashtags.json
-processed_data/json/frequencies.json
-processed_data/json/hashtags.json
-processed_data/json/synsets.json
-processed_data/txt/combinedHashtags.txt
-processed_data/txt/frequencies.txt
-processed_data/txt/synsets.txt
-processed_data/txt/filteredHashtags.txt
-processed_data/txt/hashtags.txt
+
+# Ignore user's data
+user_data_tiktok.json

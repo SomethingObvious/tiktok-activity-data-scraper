@@ -8,9 +8,14 @@ from httpx import AsyncClient, Response, ReadTimeout
 from parsel import Selector
 from loguru import logger as log
 import re
+import os
 import time
 import bisect
 import datetime
+
+# Ensure the directories exist
+output_dir = "scraper_data/scraper_output"
+os.makedirs(output_dir, exist_ok=True)
 
 failed_post = 0
 max_retries = 3  # Maximum number of retries for each URL
@@ -153,7 +158,8 @@ async def scrape_posts(urls: List[str], favorite_video_ids: List[str], batch_siz
             await asyncio.sleep(batch_delay)
 
         try:
-            with open("post_data.json", "r", encoding="utf-8") as file:
+            output_file_path = os.path.join(output_dir, "post_data.json")
+            with open(output_file_path, "r", encoding="utf-8") as file:
                 existing_data = json.load(file)
         except (FileNotFoundError, json.JSONDecodeError):
             existing_data = []
@@ -161,7 +167,10 @@ async def scrape_posts(urls: List[str], favorite_video_ids: List[str], batch_siz
         log.success(f"Scraped {len(data)} posts from post pages")
     
     existing_data.extend(data)
-    with open("post_data.json", "w", encoding="utf-8") as file:
+    
+    # Write the combined data to the file in scraper_output folder
+    output_file_path = os.path.join(output_dir, "post_data.json")
+    with open(output_file_path, "w", encoding="utf-8") as file:
         json.dump(existing_data, file, indent=2, ensure_ascii=False)
 
     end_time = time.time()
@@ -170,8 +179,6 @@ async def scrape_posts(urls: List[str], favorite_video_ids: List[str], batch_siz
     log.info(f"Total Failed Scrapes : {failed_post}")
     return data
 
-
-
 async def run():
     start_time = time.time()
 
@@ -179,7 +186,9 @@ async def run():
 
     post_data = await scrape_posts(urls, favorite_video_ids)
     
-    with open("post_data.json", "w", encoding="utf-8") as file:
+    # Write the final post data to the scraper_output folder
+    output_file_path = os.path.join(output_dir, "post_data.json")
+    with open(output_file_path, "w", encoding="utf-8") as file:
         json.dump(post_data, file, indent=2, ensure_ascii=False)
 
     end_time = time.time()

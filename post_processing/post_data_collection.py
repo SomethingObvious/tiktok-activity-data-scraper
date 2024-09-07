@@ -74,8 +74,8 @@ def write_frequencies_to_json_files(frequencies: Dict[str, Counter], json_output
 def main(json_file_path: str) -> None:
     # Define the parent directory
     parent_dir = 'scraper_data'
-    text_output_dir = os.path.join(parent_dir, 'output_directory')
-    json_output_dir = os.path.join(parent_dir, 'json_output_directory')
+    text_output_dir = os.path.join(parent_dir, 'post_processing/output_directory')
+    json_output_dir = os.path.join(parent_dir, 'post_processing/json_output_directory')
     
     # Load data, count frequencies, and write them to text and JSON files
     data = load_json(json_file_path)
@@ -83,6 +83,6 @@ def main(json_file_path: str) -> None:
     write_frequencies_to_text_files(frequencies, text_output_dir)
     write_frequencies_to_json_files(frequencies, json_output_dir)
 
-# Replace 'your_file_path.json' with the path to your JSON file
-json_file_path = 'post_data.json'
+# Define the path to the JSON file in the new directory structure
+json_file_path = os.path.join('scraper_data', 'scraper_output', 'post_data.json')
 main(json_file_path)
