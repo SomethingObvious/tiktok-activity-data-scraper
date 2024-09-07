@@ -27,8 +27,13 @@ cd tiktok-activity-data-scraper
 
 Run the script:
 Within the myenv folder, run python tiktok_post_scraper.py 
-Wait until the program completes scraping.
-Then, run python post_data_collection.py 
+Wait until the program completes scraping. Raw post data will be in the scraper_output folder, which is itself under the scraper_data folder, as post_data.json.
+Then, run python post_data_collection.py within the post_processing folder.
+The collected post data will be under the post_processing folder, which is itself under the scraper_data folder. The collected post data is available as .txt or .json.
+Run python data_processor.py to gain additional insights into the post data, such as recurring themes within hashtags and how hashtags relate to each other via WordNet synsets.
+These additional insights are available under the processed_data folder as .txt and .json.
+Run python synset_updater.py to update the custom_synsets.json file to suit your needs.
+Run wordnet_search.py to check if a string already has an assigned synset via WordNet.
 
 post_data.json example : 
 {
@@ -61,13 +66,6 @@ post_data.json example :
       "cream cheese",
       "Cream Cheese Bagel",
       "bagel",
-      "food tiktoks",
-      "food tok",
-      "Bagel Bread",
-      "cheese",
-      "Bagel Cream Cheese Sandwich",
-      "Bagel Sandwich",
-      "Food TikTok Recipes"
     ],
     "contents": [
       {
@@ -95,9 +93,6 @@ Create your feature branch (git checkout -b feature/my-feature).
 Commit your changes (git commit -m 'Add new feature').
 Push to the branch (git push origin feature/my-feature).
 Open a pull request.
-
-License :
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 Contact :
 For questions or feedback, feel free to contact me via the GitHub repository.
