@@ -1,0 +1,7 @@
+httpx[http2]
+parsel
+jmespath
+loguru
+nltk
+tenacity
+tqdm
