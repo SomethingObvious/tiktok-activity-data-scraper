@@ -1,0 +1,35 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+myenv/
+.venv/
+.venv_tools/
+venv/
+env/
+Lib/
+Scripts/
+site-packages/
+pyvenv.cfg
+
+# Packaging
+*.egg-info/
+build/
+dist/
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# mypy / ruff caches
+.mypy_cache/
+.ruff_cache/
+
+# Project data dumps (scraper input/output, not source)
+/scraper_data/
+/processed_data/
+user_data_tiktok.json
