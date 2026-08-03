@@ -13,12 +13,15 @@ you can see what you actually watch.
 3. `post_processing/data_processor.py` takes the hashtag counts, filters out noise
    ("fyp", "viral", ...), looks up a WordNet synset for each hashtag, and merges
    hashtags that share a synset so `#cats` and `#kitten` end up in the same bucket.
-4. `post_processing/synset_updater.py` and `post_processing/wordnet_search.py` are
+4. `post_processing/report.py` turns those tables into a single self-contained
+   `processed_data/activity_report.html` — top creators, topic clusters, content
+   categories, and locations at a glance. This is the payoff step.
+5. `post_processing/synset_updater.py` and `post_processing/wordnet_search.py` are
    small helper scripts for maintaining `post_processing/custom_synsets.json`, which
    covers slang and names WordNet doesn't know about.
 
-All four steps run in that order and each one reads the previous step's output, so
-run them in sequence from the repo root (paths below assume that).
+Steps 1–4 run in that order and each one reads the previous step's output, so run
+them in sequence from the repo root (paths below assume that).
 
 ## Install
 
@@ -46,17 +49,49 @@ data, JSON format) — it can take a day or two to arrive.
 
 Run the steps in order from the repo root. Every script takes `--help`.
 
+### All at once
+
+`pipeline.py` runs the four steps below in sequence (stopping at the first
+failure), so a normal run is one command:
+
+```bash
+python pipeline.py --cookies cookies.txt            # scrape -> tally -> process -> report
+python pipeline.py --cookies cookies.txt --limit 500 --open   # cap the scrape, open the report
+python pipeline.py --skip-scrape                    # reprocess an existing scrape
+```
+
+Its flags (`--cookies`, `--limit`, `--min-percentage`, `--open`, `--skip-scrape`,
+`--verbose`) pass through to the relevant step. To run a single step, or for the
+full set of options, use the individual scripts below.
+
 ### 1. Scrape
 
 ```bash
-python tiktok_post_scraper.py               # scrape the whole Like List, resuming if interrupted
-python tiktok_post_scraper.py --limit 200   # only the 200 most recent likes
-python tiktok_post_scraper.py --no-resume   # ignore what's saved and re-scrape everything
+python tiktok_post_scraper.py --cookies cookies.txt   # scrape the whole Like List, resuming if interrupted
+python tiktok_post_scraper.py --cookies cookies.txt --limit 200   # only the 200 most recent likes
+python tiktok_post_scraper.py --no-resume             # ignore what's saved and re-scrape everything
 ```
 
 Other flags: `--input` (export path), `--output-dir`, `--batch-size` and
 `--batch-delay` (throttling), `--retries`, `--verbose`. A progress bar shows how
 far along the run is.
+
+**You almost certainly need `--cookies`.** TikTok fronts every post page with a
+WAF bot challenge — an anonymous request comes back as a "Please wait…" page
+with no post data (HTTP 200, so it isn't even an error). Give the scraper a
+logged-in browser session and it sails through:
+
+- **Cookie header:** open TikTok logged in, DevTools → Network → click any
+  request → copy the `Cookie:` request header. Pass it directly
+  (`--cookies "sessionid=…; ttwid=…"`) or save it to a file and pass the path.
+- **`cookies.txt`:** export with a "Get cookies.txt" browser extension and pass
+  the file — Netscape format is detected automatically.
+- **Env var:** set `TIKTOK_COOKIE` instead of passing `--cookies` (keeps the
+  secret off your shell history).
+
+If a run reports posts as "bot-challenged," your cookies are missing, expired, or
+you're being rate-limited — refresh them, lower `--batch-size`, or raise
+`--batch-delay`. Cookies are secrets; don't commit `cookies.txt` (it's gitignored).
 
 Runs are resumable. The output file is checkpointed every few batches, and on the
 next run the scraper skips any video ID it already saved, so a crash or a
@@ -90,7 +125,19 @@ python post_processing/data_processor.py --min-percentage 0.25 --verbose
 `--min-percentage` is the frequency cutoff (default 0.15% of posts). `--verbose`
 logs every synset match and merge.
 
-### 4. (optional) Maintain the custom synset list
+### 4. Build the activity report
+
+```bash
+python post_processing/report.py            # writes processed_data/activity_report.html
+python post_processing/report.py --open     # ...and open it in your browser
+```
+
+A single self-contained HTML page (no external assets, no JS, dark/light aware):
+posts analyzed, verified share, top creators, the merged topic clusters, TikTok's
+own content labels, top hashtags, and locations. It renders from whatever earlier
+steps have produced, so partial data still gives a partial report.
+
+### 5. (optional) Maintain the custom synset list
 
 ```bash
 python post_processing/synset_updater.py situationship rizz  # add words, then tidy the file
@@ -147,6 +194,10 @@ around TikTok's own throttling, only ways to stay under it.
 
 ## Limitations
 
+- TikTok gates post pages behind a WAF bot challenge. Supplying real browser
+  cookies (`--cookies`, above) gets past it, but cookies expire and heavy runs
+  can still be throttled — the scraper flags "bot-challenged" posts so you know
+  it's a session/rate issue, not a parser bug.
 - TikTok's page markup and internal JSON change without notice. When they do,
   `parse_post()` returns empty and logs an error; use `--parse-html` on a saved
   page to see what broke.
@@ -165,11 +216,14 @@ The pure logic has offline self-tests — no network, no live TikTok:
 python -c "import nltk; nltk.download('wordnet')"   # once, for the processor tests
 python test_scraper.py
 python test_data_processor.py
+python test_report.py
+python test_pipeline.py
 ```
 
-They cover URL/ID parsing, the post parser, hashtag filtering, WordNet matching,
-and the merge step. Live scraping isn't covered; exercise the parser with
-`--parse-html` instead.
+They cover URL/ID parsing, the post parser, cookie loading, bot-challenge
+detection, hashtag filtering, WordNet matching, the merge step, and the HTML
+report. Live scraping isn't covered; exercise the parser with `--parse-html`
+instead.
 
 ## Contributing
 

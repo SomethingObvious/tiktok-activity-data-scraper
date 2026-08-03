@@ -1,0 +1,31 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt ruff mypy
+      - name: Download WordNet
+        run: python -c "import nltk; nltk.download('wordnet', quiet=True)"
+      - name: Lint (ruff)
+        run: ruff check .
+      - name: Type-check (mypy)
+        run: mypy tiktok_post_scraper.py post_processing/ pipeline.py
+      - name: Tests
+        run: |
+          python test_scraper.py
+          python test_data_processor.py
+          python test_report.py
+          python test_pipeline.py

@@ -33,3 +33,7 @@ Thumbs.db
 /scraper_data/
 /processed_data/
 user_data_tiktok.json
+
+# Session cookies (secrets — never commit)
+cookies.txt
+*.cookies

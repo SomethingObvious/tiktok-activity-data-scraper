@@ -8,15 +8,19 @@ import argparse
 import asyncio
 import json
 import tempfile
+from collections import Counter
 from pathlib import Path
 
 import httpx
 
 from tiktok_post_scraper import (
+    _parse_cookie_header,
     _positive_int,
     _write_output,
     binary_search,
     fetch_and_parse,
+    is_challenge_page,
+    load_cookies,
     load_urls_and_favorites_from_json,
     parse_post,
     video_id_from_url,
@@ -89,6 +93,65 @@ def test_parse_post_extracts_fields() -> None:
 
 def test_parse_post_missing_script() -> None:
     assert parse_post("<html><body>no data here</body></html>", None) == {}
+
+
+CHALLENGE_HTML = (
+    '<html><body>Please wait... <p id="wci" class="_wafchallengeid"></p>'
+    '<script src="https://x/obj/waf-aiso/dd9808.js"></script></body></html>'
+)
+
+
+def test_is_challenge_page() -> None:
+    assert is_challenge_page(CHALLENGE_HTML)
+    assert not is_challenge_page("<html><body>a normal post page</body></html>")
+
+
+def test_parse_cookie_header() -> None:
+    assert _parse_cookie_header("sessionid=abc; ttwid=xyz==") == {
+        "sessionid": "abc",
+        "ttwid": "xyz==",  # opaque values (with '=') are kept verbatim
+    }
+    assert _parse_cookie_header("") == {}
+
+
+def test_load_cookies_from_netscape_file() -> None:
+    netscape = (
+        "# Netscape HTTP Cookie File\n"
+        ".tiktok.com\tTRUE\t/\tTRUE\t0\tsessionid\tsecret\n"
+    )
+    with tempfile.TemporaryDirectory() as tmp:
+        path = Path(tmp) / "cookies.txt"
+        path.write_text(netscape, encoding="utf-8")
+        jar = load_cookies(str(path))
+    assert any(c.name == "sessionid" and c.value == "secret" for c in jar)
+
+
+def test_fetch_and_parse_gives_up_fast_on_challenge() -> None:
+    # A WAF challenge (200, no post JSON) is counted and abandoned immediately --
+    # no retries, because a cookieless retry can't solve a JS challenge.
+    client = _FakeClient(status=200, text=CHALLENGE_HTML)
+    stats: Counter[str] = Counter()
+    result = asyncio.run(fetch_and_parse(client, "http://x/video/1", None, retries=3, stats=stats))
+    assert result == {}
+    assert client.calls == 1  # gave up without retrying
+    assert stats["blocked"] == 1
+
+
+def test_load_urls_builds_canonical_urls() -> None:
+    export = {
+        "Activity": {
+            "Like List": {
+                "ItemFavoriteList": [
+                    {"Date": "2024-05-02 10:00:00", "Link": "https://www.tiktokv.com/share/video/222/"}
+                ]
+            }
+        }
+    }
+    with tempfile.TemporaryDirectory() as tmp:
+        path = Path(tmp) / "export.json"
+        path.write_text(json.dumps(export), encoding="utf-8")
+        urls, _ = load_urls_and_favorites_from_json(str(path), limit=10)
+    assert urls == ["https://www.tiktok.com/@i/video/222"]
 
 
 def test_load_urls_and_favorites() -> None:
