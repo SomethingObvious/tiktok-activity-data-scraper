@@ -9,8 +9,8 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.11"
       - name: Install dependencies
@@ -24,8 +24,4 @@ jobs:
       - name: Type-check (mypy)
         run: mypy tiktok_post_scraper.py post_processing/ pipeline.py
       - name: Tests
-        run: |
-          python test_scraper.py
-          python test_data_processor.py
-          python test_report.py
-          python test_pipeline.py
+        run: for test in test_*.py; do python "$test"; done
