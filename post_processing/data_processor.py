@@ -240,11 +240,9 @@ def write_outputs(
         }
         for ht in filtered_by_value
     ]
-    # hashtags.json is the same table as filteredHashtags.json, under its old name.
-    for stem in ("filteredHashtags", "hashtags"):
-        _dump(json_dir / f"{stem}.json", filtered_data)
-        with (txt_dir / f"{stem}.txt").open("w", encoding="utf-8") as file:
-            file.writelines(f"{ht!r}\n" for ht in filtered_by_value)
+    _dump(json_dir / "filteredHashtags.json", filtered_data)
+    with (txt_dir / "filteredHashtags.txt").open("w", encoding="utf-8") as file:
+        file.writelines(f"{ht!r}\n" for ht in filtered_by_value)
 
     combined_by_value = sorted(combined.values(), key=lambda ht: ht.value, reverse=True)
     _dump(
