@@ -1,13 +1,11 @@
-"""Render the processed data into a single self-contained HTML activity report.
+"""Turn the count tables and topics into one HTML page you can open in a browser.
 
-Reads the frequency tables from ``post_data_collection.py`` and the merged topic
-buckets from ``data_processor.py`` and writes ``processed_data/activity_report.html``
--- a standalone page (no external assets, no JS) summarizing who and what you
-watch. This is the payoff step: the earlier stages leave raw JSON/txt tables;
-this turns them into something you'd actually look at.
+Reads the tables from post_data_collection.py and the topics from data_processor.py
+and writes processed_data/activity_report.html. The page has no scripts and loads
+nothing from the internet, and it shows whatever sections it has data for.
 
     python post_processing/report.py
-    python post_processing/report.py --open   # ...and open it in your browser
+    python post_processing/report.py --open
 """
 
 from __future__ import annotations
@@ -15,6 +13,7 @@ from __future__ import annotations
 import argparse
 import html
 import json
+import sys
 import webbrowser
 from pathlib import Path
 from typing import Any
@@ -31,12 +30,15 @@ def _load(path: Path) -> Any:
     try:
         with path.open(encoding="utf-8") as file:
             return json.load(file)
-    except (FileNotFoundError, json.JSONDecodeError):
+    except FileNotFoundError:
+        return None
+    except json.JSONDecodeError as exc:
+        log.warning(f"Left {path.name} out of the report, as it isn't valid JSON ({exc})")
         return None
 
 
 def _top_items(counts: dict[str, Any] | None, limit: int = TOP_N) -> list[tuple[str, int]]:
-    """Top ``limit`` (name, count) pairs from a frequency dict, highest first."""
+    """The biggest (name, count) pairs, largest first."""
     if not counts:
         return []
     pairs = [(str(name), int(value)) for name, value in counts.items() if name]
@@ -45,9 +47,9 @@ def _top_items(counts: dict[str, Any] | None, limit: int = TOP_N) -> list[tuple[
 
 
 def _bars(items: list[tuple[str, int]], total: int | None = None) -> str:
-    """Render (name, count) pairs as horizontal bar rows scaled to the largest."""
+    """Bar rows scaled to the largest count, with a share of total when it's given."""
     if not items:
-        return '<p class="empty">No data for this section.</p>'
+        return '<p class="empty">There\'s nothing to show here yet.</p>'
     top = max(value for _, value in items) or 1
     rows = []
     for name, value in items:
@@ -61,7 +63,7 @@ def _bars(items: list[tuple[str, int]], total: int | None = None) -> str:
             f'<span class="count">{value:,}{share}</span>'
             "</div>"
         )
-    return "\n".join(rows)
+    return '<div class="bars">' + "\n".join(rows) + "</div>"
 
 
 def _section(title: str, subtitle: str, body: str) -> str:
@@ -79,10 +81,7 @@ def _stat(value: str, label: str) -> str:
 
 
 def build_html(counts_dir: Path, processed_dir: Path) -> str | None:
-    """Assemble the report HTML from whatever step outputs are present.
-
-    Returns ``None`` if nothing is available yet (the earlier steps haven't run).
-    """
+    """Build the page from whatever step outputs exist, or None if there are none yet."""
     creators = _load(counts_dir / "uniqueId.json")
     locations = _load(counts_dir / "locationCreated.json")
     verified = _load(counts_dir / "verified.json") or {}
@@ -94,14 +93,16 @@ def build_html(counts_dir: Path, processed_dir: Path) -> str | None:
         return None
 
     verified_true = int(verified.get("true", 0))
-    verified_false = int(verified.get("false", 0))
-    total_posts = verified_true + verified_false or sum(int(v) for v in (creators or {}).values())
+    total_posts = verified_true + int(verified.get("false", 0)) or sum(
+        int(v) for v in (creators or {}).values()
+    )
     verified_pct = verified_true / total_posts * 100 if total_posts else 0.0
-    top_location = _top_items(locations, 1)
+    known_locations = {k: v for k, v in (locations or {}).items() if k != "Unknown"}
+    top_location = _top_items(known_locations, 1)
 
     stats = [
         _stat(f"{total_posts:,}", "posts analyzed"),
-        _stat(f"{len(creators or {}):,}", "distinct creators"),
+        _stat(f"{len(creators or {}):,}", "different creators"),
         _stat(f"{verified_pct:.0f}%", "from verified accounts"),
     ]
     if top_location:
@@ -109,50 +110,53 @@ def build_html(counts_dir: Path, processed_dir: Path) -> str | None:
 
     sections = []
     if combined:
-        topic_items = [(str(bucket["name"]), int(bucket["value"])) for bucket in combined[:TOP_N]]
+        topics = [(str(bucket["name"]), int(bucket["value"])) for bucket in combined[:TOP_N]]
         sections.append(
             _section(
-                "Top topics",
-                "Hashtags merged by shared WordNet meaning -- the clusters of what you watch.",
-                _bars(topic_items, total_posts),
+                "Top Topics",
+                "Hashtags grouped by what they mean, named after the most used one. A post with "
+                "two tags from one topic counts twice, so these are tag uses rather than posts.",
+                _bars(topics),
             )
         )
     if creators:
         sections.append(
-            _section("Top creators", "Accounts you liked most.", _bars(_top_items(creators)))
+            _section(
+                "Top Creators", "The accounts you liked the most.", _bars(_top_items(creators))
+            )
         )
     if labels:
         sections.append(
             _section(
-                "Content categories",
-                "TikTok's own labels for the posts you liked.",
+                "Content Categories",
+                "TikTok's own labels for the posts you liked, as a share of all of them.",
                 _bars(_top_items(labels), total_posts),
             )
         )
     if hashtags:
         sections.append(
-            _section("Top hashtags", "Raw hashtags, before merging.", _bars(_top_items(hashtags)))
+            _section("Top Hashtags", "Hashtags as they were written.", _bars(_top_items(hashtags)))
         )
     if locations:
         sections.append(
-            _section("Locations", "Where the posts were created.", _bars(_top_items(locations)))
+            _section("Locations", "Where the posts were made.", _bars(_top_items(locations)))
         )
 
     return _TEMPLATE.format(stats="\n".join(stats), sections="\n".join(sections))
 
 
 def generate(counts_dir: Path, processed_dir: Path, output: Path, *, open_browser: bool) -> bool:
-    """Write the report to ``output``. Returns False if there was nothing to render."""
+    """Write the report to output. Returns False if there was nothing to put in it."""
     page = build_html(counts_dir, processed_dir)
     if page is None:
         log.error(
-            "No processed data found. Run the scrape, post_data_collection.py, and "
-            "data_processor.py steps first (see the README)."
+            f"There's nothing in {counts_dir} or {processed_dir} to report on yet. "
+            "Run the scrape, post_data_collection.py and data_processor.py first."
         )
         return False
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(page, encoding="utf-8")
-    log.success(f"Wrote activity report to {output}")
+    log.info(f"Wrote the report to {output}")
     if open_browser:
         webbrowser.open(output.resolve().as_uri())
     return True
@@ -187,12 +191,15 @@ _TEMPLATE = """<!doctype html>
     padding:20px 22px; margin-bottom:18px; }}
   .card h2 {{ font-size:1.1rem; margin:0 0 2px; }}
   .card .sub {{ color:var(--muted); font-size:.85rem; margin:0 0 16px; }}
-  .row {{ display:grid; grid-template-columns:minmax(0,1fr) 2fr auto; align-items:center;
-    gap:12px; padding:4px 0; font-size:.9rem; }}
+  /* One grid for the whole card, so the bars line up however wide the counts get. */
+  .bars {{ display:grid; grid-template-columns:minmax(0,1fr) 2fr auto; align-items:center;
+    gap:8px 12px; font-size:.9rem; }}
+  .row {{ display:contents; }}
   .label {{ overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }}
   .track {{ background:var(--track); border-radius:999px; height:9px; overflow:hidden; }}
   .fill {{ display:block; height:100%; background:var(--accent); border-radius:999px; }}
-  .count {{ color:var(--muted); font-variant-numeric:tabular-nums; white-space:nowrap; }}
+  .count {{ color:var(--muted); font-variant-numeric:tabular-nums; white-space:nowrap;
+    text-align:right; }}
   .empty {{ color:var(--muted); font-style:italic; }}
   footer {{ color:var(--muted); font-size:.8rem; text-align:center; margin-top:32px; }}
 </style>
@@ -201,13 +208,13 @@ _TEMPLATE = """<!doctype html>
 <div class="wrap">
 <header>
   <h1>Your TikTok Activity</h1>
-  <p>What you actually watch, from the posts you liked and favorited.</p>
+  <p>What you watch, going by the posts you liked.</p>
 </header>
 <div class="stats">
 {stats}
 </div>
 {sections}
-<footer>Generated locally from your own TikTok data export. Nothing left your machine.</footer>
+<footer>Built on your own computer from your TikTok data export.</footer>
 </div>
 </body>
 </html>
@@ -217,24 +224,26 @@ _TEMPLATE = """<!doctype html>
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument(
-        "--counts-dir", default=str(DEFAULT_COUNTS_DIR), help="post_data_collection JSON dir"
+        "--counts-dir", default=str(DEFAULT_COUNTS_DIR), help="the JSON tables from the count step"
     )
     parser.add_argument(
-        "--processed-dir", default=str(DEFAULT_PROCESSED_DIR), help="data_processor output dir"
+        "--processed-dir", default=str(DEFAULT_PROCESSED_DIR), help="data_processor.py's output"
     )
-    parser.add_argument("--output", default=str(DEFAULT_OUTPUT), help="where to write the report")
-    parser.add_argument("--open", action="store_true", help="open the report in a browser")
+    parser.add_argument("--output", default=str(DEFAULT_OUTPUT), help="where the page goes")
+    parser.add_argument("--open", action="store_true", help="open the page in your browser")
     return parser.parse_args(argv)
 
 
 def main(argv: list[str] | None = None) -> None:
     args = parse_args(argv)
-    generate(
+    written = generate(
         Path(args.counts_dir),
         Path(args.processed_dir),
         Path(args.output),
         open_browser=args.open,
     )
+    if not written:
+        sys.exit(1)
 
 
 if __name__ == "__main__":

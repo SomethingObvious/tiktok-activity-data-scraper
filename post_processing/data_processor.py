@@ -1,11 +1,10 @@
-"""Filter, WordNet-tag, and merge the hashtag frequency table.
+"""Tag each hashtag with a WordNet meaning and group the ones that mean the same thing.
 
-Takes the hashtag counts from ``post_data_collection.py``, drops generic/spam
-tags and anything below a frequency threshold, looks up a WordNet synset for
-each remaining hashtag (plus a hand-curated ``custom_synsets.json`` for slang and
-names WordNet doesn't know), and merges hashtags that share a synset so ``#cats``
-and ``#kitten`` land in the same bucket. Writes JSON and plain-text reports under
-``processed_data/``.
+Takes the hashtag counts from post_data_collection.py, drops filler tags like #fyp
+and anything too rare to matter, then looks up each tag's meaning in WordNet (or in
+custom_synsets.json for slang and names WordNet hasn't heard of). Tags that share a
+main meaning, like #cat and #cats, end up in one topic. The results go to
+processed_data/ as JSON and text.
 
     python post_processing/data_processor.py
     python post_processing/data_processor.py --min-percentage 0.25 --verbose
@@ -22,6 +21,7 @@ from functools import cache
 from pathlib import Path
 from typing import Any
 
+import nltk
 from loguru import logger as log
 from nltk.corpus import wordnet
 from nltk.stem import WordNetLemmatizer
@@ -33,36 +33,55 @@ DEFAULT_CUSTOM_SYNSETS = Path("post_processing/custom_synsets.json")
 DEFAULT_OUTPUT_DIR = Path("processed_data")
 DEFAULT_MIN_PERCENTAGE = 0.15
 
-# Generic/spam hashtags that carry no topical meaning.
-NOISE_HASHTAGS = re.compile(
-    r"fyp|foryou|funny|viral|xyz|stich|comedy|meme|greenscreen|skit|trend|"
-    r"stitch|duet|relatable|blowthisup|edit",
-    re.IGNORECASE,
-)
+NOISE_WORDS = frozenset(
+    {
+        "fyp", "fy", "foryou", "funny", "viral", "xyz", "stich", "stitch", "comedy", "meme",
+        "greenscreen", "skit", "trend", "duet", "relatable", "blowthisup", "edit",
+    }
+)  # fmt: skip
+NOISE_PATTERN = re.compile("|".join(sorted(NOISE_WORDS - {"fy"})))
 
 _LEMMATIZER = WordNetLemmatizer()
 
 
 @cache
 def synsets_for(word: str) -> tuple[str, ...]:
-    """WordNet synset names for a word (cached; WordNet applies its own Morphy)."""
+    """WordNet synset names for a word, most common sense first."""
     return tuple(synset.name() for synset in wordnet.synsets(word))
 
 
 @cache
 def lemmatize(word: str) -> str:
-    """Reduce a word to its noun (then verb) lemma.
+    """Reduce a word to its noun lemma, or its verb lemma if it has no noun form.
 
-    Unlike WordNet's built-in Morphy, this also lets an inflected hashtag match a
-    singular key in ``custom_synsets.json`` (e.g. "cats" -> "cat"), which is a
-    plain dict lookup that never goes through Morphy.
+    WordNet already handles "cats" itself, but custom_synsets.json is a plain dict
+    lookup, so this is what lets #cats find a custom entry for "cat".
     """
     noun = _LEMMATIZER.lemmatize(word, pos="n")
     return noun if noun != word else _LEMMATIZER.lemmatize(word, pos="v")
 
 
+def is_noise(name: str) -> bool:
+    """True for filler tags like #fyp, #edits or #animeedit, but not for #meditation."""
+    name = name.lower()
+    matches = list(NOISE_PATTERN.finditer(name))
+    if not matches:
+        return name in NOISE_WORDS
+    # #meditation and #creditcard have "edit" in them too, so a filler word only
+    # counts when it isn't part of some longer real word in the tag.
+    return any(not _inside_real_word(name, m.start(), m.end()) for m in matches)
+
+
+def _inside_real_word(name: str, start: int, end: int) -> bool:
+    return any(
+        synsets_for(name[a:b]) and lemmatize(name[a:b]) not in NOISE_WORDS
+        for a in range(start + 1)
+        for b in range(end, len(name) + 1)
+    )
+
+
 class Hashtag:
-    """A hashtag plus the WordNet/custom synsets it matches."""
+    """A hashtag, how many posts used it, and the synsets it matched."""
 
     def __init__(self, name: str, value: int, percentage: float = 0.0) -> None:
         self.name = name
@@ -84,144 +103,113 @@ class Hashtag:
             self.apply_synsets(word, custom_synsets)
 
     def apply_synsets(self, word: str, custom_synsets: dict[str, list[str]]) -> None:
-        # Exact custom match on the surface form or its lemma.
         lemma = lemmatize(word)
-        for key in [word, lemma] if lemma != word else [word]:
+        for key in dict.fromkeys([word, lemma]):
             for synset_name in custom_synsets.get(key, []):
                 if self._add(synset_name):
-                    log.debug(f"custom synset {synset_name} -> #{self.name}")
+                    log.debug(f"#{self.name} gets custom synset {synset_name}")
 
-        # Custom entries that appear as a substring of the word.
+        # Longer custom words inside this one, like "britishcolumbia" in a travel tag.
         for custom_word, names in custom_synsets.items():
             if len(custom_word) > 5 and custom_word in word:
                 for synset_name in names:
                     if self._add(synset_name):
-                        log.debug(f"custom synset {synset_name} ({custom_word}) -> #{self.name}")
+                        log.debug(f"#{self.name} gets custom synset {synset_name} ({custom_word})")
 
-        # WordNet synsets.
         for synset_name in synsets_for(word):
             self._add(synset_name)
+
+    def topic(self) -> str:
+        """The meaning this tag gets grouped by, which is its first synset if it has one."""
+        return self.synsets[0] if self.synsets else f"#{self.name}"
 
     def __repr__(self) -> str:
         return f"{self.name}: {self.value}, {self.percentage:.2f}%"
 
 
 def extract_largest_word(name: str, custom_synsets: dict[str, list[str]]) -> str | None:
-    """Longest substring (>=4 chars) of ``name`` that WordNet or the custom list knows.
+    """Longest piece of a hashtag that WordNet or the custom list knows, or None.
 
-    Hashtags are run-together words ("guitarpedals"), so this finds the longest
-    embedded real word to tag on.
+    Hashtags run words together ("guitarpedals"), so this looks for the longest word
+    inside. Pieces shorter than 4 letters only count when they're the whole tag, as
+    "guitarpedals" is full of short junk like "tar" and "als".
     """
-    max_word = ""
-    length = len(name)
-    for start in range(length):
-        for end in range(start + 4, length + 1):
-            substring = name[start:end]
-            if len(substring) <= len(max_word):
-                continue
-            if (
-                synsets_for(substring)
-                or substring in custom_synsets
-                or lemmatize(substring) in custom_synsets
-            ):
-                max_word = substring
-    return max_word or None
+    for size in range(len(name), min(4, len(name)) - 1, -1):
+        for start in range(len(name) - size + 1):
+            piece = name[start : start + size]
+            if synsets_for(piece) or piece in custom_synsets or lemmatize(piece) in custom_synsets:
+                return piece
+    return None
 
 
 def load_custom_synsets(path: Path) -> dict[str, list[str]]:
-    if path.exists():
-        with path.open(encoding="utf-8") as file:
-            result: dict[str, list[str]] = json.load(file)
-            return result
-    log.warning(f"No custom synsets at {path}")
-    return {}
+    if not path.exists():
+        log.warning(f"There's no {path}, so slang and names won't get a meaning")
+        return {}
+    with path.open(encoding="utf-8") as file:
+        custom: dict[str, list[str]] = json.load(file)
+    return custom
 
 
 def load_hashtags(path: Path) -> list[Hashtag]:
-    hashtags: list[Hashtag] = []
     with path.open(encoding="utf-8") as file:
         data = json.load(file)
+    hashtags = []
     for name, value in data.items():
         if not name:
             continue
         try:
             hashtags.append(Hashtag(name, int(value)))
         except ValueError:
-            log.warning(f"Skipping entry due to invalid value: {name}: {value}")
+            log.warning(f"Skipped #{name}, as its count {value!r} isn't a number")
     return hashtags
 
 
 def read_verified_count(path: Path) -> int:
-    """Total post count = sum of the verified/unverified tallies."""
+    """Total posts, which is the verified and unverified counts added together."""
     with path.open(encoding="utf-8") as file:
-        return sum(int(line.strip().split(": ")[1]) for line in file)
+        return sum(int(line.rsplit(": ", 1)[1]) for line in file if line.strip())
 
 
 def filter_and_score(
     hashtags: list[Hashtag], total_posts: int, min_percentage: float
 ) -> list[Hashtag]:
-    """Drop noise and low-frequency tags, then renormalize percentages to 100%."""
-    kept = [ht for ht in hashtags if not NOISE_HASHTAGS.search(ht.name) and ht.name.lower() != "fy"]
-
+    """Drop filler and rare tags, then scale what's left so the percentages add up to 100."""
+    kept = [ht for ht in hashtags if not is_noise(ht.name)]
     for ht in kept:
-        ht.percentage = (ht.value / total_posts) * 100 if total_posts else 0.0
+        ht.percentage = ht.value / total_posts * 100 if total_posts else 0.0
     kept = [ht for ht in kept if ht.percentage >= min_percentage]
 
     total = sum(ht.percentage for ht in kept)
     if total:
         for ht in kept:
-            ht.percentage = (ht.percentage / total) * 100
+            ht.percentage = ht.percentage / total * 100
     return kept
 
 
 def combine_hashtags(hashtags: list[Hashtag]) -> dict[str, Hashtag]:
-    """Merge hashtags into buckets by shared synset (connected components).
+    """Group hashtags by their main meaning, each group named after its biggest tag.
 
-    Two hashtags that share any synset land in the same bucket, transitively:
-    if #cat shares a synset with #kitten and #kitten with #feline, all three
-    merge. Each bucket is named after its highest-count member and carries the
-    sum of its members' value/percentage and the union of their synsets, so no
-    value is dropped or double-counted.
+    Only the first synset counts. Grouping on any shared sense chains through the rare
+    ones, so #dog would end up in the same topic as #running by way of #track.
     """
-    parent = {ht.name: ht.name for ht in hashtags}
-
-    def find(name: str) -> str:
-        root = name
-        while parent[root] != root:
-            root = parent[root]
-        while parent[name] != root:  # path compression
-            parent[name], name = root, parent[name]
-        return root
-
-    def union(a: str, b: str) -> None:
-        parent[find(a)] = find(b)
-
-    # Link every pair of hashtags that share a synset, via a synset -> names index.
-    by_synset: defaultdict[str, list[str]] = defaultdict(list)
-    for ht in hashtags:
-        for synset in ht.unique_synsets:
-            by_synset[synset].append(ht.name)
-    for names in by_synset.values():
-        first = names[0]
-        for other in names[1:]:
-            log.debug(f"Combining {first} with {other}")
-            union(first, other)
-
     groups: defaultdict[str, list[Hashtag]] = defaultdict(list)
     for ht in hashtags:
-        groups[find(ht.name)].append(ht)
+        groups[ht.topic()].append(ht)
 
     combined: dict[str, Hashtag] = {}
     for members in groups.values():
-        winner = max(members, key=lambda ht: ht.value)
+        biggest = max(members, key=lambda ht: ht.value)
         bucket = Hashtag(
-            name=winner.name,
+            name=biggest.name,
             value=sum(ht.value for ht in members),
             percentage=sum(ht.percentage for ht in members),
         )
         for ht in members:
             bucket.unique_synsets.update(ht.unique_synsets)
-        combined[winner.name] = bucket
+        if len(members) > 1:
+            log.debug(f"Grouped {', '.join(ht.name for ht in members)} under {biggest.topic()}")
+        combined[biggest.name] = bucket
     return combined
 
 
@@ -236,7 +224,6 @@ def write_outputs(
     output_dir: Path,
     total_posts: int,
 ) -> None:
-    """Write every JSON and text report to ``output_dir``."""
     json_dir = output_dir / "json"
     txt_dir = output_dir / "txt"
     json_dir.mkdir(parents=True, exist_ok=True)
@@ -253,72 +240,73 @@ def write_outputs(
         }
         for ht in filtered_by_value
     ]
-    # filteredHashtags and hashtags hold the same table (kept for compatibility).
+    # hashtags.json is the same table as filteredHashtags.json, under its old name.
     for stem in ("filteredHashtags", "hashtags"):
         _dump(json_dir / f"{stem}.json", filtered_data)
         with (txt_dir / f"{stem}.txt").open("w", encoding="utf-8") as file:
-            for ht in filtered_by_value:
-                file.write(f"{ht.name}: {ht.value}, {ht.percentage:.2f}%\n")
+            file.writelines(f"{ht!r}\n" for ht in filtered_by_value)
 
-    combined_data = [
-        {
-            "name": ht.name,
-            "value": ht.value,
-            "percentage": ht.percentage,
-            "synsets": list(ht.unique_synsets),
-        }
-        for ht in sorted(combined.values(), key=lambda ht: ht.value, reverse=True)
-    ]
-    _dump(json_dir / "combinedHashtags.json", combined_data)
+    combined_by_value = sorted(combined.values(), key=lambda ht: ht.value, reverse=True)
+    _dump(
+        json_dir / "combinedHashtags.json",
+        [
+            {
+                "name": ht.name,
+                "value": ht.value,
+                "percentage": ht.percentage,
+                "synsets": list(ht.unique_synsets),
+            }
+            for ht in combined_by_value
+        ],
+    )
     with (txt_dir / "combinedHashtags.txt").open("w", encoding="utf-8") as file:
-        for item in combined_data:
-            file.write(f"{item['name']}: {item['value']}, {item['percentage']:.2f}%\n")
+        file.writelines(f"{ht!r}\n" for ht in combined_by_value)
 
-    # Per-synset frequencies, sorted by combined value.
     synsets_data: defaultdict[str, dict[str, Any]] = defaultdict(
-        lambda: {"count": 0, "hashtags": defaultdict(int), "combined_value": 0}
+        lambda: {"count": 0, "hashtags": {}, "combined_value": 0}
     )
     for ht in filtered:
         for synset in ht.unique_synsets:
-            synsets_data[synset]["count"] += 1
-            synsets_data[synset]["hashtags"][ht.name] += ht.value
-            synsets_data[synset]["combined_value"] += ht.value
-    sorted_synsets = dict(
-        sorted(synsets_data.items(), key=lambda item: item[1]["combined_value"], reverse=True)
+            entry = synsets_data[synset]
+            entry["count"] += 1
+            entry["hashtags"][ht.name] = ht.value
+            entry["combined_value"] += ht.value
+    sorted_synsets = sorted(
+        synsets_data.items(), key=lambda item: item[1]["combined_value"], reverse=True
     )
     _dump(
         json_dir / "frequencies.json",
         {
             synset: {
                 "frequency": data["count"],
-                "hashtags": dict(data["hashtags"]),
+                "hashtags": data["hashtags"],
                 "total_combined_value": data["combined_value"],
             }
-            for synset, data in sorted_synsets.items()
+            for synset, data in sorted_synsets
         },
     )
     with (txt_dir / "frequencies.txt").open("w", encoding="utf-8") as file:
-        for synset, data in sorted_synsets.items():
+        for synset, data in sorted_synsets:
             hashtags_list = ", ".join(f"{n}: {v}" for n, v in data["hashtags"].items())
-            count, value = data["count"], data["combined_value"]
-            file.write(f"{synset}: {count} Total Combined Value: {value}\n")
+            file.write(
+                f"{synset}: {data['count']} Total Combined Value: {data['combined_value']}\n"
+            )
             file.write(f"  Hashtags: {hashtags_list}\n")
 
-    # Which hashtags share a synset with which.
     overlapping: defaultdict[str, set[str]] = defaultdict(set)
     for ht1 in filtered:
         for ht2 in filtered:
             if ht1.name != ht2.name and ht1.unique_synsets & ht2.unique_synsets:
                 overlapping[ht1.name].add(ht2.name)
-    _dump(json_dir / "synsets.json", {k: list(v) for k, v in overlapping.items()})
+    _dump(json_dir / "synsets.json", {k: sorted(v) for k, v in overlapping.items()})
     with (txt_dir / "synsets.txt").open("w", encoding="utf-8") as file:
-        for ht1_name, overlaps in overlapping.items():
-            file.write(f"{ht1_name} overlaps with: {', '.join(overlaps)}\n")
+        for name, overlaps in overlapping.items():
+            file.write(f"{name} overlaps with: {', '.join(sorted(overlaps))}\n")
 
-    total_value = sum(ht.value for ht in filtered)
-    log.info(f"Filtered to {len(filtered)} hashtags, merged into {len(combined)} buckets")
-    log.info(f"Total combined value of filtered hashtags: {total_value}")
-    log.info(f"Total post count: {total_posts}")
+    log.info(
+        f"Kept {len(filtered)} hashtags from {total_posts} posts and grouped them into "
+        f"{len(combined)} topics in {output_dir}"
+    )
 
 
 def process(
@@ -333,11 +321,19 @@ def process(
     total_posts = read_verified_count(verified_path)
 
     filtered = filter_and_score(hashtags, total_posts, min_percentage)
-    for ht in tqdm(filtered, desc="matching synsets", unit="tag"):
+    for ht in tqdm(filtered, desc="Matching synsets", unit="tag"):
         ht.add_synsets(custom_synsets)
 
     combined = combine_hashtags(filtered)
     write_outputs(filtered, combined, output_dir, total_posts)
+
+
+def ensure_wordnet() -> None:
+    try:
+        wordnet.ensure_loaded()
+    except LookupError:
+        log.info("Downloading the WordNet corpus, which only happens once")
+        nltk.download("wordnet", quiet=True)
 
 
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
@@ -347,14 +343,16 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser.add_argument(
         "--custom-synsets", default=str(DEFAULT_CUSTOM_SYNSETS), help="custom_synsets.json"
     )
-    parser.add_argument("--output-dir", default=str(DEFAULT_OUTPUT_DIR), help="report directory")
+    parser.add_argument(
+        "--output-dir", default=str(DEFAULT_OUTPUT_DIR), help="where the results go"
+    )
     parser.add_argument(
         "--min-percentage",
         type=float,
         default=DEFAULT_MIN_PERCENTAGE,
-        help="drop hashtags below this %% of posts",
+        help="drop hashtags on fewer than this %% of posts (default %(default)s)",
     )
-    parser.add_argument("--verbose", action="store_true", help="debug logging")
+    parser.add_argument("--verbose", action="store_true", help="log every synset match and group")
     return parser.parse_args(argv)
 
 
@@ -362,13 +360,18 @@ def main(argv: list[str] | None = None) -> None:
     args = parse_args(argv)
     log.remove()
     log.add(sys.stderr, level="DEBUG" if args.verbose else "INFO")
-    process(
-        Path(args.input),
-        Path(args.verified),
-        Path(args.custom_synsets),
-        Path(args.output_dir),
-        args.min_percentage,
-    )
+    ensure_wordnet()
+    try:
+        process(
+            Path(args.input),
+            Path(args.verified),
+            Path(args.custom_synsets),
+            Path(args.output_dir),
+            args.min_percentage,
+        )
+    except FileNotFoundError as exc:
+        log.error(f"Couldn't find {exc.filename}. Run post_data_collection.py first.")
+        sys.exit(1)
 
 
 if __name__ == "__main__":

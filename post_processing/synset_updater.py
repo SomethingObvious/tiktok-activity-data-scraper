@@ -1,12 +1,11 @@
-"""Maintain ``custom_synsets.json``: add slang/names and tidy the list.
+"""Add slang and names to custom_synsets.json and tidy up the list.
 
-Adds any words you pass on the command line (each gets a placeholder
-``word.s.1`` synset), then runs the cleanup passes: drop words WordNet already
-knows, strip punctuation, drop words shorter than 4 or longer than 30 chars,
-lowercase everything, and drop pronouns/determiners.
+Each word you pass gets a placeholder synset like ``rizz.s.1``. Then every key is
+lowercased and stripped of punctuation, and the entries that are too short, too
+long, pronouns, or already in WordNet get dropped, since those need no custom entry.
 
     python post_processing/synset_updater.py situationship rizz
-    python post_processing/synset_updater.py            # just run the cleanup passes
+    python post_processing/synset_updater.py
 """
 
 from __future__ import annotations
@@ -21,6 +20,8 @@ from loguru import logger as log
 from nltk.corpus import wordnet as wn
 
 DEFAULT_FILE = Path("post_processing/custom_synsets.json")
+MIN_LENGTH = 4
+MAX_LENGTH = 30
 
 PRONOUNS = {
     "i", "me", "my", "mine", "myself", "we", "us", "our", "ours", "ourselves",
@@ -35,108 +36,59 @@ PRONOUNS = {
 }  # fmt: skip
 
 
-def load_custom_synsets(file_path: Path) -> dict[str, list[str]]:
-    if file_path.exists():
-        with file_path.open(encoding="utf-8") as file:
-            result: dict[str, list[str]] = json.load(file)
-            return result
-    return {}
-
-
-def save_custom_synsets(file_path: Path, custom_synsets: dict[str, list[str]]) -> None:
-    with file_path.open("w", encoding="utf-8") as file:
-        json.dump(custom_synsets, file, ensure_ascii=False, indent=4)
-
-
-def add_synsets(words: list[str], file_path: Path) -> None:
-    custom_synsets = load_custom_synsets(file_path)
-    added = False
+def add_words(custom: dict[str, list[str]], words: list[str]) -> None:
     for word in words:
         key = word.lower()
-        if key in custom_synsets:
-            log.info(f"'{word}' already exists in custom_synsets.")
+        if key in custom:
+            log.info(f"{word!r} is already in the list")
         else:
-            custom_synsets[key] = [f"{key}.s.1"]
-            added = True
-            log.info(f"Added '{word}' with synset '{key}.s.1'")
-    if added:
-        save_custom_synsets(file_path, custom_synsets)
+            custom[key] = [f"{key}.s.1"]
+            log.info(f"Added {word!r} as {key}.s.1")
 
 
-def remove_existing_words(file_path: Path) -> None:
-    custom_synsets = load_custom_synsets(file_path)
-    to_remove = [word for word in custom_synsets if wn.synsets(word)]
-    for word in to_remove:
-        del custom_synsets[word]
-        log.info(f"Removed '{word}' (already in WordNet).")
-    if to_remove:
-        save_custom_synsets(file_path, custom_synsets)
-
-
-def clean_punctuation(file_path: Path) -> None:
-    custom_synsets = load_custom_synsets(file_path)
+def tidy(custom: dict[str, list[str]]) -> dict[str, list[str]]:
+    """Return the list with clean keys and without the entries it doesn't need."""
     cleaned: dict[str, list[str]] = {}
-    changed = False
-    for word, synsets in custom_synsets.items():
-        cleaned_word = re.sub(r"[^\w\s]", "", word).lower()
-        if cleaned_word != word:
-            log.info(f"Cleaned '{word}' to '{cleaned_word}'")
-            changed = True
-        cleaned[cleaned_word] = [s.lower() for s in synsets]
-    if changed:
-        save_custom_synsets(file_path, cleaned)
+    for word, synsets in custom.items():
+        key = re.sub(r"[^\w\s]", "", word).lower()
+        # Two spellings can clean up to the same key, and neither should lose its synsets.
+        merged = cleaned.setdefault(key, [])
+        merged.extend(s.lower() for s in synsets if s.lower() not in merged)
 
-
-def remove_by_length(file_path: Path, *, min_len: int, max_len: int) -> None:
-    custom_synsets = load_custom_synsets(file_path)
-    kept = {w: s for w, s in custom_synsets.items() if min_len <= len(w) <= max_len}
-    if len(kept) < len(custom_synsets):
-        for word in set(custom_synsets) - set(kept):
-            log.info(f"Removed out-of-range word: '{word}'")
-        save_custom_synsets(file_path, kept)
-
-
-def convert_to_lowercase(file_path: Path) -> None:
-    custom_synsets = load_custom_synsets(file_path)
-    lowered = {w.lower(): [s.lower() for s in syn] for w, syn in custom_synsets.items()}
-    if lowered != custom_synsets:
-        save_custom_synsets(file_path, lowered)
-        log.info("Lowercased all words and synset keys.")
-
-
-def remove_pronouns(file_path: Path) -> None:
-    custom_synsets = load_custom_synsets(file_path)
-    to_remove = [word for word in custom_synsets if word in PRONOUNS]
-    for word in to_remove:
-        del custom_synsets[word]
-        log.info(f"Removed pronoun: '{word}'")
-    if to_remove:
-        save_custom_synsets(file_path, custom_synsets)
-
-
-def clean(file_path: Path) -> None:
-    """Run every tidy-up pass in order."""
-    remove_existing_words(file_path)
-    clean_punctuation(file_path)
-    remove_by_length(file_path, min_len=4, max_len=30)
-    convert_to_lowercase(file_path)
-    remove_pronouns(file_path)
+    # WordNet goes last, as a key only matches it once the punctuation is gone.
+    tidied = {}
+    for word, synsets in cleaned.items():
+        if not MIN_LENGTH <= len(word) <= MAX_LENGTH:
+            log.info(f"Dropped {word!r}, as it's under {MIN_LENGTH} or over {MAX_LENGTH} letters")
+        elif word in PRONOUNS:
+            log.info(f"Dropped the pronoun {word!r}")
+        elif wn.synsets(word):
+            log.info(f"Dropped {word!r}, as WordNet already knows it")
+        else:
+            tidied[word] = synsets
+    return tidied
 
 
 def main(argv: list[str] | None = None) -> None:
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
-    parser.add_argument("words", nargs="*", help="words to add before cleaning")
-    parser.add_argument("--file", default=str(DEFAULT_FILE), help="custom_synsets.json path")
+    parser.add_argument("words", nargs="*", help="words to add before tidying")
+    parser.add_argument("--file", default=str(DEFAULT_FILE), help="the custom_synsets.json to edit")
     args = parser.parse_args(argv)
 
-    nltk.download("wordnet", quiet=True)
-    file_path = Path(args.file)
+    try:
+        wn.ensure_loaded()
+    except LookupError:
+        nltk.download("wordnet", quiet=True)
 
-    start = len(load_custom_synsets(file_path))
-    if args.words:
-        add_synsets(args.words, file_path)
-    clean(file_path)
-    log.info(f"custom_synsets: {start} -> {len(load_custom_synsets(file_path))} entries")
+    path = Path(args.file)
+    custom = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+    before = dict(custom)
+    add_words(custom, args.words)
+    custom = tidy(custom)
+    if custom != before:
+        with path.open("w", encoding="utf-8") as file:
+            json.dump(custom, file, ensure_ascii=False, indent=4)
+    log.info(f"The list went from {len(before)} to {len(custom)} entries")
 
 
 if __name__ == "__main__":
