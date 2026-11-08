@@ -2,13 +2,18 @@
 
 import csv
 import json
+import os
 import tempfile
 from collections import Counter
 from pathlib import Path
+from unittest import mock
+
+import httpx
 
 from post_processing.post_data_collection import (
     FILLER,
     TOPICS_FILE,
+    ask_model,
     count_frequencies,
     label_for,
     label_unknown,
@@ -210,6 +215,31 @@ def test_label_unknown_keeps_valid_answers_and_saves_them() -> None:
     system, text = asked[0]
     assert "\nDogs\n" in system and "\nFILLER\n" not in system
     assert text.splitlines()[0] == "pupcup\tseen with: dogs"
+
+
+def test_ask_model_talks_to_any_chat_completions_server() -> None:
+    sent = []
+
+    def server(request: httpx.Request) -> httpx.Response:
+        sent.append(request)
+        if json.loads(request.content)["messages"][1]["content"] == "break":
+            return httpx.Response(500, text="down")
+        return httpx.Response(200, json={"choices": [{"message": {"content": "dogs\tDogs\t"}}]})
+
+    client = httpx.Client(transport=httpx.MockTransport(server))
+    settings = {"LABEL_BASE_URL": "http://localhost:11434/v1/", "LABEL_MODEL": "llama3.2"}
+    for key in ({}, {"LABEL_API_KEY": "secret"}):
+        with mock.patch.dict(os.environ, settings | key, clear=True):
+            ask = ask_model(client)
+            assert ask("the rules", "dogs") == "dogs\tDogs\t"
+            assert ask("the rules", "break") is None
+    first, _, keyed, _ = sent
+    body = json.loads(first.content)
+    assert str(first.url) == "http://localhost:11434/v1/chat/completions"
+    assert body["model"] == "llama3.2"
+    assert [m["role"] for m in body["messages"]] == ["system", "user"]
+    assert "authorization" not in first.headers
+    assert keyed.headers["authorization"] == "Bearer secret"
 
 
 def test_label_unknown_stops_when_the_model_does() -> None:

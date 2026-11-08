@@ -45,11 +45,16 @@ sza,R&B,SZA
 fyp,FILLER,
 ```
 
-To have a model do it instead, add `--label` with an API key set. It sends each unknown tag and the tags it was posted with to claude-haiku-5-5, 100 at a time, and adds the answers to my_topics.csv after each batch, where you can check and change them. About 2,500 tags cost a few cents, and a later run only asks about new ones.
+To have a model do it instead, add `--label`. Nothing else in the repo uses one, and this works with any server that speaks the chat completions API, whether that's a hosted one or a local one like Ollama, LM Studio or llama.cpp. It sends each unknown tag and the tags it was posted with, 100 at a time, and adds the answers to my_topics.csv after each batch, where you can check and change them. A later run only asks about new tags.
+
+LABEL_BASE_URL, LABEL_MODEL and LABEL_API_KEY pick the server, the model and its key (set them with `$env:NAME = "..."` in PowerShell). The defaults use claude-haiku-5-5, which labels about 2,500 tags for a few cents, and a local model costs nothing and needs no key.
 
 ```bash
-pip install anthropic
-export ANTHROPIC_API_KEY=...   # $env:ANTHROPIC_API_KEY = "..." in PowerShell
+export LABEL_API_KEY=...     # a key for the default
+python pipeline.py --skip-scrape --label
+
+export LABEL_BASE_URL=http://localhost:11434/v1   # or any other server, like Ollama here
+export LABEL_MODEL=llama3.2
 python pipeline.py --skip-scrape --label
 ```
 

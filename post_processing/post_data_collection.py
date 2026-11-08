@@ -20,6 +20,7 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import os
 import re
 import sys
 from collections import Counter, defaultdict
@@ -28,6 +29,7 @@ from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any, TypeAlias
 
+import httpx
 from loguru import logger as log
 
 DEFAULT_INPUT = Path("scraper_data") / "scraper_output" / "post_data.json"
@@ -42,9 +44,12 @@ FILLER_START = re.compile(r"^(fy|foryou|viral|xyz|xyb|trend|parati|4u)")
 AFFIXES = re.compile(r"^tiktok|(oftiktok|tiktok|tok|s)$")
 # Shorter pieces of a run-together tag are mostly accidents, like "car" in "cardio".
 MIN_PIECE = 4
-# Haiku labels a couple of thousand tags for a few cents, and 100 a request keeps the
-# answers short enough that it rarely drops a line.
-LABEL_MODEL = "claude-haiku-5-5"
+# --label works with any server that speaks the chat completions API, set through
+# LABEL_BASE_URL, LABEL_MODEL and LABEL_API_KEY. The default labels a couple of thousand
+# tags for a few cents, and 100 a request keeps the answers short enough that a model
+# rarely drops a line.
+DEFAULT_LABEL_BASE_URL = "https://api.anthropic.com/v1"
+DEFAULT_LABEL_MODEL = "claude-haiku-5-5"
 LABEL_BATCH = 100
 LABEL_PROMPT = """You label TikTok hashtags so a report can show what someone watches.
 
@@ -281,35 +286,45 @@ def append_topics(path: Path, labels: Mapping[str, Label]) -> None:
 Ask: TypeAlias = Callable[[str, str], str | None]
 
 
-def ask_model() -> Ask:
-    """A function that sends one batch to the model and returns its text, or None to stop."""
-    try:
-        import anthropic  # only --label needs it, so it stays an optional install
-    except ImportError:
-        log.error("Labelling needs the anthropic package. Install it with pip install anthropic.")
-        sys.exit(1)
-    client = anthropic.Anthropic()
+def ask_model(client: httpx.Client | None = None) -> Ask:
+    """A function that sends one batch to a chat completions server and returns its text.
+
+    It returns None when the server fails, so labelling stops and keeps what it has.
+    """
+    base = os.environ.get("LABEL_BASE_URL", DEFAULT_LABEL_BASE_URL).rstrip("/")
+    model = os.environ.get("LABEL_MODEL", DEFAULT_LABEL_MODEL)
+    key = os.environ.get("LABEL_API_KEY")
+    # Local servers like Ollama take no key, so none is sent unless one is set.
+    headers = {"Authorization": f"Bearer {key}"} if key else {}
+    # A small model on a laptop can take minutes over one batch.
+    http = client or httpx.Client(timeout=600)
+    log.info(f"Labelling with {model} at {base}")
 
     def ask(system: str, text: str) -> str | None:
         try:
-            response = client.messages.create(
-                model=LABEL_MODEL,
-                max_tokens=16000,
-                # The topic list is the same every batch, so it's only paid for in full once.
-                system=[{"type": "text", "text": system, "cache_control": {"type": "ephemeral"}}],
-                output_config={"effort": "low"},
-                messages=[{"role": "user", "content": text}],
+            response = http.post(
+                f"{base}/chat/completions",
+                headers=headers,
+                json={
+                    "model": model,
+                    # max_tokens is refused by some reasoning models, and this one isn't.
+                    "max_completion_tokens": 16000,
+                    "messages": [
+                        {"role": "system", "content": system},
+                        {"role": "user", "content": text},
+                    ],
+                },
             )
-        except TypeError:
-            log.error("Couldn't find an API key. Set ANTHROPIC_API_KEY and run it again.")
-            return None
-        except anthropic.APIError as error:
-            log.error(f"The model couldn't label this batch ({error}), so labelling stopped here")
-            return None
-        if response.stop_reason == "refusal":
-            log.warning("The model declined one batch of tags, so those stay unlabelled")
-            return ""
-        return "".join(block.text for block in response.content if block.type == "text")
+            response.raise_for_status()
+            return response.json()["choices"][0]["message"]["content"] or ""
+        except httpx.HTTPStatusError as error:
+            status, body = error.response.status_code, error.response.text[:300]
+            log.error(f"{base} answered {status} ({body}), so labelling stopped")
+        except httpx.HTTPError as error:
+            log.error(f"Couldn't reach {base} ({error!r}), so labelling stopped")
+        except (ValueError, LookupError, TypeError) as error:
+            log.error(f"{base} didn't answer like a chat completions server ({error!r})")
+        return None
 
     return ask
 
@@ -326,7 +341,7 @@ def label_unknown(
     system = LABEL_PROMPT + "\n".join(sorted(allowed))
     tags = [tag for tag, _ in unknown.most_common()]
     near = neighbours(posts, set(tags), topics)
-    log.info(f"Asking {LABEL_MODEL} about {len(tags)} tags the topic table doesn't know")
+    log.info(f"Asking about {len(tags)} tags the topic table doesn't know")
     found: dict[str, Label] = {}
     for start in range(0, len(tags), LABEL_BATCH):
         batch = tags[start : start + LABEL_BATCH]
@@ -357,9 +372,9 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser.add_argument(
         "--label",
         action="store_true",
-        help=f"have {LABEL_MODEL} label the tags the table doesn't know, saving them to "
-        f"{MY_TOPICS_FILE.name}"
-        " (needs pip install anthropic and ANTHROPIC_API_KEY)",
+        help=f"have a model label the tags the table doesn't know, saving them to "
+        f"{MY_TOPICS_FILE.name}. LABEL_BASE_URL and LABEL_MODEL pick any chat completions "
+        f"server and model (default {DEFAULT_LABEL_MODEL}), and LABEL_API_KEY is its key",
     )
     return parser.parse_args(argv)
 
