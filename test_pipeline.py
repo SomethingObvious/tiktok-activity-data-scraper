@@ -11,19 +11,21 @@ from pipeline import build_steps, parse_args, shown
 
 
 def test_build_steps_full_run() -> None:
-    steps = build_steps(
-        parse_args(["--cookies", "c.txt", "--limit", "500", "--min-percentage", "0.3", "--open"])
-    )
+    steps = build_steps(parse_args(["--cookies", "c.txt", "--limit", "500", "--open"]))
     by_label = dict(steps)
-    assert [label for label, _ in steps] == ["scrape", "tally", "process", "report"]
+    assert [label for label, _ in steps] == ["scrape", "tally", "report"]
     assert by_label["scrape"] == ["tiktok_post_scraper.py", "--cookies", "c.txt", "--limit", "500"]
-    assert by_label["process"] == ["post_processing/data_processor.py", "--min-percentage", "0.3"]
     assert by_label["report"] == ["post_processing/report.py", "--open"]
 
 
 def test_build_steps_skip_scrape() -> None:
     steps = build_steps(parse_args(["--skip-scrape"]))
-    assert [label for label, _ in steps] == ["tally", "process", "report"]
+    assert [label for label, _ in steps] == ["tally", "report"]
+
+
+def test_build_steps_label_goes_to_the_tally() -> None:
+    steps = dict(build_steps(parse_args(["--skip-scrape", "--label"])))
+    assert steps["tally"] == ["post_processing/post_data_collection.py", "--label"]
 
 
 def test_build_steps_minimal_has_no_optional_flags() -> None:

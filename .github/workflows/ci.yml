@@ -17,8 +17,6 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt ruff mypy
-      - name: Download WordNet
-        run: python -c "import nltk; nltk.download('wordnet', quiet=True)"
       - name: Lint (ruff)
         run: ruff check .
       - name: Type-check (mypy)

@@ -1,7 +1,7 @@
 """Turn the count tables and topics into one HTML page you can open in a browser.
 
-Reads the tables from post_data_collection.py and the topics from data_processor.py
-and writes processed_data/activity_report.html. The page has no scripts and loads
+Reads the tables from post_data_collection.py and writes
+processed_data/activity_report.html. The page has no scripts and loads
 nothing from the internet, and it shows whatever sections it has data for.
 
     python post_processing/report.py
@@ -21,8 +21,7 @@ from typing import Any
 from loguru import logger as log
 
 DEFAULT_COUNTS_DIR = Path("scraper_data/post_processing/json_output_directory")
-DEFAULT_PROCESSED_DIR = Path("processed_data")
-DEFAULT_OUTPUT = DEFAULT_PROCESSED_DIR / "activity_report.html"
+DEFAULT_OUTPUT = Path("processed_data") / "activity_report.html"
 TOP_N = 15
 
 
@@ -80,16 +79,20 @@ def _stat(value: str, label: str) -> str:
     )
 
 
-def build_html(counts_dir: Path, processed_dir: Path) -> str | None:
+def build_html(counts_dir: Path) -> str | None:
     """Build the page from whatever step outputs exist, or None if there are none yet."""
     creators = _load(counts_dir / "uniqueId.json")
     locations = _load(counts_dir / "locationCreated.json")
     verified = _load(counts_dir / "verified.json") or {}
     labels = _load(counts_dir / "diversificationLabels.json")
     hashtags = _load(counts_dir / "hashtagName.json")
-    combined = _load(processed_dir / "json" / "combinedHashtags.json")
+    topics = _load(counts_dir / "topic.json")
+    # Tags that are just someone's name say nothing about what you watch.
+    if topics:
+        topics.pop("People and Personal Accounts", None)
+    details = _load(counts_dir / "detail.json")
 
-    if not any([creators, locations, labels, hashtags, combined]):
+    if not any([creators, locations, labels, hashtags, topics]):
         return None
 
     verified_true = int(verified.get("true", 0))
@@ -109,14 +112,22 @@ def build_html(counts_dir: Path, processed_dir: Path) -> str | None:
         stats.append(_stat(top_location[0][0], "top location"))
 
     sections = []
-    if combined:
-        topics = [(str(bucket["name"]), int(bucket["value"])) for bucket in combined[:TOP_N]]
+    if topics:
         sections.append(
             _section(
                 "Top Topics",
-                "Hashtags grouped by what they mean, named after the most used one. A post with "
-                "two tags from one topic counts twice, so these are tag uses rather than posts.",
-                _bars(topics),
+                "Hashtags grouped by what they're about, so #gymtok and #workout both count "
+                "toward Fitness. A tag the topic table doesn't know shows up as itself.",
+                _bars(_top_items(topics), total_posts),
+            )
+        )
+    if details:
+        sections.append(
+            _section(
+                "Specific Interests",
+                "The particular things inside those topics, like Golden Retriever under Dogs "
+                "or Nicki Minaj under Hip Hop.",
+                _bars(_top_items(details), total_posts),
             )
         )
     if creators:
@@ -145,13 +156,13 @@ def build_html(counts_dir: Path, processed_dir: Path) -> str | None:
     return _TEMPLATE.format(stats="\n".join(stats), sections="\n".join(sections))
 
 
-def generate(counts_dir: Path, processed_dir: Path, output: Path, *, open_browser: bool) -> bool:
+def generate(counts_dir: Path, output: Path, *, open_browser: bool) -> bool:
     """Write the report to output. Returns False if there was nothing to put in it."""
-    page = build_html(counts_dir, processed_dir)
+    page = build_html(counts_dir)
     if page is None:
         log.error(
-            f"There's nothing in {counts_dir} or {processed_dir} to report on yet. "
-            "Run the scrape, post_data_collection.py and data_processor.py first."
+            f"There's nothing in {counts_dir} to report on yet. "
+            "Run the scrape and post_data_collection.py first."
         )
         return False
     output.parent.mkdir(parents=True, exist_ok=True)
@@ -226,9 +237,6 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser.add_argument(
         "--counts-dir", default=str(DEFAULT_COUNTS_DIR), help="the JSON tables from the count step"
     )
-    parser.add_argument(
-        "--processed-dir", default=str(DEFAULT_PROCESSED_DIR), help="data_processor.py's output"
-    )
     parser.add_argument("--output", default=str(DEFAULT_OUTPUT), help="where the page goes")
     parser.add_argument("--open", action="store_true", help="open the page in your browser")
     return parser.parse_args(argv)
@@ -238,7 +246,6 @@ def main(argv: list[str] | None = None) -> None:
     args = parse_args(argv)
     written = generate(
         Path(args.counts_dir),
-        Path(args.processed_dir),
         Path(args.output),
         open_browser=args.open,
     )

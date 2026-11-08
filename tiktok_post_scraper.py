@@ -2,8 +2,8 @@
 
 Your data export only lists liked videos as links, so this fetches each post page
 and pulls out the JSON that TikTok embeds in it. Everything goes into
-scraper_data/scraper_output/post_data.json, and a second run skips the posts that
-are already saved there.
+scraper_data/scraper_output/post_data.json, with the deleted and private posts in
+unavailable.json next to it, and a second run skips the posts in either.
 
     python tiktok_post_scraper.py --cookies cookies.txt
     python tiktok_post_scraper.py --cookies cookies.txt --limit 200
@@ -20,8 +20,8 @@ import os
 import re
 import sys
 import time
-from collections import Counter
-from collections.abc import Container
+from collections import Counter, deque
+from collections.abc import Container, Mapping
 from http.cookiejar import LoadError, MozillaCookieJar
 from pathlib import Path
 
@@ -39,10 +39,17 @@ from tqdm import tqdm
 
 DEFAULT_INPUT = "user_data_tiktok.json"
 DEFAULT_OUTPUT_DIR = Path("scraper_data/scraper_output")
+UNAVAILABLE_NAME = "unavailable.json"
 # TikTok finds a post by its ID alone and redirects to the real @username.
 POST_URL = "https://www.tiktok.com/@i/video/{video_id}"
-DEFAULT_BATCH_SIZE = 5
-DEFAULT_BATCH_DELAY = 0.1
+# Measured in November 2026 with cookies: one post a second in a row went through
+# 100 times without a challenge, two at once got about 130 posts in before a block,
+# and 5 at once got blocked after about 20.
+DEFAULT_BATCH_SIZE = 1
+DEFAULT_BATCH_DELAY = 1.0
+# The blocks lifted by themselves after 35 to 100 seconds, and got longer each time.
+COOLDOWN = 60
+MAX_COOLDOWN = 480
 DEFAULT_RETRIES = 3
 # Rewriting the whole file after every batch gets slow once it holds a few thousand posts.
 CHECKPOINT_EVERY = 10
@@ -59,13 +66,27 @@ HEADERS = {
     "Accept-Language": "en-US,en;q=0.9",
 }
 
+# TikTok sends some counts as strings, so every number goes through to_number.
+# statsV2 has the repost count, and older pages only have stats.
 POST_QUERY = """{
     id: id,
     desc: desc,
-    createTime: createTime,
+    createTime: to_number(createTime),
     video: video.{duration: duration},
-    author: author.{id: id, uniqueId: uniqueId, nickname: nickname, verified: verified},
-    stats: stats,
+    author: {
+        id: author.id, uniqueId: author.uniqueId, nickname: author.nickname,
+        verified: author.verified,
+        followerCount: to_number((authorStatsV2 || authorStats).followerCount)
+    },
+    music: music.{id: id, title: title, authorName: authorName, original: original},
+    stats: (statsV2 || stats).{
+        diggCount: to_number(diggCount), shareCount: to_number(shareCount),
+        commentCount: to_number(commentCount), playCount: to_number(playCount),
+        collectCount: to_number(collectCount), repostCount: to_number(repostCount)
+    },
+    textLanguage: textLanguage,
+    isAd: isAd,
+    isAigc: IsAigc,
     locationCreated: locationCreated,
     diversificationLabels: diversificationLabels,
     suggestedWords: suggestedWords,
@@ -83,6 +104,14 @@ class InputError(Exception):
 
 class RateLimitedError(Exception):
     """TikTok answered 403 or 429, which is worth backing off and trying again."""
+
+
+class UnavailableError(ValueError):
+    """The page loaded but has a status code where the post would be, as when it's deleted."""
+
+    def __init__(self, status: object) -> None:
+        super().__init__(f"The page has no post in it (statusCode {status})")
+        self.status = status
 
 
 def is_challenge_page(html: str) -> bool:
@@ -148,8 +177,9 @@ def build_client(cookies: httpx.Cookies | None = None) -> httpx.AsyncClient:
     return httpx.AsyncClient(http2=True, headers=HEADERS, cookies=cookies, follow_redirects=True)
 
 
-def load_export(path: Path, limit: int | None = None) -> tuple[list[str], set[str] | None]:
-    """Return the liked post URLs, newest first, and the IDs of favourited videos.
+def load_export(path: Path, limit: int | None = None) -> tuple[dict[str, str], set[str] | None]:
+    """Return when each video was liked, keyed by video ID and newest first, and the
+    IDs of favourited videos.
 
     Favourites come back as None when the export has no Favorite Videos list at all.
     """
@@ -177,13 +207,19 @@ def load_export(path: Path, limit: int | None = None) -> tuple[list[str], set[st
             f"Couldn't find a Like List in {path}. Make sure it's the JSON export, not the TXT one."
         )
 
-    likes = (activity["Like List"] or {}).get("ItemFavoriteList") or []
-    ids = [video_id_from_url(item.get("Link") or item.get("link") or "") for item in likes]
-    if missing := ids.count(""):
+    items = (activity["Like List"] or {}).get("ItemFavoriteList") or []
+    likes: dict[str, str] = {}
+    missing = 0
+    for item in items:
+        video_id = video_id_from_url(item.get("Link") or item.get("link") or "")
+        if not video_id:
+            missing += 1
+        # Liking, unliking and liking again leaves the same video in the list twice,
+        # and the first one is the newest.
+        elif video_id not in likes and len(likes) != limit:
+            likes[video_id] = item.get("Date") or item.get("date") or ""
+    if missing:
         log.warning(f"Skipped {missing} liked entries that have no video ID in the link")
-    # Liking, unliking and liking again leaves the same video in the list twice.
-    unique = [video_id for video_id in dict.fromkeys(ids) if video_id][:limit]
-    urls = [POST_URL.format(video_id=video_id) for video_id in unique]
 
     favorites = None
     if "Favorite Videos" in activity:
@@ -192,7 +228,7 @@ def load_export(path: Path, limit: int | None = None) -> tuple[list[str], set[st
             video_id_from_url(item.get("Link") or item.get("link") or "") for item in saved
         }
         favorites.discard("")
-    return urls, favorites
+    return likes, favorites
 
 
 def parse_post(html: str, favorites: Container[str] | None = None) -> dict:
@@ -210,7 +246,7 @@ def parse_post(html: str, favorites: Container[str] | None = None) -> dict:
         ) from None
     if not isinstance(item, dict):
         # Deleted and private posts still load, just with a status where the post would be.
-        raise ValueError(f"The page has no post in it (statusCode {detail.get('statusCode')})")
+        raise UnavailableError(detail.get("statusCode"))
 
     post: dict = jmespath.search(POST_QUERY, item)
     if not post.get("id"):
@@ -225,9 +261,11 @@ async def fetch_and_parse(
     url: str,
     favorites: Container[str] | None,
     retries: int,
-    stats: Counter[str] | None = None,
-) -> dict:
-    """Fetch and parse one post, or log why not and return {}. It never raises."""
+) -> dict | None:
+    """Fetch and parse one post, or log why not and return {}. It never raises.
+
+    Returns None for the bot challenge, which is worth trying again after a break.
+    """
     try:
         async for attempt in AsyncRetrying(
             stop=stop_after_attempt(retries),
@@ -251,13 +289,13 @@ async def fetch_and_parse(
         log.warning(f"TikTok answered {response.status_code} for {url}")
         return {}
     if is_challenge_page(response.text):
-        # Retrying won't help, as the challenge wants a browser to run its JavaScript.
-        if stats is not None:
-            stats["blocked"] += 1
         log.debug(f"Bot challenge for {url}")
-        return {}
+        return None
     try:
         return parse_post(response.text, favorites)
+    except UnavailableError as exc:
+        log.debug(f"{exc}: {url}")
+        return {"id": video_id_from_url(url), "statusCode": exc.status}
     except ValueError as exc:
         log.warning(f"{exc}: {url}")
         return {}
@@ -293,61 +331,88 @@ async def scrape_posts(
     output_file: Path,
     *,
     base_data: list[dict] | None = None,
+    unavailable: list[dict] | None = None,
+    liked_at: Mapping[str, str] | None = None,
     batch_size: int = DEFAULT_BATCH_SIZE,
     batch_delay: float = DEFAULT_BATCH_DELAY,
     retries: int = DEFAULT_RETRIES,
 ) -> bool:
     """Scrape urls in batches and save them after base_data in output_file.
 
-    Returns False if it stopped early because TikTok challenged a whole batch.
+    Deleted and private posts go after unavailable in unavailable.json next to it.
+    Returns False if it stopped early because TikTok kept challenging every request
+    through the longest cooldown.
     """
     posts = list(base_data or [])
+    gone = list(unavailable or [])
+    gone_file = output_file.with_name(UNAVAILABLE_NAME)
+    queue = deque(urls)
     stats: Counter[str] = Counter()
-    scraped = failed = 0
+    cooldown = COOLDOWN
     finished = False
+
+    def save() -> None:
+        write_output(output_file, posts)
+        write_output(gone_file, gone)
 
     try:
         with tqdm(total=len(urls), desc="Scraping", unit="post") as bar:
-            for batch_index, start in enumerate(range(0, len(urls), batch_size)):
-                batch = urls[start : start + batch_size]
-                blocked_before = stats["blocked"]
+            while queue:
+                batch = [queue.popleft() for _ in range(min(batch_size, len(queue)))]
                 results = await asyncio.gather(
-                    *(fetch_and_parse(client, url, favorites, retries, stats) for url in batch)
+                    *(fetch_and_parse(client, url, favorites, retries) for url in batch)
                 )
-                got = [post for post in results if post]
-                posts.extend(got)
-                scraped += len(got)
-                failed += len(batch) - len(got)
-                bar.update(len(batch))
+                challenged = [
+                    url for url, result in zip(batch, results, strict=True) if result is None
+                ]
+                for result in results:
+                    if result is None:
+                        continue
+                    if result and liked_at is not None:
+                        result["likedAt"] = liked_at.get(result["id"])
+                    if "statusCode" in result:
+                        gone.append(result)
+                        stats["unavailable"] += 1
+                    elif result:
+                        posts.append(result)
+                        stats["scraped"] += 1
+                    else:
+                        stats["failed"] += 1
+                bar.update(len(batch) - len(challenged))
+                # Challenged posts go back to the front, to try again after the break.
+                queue.extendleft(reversed(challenged))
+                stats["challenged"] += len(challenged)
 
-                # A whole batch of challenges means the session is dead or TikTok
-                # wants a break, and the rest of the list would go the same way.
-                if stats["blocked"] - blocked_before == len(batch):
-                    break
-                if batch_index % CHECKPOINT_EVERY == 0:
-                    write_output(output_file, posts)
-                if start + batch_size < len(urls):
+                if len(challenged) == len(batch):
+                    if cooldown > MAX_COOLDOWN:
+                        break
+                    save()
+                    log.warning(f"TikTok wants a break, so this waits {cooldown} seconds")
+                    await asyncio.sleep(cooldown)
+                    cooldown *= 2
+                    continue
+                cooldown = COOLDOWN
+                stats["batches"] += 1
+                if stats["batches"] % CHECKPOINT_EVERY == 0:
+                    save()
+                if queue:
                     await asyncio.sleep(batch_delay)
             else:
                 finished = True
     finally:
         # This runs on Ctrl+C as well, so an interrupted run keeps what it got.
-        write_output(output_file, posts)
+        save()
 
     log.info(
-        f"Scraped {scraped} posts into {output_file} "
-        f"({failed} failed, and {stats['blocked']} of those hit the bot challenge)"
+        f"Scraped {stats['scraped']} posts into {output_file}. {stats['unavailable']} were "
+        f"deleted or private, {stats['failed']} failed, and TikTok challenged "
+        f"{stats['challenged']} requests along the way"
     )
     if not finished:
         log.error(
-            "TikTok answered a whole batch with its bot challenge, so the run stopped there. "
-            "Your cookies are probably missing or expired. Grab fresh ones (see the README) "
-            "and run it again, and it'll pick up where it left off."
-        )
-    elif stats["blocked"]:
-        log.warning(
-            f"{stats['blocked']} posts hit the bot challenge. Running it again later picks them "
-            "up, and a lower --batch-size or higher --batch-delay might help."
+            f"TikTok kept answering with its bot challenge for {MAX_COOLDOWN * 2 - COOLDOWN} "
+            "seconds, so the run stopped. Your cookies are probably missing or expired. Grab "
+            "fresh ones (see the README) and run it again, and it'll pick up where it left off."
         )
     return finished
 
@@ -355,17 +420,28 @@ async def scrape_posts(
 async def run(args: argparse.Namespace) -> bool:
     """Scrape every liked post that isn't saved yet. Returns False if TikTok blocked the run."""
     output_file = Path(args.output_dir) / "post_data.json"
-    urls, favorites = load_export(Path(args.input), args.limit)
-    log.info(f"Found {len(urls)} liked posts in {args.input}")
+    likes, favorites = load_export(Path(args.input), args.limit)
+    log.info(f"Found {len(likes)} liked posts in {args.input}")
 
     base_data: list[dict] = []
+    unavailable: list[dict] = []
     if args.resume:
         base_data = load_existing(output_file)
-        saved = {post.get("id") for post in base_data}
-        urls = [url for url in urls if video_id_from_url(url) not in saved]
-        log.info(f"{len(base_data)} posts are already saved, so {len(urls)} are left to scrape")
+        unavailable = load_existing(output_file.with_name(UNAVAILABLE_NAME))
+        for post in base_data:
+            # Posts saved by versions that didn't keep the date get it here.
+            if not post.get("likedAt") and post.get("id") in likes:
+                post["likedAt"] = likes[post["id"]]
+        done = {post.get("id") for post in base_data + unavailable}
+        likes = {video_id: date for video_id, date in likes.items() if video_id not in done}
+        log.info(
+            f"{len(base_data)} posts are already saved and {len(unavailable)} are deleted or "
+            f"private, so {len(likes)} are left to scrape"
+        )
 
-    if not urls:
+    if not likes:
+        if base_data:
+            write_output(output_file, base_data)
         log.info("Nothing new to scrape")
         return True
 
@@ -373,10 +449,12 @@ async def run(args: argparse.Namespace) -> bool:
     async with build_client(load_cookies(args.cookies)) as client:
         finished = await scrape_posts(
             client,
-            urls,
+            [POST_URL.format(video_id=video_id) for video_id in likes],
             favorites,
             output_file,
             base_data=base_data,
+            unavailable=unavailable,
+            liked_at=likes,
             batch_size=args.batch_size,
             batch_delay=args.batch_delay,
             retries=args.retries,
@@ -385,7 +463,7 @@ async def run(args: argparse.Namespace) -> bool:
     return finished
 
 
-async def scrape_single(url: str, cookies: str | None, retries: int) -> dict:
+async def scrape_single(url: str, cookies: str | None, retries: int) -> dict | None:
     async with build_client(load_cookies(cookies)) as client:
         return await fetch_and_parse(client, url, None, retries)
 
@@ -457,7 +535,7 @@ def main(argv: list[str] | None = None) -> None:
 
     try:
         if args.parse_html:
-            post = parse_post(Path(args.parse_html).read_text(encoding="utf-8"))
+            post: dict | None = parse_post(Path(args.parse_html).read_text(encoding="utf-8"))
         elif args.url:
             post = asyncio.run(scrape_single(args.url, args.cookies, args.retries))
         else:
@@ -475,4 +553,6 @@ def main(argv: list[str] | None = None) -> None:
 
 
 if __name__ == "__main__":
+    # Windows pipes default to cp1252, which can't print the emoji most captions have.
+    sys.stdout.reconfigure(encoding="utf-8")  # type: ignore[union-attr]
     main()

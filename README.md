@@ -1,6 +1,6 @@
 # TikTok Activity Data Scraper
 
-This takes the data export you can request from TikTok, looks up every video you liked, and turns what it finds into one HTML page of the creators, hashtags and topics you watch the most. Hashtags get matched to WordNet meanings, so #cat, #cats and #catsoftiktok all count toward the same topic.
+This takes the data export you can request from TikTok, looks up every video you liked, and turns what it finds into one HTML page of the creators, hashtags and topics you watch the most. Hashtags get grouped into about 600 topics, so #gymtok, #workout and #fitness all count toward Fitness, and many also get a specific detail, like Golden Retriever under Dogs.
 
 ## Setup
 
@@ -21,26 +21,46 @@ TikTok puts a bot challenge in front of every post page, so you'll also need coo
 ## Running It
 
 ```bash
-python pipeline.py --cookies cookies.txt       # scrape, count, group and report
+python pipeline.py --cookies cookies.txt       # scrape, count and report
 python pipeline.py --cookies cookies.txt --limit 500 --open
 python pipeline.py --skip-scrape               # redo everything after the scrape
 ```
 
 The report ends up at processed_data/activity_report.html, and each step is its own script with a --help if you only want to run one again.
 
-The scrape fetches 5 posts at a time and saves as it goes, so if it stops partway (or you press Ctrl+C) the next run picks up where it left off. It also stops by itself once TikTok answers a whole batch with the bot challenge, which usually means the cookies have expired.
+For your own analysis, scraper_data/scraper_output/post_data.json has every liked post with the date you liked it, and unavailable.json next to it lists the deleted and private ones, which reruns skip. The count step also writes scraper_data/post_processing/posts.csv with one row per post and its topics and details, for Excel or pandas (createTime there is UTC).
 
-Slang and names that WordNet doesn't know go in post_processing/custom_synsets.json, and `python post_processing/synset_updater.py rizz` adds one.
+The scrape goes about one post every 2 seconds, which is as fast as TikTok lets it go for long without the bot challenge, so 5,000 likes take around three hours. It saves as it goes, and if it stops partway (or you press Ctrl+C) the next run picks up where it left off. When the challenge does show up, it waits a minute and carries on, waiting longer each time it comes back, and it only gives up after about 15 minutes of it, which usually means the cookies have expired.
+
+## Your Own Topics
+
+The labels come from post_processing/topics.csv, which gives about 50,000 of the most used hashtags a topic and, where there is one, a detail. Tags like #fyp that say nothing about the video are marked FILLER. A tag that isn't in it shows up in the report as itself, and every run lists those in scraper_data/post_processing/unlabelled_tags.csv, most used first.
+
+To label them yourself, fill in the topic (and the detail if you want one) on the rows you care about, save the file as my_topics.csv in the repo root, and run `python pipeline.py --skip-scrape` again. Your rows win over the shipped ones, so the same file is also how you change a label you disagree with. Rows with no topic are skipped, and a topic can be any name you like, not just one already in the table.
+
+```csv
+tag,topic,detail
+rizz,Relationships,
+sza,R&B,SZA
+fyp,FILLER,
+```
+
+To have a model do it instead, add `--label` with an API key set. It sends each unknown tag and the tags it was posted with to claude-haiku-5-5, 100 at a time, and adds the answers to my_topics.csv after each batch, where you can check and change them. About 2,500 tags cost a few cents, and a later run only asks about new ones.
+
+```bash
+pip install anthropic
+export ANTHROPIC_API_KEY=...   # $env:ANTHROPIC_API_KEY = "..." in PowerShell
+python pipeline.py --skip-scrape --label
+```
 
 ## What It Won't Do
 
-It won't log in for you, get past the bot challenge without your cookies, or download any videos. TikTok changes its page markup now and then, and the posts come back empty with a warning when it does. Running `python tiktok_post_scraper.py --parse-html page.html` on a saved post page is the quickest way to see what broke. Topics go by one word per hashtag and its most common WordNet sense, so misspellings and other languages mostly stay ungrouped.
+It won't log in for you, get past the bot challenge without your cookies, or download any videos. TikTok changes its page markup now and then, and the posts come back empty with a warning when it does. Running `python tiktok_post_scraper.py --parse-html page.html` on a saved post page is the quickest way to see what broke. A hashtag outside the topic table only gets a topic when it starts or ends with one the table knows (#makeuptips counts as Makeup), so a niche tag mostly stays as itself unless you run `--label`.
 
 ## Tests
 
 None of the tests touch the network.
 
 ```bash
-python -m nltk.downloader wordnet
 for test in test_*.py; do python "$test"; done
 ```

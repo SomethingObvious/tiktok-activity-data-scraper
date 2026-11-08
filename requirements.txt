@@ -1,8 +1,6 @@
 httpx[http2]
 jmespath
 loguru
-# 3.10.1 won't import from a folder that has the venv inside it, like .venv here.
-nltk>=3.10.2
 parsel
 tenacity
 tqdm

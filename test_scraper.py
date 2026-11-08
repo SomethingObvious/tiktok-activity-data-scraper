@@ -10,7 +10,6 @@ import contextlib
 import io
 import json
 import tempfile
-from collections import Counter
 from pathlib import Path
 
 import httpx
@@ -120,6 +119,25 @@ def test_parse_post_keeps_the_queried_fields() -> None:
     assert post["video"] == {"duration": 50}
     assert post["contents"] == [{"textExtra": [{"hashtagName": "bagel"}]}]
     assert post["isFavorite"] is True
+
+
+def test_parse_post_turns_string_counts_into_numbers() -> None:
+    item = {
+        "id": "1",
+        "createTime": "1723073280",
+        "stats": {"diggCount": 10, "collectCount": "650"},
+        "statsV2": {"diggCount": "10", "collectCount": "650", "repostCount": "2"},
+        "authorStatsV2": {"followerCount": "9000000"},
+        "music": {"id": "5", "title": "original sound", "authorName": "Chef", "original": True},
+        "IsAigc": False,
+    }
+    post = parse_post(_page(item))
+    assert post["createTime"] == 1723073280
+    assert post["stats"]["collectCount"] == 650
+    assert post["stats"]["repostCount"] == 2
+    assert post["author"]["followerCount"] == 9000000
+    assert post["music"]["title"] == "original sound"
+    assert post["isAigc"] is False
 
 
 def test_favourite_flag_needs_the_list() -> None:
@@ -259,8 +277,8 @@ def test_load_export_reads_the_older_layout() -> None:
         }
     }
     with tempfile.TemporaryDirectory() as tmp:
-        urls, favorites = load_export(_write_json(tmp, "export.json", export))
-    assert urls == ["https://www.tiktok.com/@i/video/222", "https://www.tiktok.com/@i/video/111"]
+        likes, favorites = load_export(_write_json(tmp, "export.json", export))
+    assert likes == {"222": "2024-05-02 10:00:00", "111": "2024-05-01 10:00:00"}
     assert favorites == {"111", "222"}
 
 
@@ -269,8 +287,8 @@ def test_load_export_reads_the_newer_layouts() -> None:
     for section in ("Your Activity", "Likes and Favorites"):
         with tempfile.TemporaryDirectory() as tmp:
             path = _write_json(tmp, "export.json", {section: {"Like List": likes}})
-            urls, favorites = load_export(path)
-        assert urls == ["https://www.tiktok.com/@i/video/333"]
+            liked, favorites = load_export(path)
+        assert liked == {"333": "2025-01-02 10:00:00"}
         assert favorites is None
 
 
@@ -279,11 +297,8 @@ def test_load_export_dedupes_before_the_limit() -> None:
     export = {"Activity": {"Like List": {"ItemFavoriteList": [{"Link": link} for link in links]}}}
     with tempfile.TemporaryDirectory() as tmp:
         path = _write_json(tmp, "export.json", export)
-        assert load_export(path)[0] == [
-            "https://www.tiktok.com/@i/video/3",
-            "https://www.tiktok.com/@i/video/2",
-        ]
-        assert load_export(path, limit=1)[0] == ["https://www.tiktok.com/@i/video/3"]
+        assert list(load_export(path)[0]) == ["3", "2"]
+        assert list(load_export(path, limit=1)[0]) == ["3"]
 
 
 def test_load_export_explains_what_is_wrong() -> None:
@@ -297,13 +312,10 @@ def test_load_export_explains_what_is_wrong() -> None:
         assert "Like List" in _raises(InputError, load_export, no_likes)
 
 
-def test_challenge_is_not_retried() -> None:
+def test_challenge_comes_back_as_none_without_a_retry() -> None:
     client = _FakeClient(status=200, text=CHALLENGE_HTML)
-    stats: Counter[str] = Counter()
-    result = asyncio.run(fetch_and_parse(client, "http://x/video/1", None, retries=3, stats=stats))
-    assert result == {}
+    assert asyncio.run(fetch_and_parse(client, "http://x/video/1", None, retries=3)) is None
     assert client.calls == 1
-    assert stats["blocked"] == 1
 
 
 def test_fetch_and_parse_retries_a_dropped_connection() -> None:
@@ -352,25 +364,56 @@ def test_scrape_appends_to_saved_posts() -> None:
     assert [post.get("isFavorite") for post in saved] == [None, False, True, False]
 
 
-def test_scrape_stops_on_a_challenged_batch() -> None:
+def _scrape_with_short_cooldowns(handler, urls: list[str], out: Path, batch_size: int) -> bool:
+    async def scrape() -> bool:
+        async with _mock_client(handler) as client:
+            return await scrape_posts(
+                client, urls, None, out, base_data=[{"id": "0"}], batch_size=batch_size,
+                batch_delay=0,
+            )  # fmt: skip
+
+    real = scraper.COOLDOWN, scraper.MAX_COOLDOWN
+    scraper.COOLDOWN, scraper.MAX_COOLDOWN = 0.01, 0.04
+    try:
+        return asyncio.run(scrape())
+    finally:
+        scraper.COOLDOWN, scraper.MAX_COOLDOWN = real
+
+
+def test_scrape_gives_up_when_the_challenge_never_lifts() -> None:
     requested = []
 
     def handler(request: httpx.Request) -> httpx.Response:
-        requested.append(str(request.url))
+        requested.append(video_id_from_url(str(request.url)))
         return httpx.Response(200, text=CHALLENGE_HTML)
 
-    async def scrape(out: Path) -> bool:
-        async with _mock_client(handler) as client:
-            urls = [scraper.POST_URL.format(video_id=n) for n in range(1, 11)]
-            return await scrape_posts(
-                client, urls, None, out, base_data=[{"id": "0"}], batch_size=3, batch_delay=0
-            )
-
+    urls = [scraper.POST_URL.format(video_id=n) for n in range(1, 11)]
     with tempfile.TemporaryDirectory() as tmp:
         out = Path(tmp) / "post_data.json"
-        assert asyncio.run(scrape(out)) is False
+        assert _scrape_with_short_cooldowns(handler, urls, out, batch_size=3) is False
         assert json.loads(out.read_text(encoding="utf-8")) == [{"id": "0"}]
-    assert len(requested) == 3
+    # Cooldowns of 0.01, 0.02 and 0.04, then one more try that finds it still blocked.
+    assert requested == ["1", "2", "3"] * 4
+
+
+def test_scrape_waits_out_a_challenge_and_retries_those_posts() -> None:
+    requested = []
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        video_id = video_id_from_url(str(request.url))
+        requested.append(video_id)
+        # Post 2 is challenged the first time, then a block covers the next 4 requests.
+        if (requested.count("2") == 1 and video_id == "2") or 3 <= len(requested) <= 6:
+            return httpx.Response(200, text=CHALLENGE_HTML)
+        return httpx.Response(200, text=_post_page(video_id))
+
+    urls = [scraper.POST_URL.format(video_id=n) for n in ("1", "2", "3", "4")]
+    with tempfile.TemporaryDirectory() as tmp:
+        out = Path(tmp) / "post_data.json"
+        assert _scrape_with_short_cooldowns(handler, urls, out, batch_size=2) is True
+        saved = json.loads(out.read_text(encoding="utf-8"))
+    assert requested == ["1", "2", "2", "3", "2", "3", "2", "3", "4"]
+    assert sorted(post["id"] for post in saved) == ["0", "1", "2", "3", "4"]
 
 
 def test_scrape_saves_progress_when_cancelled() -> None:
@@ -401,7 +444,7 @@ def test_run_skips_posts_that_are_already_saved() -> None:
         requested.append(video_id_from_url(str(request.url)))
         return httpx.Response(200, text=_post_page(requested[-1]))
 
-    links = [{"Link": f"https://x/video/{n}/"} for n in ("3", "2", "1")]
+    links = [{"Date": f"2024-0{n}-01", "Link": f"https://x/video/{n}/"} for n in ("3", "2", "1")]
     real_build_client = scraper.build_client
     scraper.build_client = lambda cookies=None: _mock_client(handler)
     try:
@@ -420,6 +463,41 @@ def test_run_skips_posts_that_are_already_saved() -> None:
         scraper.build_client = real_build_client
     assert requested == ["3", "1"]
     assert [post["id"] for post in saved] == ["2", "3", "1"]
+    # Post 2 was saved before likedAt existed, and gets it on the next run.
+    assert [post["likedAt"] for post in saved] == ["2024-02-01", "2024-03-01", "2024-01-01"]
+
+
+def test_run_remembers_deleted_posts() -> None:
+    requested = []
+    gone = REHYDRATION.format(
+        data=json.dumps({"__DEFAULT_SCOPE__": {"webapp.video-detail": {"statusCode": 10204}}})
+    )
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        requested.append(video_id_from_url(str(request.url)))
+        return httpx.Response(200, text=gone if requested[-1] == "2" else _post_page(requested[-1]))
+
+    links = [{"date": "2024-01-01", "link": f"https://x/video/{n}/"} for n in ("2", "1")]
+    real_build_client = scraper.build_client
+    scraper.build_client = lambda cookies=None: _mock_client(handler)
+    try:
+        with tempfile.TemporaryDirectory() as tmp:
+            export = _write_json(
+                tmp, "export.json", {"Activity": {"Like List": {"ItemFavoriteList": links}}}
+            )
+            args = argparse.Namespace(
+                input=str(export), output_dir=tmp, limit=None, resume=True, cookies="a=b",
+                batch_size=5, batch_delay=0, retries=1,
+            )  # fmt: skip
+            assert asyncio.run(scraper.run(args)) is True
+            assert asyncio.run(scraper.run(args)) is True
+            saved = json.loads((Path(tmp) / "post_data.json").read_text(encoding="utf-8"))
+            unavailable = json.loads((Path(tmp) / "unavailable.json").read_text(encoding="utf-8"))
+    finally:
+        scraper.build_client = real_build_client
+    assert requested == ["2", "1"]
+    assert [post["id"] for post in saved] == ["1"]
+    assert unavailable == [{"id": "2", "statusCode": 10204, "likedAt": "2024-01-01"}]
 
 
 def test_load_existing_refuses_a_corrupt_file() -> None:

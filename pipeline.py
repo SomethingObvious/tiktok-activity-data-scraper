@@ -23,7 +23,6 @@ from loguru import logger as log
 ROOT = Path(__file__).resolve().parent
 SCRAPER = "tiktok_post_scraper.py"
 COLLECT = "post_processing/post_data_collection.py"
-PROCESS = "post_processing/data_processor.py"
 REPORT = "post_processing/report.py"
 
 
@@ -44,14 +43,7 @@ def build_steps(args: argparse.Namespace) -> list[tuple[str, list[str]]]:
             scrape.append("--verbose")
         steps.append(("scrape", scrape))
 
-    steps.append(("tally", [COLLECT]))
-
-    process = [PROCESS]
-    if args.min_percentage is not None:
-        process += ["--min-percentage", str(args.min_percentage)]
-    if args.verbose:
-        process.append("--verbose")
-    steps.append(("process", process))
+    steps.append(("tally", [COLLECT, "--label"] if args.label else [COLLECT]))
 
     report = [REPORT]
     if args.open:
@@ -81,14 +73,12 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument("--cookies", help="cookies for the scrape step (see its --help)")
     parser.add_argument("--limit", type=int, help="only scrape this many of your most recent likes")
-    parser.add_argument(
-        "--min-percentage", type=float, help="hashtag cutoff for the process step, in %% of posts"
-    )
     parser.add_argument("--open", action="store_true", help="open the report when it's done")
     parser.add_argument("--skip-scrape", action="store_true", help="reuse the last scrape")
     parser.add_argument(
-        "--verbose", action="store_true", help="more logging from scrape and process"
+        "--label", action="store_true", help="label unknown hashtags with a model (see the README)"
     )
+    parser.add_argument("--verbose", action="store_true", help="log every request the scrape makes")
     return parser.parse_args(argv)
 
 
