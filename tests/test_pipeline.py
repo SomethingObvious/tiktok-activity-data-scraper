@@ -1,4 +1,4 @@
-"""Tests for how pipeline.py builds its steps. Run with: python test_pipeline.py
+"""Tests for how pipeline.py builds its steps. Run with: python -m tests.test_pipeline
 
 Nothing here starts a subprocess.
 """

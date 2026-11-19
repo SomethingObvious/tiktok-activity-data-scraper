@@ -1,4 +1,4 @@
-"""Tests for the scraper, all offline. Run with: python test_scraper.py
+"""Tests for the scraper, all offline. Run with: python -m tests.test_scraper
 
 Nothing here talks to TikTok. To check the parser against a real page, save one and
 run python tiktok_post_scraper.py --parse-html page.html.

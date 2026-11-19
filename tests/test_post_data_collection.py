@@ -1,4 +1,4 @@
-"""Tests for the counting step, all offline. Run with: python test_post_data_collection.py"""
+"""Tests for the counting step, all offline. Run with: python -m tests.test_post_data_collection"""
 
 import csv
 import json

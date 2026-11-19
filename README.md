@@ -67,5 +67,5 @@ It won't log in for you, get past the bot challenge without your cookies, or dow
 None of the tests touch the network.
 
 ```bash
-for test in test_*.py; do python "$test"; done
+for test in tests/test_*.py; do python -m "tests.$(basename "$test" .py)"; done
 ```

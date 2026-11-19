@@ -22,4 +22,4 @@ jobs:
       - name: Type-check (mypy)
         run: mypy tiktok_post_scraper.py post_processing/ pipeline.py
       - name: Tests
-        run: for test in test_*.py; do python "$test"; done
+        run: for test in tests/test_*.py; do python -m "tests.$(basename "$test" .py)"; done

@@ -1,4 +1,4 @@
-"""Tests for the HTML report, all offline. Run with: python test_report.py"""
+"""Tests for the HTML report, all offline. Run with: python -m tests.test_report"""
 
 import json
 import tempfile
